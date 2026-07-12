@@ -1,0 +1,272 @@
+[
+  {
+    "question": "What are the key trends in voting patterns in Africa?",
+    "answer": "Analysis of voting patterns in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "political_civic_engagement",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "What are the key trends in cultural dynamics in Africa?",
+    "answer": "Analysis of cultural dynamics in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "political_civic_engagement",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "What are the key trends in political participation in Africa?",
+    "answer": "Analysis of political participation in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "political_civic_engagement",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "How does election interact with vote to shape political and civic engagement outcomes in Sao Tome and Principe?",
+    "answer": "The interaction between election and vote in Sao Tome and Principe is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Sao Tome and Principe's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Sao Tome and Principe",
+    "source": "generated"
+  },
+  {
+    "question": "How does political party interact with democracy to shape political and civic engagement outcomes in Egypt?",
+    "answer": "The interaction between political party and democracy in Egypt is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Egypt's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Egypt",
+    "source": "generated"
+  },
+  {
+    "question": "How does human rights interact with legislative to shape political and civic engagement outcomes in Sierra Leone?",
+    "answer": "The interaction between human rights and legislative in Sierra Leone is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Sierra Leone's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Sierra Leone",
+    "source": "generated"
+  },
+  {
+    "question": "How does constitution interact with vote to shape political and civic engagement outcomes in Niger?",
+    "answer": "The interaction between constitution and vote in Niger is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Niger's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Niger",
+    "source": "generated"
+  },
+  {
+    "question": "How does political party interact with political party to shape political and civic engagement outcomes in Burundi?",
+    "answer": "The interaction between political party and political party in Burundi is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Burundi's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Burundi",
+    "source": "generated"
+  },
+  {
+    "question": "How does political party interact with human rights to shape political and civic engagement outcomes in Mozambique?",
+    "answer": "The interaction between political party and human rights in Mozambique is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Mozambique's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Mozambique",
+    "source": "generated"
+  },
+  {
+    "question": "How does parliament interact with policy to shape political and civic engagement outcomes in Djibouti?",
+    "answer": "The interaction between parliament and policy in Djibouti is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Djibouti's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Djibouti",
+    "source": "generated"
+  },
+  {
+    "question": "How does transparency interact with vote to shape political and civic engagement outcomes in Uganda?",
+    "answer": "The interaction between transparency and vote in Uganda is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Uganda's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Uganda",
+    "source": "generated"
+  },
+  {
+    "question": "How does constitution interact with civic to shape political and civic engagement outcomes in Somalia?",
+    "answer": "The interaction between constitution and civic in Somalia is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Somalia's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Somalia",
+    "source": "generated"
+  },
+  {
+    "question": "How does political party interact with corruption to shape political and civic engagement outcomes in Chad?",
+    "answer": "The interaction between political party and corruption in Chad is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Chad's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Chad",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key political civic engagement challenges and opportunities in Morocco?",
+    "answer": "Morocco faces both significant challenges and opportunities in the area of political civic engagement. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "political_civic_engagement",
+    "country": "Morocco",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key political civic engagement challenges and opportunities in Tanzania?",
+    "answer": "Tanzania faces both significant challenges and opportunities in the area of political civic engagement. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "political_civic_engagement",
+    "country": "Tanzania",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key political civic engagement challenges and opportunities in South Sudan?",
+    "answer": "South Sudan faces both significant challenges and opportunities in the area of political civic engagement. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "political_civic_engagement",
+    "country": "South Sudan",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key political civic engagement challenges and opportunities in South Africa?",
+    "answer": "South Africa faces both significant challenges and opportunities in the area of political civic engagement. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "political_civic_engagement",
+    "country": "South Africa",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key political civic engagement challenges and opportunities in Kenya?",
+    "answer": "Kenya faces both significant challenges and opportunities in the area of political civic engagement. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "political_civic_engagement",
+    "country": "Kenya",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key political civic engagement challenges and opportunities in Seychelles?",
+    "answer": "Seychelles faces both significant challenges and opportunities in the area of political civic engagement. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "political_civic_engagement",
+    "country": "Seychelles",
+    "source": "generated"
+  },
+  {
+    "question": "Compare and contrast corruption with disability in the context of Morocco. What are the key differences and similarities?",
+    "answer": "This comparative analysis question requires examining multiple dimensions of the relationship between corruption and disability in Morocco. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "comparative_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Morocco",
+    "source": "generated"
+  },
+  {
+    "question": "What are the root causes of policy in Gabon, and how have policy and hospital contributed to the current situation?",
+    "answer": "This causal analysis question requires examining multiple dimensions of the relationship between policy and hospital in Gabon. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "causal_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Gabon",
+    "source": "generated"
+  },
+  {
+    "question": "Evaluate the effectiveness of parliament in addressing inequality within Tanzania. What were the measurable outcomes and unintended consequences?",
+    "answer": "This policy evaluation question requires examining multiple dimensions of the relationship between parliament and inequality in Tanzania. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "policy_evaluation",
+    "topic": "political_civic_engagement",
+    "country": "Tanzania",
+    "source": "generated"
+  },
+  {
+    "question": "Evaluate the effectiveness of legislative in addressing household within Namibia. What were the measurable outcomes and unintended consequences?",
+    "answer": "This policy evaluation question requires examining multiple dimensions of the relationship between legislative and household in Namibia. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "policy_evaluation",
+    "topic": "political_civic_engagement",
+    "country": "Namibia",
+    "source": "generated"
+  },
+  {
+    "question": "How do governance, investment, and technology interact to shape development in Cameroon? Provide evidence from multiple sources.",
+    "answer": "This multi factor analysis question requires examining multiple dimensions of the relationship between governance and investment in Cameroon. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Cameroon",
+    "source": "generated"
+  },
+  {
+    "question": "Describe the interconnected system of transparency, birth rate, and governance in Botswana. How do changes in one element cascade through the entire system?",
+    "answer": "This systems thinking question requires examining multiple dimensions of the relationship between transparency and birth rate in Botswana. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "systems_thinking",
+    "topic": "political_civic_engagement",
+    "country": "Botswana",
+    "source": "generated"
+  },
+  {
+    "question": "Describe the interconnected system of corruption, population density, and governance in Benin. How do changes in one element cascade through the entire system?",
+    "answer": "This systems thinking question requires examining multiple dimensions of the relationship between corruption and population density in Benin. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "systems_thinking",
+    "topic": "political_civic_engagement",
+    "country": "Benin",
+    "source": "generated"
+  },
+  {
+    "question": "If independence had not occurred, how might Somalia's development trajectory in economic have been different?",
+    "answer": "This counterfactual reasoning question requires examining multiple dimensions of the relationship between transparency and demographic in Somalia. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "counterfactual_reasoning",
+    "topic": "political_civic_engagement",
+    "country": "Somalia",
+    "source": "generated"
+  }
+]

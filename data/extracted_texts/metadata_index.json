@@ -1,0 +1,475 @@
+[
+  {
+    "source_file": "/media/domsimone/A2643A6C643A42F9/docx/Texts/36204-doc-agenda2063_popular_version_en.pdf",
+    "file_type": "pdf",
+    "char_count": 44943,
+    "word_count": 6496,
+    "topics": [
+      "political_civic_engagement",
+      "economic_labor_trends",
+      "urban_community_dynamics",
+      "demographic_trends",
+      "social_structures_lifestyles"
+    ],
+    "countries": [
+      "Ethiopia",
+      "Nigeria",
+      "South Africa"
+    ],
+    "file_hash": "640a4dc1050004b7bd13949672780fc0",
+    "extracted_text_path": "/media/domsimone/A2643A6C643A42F9/PythonProject/data/extracted_texts/36204-doc-agenda2063_popular_version_en.txt"
+  },
+  {
+    "source_file": "/media/domsimone/A2643A6C643A42F9/docx/Texts/AID thesis_adom_ay.pdf",
+    "file_type": "pdf",
+    "char_count": 439538,
+    "word_count": 64149,
+    "topics": [
+      "political_civic_engagement",
+      "economic_labor_trends",
+      "urban_community_dynamics",
+      "demographic_trends",
+      "social_structures_lifestyles"
+    ],
+    "countries": [
+      "Algeria",
+      "Angola",
+      "Benin",
+      "Botswana",
+      "Burkina Faso",
+      "Cameroon",
+      "Central African Republic",
+      "Congo",
+      "Egypt",
+      "Ethiopia",
+      "Gabon",
+      "Gambia",
+      "Ghana",
+      "Guinea",
+      "Kenya",
+      "Lesotho",
+      "Liberia",
+      "Libya",
+      "Madagascar",
+      "Malawi",
+      "Mali",
+      "Mauritius",
+      "Morocco",
+      "Mozambique",
+      "Niger",
+      "Nigeria",
+      "Senegal",
+      "Somalia",
+      "South Africa",
+      "Tanzania",
+      "Togo",
+      "Tunisia",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "file_hash": "2559d9e36af596588fca2e7e62aabc97",
+    "extracted_text_path": "/media/domsimone/A2643A6C643A42F9/PythonProject/data/extracted_texts/AID thesis_adom_ay.txt"
+  },
+  {
+    "source_file": "/media/domsimone/A2643A6C643A42F9/docx/Texts/Anti Aid 2786_file_cgd_wp004_rev.pdf",
+    "file_type": "pdf",
+    "char_count": 168795,
+    "word_count": 24860,
+    "topics": [
+      "political_civic_engagement",
+      "economic_labor_trends",
+      "urban_community_dynamics",
+      "demographic_trends",
+      "social_structures_lifestyles"
+    ],
+    "countries": [
+      "Angola",
+      "Botswana",
+      "Burkina Faso",
+      "Cameroon",
+      "Egypt",
+      "Equatorial Guinea",
+      "Ethiopia",
+      "Ghana",
+      "Guinea",
+      "Kenya",
+      "Lesotho",
+      "Liberia",
+      "Malawi",
+      "Mali",
+      "Mozambique",
+      "Niger",
+      "Nigeria",
+      "Senegal",
+      "Sierra Leone",
+      "South Africa",
+      "Sudan",
+      "Tanzania",
+      "Uganda",
+      "Zambia"
+    ],
+    "file_hash": "b71d33468b52939efea60c98cba9f402",
+    "extracted_text_path": "/media/domsimone/A2643A6C643A42F9/PythonProject/data/extracted_texts/Anti Aid 2786_file_cgd_wp004_rev.txt"
+  },
+  {
+    "source_file": "/media/domsimone/A2643A6C643A42F9/docx/Texts/CALCULUS_pdf.pdf",
+    "file_type": "pdf",
+    "char_count": 416148,
+    "word_count": 95586,
+    "topics": [
+      "political_civic_engagement",
+      "economic_labor_trends",
+      "urban_community_dynamics",
+      "demographic_trends",
+      "social_structures_lifestyles"
+    ],
+    "countries": [
+      "Ghana",
+      "Kenya",
+      "Mali",
+      "South Africa"
+    ],
+    "file_hash": "7e0cdfa377db00a67682dd1cfd871a3f",
+    "extracted_text_path": "/media/domsimone/A2643A6C643A42F9/PythonProject/data/extracted_texts/CALCULUS_pdf.txt"
+  },
+  {
+    "source_file": "/media/domsimone/A2643A6C643A42F9/docx/Texts/digital-666461370efe71.79020317.pdf",
+    "file_type": "pdf",
+    "char_count": 1435747,
+    "word_count": 232297,
+    "topics": [
+      "political_civic_engagement",
+      "economic_labor_trends",
+      "urban_community_dynamics",
+      "demographic_trends",
+      "social_structures_lifestyles"
+    ],
+    "countries": [
+      "Ghana",
+      "Mali",
+      "Niger",
+      "South Africa"
+    ],
+    "file_hash": "62fac01720a0c2197737333241f55314",
+    "extracted_text_path": "/media/domsimone/A2643A6C643A42F9/PythonProject/data/extracted_texts/digital-666461370efe71.79020317.txt"
+  },
+  {
+    "source_file": "/media/domsimone/A2643A6C643A42F9/docx/Texts/Full.pdf",
+    "file_type": "pdf",
+    "char_count": 1005096,
+    "word_count": 162164,
+    "topics": [
+      "political_civic_engagement",
+      "economic_labor_trends",
+      "urban_community_dynamics",
+      "demographic_trends",
+      "social_structures_lifestyles"
+    ],
+    "countries": [
+      "Ghana",
+      "Mali",
+      "South Africa"
+    ],
+    "file_hash": "88333a9395ad171a300e465d9dbe0303",
+    "extracted_text_path": "/media/domsimone/A2643A6C643A42F9/PythonProject/data/extracted_texts/Full.txt"
+  },
+  {
+    "source_file": "/media/domsimone/A2643A6C643A42F9/docx/Texts/Game theory solsp5.pdf",
+    "file_type": "pdf",
+    "char_count": 150232,
+    "word_count": 29220,
+    "topics": [
+      "political_civic_engagement",
+      "economic_labor_trends",
+      "urban_community_dynamics",
+      "demographic_trends",
+      "social_structures_lifestyles"
+    ],
+    "countries": [
+      "Ghana",
+      "Mali",
+      "South Africa"
+    ],
+    "file_hash": "26abbd9526ca1bac3add47bfb7eaa674",
+    "extracted_text_path": "/media/domsimone/A2643A6C643A42F9/PythonProject/data/extracted_texts/Game theory solsp5.txt"
+  },
+  {
+    "source_file": "/media/domsimone/A2643A6C643A42F9/docx/Texts/general_history_africa_ii.pdf",
+    "file_type": "pdf",
+    "char_count": 2162077,
+    "word_count": 364500,
+    "topics": [
+      "political_civic_engagement",
+      "economic_labor_trends",
+      "urban_community_dynamics",
+      "demographic_trends",
+      "social_structures_lifestyles"
+    ],
+    "countries": [
+      "Algeria",
+      "Angola",
+      "Benin",
+      "Botswana",
+      "Burundi",
+      "Cameroon",
+      "Central African Republic",
+      "Chad",
+      "Comoros",
+      "Congo",
+      "Egypt",
+      "Eritrea",
+      "Ethiopia",
+      "Gabon",
+      "Gambia",
+      "Ghana",
+      "Guinea",
+      "Kenya",
+      "Lesotho",
+      "Liberia",
+      "Libya",
+      "Madagascar",
+      "Malawi",
+      "Mali",
+      "Mauritania",
+      "Morocco",
+      "Mozambique",
+      "Namibia",
+      "Niger",
+      "Nigeria",
+      "Rwanda",
+      "Senegal",
+      "Sierra Leone",
+      "Somalia",
+      "South Africa",
+      "Sudan",
+      "Tanzania",
+      "Tunisia",
+      "Uganda",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "file_hash": "ad154a5da6d1b92ad7c6f40b45f790e5",
+    "extracted_text_path": "/media/domsimone/A2643A6C643A42F9/PythonProject/data/extracted_texts/general_history_africa_ii.txt"
+  },
+  {
+    "source_file": "/media/domsimone/A2643A6C643A42F9/docx/Texts/Hasty Statistics ESLII.pdf",
+    "file_type": "pdf",
+    "char_count": 1869864,
+    "word_count": 443201,
+    "topics": [
+      "political_civic_engagement",
+      "economic_labor_trends",
+      "urban_community_dynamics",
+      "demographic_trends",
+      "social_structures_lifestyles"
+    ],
+    "countries": [
+      "Egypt",
+      "Ghana",
+      "Kenya",
+      "Mali",
+      "South Africa"
+    ],
+    "file_hash": "8ee0af6788921f84f744fea7521ec31a",
+    "extracted_text_path": "/media/domsimone/A2643A6C643A42F9/PythonProject/data/extracted_texts/Hasty Statistics ESLII.txt"
+  },
+  {
+    "source_file": "/media/domsimone/A2643A6C643A42F9/docx/Texts/Machine learninghutter1.pdf",
+    "file_type": "pdf",
+    "char_count": 25580,
+    "word_count": 4061,
+    "topics": [
+      "political_civic_engagement",
+      "economic_labor_trends",
+      "demographic_trends",
+      "social_structures_lifestyles"
+    ],
+    "countries": [
+      "South Africa"
+    ],
+    "file_hash": "c0fb3def3cf14342f9dba328207209f2",
+    "extracted_text_path": "/media/domsimone/A2643A6C643A42F9/PythonProject/data/extracted_texts/Machine learninghutter1.txt"
+  },
+  {
+    "source_file": "/media/domsimone/A2643A6C643A42F9/docx/Texts/Microeconomics MIT14_01SCF11_rttext.pdf",
+    "file_type": "pdf",
+    "char_count": 1761948,
+    "word_count": 276101,
+    "topics": [
+      "political_civic_engagement",
+      "economic_labor_trends",
+      "urban_community_dynamics",
+      "demographic_trends",
+      "social_structures_lifestyles"
+    ],
+    "countries": [
+      "Botswana",
+      "Chad",
+      "Ethiopia",
+      "Guinea",
+      "Kenya",
+      "Libya",
+      "Mali",
+      "Namibia",
+      "South Africa",
+      "Tanzania",
+      "Zambia",
+      "Zimbabwe"
+    ],
+    "file_hash": "327dcfb6f5f9d439c570806ce03795ca",
+    "extracted_text_path": "/media/domsimone/A2643A6C643A42F9/PythonProject/data/extracted_texts/Microeconomics MIT14_01SCF11_rttext.txt"
+  },
+  {
+    "source_file": "/media/domsimone/A2643A6C643A42F9/docx/Texts/Practical issues in RCTs_Glennerster .pdf",
+    "file_type": "pdf",
+    "char_count": 217014,
+    "word_count": 33646,
+    "topics": [
+      "political_civic_engagement",
+      "economic_labor_trends",
+      "urban_community_dynamics",
+      "demographic_trends",
+      "social_structures_lifestyles"
+    ],
+    "countries": [
+      "Benin",
+      "Congo",
+      "Egypt",
+      "Kenya",
+      "Liberia",
+      "Malawi",
+      "Sierra Leone",
+      "South Africa",
+      "Tanzania",
+      "Uganda",
+      "Zambia"
+    ],
+    "file_hash": "d2666c05625da97f5b6a9cc73189b735",
+    "extracted_text_path": "/media/domsimone/A2643A6C643A42F9/PythonProject/data/extracted_texts/Practical issues in RCTs_Glennerster .txt"
+  },
+  {
+    "source_file": "/media/domsimone/A2643A6C643A42F9/docx/Texts/Probability theory book.pdf",
+    "file_type": "pdf",
+    "char_count": 255903,
+    "word_count": 44153,
+    "topics": [
+      "political_civic_engagement",
+      "economic_labor_trends",
+      "urban_community_dynamics",
+      "demographic_trends",
+      "social_structures_lifestyles"
+    ],
+    "countries": [
+      "Ghana",
+      "Kenya",
+      "Mali",
+      "South Africa"
+    ],
+    "file_hash": "d93ce88677719a7db1c15f91488c55d1",
+    "extracted_text_path": "/media/domsimone/A2643A6C643A42F9/PythonProject/data/extracted_texts/Probability theory book.txt"
+  },
+  {
+    "source_file": "/media/domsimone/A2643A6C643A42F9/docx/Texts/qb.pdf",
+    "file_type": "pdf",
+    "char_count": 817897,
+    "word_count": 149460,
+    "topics": [
+      "political_civic_engagement",
+      "economic_labor_trends",
+      "urban_community_dynamics",
+      "demographic_trends",
+      "social_structures_lifestyles"
+    ],
+    "countries": [
+      "Ghana",
+      "Mali",
+      "South Africa"
+    ],
+    "file_hash": "84562e45827236638ee1b9f6fa74fb73",
+    "extracted_text_path": "/media/domsimone/A2643A6C643A42F9/PythonProject/data/extracted_texts/qb.txt"
+  },
+  {
+    "source_file": "/media/domsimone/A2643A6C643A42F9/docx/Texts/Regression textbook_NB.pdf",
+    "file_type": "pdf",
+    "char_count": 382986,
+    "word_count": 69074,
+    "topics": [
+      "political_civic_engagement",
+      "economic_labor_trends",
+      "urban_community_dynamics",
+      "demographic_trends",
+      "social_structures_lifestyles"
+    ],
+    "countries": [
+      "Ghana",
+      "Libya",
+      "Mali",
+      "South Africa",
+      "Zambia"
+    ],
+    "file_hash": "7efd96ff0e3fa2175619225d81ca0368",
+    "extracted_text_path": "/media/domsimone/A2643A6C643A42F9/PythonProject/data/extracted_texts/Regression textbook_NB.txt"
+  },
+  {
+    "source_file": "/media/domsimone/A2643A6C643A42F9/docx/Texts/Understanding_Regression_Equations_Interpreting_Regression_Tables.pdf",
+    "file_type": "pdf",
+    "char_count": 38008,
+    "word_count": 7092,
+    "topics": [
+      "economic_labor_trends",
+      "demographic_trends",
+      "social_structures_lifestyles"
+    ],
+    "countries": [
+      "Kenya",
+      "South Africa"
+    ],
+    "file_hash": "7dbbec1a20bb994d440555de4a7b86ed",
+    "extracted_text_path": "/media/domsimone/A2643A6C643A42F9/PythonProject/data/extracted_texts/Understanding_Regression_Equations_Interpreting_Regression_Tables.txt"
+  },
+  {
+    "source_file": "/media/domsimone/A2643A6C643A42F9/docx/Texts/_Precolonial Black Africa_text.pdf",
+    "file_type": "pdf",
+    "char_count": 453139,
+    "word_count": 76150,
+    "topics": [
+      "political_civic_engagement",
+      "economic_labor_trends",
+      "urban_community_dynamics",
+      "demographic_trends",
+      "social_structures_lifestyles"
+    ],
+    "countries": [
+      "Algeria",
+      "Angola",
+      "Benin",
+      "Cameroon",
+      "Chad",
+      "Congo",
+      "Egypt",
+      "Ethiopia",
+      "Gabon",
+      "Gambia",
+      "Ghana",
+      "Guinea",
+      "Kenya",
+      "Libya",
+      "Mali",
+      "Mauritania",
+      "Morocco",
+      "Mozambique",
+      "Niger",
+      "Nigeria",
+      "Senegal",
+      "Sierra Leone",
+      "South Africa",
+      "Sudan",
+      "Togo",
+      "Uganda",
+      "Zimbabwe"
+    ],
+    "file_hash": "78c766480a9f3e8b22b1c59cc878e9b1",
+    "extracted_text_path": "/media/domsimone/A2643A6C643A42F9/PythonProject/data/extracted_texts/_Precolonial Black Africa_text.txt"
+  }
+]

@@ -1,0 +1,1162 @@
+Introduction to Statistical Machine Learning
+- 1 -
+Marcus Hutter
+Introduction to
+Statistical Machine Learning
+Marcus Hutter
+Canberra, ACT, 0200, Australia
+Machine Learning Summer School
+MLSS-2008, 2 – 15 March, Kioloa
+ANU
+RSISE
+NICTA
+
+
+Introduction to Statistical Machine Learning
+- 2 -
+Marcus Hutter
+Abstract
+This course provides a broad introduction to the methods and practice
+of statistical machine learning, which is concerned with the development
+of algorithms and techniques that learn from observed data by
+constructing stochastic models that can be used for making predictions
+and decisions. Topics covered include Bayesian inference and maximum
+likelihood modeling; regression, classiﬁcation, density estimation,
+clustering, principal component analysis; parametric, semi-parametric,
+and non-parametric models; basis functions, neural networks, kernel
+methods, and graphical models; deterministic and stochastic
+optimization; overﬁtting, regularization, and validation.
+
+
+Introduction to Statistical Machine Learning
+- 3 -
+Marcus Hutter
+Table of Contents
+1. Introduction / Overview / Preliminaries
+2. Linear Methods for Regression
+3. Nonlinear Methods for Regression
+4. Model Assessment & Selection
+5. Large Problems
+6. Unsupervised Learning
+7. Sequential & (Re)Active Settings
+8. Summary
+
+
+Intro/Overview/Preliminaries
+- 4 -
+Marcus Hutter
+1
+INTRO/OVERVIEW/PRELIMINARIES
+• What is Machine Learning? Why Learn?
+• Related Fields
+• Applications of Machine Learning
+• Supervised↔Unsupervised↔Reinforcement Learning
+• Dichotomies in Machine Learning
+• Mini-Introduction to Probabilities
+
+
+Intro/Overview/Preliminaries
+- 5 -
+Marcus Hutter
+What is Machine Learning?
+Machine Learning is concerned with the development of
+algorithms and techniques that allow computers to learn
+Learning in this context is the process of gaining understanding by
+constructing models of observed data with the intention to use them for
+prediction.
+Related ﬁelds
+• Artiﬁcial Intelligence: smart algorithms
+• Statistics: inference from a sample
+• Data Mining: searching through large volumes of data
+• Computer Science: eﬃcient algorithms and complex models
+
+
+Intro/Overview/Preliminaries
+- 6 -
+Marcus Hutter
+Why ’Learn’?
+There is no need to “learn” to calculate payroll
+Learning is used when:
+• Human expertise does not exist (navigating on Mars),
+• Humans are unable to explain their expertise (speech recognition)
+• Solution changes in time (routing on a computer network)
+• Solution needs to be adapted to particular cases (user biometrics)
+Example: It is easier to write a program that learns to play checkers or
+backgammon well by self-play rather than converting the expertise of a
+master player to a program.
+
+
+Intro/Overview/Preliminaries
+- 7 -
+Marcus Hutter
+Handwritten Character Recognition
+an example of a diﬃcult machine learning problem
+Task: Learn general mapping from pixel images to digits from examples
+
+
+Intro/Overview/Preliminaries
+- 8 -
+Marcus Hutter
+Applications of Machine Learning
+machine learning has a wide spectrum of applications including:
+• natural language processing,
+• search engines,
+• medical diagnosis,
+• detecting credit card fraud,
+• stock market analysis,
+• bio-informatics, e.g. classifying DNA sequences,
+• speech and handwriting recognition,
+• object recognition in computer vision,
+• playing games – learning by self-play: Checkers, Backgammon.
+• robot locomotion.
+
+
+Intro/Overview/Preliminaries
+- 9 -
+Marcus Hutter
+Some Fundamental Types of Learning
+• Supervised Learning
+Classiﬁcation
+Regression
+• Unsupervised Learning
+Association
+Clustering
+Density Estimation
+• Reinforcement Learning
+Agents
+• Others
+SemiSupervised Learning
+Active Learning
+
+
+Intro/Overview/Preliminaries
+- 10 -
+Marcus Hutter
+Supervised Learning
+• Prediction of future cases:
+Use the rule to predict the output for future inputs
+• Knowledge extraction:
+The rule is easy to understand
+• Compression:
+The rule is simpler than the data it explains
+• Outlier detection:
+Exceptions that are not covered by the rule, e.g., fraud
+
+
+Intro/Overview/Preliminaries
+- 11 -
+Marcus Hutter
+Classiﬁcation
+Example:
+Credit scoring
+Diﬀerentiating between
+low-risk and high-risk
+customers from their
+Income and Savings
+Discriminant: IF income > θ1 AND savings > θ2
+THEN low-risk ELSE high-risk
+
+
+Intro/Overview/Preliminaries
+- 12 -
+Marcus Hutter
+Regression
+Example: Price y = f(x)+noise of a used car as function of age x
+
+
+Intro/Overview/Preliminaries
+- 13 -
+Marcus Hutter
+Unsupervised Learning
+• Learning “what normally happens”
+• No output
+• Clustering: Grouping similar instances
+• Example applications:
+Customer segmentation in CRM
+Image compression: Color quantization
+Bioinformatics: Learning motifs
+
+
+Intro/Overview/Preliminaries
+- 14 -
+Marcus Hutter
+Reinforcement Learning
+• Learning a policy: A sequence of outputs
+• No supervised output but delayed reward
+• Credit assignment problem
+• Game playing
+• Robot in a maze
+• Multiple agents, partial observability, ...
+
+
+Intro/Overview/Preliminaries
+- 15 -
+Marcus Hutter
+Dichotomies in Machine Learning
+scope of my lecture
+⇔
+scope of other lectures
+(machine) learning / statistical
+⇔
+logic/knowledge-based (GOFAI)
+induction
+⇔
+prediction
+⇔
+decision
+⇔
+action
+regression
+⇔
+classiﬁcation
+independent identically distributed
+⇔
+sequential / non-iid
+online learning
+⇔
+oﬄine/batch learning
+passive prediction
+⇔
+active learning
+parametric
+⇔
+non-parametric
+conceptual/mathematical
+⇔
+computational issues
+exact/principled
+⇔
+heuristic
+supervised learning
+⇔
+unsupervised
+⇔
+RL learning
+
+
+Intro/Overview/Preliminaries
+- 16 -
+Marcus Hutter
+Probability Basics
+Probability is used to describe uncertain events;
+the chance or belief that something is or will be true.
+Example: Fair Six-Sided Die:
+• Sample space: Ω= {1, 2, 3, 4, 5, 6}
+• Events: Even= {2, 4, 6}, Odd= {1, 3, 5}
+⊆Ω
+• Probability: P(6) = 1
+6, P(Even) = P(Odd) = 1
+2
+• Outcome: 6 ∈E.
+• Conditional probability: P(6|Even) = P(6and Even)
+P(Even)
+= 1/6
+1/2 = 1
+3
+General Axioms:
+• P({}) = 0 ≤P(A) ≤1 = P(Ω),
+• P(A ∪B) + P(A ∩B) = P(A) + P(B),
+• P(A ∩B) = P(A|B)P(B).
+
+
+Intro/Overview/Preliminaries
+- 17 -
+Marcus Hutter
+Probability Jargon
+Example: (Un)fair coin: Ω= {Tail,Head} ≃{0, 1}. P(1) = θ ∈[0, 1]:
+Likelihood: P(1101|θ) = θ × θ × (1 −θ) × θ
+Maximum Likelihood (ML) estimate: ˆθ = arg maxθ P(1101|θ) = 3
+4
+Prior: If we are indiﬀerent, then P(θ) =const.
+Evidence: P(1101) = P
+θ P(1101|θ)P(θ) =
+1
+20 (actually
+R
+)
+Posterior: P(θ|1101) = P(1101|θ)P(θ)
+P(1101)
+∝θ3(1 −θ) (BAYES RULE!).
+Maximum a Posterior (MAP) estimate: ˆθ = arg maxθ P(θ|1101) = 3
+4
+Predictive distribution: P(1|1101) = P(11011)
+P(1101) = 2
+3
+Expectation: E[f|...] = P
+θ f(θ)P(θ|...), e.g. E[θ|1101] = 2
+3
+Variance: Var(θ) = E[(θ −Eθ)2|1101] =
+2
+63
+Probability density: P(θ) = 1
+εP([θ, θ + ε]) for ε →0
+
+
+Linear Methods for Regression
+- 18 -
+Marcus Hutter
+2
+LINEAR METHODS FOR REGRESSION
+• Linear Regression
+• Coeﬃcient Subset Selection
+• Coeﬃcient Shrinkage
+• Linear Methods for Classiﬁction
+• Linear Basis Function Regression (LBFR)
+• Piecewise linear, Splines, Wavelets
+• Local Smoothing & Kernel Regression
+• Regularization & 1D Smoothing Splines
+
+
+Linear Methods for Regression
+- 19 -
+Marcus Hutter
+Linear Regression
+ﬁtting a linear function to the data
+• Input “feature” vector x := (1 ≡x(0), x(1), ..., x(d)) ∈IRd+1
+• Real-valued noisy response y ∈IR.
+• Linear regression model:
+ˆy = fw(x) = w0x(0) + ... + wdx(d)
+• Data: D = (x1, y1), ..., (xn, yn)
+• Error or loss function:
+Example: Residual sum of squares:
+Loss(w) = Pn
+i=1(yi −fw(xi))2
+• Least squares (LSQ) regression:
+ˆ
+w = arg minw Loss(w)
+• Example: Person’s weight y as a function of age x1, height x2.
+
+
+Linear Methods for Regression
+- 20 -
+Marcus Hutter
+Coeﬃcient Subset Selection
+Problems with least squares regression if d is large:
+• Overﬁtting: The plane ﬁts the data well (perfect for d ≥n),
+but predicts (generalizes) badly.
+• Interpretation: We want to identify a small subset of
+features important/relevant for predicting y.
+Solution 1: Subset selection:
+Take those k out of d features that minimize the LSQ error.
+
+
+Linear Methods for Regression
+- 21 -
+Marcus Hutter
+Coeﬃcient Shrinkage
+Solution 2: Shrinkage methods:
+Shrink the least squares w
+by penalizing the Loss:
+Ridge regression: Add ∝||w||2
+2.
+Lasso: Add ∝||w||1.
+Bayesian linear regression:
+Comp. MAP arg maxw P(w|D)
+from prior P(w) and
+sampling model P(D|w).
+Weights of low variance components shrink most.
+
+
+Linear Methods for Regression
+- 22 -
+Marcus Hutter
+Linear Methods for Classiﬁcation
+Example: Y = {spam,non-spam} ≃{−1, 1}
+(or {0, 1})
+Reduction to regression: Regard y ∈IR ⇒ˆ
+w from linear regression.
+Binary classiﬁcation: If f ˆ
+w(x) > 0 then ˆy = 1 else ˆy = −1.
+Probabilistic classiﬁcation: Predict probability that new x is in class y.
+Log-odds log P(y=1|x,D)
+P(y=0|x,D) := f ˆw(x)
+Improvements:
+• Linear Discriminant Analysis (LDA)
+• Logistic Regression
+• Perceptron
+• Maximum Margin Hyperplane
+• Support Vector Machine
+Generalization to non-binary Y possible.
+
+
+Linear Methods for Regression
+- 23 -
+Marcus Hutter
+Linear Basis Function Regression (LBFR)
+= powerful generalization of and reduction to linear regression!
+Problem: Response y ∈IR is often not linear in x ∈IRd.
+Solution: Transform x ; φ(x) with φ : IRd →IRp.
+Assume/hope response y ∈IR is now linear in φ.
+Examples:
+• Linear regression: p = d and φi(x) = xi.
+• Polynomial regression: d = 1 and φi(x) = xi.
+• Piecewise constant regression:
+E.g. d = 1 with φi(x) = 1 for i ≤x < i + 1 and 0 else.
+• Piecewise polynomials ...
+• Splines ...
+
+
+Linear Methods for Regression
+- 24 -
+Marcus Hutter
+
+
+Linear Methods for Regression
+- 25 -
+Marcus Hutter
+2D Spline LBFR and 1D Symmlet-8 Wavelets
+
+
+Linear Methods for Regression
+- 26 -
+Marcus Hutter
+Local Smoothing & Kernel Regression
+Estimate f(x) by averaging the yi for all xi a-close to x:
+ˆf(x) =
+Pn
+i=1 K(x,xi)yi
+Pn
+i=1 K(x,xi)
+Nearest-Neighbor Kernel:
+K(x, xi) = 1 if { |x−xi|<a
+and 0 else
+Generalization to other K,
+e.g. quadratic (Epanechnikov) Kernel:
+K(x, xi) = max{0, a2 −(x −xi)2}
+
+
+Linear Methods for Regression
+- 27 -
+Marcus Hutter
+Regularization & 1D Smoothing Splines
+to avoid overﬁtting if function class is large
+ˆf = arg minf{Pn
+i=1(yi−f(xi))2 + λ
+R
+(f ′′(x))2dx}
+• λ = 0
+⇒ˆf =any function
+through data
+• λ = ∞
+⇒ˆf=least
+squares line ﬁt
+• 0 < λ < ∞
+⇒ˆf=piecwise cubic
+with continuous
+derivative
+
+
+Nonlinear Regression
+- 28 -
+Marcus Hutter
+3
+NONLINEAR REGRESSION
+• Artiﬁcial Neural Networks
+• Kernel Trick
+• Maximum Margin Classiﬁer
+• Sparse Kernel Methods / SVMs
+
+
+Nonlinear Regression
+- 29 -
+Marcus Hutter
+Artiﬁcial Neural Networks 1
+as non-linear function approximator
+Single hidden layer feed-
+forward neural network
+• Hidden layer: zj = h(Pd
+i=0 w(1)
+ji xi)
+• Output: fw,k(x) = σ(PM
+j=0 w(2)
+kj zj)
+• Sigmoidal activation functions:
+h() and σ()
+⇒
+f non-linear
+• Goal: Find network weights
+best modeling the data:
+• Back-propagation algorithm:
+Minimize Pn
+i=1 ||yi −f w(xi)||2
+2
+w.r.t. w by gradient decent.
+
+
+Nonlinear Regression
+- 30 -
+Marcus Hutter
+Artiﬁcial Neural Networks 2
+• Avoid overﬁtting by early stopping or small M.
+• Avoid local minima by random initial weights
+or stochastic gradient descent.
+Example: Image Processing
+
+
+Nonlinear Regression
+- 31 -
+Marcus Hutter
+Kernel Trick
+The Kernel-Trick allows to reduce the functional
+minimization to ﬁnite-dimensional optimization.
+• Let L(y, f(x)) be any loss function
+• and J(f) be a penalty quadratic in f.
+• then minimum of penalized loss Pn
+i=1 L(yi, f(xi)) + λJ(f)
+• has form f(x) = Pn
+i=1 αiK(x, xi)
+• with α minimizing Pn
+i=1 L(yi, (Kα)i) + λα⊤Kα.
+• and Kernel Kij = K(xi, xj) following from J.
+
+
+Nonlinear Regression
+- 32 -
+Marcus Hutter
+Maximum Margin Classiﬁer
+ˆw = arg
+max
+w:||w||=1 min
+i {yi(w⊤φ(xi))}
+with
+y ∈{−1, 1}
+• Linear boundary for
+φb(x) = x(b).
+• Boundary is determined by
+Support Vectors
+(circled data points)
+• Margin negative if
+classes not separable.
+
+
+Nonlinear Regression
+- 33 -
+Marcus Hutter
+Sparse Kernel Methods / SVMs
+Non-linear boundary for general φb(x)
+ˆ
+w = Pn
+i=1 aiφ(xi) for some a.
+⇒ˆf(x) = ˆ
+w⊤φ(x) = Pn
+i=1 aiK(xi, x)
+depends only on φ via Kernel
+K(xi, x) = Pd
+b=1 φb(xi)φb(x).
+⇒Huge time savings if d ≫n
+Example K(x, x′):
+• polynomial (1 + ⟨x, x′⟩)d,
+• Gaussian exp(−||x −x′||2
+2),
+• neural network tanh(⟨x, x′⟩).
+
+
+Model Assessment & Selection
+- 34 -
+Marcus Hutter
+4
+MODEL ASSESSMENT & SELECTION
+• Example: Polynomial Regression
+• Training=Empirical versus Test=True Error
+• Empirical Model Selection
+• Theoretical Model Selection
+• The Loss Rank Principle for Model Selection
+
+
+Model Assessment & Selection
+- 35 -
+Marcus Hutter
+Example: Polynomial Regression
+• Straight line does not ﬁt data well (large training error)
+high bias ⇒poor predictive performance
+• High order polynomial ﬁts data perfectly (zero training error)
+high variance (overﬁtting)
+⇒poor prediction too!
+• Reasonable polynomial
+degree d performs well.
+How to select d?
+minimizing training error
+obviously does not work.
+
+
+Model Assessment & Selection
+- 36 -
+Marcus Hutter
+Training=Empirical versus Test=True Error
+• Learn functional relation f for data D = {(x1, y1), ..., (xn, yn)}.
+• We can compute the empirical error on past data:
+ErrD(f) = 1
+n
+Pn
+i=1(yi −f(xi))2.
+• Assume data D is sample from some distribution P.
+• We want to know the expected true error on future examples:
+ErrP(f) = EP[(y −f(x))].
+• How good an estimate of ErrP(f) is ErrD(f) ?
+• Problem: ErrD(f) decreases with increasing model complexity,
+but not ErrP(f).
+
+
+Model Assessment & Selection
+- 37 -
+Marcus Hutter
+Empirical Model Selection
+How to select complexity parameter
+• Kernel width a,
+• penalization constant λ,
+• number k of nearest neighbors,
+• the polynomial degree d?
+Empirical test-set-based methods:
+Regress on training set and mini-
+mize empirical error w.r.t. “com-
+plexity” parameter (a, λ, k, d) on
+a separate test-set.
+Sophistication: cross-validation, bootstrap, ...
+
+
+Model Assessment & Selection
+- 38 -
+Marcus Hutter
+Theoretical Model Selection
+How to select complexity or ﬂexibility or smoothness parameter:
+Kernel width a, penalization constant λ, number k of nearest neighbors,
+the polynomial degree d?
+For parametric regression with d parameters:
+• Bayesian model selection,
+• Akaike Information Criterion (AIC),
+• Bayesian Information Criterion (BIC),
+• Minimum Description Length (MDL),
+They all add a penalty proportional to d to the loss.
+For non-parametric linear regression:
+• Add trace of on-data regressor = eﬀective # of parameters to loss.
+• Loss Rank Principle (LoRP).
+
+
+Model Assessment & Selection
+- 39 -
+Marcus Hutter
+The Loss Rank Principle for Model Selection
+Let ˆf c
+D : X →Y be the (best) regressor of complexity c on data D.
+The loss Rank of ˆf c
+D is deﬁned as the number of other (ﬁctitious) data
+D′ that are ﬁtted better by ˆf c
+D′ than D is ﬁtted by ˆf c
+D.
+• c is small ⇒ˆf c
+D ﬁts D badly ⇒many other D′ can be ﬁtted better
+⇒Rank is large.
+• c is large ⇒many D′ can be ﬁtted well ⇒Rank is large.
+• c is appropriate ⇒ˆf c
+D ﬁts D well and not too many other D′
+can be ﬁtted well ⇒Rank is small.
+LoRP: Select model complexity c that has minimal loss Rank
+Unlike most penalized maximum likelihood variants (AIC,BIC,MDL),
+• LoRP only depends on the regression and the loss function.
+• It works without a stochastic noise model, and
+• is directly applicable to any non-parametric regressor, like kNN.
+
+
+How to Attack Large Problems
+- 40 -
+Marcus Hutter
+5
+HOW TO ATTACK LARGE PROBLEMS
+• Probabilistic Graphical Models (PGM)
+• Trees Models
+• Non-Parametric Learning
+• Approximate (Variational) Inference
+• Sampling Methods
+• Combining Models
+• Boosting
+
+
+How to Attack Large Problems
+- 41 -
+Marcus Hutter
+Probabilistic Graphical Models (PGM)
+Visualize structure of model and (in)dependence
+⇒faster and more comprehensible algorithms
+• Nodes = random variables.
+• Edges = stochastic dependencies.
+• Bayesian network = directed PGM
+• Markov random ﬁeld = undirected PGM
+Example:
+P(x1)P(x2)P(x3)P(x4|x1x2x3)P(x5|x1x3)P(x6|x4)P(x7|x4x5)
+
+
+How to Attack Large Problems
+- 42 -
+Marcus Hutter
+Additive Models & Trees & Related Methods
+Generalized additive model: f(x) = α + f1(x1) + ... + fd(xd)
+Reduces determining f : IRd →IR to d 1d functions fb : IR →IR
+Classiﬁcation/decision trees:
+Outlook:
+• PRIM,
+• bump hunting,
+• How to learn
+tree structures.
+
+
+How to Attack Large Problems
+- 43 -
+Marcus Hutter
+Regression Trees
+f(x) = cb for x ∈Rb, and cb = Average[yi|xi ∈Rb]
+
+
+How to Attack Large Problems
+- 44 -
+Marcus Hutter
+Non-Parametric Learning
+= prototype methods = instance-based learning = model-free
+Examples:
+• K-means:
+Data clusters around K centers with cluster means µ1, ...µK.
+Assign xi to closest cluster center.
+• K Nearest neighbors regression (kNN):
+Estimate f(x) by averaging the yi
+for the k xi closest to x:
+• Kernel regression:
+Take a weighted average ˆf(x) =
+Pn
+i=1 K(x, xi)yi
+Pn
+i=1 K(x, xi) .
+
+
+How to Attack Large Problems
+- 45 -
+Marcus Hutter
+
+
+How to Attack Large Problems
+- 46 -
+Marcus Hutter
+Approximate (Variational) Inference
+Approximate full distribution P(z) by q(z)
+Examples: Gaussians
+Popular: Factorized distribution:
+q(z) = q1(z1) × ... × qM(zM).
+Measure of ﬁt: Relative entropy
+KL(p||q) =
+R
+p(z) log p(z)
+q(z)dz
+Red curves: Left min-
+imizes KL(P||q), Mid-
+dle and Right are the
+two local minima of
+KL(q||P).
+
+
+How to Attack Large Problems
+- 47 -
+Marcus Hutter
+Elementary Sampling Methods
+How to sample from P : Z →[0, 1]?
+• Special sampling algorithms for standard distributions P.
+• Rejection sampling: Sample z uniformly from domain Z,
+but accept sample only with probability ∝P(z).
+• Importance sampling:
+E[f] =
+R
+f(z)p(z)dz ≃1
+L
+PL
+l=1 f(zl)p(zl)/q(zl),
+where zl are sampled from q.
+Choose q easy to sample and large where f(zl)p(zl) is large.
+• Others: Slice sampling
+
+
+How to Attack Large Problems
+- 48 -
+Marcus Hutter
+Markov Chain Monte Carlo (MCMC) Sampling
+Metropolis: Choose some conve-
+nient q with q(z|z′) = q(z′|z).
+Sample zl+1 from q(·|zl) but
+accept
+only
+with
+probability
+min{1, p(zl+1)/p(zl)}.
+Gibbs Sampling: Metropolis with
+q leaving z unchanged from l ;
+l + 1,except resample coordinate
+i from P(zi|z\i).
+Green lines are accepted and red lines are rejected Metropolis steps.
+
+
+How to Attack Large Problems
+- 49 -
+Marcus Hutter
+Combining Models
+Performance can often be improved
+by combining multiple models in some way,
+instead of just using a single model in isolation
+• Committees: Average the predictions of a set of individual models.
+• Bayesian model averaging: P(x) = P
+Models P(x|Model)P(Model)
+• Mixture models: P(x|θ, π) = P
+k πkPk(x|θk)
+• Decision tree: Each model is responsible
+for a diﬀerent part of the input space.
+• Boosting: Train many weak classiﬁers in sequence
+and combine output to produce a powerful committee.
+
+
+How to Attack Large Problems
+- 50 -
+Marcus Hutter
+Boosting
+Idea: Train many weak classiﬁers Gm in sequence and
+combine output to produce a powerful committee G.
+AdaBoost.M1: [Freund & Schapire (1997) received famous G¨odel-Prize]
+Initialize observation weights wi uniformly.
+For m = 1 to M do:
+(a) Gm classiﬁes x as Gm(x) ∈{−1, 1}.
+Train Gm weighing data i with wi.
+(b) Give Gm high/low weight αi if it performed well/bad.
+(c) Increase attention=weight wi for obs. xi misclassiﬁed by Gm.
+Output weighted majority vote: G(x) = sign(PM
+m=1 αmGm(x))
+
+
+Unsupervised Learning
+- 51 -
+Marcus Hutter
+6
+UNSUPERVISED LEARNING
+• K-Means Clustering
+• Mixture Models
+• Expectation Maximization Algorithm
+
+
+Unsupervised Learning
+- 52 -
+Marcus Hutter
+Unsupervised Learning
+Supervised learning: Find functional relation-
+ship f : X →Y from I/O data {(xi, yi)}
+Unsupervised learning:
+Find pattern in data (x1, ..., xn)
+without an explicit teacher (no y values).
+Example: Clustering e.g. by K-means
+Implicit goal: Find simple explanation,
+i.e. compress data (MDL, Occam’s razor).
+Density estimation: From which probability
+distribution P are the xi drawn?
+
+
+Unsupervised Learning
+- 53 -
+Marcus Hutter
+K-means Clustering and EM
+• Data points seem to cluster around two centers.
+• Assign each data point i to a cluster ki.
+• Let µk= center of cluster k.
+• Distortion measure: Total distance2
+of data points from cluster centers:
+J(k, µ) := Pn
+i=1 ||xi −µki||2
+• Choose centers µk initially at random.
+• M-step: Minimize J w.r.t. k:
+Assign each point to closest center
+• E-step: Minimize J w.r.t. µ:
+Let µk be the mean of points belonging to cluster k
+• Iteration of M-step and E-step converges to local minimum of J.
+
+
+Unsupervised Learning
+- 54 -
+Marcus Hutter
+Iterations of K-means EM Algorithm
+
+
+Unsupervised Learning
+- 55 -
+Marcus Hutter
+Mixture Models and EM
+Mixture of Gaussians:
+P(x|πµΣ) = PK
+i=1 Gauss(x|µk, Σk)πk
+Maximize likelihood P(x|...) w.r.t. π, µ, Σ.
+E-Step:
+Compute proba-
+bility γik that data point i
+belongs to cluster k, based
+on estimates π, µ, Σ.
+M-Step:
+Re-estimate
+π,
+µ,
+Σ
+(take
+empirical
+mean/variance) given γik.
+
+
+Non-IID: Sequential & (Re)Active Settings
+- 56 -
+Marcus Hutter
+7
+NON-IID: SEQUENTIAL & (RE)ACTIVE
+SETTINGS
+• Sequential Data
+• Sequential Decision Theory
+• Learning Agents
+• Reinforcement Learning (RL)
+• Learning in Games
+
+
+Non-IID: Sequential & (Re)Active Settings
+- 57 -
+Marcus Hutter
+Sequential Data
+General stochastic time-series: P(x1...xn) = Qn
+i=1 P(xi|x1...xi−1)
+Independent identically distributed (roulette,dice,classiﬁcation):
+P(x1...xn) = P(x1)P(x2)...P(xn)
+First order Markov chain (Backgammon):
+P(x1...xn) = P(x1)P(x2|x1)P(x3|x2)...P(xn|xn−1)
+Second order Markov chain (mechanical systems):
+P(x1...xn) = P(x1)P(x2|x1)P(x3|x1x2)×
+... × P(xn|xn−1xn−2)
+Hidden Markov model (speech recognition):
+P(x1...xn) =
+R
+P(z1)P(z2|z1)...P(zn|zn−1)
+× Qn
+i=1 P(xi|zi)dz
+
+
+Non-IID: Sequential & (Re)Active Settings
+- 58 -
+Marcus Hutter
+Sequential Decision Theory
+Setup:
+For t = 1, 2, 3, 4, ...
+Given sequence x1, x2, ..., xt−1
+(1) predict/make decision yt,
+(2) observe xt,
+(3) suﬀer loss Loss(xt, yt),
+(4) t →t + 1, goto (1)
+Example: Weather Forecasting
+xt ∈X = {sunny, rainy}
+yt ∈Y = {umbrella, sunglasses}
+Loss
+sunny
+rainy
+umbrella
+0.1
+0.3
+sunglasses
+0.0
+1.0
+Goal: Minimize expected Loss: ˆyt = arg minytE[Loss(xt, yt)|x1...xt−1]
+Greedy minimization of expected loss is optimal if:
+Important: Decision yt does not inﬂuence env. (future observations).
+Examples:
+Loss
+=
+square / absolute / 0-1 error
+function
+ˆy
+=
+mean / median /
+mode
+of P(xt| · · · )
+
+
+Non-IID: Sequential & (Re)Active Settings
+- 59 -
+Marcus Hutter
+Learning Agents 1
+?
+agent
+percepts
+sensors
+actions
+environment
+actuators
+Additional complication:
+Learner can inﬂuence environment,
+and hence what he observes next.
+⇒farsightedness, planning, exploration necessary.
+Exploration ⇔Exploitation problem
+
+
+Non-IID: Sequential & (Re)Active Settings
+- 60 -
+Marcus Hutter
+Learning Agents 2
+Performance standard
+Agent
+Environment
+Sensors
+Performance
+   element
+changes
+knowledge
+learning
+  goals
+  Problem
+ generator 
+feedback
+  Learning  
+   element
+Critic
+Actuators
+
+
+Non-IID: Sequential & (Re)Active Settings
+- 61 -
+Marcus Hutter
+Reinforcement Learning (RL)
+r1 | o1 r2 | o2 r3 | o3 r4 | o4 r5 | o5 r6 | o6
+...
+y1
+y2
+y3
+y4
+y5
+y6
+...
+Agent
+p
+Environ-
+ment
+q
+©
+©
+©
+©
+
+H
+H
+H
+H
+Y
+
+
+1
+PPPPP
+P
+q
+• RL is concerned with how an agent ought to take actions
+in an environment so as to maximize its long-term reward.
+• Find policy that maps states of the world
+to the actions the agent ought to take in those states.
+• The environment is typically formulated
+as a ﬁnite-state Markov decision process (MDP).
+
+
+Non-IID: Sequential & (Re)Active Settings
+- 62 -
+Marcus Hutter
+Learning in Games
+• Learning though self-play.
+• Backgammon (TD-Gammon).
+• Samuel’s checker program.
+
+
+Summary
+- 63 -
+Marcus Hutter
+8
+SUMMARY
+• Important Loss Functions
+• Learning Algorithm Characteristics Comparison
+• More Learning
+• Data Sets
+• Journals
+• Annual Conferences
+• Recommended Literature
+
+
+Summary
+- 64 -
+Marcus Hutter
+Important Loss Functions
+
+
+Summary
+- 65 -
+Marcus Hutter
+Learning Algorithm Characteristics Comparison
+
+
+Summary
+- 66 -
+Marcus Hutter
+More Learning
+• Concept Learning
+• Bayesian Learning
+• Computational Learning Theory (PAC learning)
+• Genetic Algorithms
+• Learning Sets of Rules
+• Analytical Learning
+
+
+Summary
+- 67 -
+Marcus Hutter
+Data Sets
+• UCI Repository:
+http://www.ics.uci.edu/ mlearn/MLRepository.html
+• UCI KDD Archive:
+http://kdd.ics.uci.edu/summary.data.application.html
+• Statlib:
+http://lib.stat.cmu.edu/
+• Delve:
+http://www.cs.utoronto.ca/ delve/
+
+
+Summary
+- 68 -
+Marcus Hutter
+Journals
+• Journal of Machine Learning Research
+• Machine Learning
+• IEEE Transactions on Pattern Analysis and Machine Intelligence
+• Neural Computation
+• Neural Networks
+• IEEE Transactions on Neural Networks
+• Annals of Statistics
+• Journal of the American Statistical Association
+• ...
+
+
+Summary
+- 69 -
+Marcus Hutter
+Annual Conferences
+• Algorithmic Learning Theory (ALT)
+• Computational Learning Theory (COLT)
+• Uncertainty in Artiﬁcial Intelligence (UAI)
+• Neural Information Processing Systems (NIPS)
+• European Conference on Machine Learning (ECML)
+• International Conference on Machine Learning (ICML)
+• International Joint Conference on Artiﬁcial Intelligence (IJCAI)
+• International Conference on Artiﬁcial Neural Networks (ICANN)
+
+
+Summary
+- 70 -
+Marcus Hutter
+Recommended Literature
+[Bis06]
+C. M. Bishop. Pattern Recognition and Machine Learning.
+Springer, 2006.
+[HTF01] T. Hastie, R. Tibshirani, and J. H. Friedman.
+The Elements of Statistical Learning. Springer, 2001.
+[Alp04]
+E. Alpaydin. Introduction to Machine Learning.
+MIT Press, 2004.
+[Hut05]
+M. Hutter. Universal Artiﬁcial Intelligence:
+Sequential Decisions based on Algorithmic Probability.
+Springer, Berlin, 2005. http://www.hutter1.net/ai/uaibook.htm.

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In - Umbuzo</title>
+    <meta name="description" content="Sign in to Umbuzo - African AI Assistant">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌍</text></svg>">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="auth-page">
+        <div class="auth-card">
+            <div class="auth-logo">
+                <img src="/static/images/Mbuzo.png" alt="Umbuzo"
+                     onerror="this.style.display='none'">
+                <h1>Umbuzo</h1>
+            </div>
+
+            <h2 class="auth-title">Welcome back</h2>
+            <p class="auth-subtitle">Sign in to continue your conversations</p>
+
+            <form id="loginForm" onsubmit="return false;">
+                <div class="form-group">
+                    <label class="form-label" for="username">Username</label>
+                    <input type="text" id="username" class="form-input"
+                           placeholder="Enter your username" required autocomplete="username" autofocus>
+                    <div class="form-error" id="usernameError"></div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label" for="password">Password</label>
+                    <input type="password" id="password" class="form-input"
+                           placeholder="Enter your password" required autocomplete="current-password">
+                    <div class="form-error" id="passwordError"></div>
+                </div>
+
+                <div class="form-error" id="generalError" style="margin-bottom: 16px;"></div>
+
+                <button type="submit" class="btn-primary" id="loginBtn" onclick="handleLogin()">
+                    Sign In
+                </button>
+            </form>
+
+            <div class="auth-footer">
+                Don't have an account? <a href="/signup">Sign up</a>
+            </div>
+        </div>
+    </div>
+
+    <script src="/static/js/api.js"></script>
+    <script>
+        async function handleLogin() {
+            const username = document.getElementById('username').value.trim();
+            const password = document.getElementById('password').value;
+            const btn = document.getElementById('loginBtn');
+            const generalError = document.getElementById('generalError');
+
+            // Clear errors
+            document.querySelectorAll('.form-error').forEach(el => el.classList.remove('visible'));
+
+            // Validation
+            let hasError = false;
+            if (!username) {
+                document.getElementById('usernameError').textContent = 'Username is required';
+                document.getElementById('usernameError').classList.add('visible');
+                hasError = true;
+            }
+            if (!password) {
+                document.getElementById('passwordError').textContent = 'Password is required';
+                document.getElementById('passwordError').classList.add('visible');
+                hasError = true;
+            }
+            if (hasError) return;
+
+            btn.disabled = true;
+            btn.textContent = 'Signing in...';
+            generalError.classList.remove('visible');
+
+            try {
+                await UmbuzoAPI.login(username, password);
+                // Redirect to main page
+                const params = new URLSearchParams(window.location.search);
+                const redirect = params.get('redirect') || '/';
+                window.location.href = redirect;
+            } catch (error) {
+                generalError.textContent = error.message || 'Invalid username or password';
+                generalError.classList.add('visible');
+                btn.disabled = false;
+                btn.textContent = 'Sign In';
+            }
+        }
+
+        // Handle Enter key
+        document.addEventListener('DOMContentLoaded', () => {
+            const form = document.getElementById('loginForm');
+            form.addEventListener('keydown', (e) => {
+                if (e.key === 'Enter') {
+                    e.preventDefault();
+                    handleLogin();
+                }
+            });
+        });
+    </script>
+</body>
+</html>

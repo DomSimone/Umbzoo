@@ -1,0 +1,4395 @@
+Publicly-available solutions for
+AN INTRODUCTION TO
+GAME THEORY
+
+
+Publicly-available solutions for
+AN INTRODUCTION TO
+GAME THEORY
+MARTIN J. OSBORNE
+University of Toronto
+
+
+Copyright © 2012 by Martin J. Osborne
+All rights reserved. No part of this publication may be reproduced, stored in a
+retrieval system, or transmitted, in any form or by any means, electronic,
+mechanical, photocopying, recording, or otherwise, without the prior permission
+of Martin J. Osborne.
+This manual was typeset by the author, who is greatly indebted to Donald Knuth
+(TEX), Leslie Lamport (LATEX), Diego Puga (mathpazo), Christian Schenk
+(MiKTEX), Ed Sznyter (ppctr), Timothy van Zandt (PSTricks), and others, for
+generously making superlative software freely available. The main font is 10pt
+Palatino.
+Version 6: 2012-4-7
+
+
+Contents
+Preface
+xi
+1
+Introduction
+1
+Exercise 5.3 (Altruistic preferences)
+1
+Exercise 6.1 (Alternative representations of preferences)
+1
+2
+Nash Equilibrium
+3
+Exercise 16.1 (Working on a joint project)
+3
+Exercise 17.1 (Games equivalent to the Prisoner’s Dilemma)
+3
+Exercise 20.1 (Games without conﬂict)
+3
+Exercise 31.1 (Extension of the Stag Hunt)
+4
+Exercise 34.1 (Guessing two-thirds of the average)
+4
+Exercise 34.3 (Choosing a route)
+5
+Exercise 37.1 (Finding Nash equilibria using best response functions)
+6
+Exercise 38.1 (Constructing best response functions)
+6
+Exercise 38.2 (Dividing money)
+7
+Exercise 41.1 (Strict and nonstrict Nash equilibria)
+7
+Exercise 47.1 (Strict equilibria and dominated actions)
+8
+Exercise 47.2 (Nash equilibrium and weakly dominated actions)
+8
+Exercise 50.1 (Other Nash equilibria of the game modeling collective
+decision-making)
+8
+Exercise 51.2 (Symmetric strategic games)
+9
+Exercise 52.2 (Equilibrium for pairwise interactions in a single population)
+9
+3
+Nash Equilibrium: Illustrations
+11
+Exercise 58.1 (Cournot’s duopoly game with linear inverse demand and different
+unit costs)
+11
+Exercise 60.2 (Nash equilibrium of Cournot’s duopoly game and the collusive
+outcome)
+12
+Exercise 63.1 (Interaction among resource-users)
+12
+Exercise 67.1 (Bertrand’s duopoly game with constant unit cost)
+13
+Exercise 68.1 (Bertrand’s oligopoly game)
+13
+Exercise 68.2 (Bertrand’s duopoly game with different unit costs)
+13
+Exercise 73.1 (Electoral competition with asymmetric voters’ preferences)
+14
+Exercise 75.3 (Electoral competition for more general preferences)
+14
+Exercise 76.1 (Competition in product characteristics)
+15
+Exercise 79.1 (Direct argument for Nash equilibria of War of Attrition)
+15
+Exercise 85.1 (Second-price sealed-bid auction with two bidders)
+16
+v
+
+
+vi
+Contents
+Exercise 86.2 (Nash equilibrium of ﬁrst-price sealed-bid auction)
+17
+Exercise 87.1 (First-price sealed-bid auction)
+17
+Exercise 89.1 (All-pay auctions)
+18
+Exercise 90.1 (Multiunit auctions)
+18
+Exercise 90.3 (Internet pricing)
+19
+Exercise 96.2 (Alternative standards of care under negligence with contributory
+negligence)
+19
+4
+Mixed Strategy Equilibrium
+23
+Exercise 101.1 (Variant of Matching Pennies)
+23
+Exercise 106.2 (Extensions of BoS with vNM preferences)
+23
+Exercise 110.1 (Expected payoffs)
+24
+Exercise 111.1 (Examples of best responses)
+24
+Exercise 114.1 (Mixed strategy equilibrium of Hawk–Dove)
+25
+Exercise 117.2 (Choosing numbers)
+26
+Exercise 120.2 (Strictly dominating mixed strategies)
+26
+Exercise 120.3 (Strict domination for mixed strategies)
+26
+Exercise 127.1 (Equilibrium in the expert diagnosis game)
+27
+Exercise 130.3 (Bargaining)
+27
+Exercise 132.2 (Reporting a crime when the witnesses are heterogeneous)
+28
+Exercise 136.1 (Best response dynamics in Cournot’s duopoly game)
+29
+Exercise 139.1 (Finding all mixed strategy equilibria of two-player games)
+29
+Exercise 145.1 (All-pay auction with many bidders)
+30
+Exercise 147.2 (Preferences over lotteries)
+31
+Exercise 149.2 (Normalized vNM payoff functions)
+31
+5
+Extensive Games with Perfect Information: Theory
+33
+Exercise 163.1 (Nash equilibria of extensive games)
+33
+Exercise 164.2 (Subgames)
+33
+Exercise 168.1 (Checking for subgame perfect equilibria)
+33
+Exercise 174.1 (Sharing heterogeneous objects)
+34
+Exercise 177.3 (Comparing simultaneous and sequential games)
+34
+Exercise 179.3 (Three Men’s Morris, or Mill)
+35
+6
+Extensive Games with Perfect Information: Illustrations
+37
+Exercise 183.1 (Nash equilibria of the ultimatum game)
+37
+Exercise 183.2 (Subgame perfect equilibria of the ultimatum game with indivisible
+units)
+37
+Exercise 186.1 (Holdup game)
+37
+Exercise 189.1 (Stackelberg’s duopoly game with quadratic costs)
+38
+Exercise 196.4 (Sequential positioning by three political candidates)
+38
+Exercise 198.1 (The race G1(2, 2))
+40
+Exercise 203.1 (A race with a liquidity constraint)
+40
+
+
+Contents
+vii
+7
+Extensive Games with Perfect Information: Extensions and Discussion
+43
+Exercise 210.2 (Extensive game with simultaneous moves)
+43
+Exercise 217.1 (Electoral competition with strategic voters)
+43
+Exercise 220.1 (Top cycle set)
+44
+Exercise 224.1 (Exit from a declining industry)
+45
+Exercise 227.1 (Variant of ultimatum game with equity-conscious players)
+45
+Exercise 230.1 (Nash equilibria when players may make mistakes)
+46
+Exercise 233.1 (Nash equilibria of the chain-store game)
+47
+8
+Coalitional Games and the Core
+49
+Exercise 245.1 (Three-player majority game)
+49
+Exercise 248.1 (Core of landowner–worker game)
+49
+Exercise 249.1 (Unionized workers in landowner–worker game)
+49
+Exercise 249.2 (Landowner–worker game with increasing marginal products)
+50
+Exercise 254.1 (Range of prices in horse market)
+50
+Exercise 258.1 (House assignment with identical preferences)
+51
+Exercise 261.1 (Median voter theorem)
+51
+Exercise 267.2 (Empty core in roommate problem)
+51
+9
+Bayesian Games
+53
+Exercise 276.1 (Equilibria of a variant of BoS with imperfect information)
+53
+Exercise 277.1 (Expected payoffs in a variant of BoS with imperfect
+information)
+53
+Exercise 282.2 (An exchange game)
+54
+Exercise 287.1 (Cournot’s duopoly game with imperfect information)
+55
+Exercise 288.1 (Cournot’s duopoly game with imperfect information)
+55
+Exercise 290.1 (Nash equilibria of game of contributing to a public good)
+57
+Exercise 294.1 (Weak domination in second-price sealed-bid action)
+58
+Exercise 299.1 (Asymmetric Nash equilibria of second-price sealed-bid common
+value auctions)
+59
+Exercise 299.2 (First-price sealed-bid auction with common valuations)
+59
+Exercise 309.2 (Properties of the bidding function in a ﬁrst-price sealed-bid
+auction)
+60
+Exercise 309.3 (Example of Nash equilibrium in a ﬁrst-price auction)
+60
+10
+Extensive Games with Imperfect Information
+61
+Exercise 316.1 (Variant of card game)
+61
+Exercise 318.2 (Strategies in variants of card game and entry game)
+61
+Exercise 331.2 (Weak sequential equilibrium and Nash equilibrium in
+subgames)
+62
+Exercise 340.1 (Pooling equilibria of game in which expenditure signals quality)
+62
+Exercise 346.1 (Comparing the receiver’s expected payoff in two equilibria)
+63
+Exercise 350.1 (Variant of model with piecewise linear payoff functions)
+63
+
+
+viii
+Contents
+11
+Strictly Competitive Games and Maxminimization
+65
+Exercise 363.1 (Maxminimizers in a bargaining game)
+65
+Exercise 363.3 (Finding a maxminimizer)
+65
+Exercise 366.2 (Determining strictly competitiveness)
+66
+Exercise 370.2 (Maxminimizing in BoS)
+66
+Exercise 372.2 (Equilibrium in strictly competitive game)
+66
+Exercise 372.4 (O’Neill’s game)
+66
+12
+Rationalizability
+69
+Exercise 379.2 (Best responses to beliefs)
+69
+Exercise 384.1 (Mixed strategy equilibria of game in Figure 384.1)
+69
+Exercise 387.2 (Finding rationalizable actions)
+70
+Exercise 387.5 (Hotelling’s model of electoral competition)
+70
+Exercise 388.2 (Cournot’s duopoly game)
+70
+Exercise 391.1 (Example of dominance-solvable game)
+71
+Exercise 391.2 (Dividing money)
+71
+Exercise 392.2 (Strictly competitive extensive games with perfect information)
+71
+13
+Evolutionary Equilibrium
+73
+Exercise 400.1 (Evolutionary stability and weak domination)
+73
+Exercise 405.1 (Hawk–Dove–Retaliator)
+73
+Exercise 405.3 (Bargaining)
+74
+Exercise 408.1 (Equilibria of C and of G)
+74
+Exercise 414.1 (A coordination game between siblings)
+75
+Exercise 414.2 (Assortative mating)
+75
+Exercise 416.1 (Darwin’s theory of the sex ratio)
+76
+14
+Repeated Games: The Prisoner’s Dilemma
+77
+Exercise 423.1 (Equivalence of payoff functions)
+77
+Exercise 426.1 (Subgame perfect equilibrium of ﬁnitely repeated Prisoner’s
+Dilemma)
+77
+Exercise 428.1 (Strategies in an inﬁnitely repeated Prisoner’s Dilemma)
+78
+Exercise 439.1 (Finitely repeated Prisoner’s Dilemma with switching cost)
+78
+Exercise 442.1 (Deviations from grim trigger strategy)
+80
+Exercise 443.2 (Different punishment lengths in subgame perfect equilibrium)
+80
+Exercise 445.1 (Tit-for-tat as a subgame perfect equilibrium)
+81
+15
+Repeated Games: General Results
+83
+Exercise 454.3 (Repeated Bertrand duopoly)
+83
+Exercise 459.2 (Detection lags)
+84
+16
+Bargaining
+85
+Exercise 468.1 (Two-period bargaining with constant cost of delay)
+85
+Exercise 468.2 (Three-period bargaining with constant cost of delay)
+85
+
+
+Contents
+ix
+17
+Appendix: Mathematics
+87
+Exercise 497.1 (Maximizer of quadratic function)
+87
+Exercise 499.3 (Sums of sequences)
+87
+Exercise 504.2 (Bayes’ law)
+87
+References
+89
+
+
+Preface
+This manual contains all publicly-available solutions to exercises in my book An
+Introduction to Game Theory (Oxford University Press, 2004). The sources of the
+problems are given in the section entitled “Notes” at the end of each chapter of the
+book. Please alert me to errors.
+MARTIN J. OSBORNE
+Martin.Osborne@utoronto.ca
+Department of Economics, 150 St. George Street,
+University of Toronto, Toronto, Canada M5S 3G7
+xi
+
+
+1
+Introduction
+5.3 Altruistic preferences
+Person 1 is indifferent between (1, 4) and (3, 0), and prefers both of these to (2, 1).
+The payoff function u deﬁned by u(x, y) = x + 1
+2y, where x is person 1’s income
+and y is person 2’s, represents person 1’s preferences. Any function that is an
+increasing function of u also represents her preferences. For example, the functions
+k(x + 1
+2y) for any positive number k, and (x + 1
+2y)2, do so.
+6.1 Alternative representations of preferences
+The function v represents the same preferences as does u (because u(a) < u(b) <
+u(c) and v(a) < v(b) < v(c)), but the function w does not represent the same
+preferences, because w(a) = w(b) while u(a) < u(b).
+1
+
+
+2
+Nash Equilibrium
+16.1 Working on a joint project
+The game in Figure 3.1 models this situation (as does any other game with the
+same players and actions in which the ordering of the payoffs is the same as the
+ordering in Figure 3.1).
+Work hard
+Goof off
+Work hard
+3, 3
+0, 2
+Goof off
+2, 0
+1, 1
+Figure 3.1 Working on a joint project (alternative version).
+17.1 Games equivalent to the Prisoner’s Dilemma
+The game in the left panel differs from the Prisoner’s Dilemma in both players’ pref-
+erences. Player 1 prefers (Y, X) to (X, X) to (X, Y) to (Y, Y), for example, which
+differs from her preference in the Prisoner’s Dilemma, which is (F, Q) to (Q, Q) to
+(F, F) to (Q, F), whether we let X = F or X = Q.
+The game in the right panel is equivalent to the Prisoner’s Dilemma. If we let
+X = Q and Y = F then player 1 prefers (F, Q) to (Q, Q) to (F, F) to (Q, F) and
+player 2 prefers (Q, F) to (Q, Q) to (F, F) to (F, Q), as in the Prisoner’s Dilemma.
+20.1 Games without conﬂict
+Any two-player game in which each player has two actions and the players have
+the same preferences may be represented by a table of the form given in Figure 3.2,
+where a, b, c, and d are any numbers.
+L
+R
+T
+a, a
+b, b
+B
+c, c
+d, d
+Figure 3.2 A strategic game in which conﬂict is absent.
+3
+
+
+4
+Chapter 2. Nash Equilibrium
+31.1 Extension of the Stag Hunt
+Every proﬁle (e, . . . , e), where e is an integer from 0 to K, is a Nash equilibrium. In
+the equilibrium (e, . . . , e), each player’s payoff is e. The proﬁle (e, . . . , e) is a Nash
+equilibrium since if player i chooses ei < e then her payoff is 2ei −ei = ei < e, and
+if she chooses ei > e then her payoff is 2e −ei < e.
+Consider an action proﬁle (e1, . . . , en) in which not all effort levels are the same.
+Suppose that ei is the minimum. Consider some player j whose effort level exceeds
+ei. Her payoff is 2ei −ej < ei, while if she deviates to the effort level ei her payoff
+is 2ei −ei = ei. Thus she can increase her payoff by deviating, so that (e1, . . . , en) is
+not a Nash equilibrium.
+(This game is studied experimentally by van Huyck, Battalio, and Beil (1990).
+See also Ochs (1995, 209–233).)
+34.1 Guessing two-thirds of the average
+If all three players announce the same integer k ≥2 then any one of them can devi-
+ate to k −1 and obtain $1 (since her number is now closer to 2
+3 of the average than
+the other two) rather than $ 1
+3. Thus no such action proﬁle is a Nash equilibrium.
+If all three players announce 1, then no player can deviate and increase her payoff;
+thus (1, 1, 1) is a Nash equilibrium.
+Now consider an action proﬁle in which not all three integers are the same;
+denote the highest by k∗.
+• Suppose only one player names k∗; denote the other integers named by k1
+and k2, with k1 ≥k2. The average of the three integers is 1
+3(k∗+ k1 + k2),
+so that 2
+3 of the average is 2
+9(k∗+ k1 + k2). If k1 ≥
+2
+9(k∗+ k1 + k2) then
+k∗is further from 2
+3 of the average than is k1, and hence does not win. If
+k1 < 2
+9(k∗+ k1 + k2) then the difference between k∗and 2
+3 of the average is
+k∗−2
+9(k∗+ k1 + k2) = 7
+9k∗−2
+9k1 −2
+9k2, while the difference between k1 and
+2
+3 of the average is 2
+9(k∗+ k1 + k2) −k1 = 2
+9k∗−7
+9k1 + 2
+9k2. The difference
+between the former and the latter is 5
+9k∗+ 5
+9k1 −4
+9k2 > 0, so k1 is closer to 2
+3
+of the average than is k∗. Hence the player who names k∗does not win, and
+is better off naming k2, in which case she obtains a share of the prize. Thus
+no such action proﬁle is a Nash equilibrium.
+• Suppose two players name k∗, and the third player names k < k∗. The
+average of the three integers is then 1
+3(2k∗+ k), so that 2
+3 of the average is
+4
+9k∗+ 2
+9k. We have 4
+9k∗+ 2
+9k < 1
+2(k∗+ k) (since 4
+9 < 1
+2 and 2
+9 < 1
+2), so that the
+player who names k is the sole winner. Thus either of the other players can
+switch to naming k and obtain a share of the prize rather obtaining nothing.
+Thus no such action proﬁle is a Nash equilibrium.
+We conclude that there is only one Nash equilibrium of this game, in which all
+three players announce the number 1.
+(This game is studied experimentally by Nagel (1995).)
+
+
+Chapter 2. Nash Equilibrium
+5
+34.3 Choosing a route
+A strategic game that models this situation is:
+Players
+The four people.
+Actions
+The set of actions of each person is {X, Y} (the route via X and the route
+via Y).
+Preferences
+Each player’s payoff is the negative of her travel time.
+In every Nash equilibrium, two people take each route. (In any other case, a
+person taking the more popular route is better off switching to the other route.)
+For any such action proﬁle, each person’s travel time is either 29.9 or 30 minutes
+(depending on the route she takes). If a person taking the route via X switches to
+the route via Y her travel time becomes 22 + 12 = 34 minutes; if a person taking
+the route via Y switches to the route via X her travel time becomes 12 + 21.8 =
+33.8 minutes. For any other allocation of people to routes, at least one person can
+decrease her travel time by switching routes. Thus the set of Nash equilibria is the
+set of action proﬁles in which two people take the route via X and two people take
+the route via Y.
+Now consider the situation after the road from X to Y is built. There is no equi-
+librium in which the new road is not used, by the following argument. Because the
+only equilibrium before the new road is built has two people taking each route, the
+only possibility for an equilibrium in which no one uses the new road is for two
+people to take the route A–X–B and two to take A–Y–B, resulting in a total travel
+time for each person of either 29.9 or 30 minutes. However, if a person taking A–
+X–B switches to the new road at X and then takes Y–B her total travel time becomes
+9 + 7 + 12 = 28 minutes.
+I claim that in any Nash equilibrium, one person takes A–X–B, two people take
+A–X–Y–B, and one person takes A–Y–B. For this assignment, each person’s travel
+time is 32 minutes. No person can change her route and decrease her travel time,
+by the following argument.
+• If the person taking A–X–B switches to A–X–Y–B, her travel time increases to
+12 + 9 + 15 = 36 minutes; if she switches to A–Y–B her travel time increases
+to 21 + 15 = 36 minutes.
+• If one of the people taking A–X–Y–B switches to A–X–B, her travel time in-
+creases to 12 + 20.9 = 32.9 minutes; if she switches to A–Y–B her travel time
+increases to 21 + 12 = 33 minutes.
+• If the person taking A–Y–B switches to A–X–B, her travel time increases
+to 15 + 20.9 = 35.9 minutes; if she switches to A–X–Y–B, her travel time
+increases to 15 + 9 + 12 = 36 minutes.
+For every other allocation of people to routes at least one person can switch
+routes and reduce her travel time. For example, if one person takes A–X–B, one
+
+
+6
+Chapter 2. Nash Equilibrium
+person takes A–X–Y–B, and two people take A–Y–B, then the travel time of those
+taking A–Y–B is 21 + 12 = 33 minutes; if one of them switches to A–X–B then her
+travel time falls to 12 + 20.9 = 32.9 minutes. Or if one person takes A–Y–B, one
+person takes A–X–Y–B, and two people take A–X–B, then the travel time of those
+taking A–X–B is 12 + 20.9 = 32.9 minutes; if one of them switches to A–X–Y–B then
+her travel time falls to 12 + 8 + 12 = 32 minutes.
+Thus in the equilibrium with the new road every person’s travel time increases,
+from either 29.9 or 30 minutes to 32 minutes.
+37.1 Finding Nash equilibria using best response functions
+a. The Prisoner’s Dilemma and BoS are shown in Figure 6.1; Matching Pennies and
+the two-player Stag Hunt are shown in Figure 6.2.
+Quiet
+Fink
+Quiet
+2 , 2
+0 , 3∗
+Fink
+3∗, 0
+1∗, 1∗
+Prisoner’s Dilemma
+Bach
+Stravinsky
+Bach
+2∗, 1∗
+0 , 0
+Stravinsky
+0 , 0
+1∗, 2∗
+BoS
+Figure 6.1 The best response functions in the Prisoner’s Dilemma (left) and in BoS (right).
+Head
+Tail
+Head
+1∗, −1
+−1 ,
+1∗
+Tail
+−1 ,
+1∗
+1∗, −1
+Matching Pennies
+Stag
+Hare
+Stag
+2∗, 2∗
+0 , 1
+Hare
+1 , 0
+1∗, 1∗
+Stag Hunt
+Figure 6.2 The best response functions in Matching Pennies (left) and the Stag Hunt (right).
+b. The best response functions are indicated in Figure 6.3. The Nash equilibria
+are (T, C), (M, L), and (B, R).
+L
+C
+R
+T
+2 , 2
+1∗, 3∗
+0∗, 1
+M
+3∗, 1∗
+0 , 0
+0∗, 0
+B
+1 , 0∗
+0 , 0∗
+0∗, 0∗
+Figure 6.3 The game in Exercise 37.1.
+38.1 Constructing best response functions
+The analogue of Figure 38.2 in the book is given in Figure 7.1.
+
+
+Chapter 2. Nash Equilibrium
+7
+A1
+|
+{z
+}
+T
+M
+B
+A2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+L
+C
+R
+Figure 7.1 The players’ best response functions for the game in Exercise 38.1b. Player 1’s best responses
+are indicated by circles, and player 2’s by dots. The action pairs for which there is both a circle and a
+dot are the Nash equilibria.
+38.2 Dividing money
+For each amount named by one of the players, the other player’s best responses
+are given in the following table.
+Other player’s action
+Sets of best responses
+0
+{10}
+1
+{9, 10}
+2
+{8, 9, 10}
+3
+{7, 8, 9, 10}
+4
+{6, 7, 8, 9, 10}
+5
+{5, 6, 7, 8, 9, 10}
+6
+{5, 6}
+7
+{6}
+8
+{7}
+9
+{8}
+10
+{9}
+The best response functions are illustrated in Figure 8.1 (circles for player 1,
+dots for player 2). From this ﬁgure we see that the game has four Nash equilibria:
+(5, 5), (5, 6), (6, 5), and (6, 6).
+41.1 Strict and nonstrict Nash equilibria
+Only the Nash equilibrium (a∗
+1, a∗
+2) is strict. For each of the other equilibria, player
+2’s action a2 satisﬁes a∗∗∗
+2
+≤a2 ≤a∗∗
+2 , and for each such action player 1 has multi-
+ple best responses, so that her payoff is the same for a range of actions, only one of
+which is such that (a1, a2) is a Nash equilibrium.
+
+
+8
+Chapter 2. Nash Equilibrium
+A1
+|
+{z
+}
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9 10
+A2
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Figure 8.1 The players’ best response functions for the game in Exercise 38.2.
+47.1 Strict equilibria and dominated actions
+For player 1, T is weakly dominated by M, and strictly dominated by B. For
+player 2, no action is weakly or strictly dominated. The game has a unique Nash
+equilibrium, (M, L). This equilibrium is not strict. (When player 2 choose L, B
+yields player 1 the same payoff as does M.)
+47.2 Nash equilibrium and weakly dominated actions
+The only Nash equilibrium of the game in Figure 8.2 is (T, L). The action T is
+weakly dominated by M and the action L is weakly dominated by C. (There are of
+course many other games that satisfy the conditions.)
+L
+C
+R
+T
+1, 1
+0, 1
+0, 0
+M
+1, 0
+2, 1
+1, 2
+B
+0, 0
+1, 1
+2, 0
+Figure 8.2 A game with a unique Nash equilibrium, in which both players’ equilibrium actions are
+weakly dominated. (The unique Nash equilibrium is (T, L).)
+50.1 Other Nash equilibria of the game modeling collective decision-making
+Denote by i the player whose favorite policy is the median favorite policy. The
+set of Nash equilibria includes every action proﬁle in which (i) i’s action is her
+favorite policy x∗
+i , (ii) every player whose favorite policy is less than x∗
+i names a
+
+
+Chapter 2. Nash Equilibrium
+9
+policy equal to at most x∗
+i , and (iii) every player whose favorite policy is greater
+than x∗
+i names a policy equal to at least x∗
+i .
+To show this, ﬁrst note that the outcome is x∗
+i , so player i cannot induce a bet-
+ter outcome for herself by changing her action. Now, if a player whose favorite
+position is less than x∗
+i changes her action to some x < x∗
+i , the outcome does not
+change; if such a player changes her action to some x > x∗
+i then the outcome either
+remains the same (if some player whose favorite position exceeds x∗
+i names x∗
+i ) or
+increases, so that the player is not better off. A similar argument applies to a player
+whose favorite position is greater than x∗
+i .
+The set of Nash equilibria also includes, for any positive integer k ≤n, every
+action proﬁle in which k players name the median favorite policy x∗
+i , at most 1
+2(n −
+3) players name policies less than x∗
+i , and at most 1
+2(n −3) players name policies
+greater than x∗
+i . (In these equilibria, the favorite policy of a player who names a
+policy less than x∗
+i may be greater than x∗
+i , and vice versa. The conditions on the
+numbers of players who name policies less than x∗
+i and greater than x∗
+i ensure that
+no such player can, by naming instead her favorite policy, move the median policy
+closer to her favorite policy.)
+Any action proﬁle in which all players name the same, arbitrary, policy is also
+a Nash equilibrium; the outcome is the common policy named.
+More generally, any proﬁle in which at least three players name the same, ar-
+bitrary, policy x, at most (n −3)/2 players name a policy less than x, and at most
+(n −3)/2 players name a policy greater than x is a Nash equilibrium. (In both
+cases, no change in any player’s action has any effect on the outcome.)
+51.2 Symmetric strategic games
+The games in Exercise 31.2, Example 39.1, and Figure 47.2 (both games) are sym-
+metric. The game in Exercise 42.1 is not symmetric. The game in Section 2.8.4 is
+symmetric if and only if u1 = u2.
+52.2 Equilibrium for pairwise interactions in a single population
+The Nash equilibria are (A, A), (A, C), and (C, A). Only the equilibrium (A, A) is
+relevant if the game is played between the members of a single population—this
+equilibrium is the only symmetric equilibrium.
+
+
+3
+Nash Equilibrium: Illustrations
+58.1 Cournot’s duopoly game with linear inverse demand and different unit costs
+Following the analysis in the text, the best response function of ﬁrm 1 is
+b1(q2) =
+ 1
+2(α −c1 −q2)
+if q2 ≤α −c1
+0
+otherwise
+while that of ﬁrm 2 is
+b2(q1) =
+ 1
+2(α −c2 −q1)
+if q1 ≤α −c2
+0
+otherwise.
+To ﬁnd the Nash equilibrium, ﬁrst plot these two functions. Each function has
+the same general form as the best response function of either ﬁrm in the case stud-
+ied in the text. However, the fact that c1̸ = c2 leads to two qualitatively different
+cases when we combine the two functions to ﬁnd a Nash equilibrium. If c1 and c2
+do not differ very much then the functions in the analogue of Figure 59.1 intersect
+at a pair of outputs that are both positive. If c1 and c2 differ a lot, however, the
+functions intersect at a pair of outputs in which q1 = 0.
+Precisely, if c1 ≤
+1
+2(α + c2) then the downward-sloping parts of the best re-
+sponse functions intersect (as in Figure 59.1), and the game has a unique Nash
+equilibrium, given by the solution of the two equations
+q1 =
+1
+2(α −c1 −q2)
+q2 =
+1
+2(α −c2 −q1).
+This solution is
+(q∗
+1, q∗
+2) =
+
+1
+3(α −2c1 + c2), 1
+3(α −2c2 + c1)
+
+.
+If c1 >
+1
+2(α + c2) then the downward-sloping part of ﬁrm 1’s best response
+function lies below the downward-sloping part of ﬁrm 2’s best response func-
+tion (as in Figure 12.1), and the game has a unique Nash equilibrium, (q∗
+1, q∗
+2) =
+(0, 1
+2(α −c2)).
+In summary, the game always has a unique Nash equilibrium, deﬁned as fol-
+lows:
+
+
+
+
+1
+3(α −2c1 + c2), 1
+3(α −2c2 + c1)
+
+if c1 ≤1
+2(α + c2)
+
+0, 1
+2(α −c2)
+
+if c1 > 1
+2(α + c2).
+The output of ﬁrm 2 exceeds that of ﬁrm 1 in every equilibrium.
+11
+
+
+12
+Chapter 3. Nash Equilibrium: Illustrations
+0
+α−c1
+2
+α −c2
+α−c2
+2
+α −c1
+↑
+q2
+q1 →
+b1(q2)
+b2(q1)
+(q∗
+1, q∗
+2)
+Figure 12.1 The best response functions in Cournot’s duopoly game under the assumptions of Exer-
+cise 58.1 when α −c1 < 1
+2 (α −c2). The unique Nash equilibrium in this case is (q∗
+1, q∗
+2) = (0, 1
+2 (α −c2)).
+If c2 decreases then ﬁrm 2’s output increases and ﬁrm 1’s output either falls, if
+c1 ≤1
+2(α + c2), or remains equal to 0, if c1 > 1
+2(α + c2). The total output increases
+and the price falls.
+60.2 Nash equilibrium of Cournot’s duopoly game and the collusive outcome
+The ﬁrms’ total proﬁt is (q1 + q2)(α −c −q1 −q2), or Q(α −c −Q), where Q de-
+notes total output. This function is a quadratic in Q that is zero when Q = 0 and
+when Q = α −c, so that its maximizer is Q∗= 1
+2(α −c).
+If each ﬁrm produces 1
+4(α −c) then its proﬁt is 1
+8(α −c)2. This proﬁt exceeds
+its Nash equilibrium proﬁt of 1
+9(α −c)2.
+If one ﬁrm produces Q∗/2, the other ﬁrm’s best response is bi(Q∗/2) = 1
+2(α −
+c −1
+4(α −c)) = 3
+8(α −c). That is, if one ﬁrm produces Q∗/2, the other ﬁrm wants
+to produce more than Q∗/2.
+63.1 Interaction among resource-users
+The game is given as follows.
+Players
+The ﬁrms.
+Actions
+Each ﬁrm’s set of actions is the set of all nonnegative numbers (repre-
+senting the amount of input it uses).
+Preferences
+The payoff of each ﬁrm i is
+
+xi(1 −(x1 + · · · + xn))
+if x1 + · · · + xn ≤1
+0
+if x1 + · · · + xn > 1.
+
+
+Chapter 3. Nash Equilibrium: Illustrations
+13
+This game is the same as that in Exercise 61.1 for c = 0 and α = 1. Thus it has a
+unique Nash equilibrium, (x1, . . . , xn) = (1/(n + 1), . . . , 1/(n + 1)).
+In this Nash equilibrium, each ﬁrm’s output is (1/(n + 1))(1 −n/(n + 1)) =
+1/(n + 1)2. If xi = 1/(2n) for i = 1, ..., n then each ﬁrm’s output is 1/(4n), which
+exceeds 1/(n + 1)2 for n ≥2. (We have 1/(4n) −1/(n + 1)2 = (n −1)2/(4n(n +
+1)2) > 0 for n ≥2.)
+67.1 Bertrand’s duopoly game with constant unit cost
+The pair (c, c) of prices remains a Nash equilibrium; the argument is the same
+as before. Further, as before, there is no other Nash equilibrium. The argument
+needs only very minor modiﬁcation. For an arbitrary function D there may exist
+no monopoly price pm; in this case, if pi > c, pj > c, pi ≥pj, and D(pj) = 0 then
+ﬁrm i can increase its proﬁt by reducing its price slightly below p (for example).
+68.1 Bertrand’s oligopoly game
+Consider a proﬁle (p1, . . . , pn) of prices in which pi ≥c for all i and at least two
+prices are equal to c. Every ﬁrm’s proﬁt is zero. If any ﬁrm raises its price its proﬁt
+remains zero. If a ﬁrm charging more than c lowers its price, but not below c, its
+proﬁt also remains zero. If a ﬁrm lowers its price below c then its proﬁt is negative.
+Thus any such proﬁle is a Nash equilibrium.
+To show that no other proﬁle is a Nash equilibrium, we can argue as follows.
+• If some price is less than c then the ﬁrm charging the lowest price can increase
+its proﬁt (to zero) by increasing its price to c.
+• If exactly one ﬁrm’s price is equal to c then that ﬁrm can increase its proﬁt by
+raising its price a little (keeping it less than the next highest price).
+• If all ﬁrms’ prices exceed c then the ﬁrm charging the highest price can in-
+crease its proﬁt by lowering its price to some price between c and the lowest
+price being charged.
+68.2 Bertrand’s duopoly game with different unit costs
+a. If all consumers buy from ﬁrm 1 when both ﬁrms charge the price c2, then
+(p1, p2) = (c2, c2) is a Nash equilibrium by the following argument. Firm 1’s proﬁt
+is positive, while ﬁrm 2’s proﬁt is zero (since it serves no customers).
+• If ﬁrm 1 increases its price, its proﬁt falls to zero.
+• If ﬁrm 1 reduces its price, say to p, then its proﬁt changes from (c2 −c1)(α −
+c2) to (p −c1)(α −p). Since c2 is less than the maximizer of (p −c1)(α −p),
+ﬁrm 1’s proﬁt falls.
+
+
+14
+Chapter 3. Nash Equilibrium: Illustrations
+• If ﬁrm 2 increases its price, its proﬁt remains zero.
+• If ﬁrm 2 decreases its price, its proﬁt becomes negative (since its price is less
+than its unit cost).
+Under this rule no other pair of prices is a Nash equilibrium, by the following
+argument.
+• If pi < c1 for i = 1, 2 then the ﬁrm with the lower price (or either ﬁrm, if the
+prices are the same) can increase its proﬁt (to zero) by raising its price above
+that of the other ﬁrm.
+• If p1 > p2 ≥c2 then ﬁrm 2 can increase its proﬁt by raising its price a little.
+• If p2 > p1 ≥c1 then ﬁrm 1 can increase its proﬁt by raising its price a little.
+• If p2 ≤p1 and p2 < c2 then ﬁrm 2’s proﬁt is negative, so that it can increase
+its proﬁt by raising its price.
+• If p1 = p2 > c2 then at least one of the ﬁrms is not receiving all of the
+demand, and that ﬁrm can increase its proﬁt by lowering its price a little.
+b. Now suppose that the rule for splitting up the customers when the prices are
+equal speciﬁes that ﬁrm 2 receives some customers when both prices are c2. By the
+argument for part a, the only possible Nash equilibrium is (p1, p2) = (c2, c2). (The
+argument in part a that every other pair of prices is not a Nash equilibrium does
+not use the fact that customers are split equally when (p1, p2) = (c2, c2).) But if
+(p1, p2) = (c2, c2) and ﬁrm 2 receives some customers, ﬁrm 1 can increase its proﬁt
+by reducing its price a little and capturing the entire market.
+73.1 Electoral competition with asymmetric voters’ preferences
+The unique Nash equilibrium remains (m, m); the direct argument is exactly the
+same as before. (The dividing line between the supporters of two candidates with
+different positions changes. If xi < xj, for example, the dividing line is 1
+3xi + 2
+3xj
+rather than 1
+2(xi + xj). The resulting change in the best response functions does
+not affect the Nash equilibrium.)
+75.3 Electoral competition for more general preferences
+a. If x∗is a Condorcet winner then for any y̸ = x∗a majority of voters prefer
+x∗to y, so y is not a Condorcet winner. Thus there is no more than one
+Condorcet winner.
+b. Suppose that one of the remaining voters prefers y to z to x, and the other
+prefers z to x to y. For each position there is another position preferred by a
+majority of voters, so no position is a Condorcet winner.
+
+
+Chapter 3. Nash Equilibrium: Illustrations
+15
+c. Now suppose that x∗is a Condorcet winner. Then the strategic game de-
+scribed the exercise has a unique Nash equilibrium in which both candidates
+choose x∗. This pair of actions is a Nash equilibrium because if either can-
+didate chooses a different position she loses. For any other pair of actions
+either one candidate loses, in which case that candidate can deviate to the
+position x∗and at least tie, or the candidates tie at a position different from
+x∗, in which case either of them can deviate to x∗and win.
+If there is no Condorcet winner then for every position there is another posi-
+tion preferred by a majority of voters. Thus for every pair of distinct positions
+the loser can deviate and win, and for every pair of identical positions either
+candidate can deviate and win. Thus there is no Nash equilibrium.
+76.1 Competition in product characteristics
+Suppose there are two ﬁrms. If the products are different, then either ﬁrm increases
+its market share by making its product more similar to that of its rival. Thus in
+every possible equilibrium the products are the same. But if x1 = x2̸ = m then each
+ﬁrm’s market share is 50%, while if it changes its product to be closer to m then its
+market share rises above 50%. Thus the only possible equilibrium is (x1, x2) =
+(m, m). This pair of positions is an equilibrium, since each ﬁrm’s market share is
+50%, and if either ﬁrm changes its product its market share falls below 50%.
+Now suppose there are three ﬁrms. If all ﬁrms’ products are the same, each
+obtains one-third of the market. If x1 = x2 = x3 = m then any ﬁrm, by changing
+its product a little, can obtain close to one-half of the market. If x1 = x2 = x3̸ = m
+then any ﬁrm, by changing its product a little, can obtain more than one-half of the
+market. If the ﬁrms’ products are not all the same, then at least one of the extreme
+products is different from the other two products, and the ﬁrm that produces it can
+increase its market share by making it more similar to the other products. Thus
+when there are three ﬁrms there is no Nash equilibrium.
+79.1 Direct argument for Nash equilibria of War of Attrition
+• If t1 = t2 then either player can increase her payoff by conceding slightly
+later (in which case she obtains the object for sure, rather than getting it with
+probability 1
+2).
+• If 0 < ti < tj then player i can increase her payoff by conceding at 0.
+• If 0 = ti < tj < vi then player i can increase her payoff (from 0 to almost
+vi −tj > 0) by conceding slightly after tj.
+Thus there is no Nash equilibrium in which t1 = t2, 0 < ti < tj, or 0 = ti <
+tj < vi (for i = 1 and j = 2, or i = 2 and j = 1). The remaining possibility is that
+0 = ti < tj and tj ≥vi for i = 1 and j = 2, or i = 2 and j = 1. In this case player i’s
+
+
+16
+Chapter 3. Nash Equilibrium: Illustrations
+payoff is 0, while if she concedes later her payoff is negative; player j’s payoff is vj,
+her highest possible payoff in the game.
+85.1 Second-price sealed-bid auction with two bidders
+If player 2’s bid b2 is less than v1 then any bid of b2 or more is a best response of
+player 1 (she wins and pays the price b2). If player 2’s bid is equal to v1 then every
+bid of player 1 yields her the payoff zero (either she wins and pays v1, or she loses),
+so every bid is a best response. If player 2’s bid b2 exceeds v1 then any bid of less
+than b2 is a best response of player 1. (If she bids b2 or more she wins, but pays the
+price b2 > v1, and hence obtains a negative payoff.) In summary, player 1’s best
+response function is
+B1(b2) =
+
+
+
+{b1: b1 ≥b2}
+if b2 < v1
+{b1 : b1 ≥0}
+if b2 = v1
+{b1: 0 ≤b1 < b2}
+if b2 > v1.
+By similar arguments, player 2’s best response function is
+B2(b1) =
+
+
+
+{b2: b2 > b1}
+if b1 < v2
+{b2: b2 ≥0}
+if b1 = v2.
+{b2: 0 ≤b2 ≤b1}
+if b1 > v2.
+These best response functions are shown in Figure 16.1.
+↑
+b2
+b1 →
+v1
+v2
+v1
+v2
+B1(b2)
+0
+↑
+b2
+b1 →
+v1
+v2
+v1
+v2
+B2(b1)
+Figure 16.1 The players’ best response functions in a two-player second-price sealed-bid auction (Ex-
+ercise 85.1). Player 1’s best response function is in the left panel; player 2’s is in the right panel. (Only
+the edges marked by a black line are included.)
+Superimposing the best response functions, we see that the set of Nash equi-
+libria is the shaded set in Figure 17.1, namely the set of pairs (b1, b2) such that
+either
+b1 ≤v2 and b2 ≥v1
+or
+b1 ≥v2, b1 ≥b2, and b2 ≤v1.
+
+
+Chapter 3. Nash Equilibrium: Illustrations
+17
+↑
+b2
+b1 →
+v1
+v1
+v2
+v2
+0
+Figure 17.1 The set of Nash equilibria of a two-player second-price sealed-bid auction (Exercise 85.1).
+86.2 Nash equilibrium of ﬁrst-price sealed-bid auction
+The proﬁle (b1, . . . , bn) = (v2, v2, v3, . . . , vn) is a Nash equilibrium by the following
+argument.
+• If player 1 raises her bid she still wins, but pays a higher price and hence
+obtains a lower payoff. If player 1 lowers her bid then she loses, and obtains
+the payoff of 0.
+• If any other player changes her bid to any price at most equal to v2 the out-
+come does not change. If she raises her bid above v2 she wins, but obtains a
+negative payoff.
+87.1 First-price sealed-bid auction
+A proﬁle of bids in which the two highest bids are not the same is not a Nash
+equilibrium because the player naming the highest bid can reduce her bid slightly,
+continue to win, and pay a lower price.
+By the argument in the text, in any equilibrium player 1 wins the object. Thus
+she submits one of the highest bids.
+If the highest bid is less than v2, then player 2 can increase her bid to a value
+between the highest bid and v2, win, and obtain a positive payoff. Thus in an
+equilibrium the highest bid is at least v2.
+If the highest bid exceeds v1, player 1’s payoff is negative, and she can in-
+crease this payoff by reducing her bid. Thus in an equilibrium the highest bid
+is at most v1.
+Finally, any proﬁle (b1, . . . , bn) of bids that satisﬁes the conditions in the exer-
+cise is a Nash equilibrium by the following argument.
+
+
+18
+Chapter 3. Nash Equilibrium: Illustrations
+• If player 1 increases her bid she continues to win, and reduces her payoff.
+If player 1 decreases her bid she loses and obtains the payoff 0, which is at
+most her payoff at (b1, . . . , bn).
+• If any other player increases her bid she either does not affect the outcome,
+or wins and obtains a negative payoff. If any other player decreases her bid
+she does not affect the outcome.
+89.1 All-pay auctions
+Second-price all-pay auction with two bidders: The payoff function of bidder i is
+ui(b1, b2) =
+ −bi
+if bi < bj
+vi −bj
+if bi > bj,
+with u1(b, b) = v1 −b and u2(b, b) = −b for all b. This payoff function differs from
+that of player i in the War of Attrition only in the payoffs when the bids are equal.
+The set of Nash equilibria of the game is the same as that for the War of Attrition:
+the set of all pairs (0, b2) where b2 ≥v1 and (b1, 0) where b1 ≥v2. (The pair (b, b)
+of actions is not a Nash equilibrium for any value of b because player 2 can increase
+her payoff by either increasing her bid slightly or by reducing it to 0.)
+First-price all-pay auction with two bidders: In any Nash equilibrium the two
+highest bids are equal, otherwise the player with the higher bid can increase her
+payoff by reducing her bid a little (keeping it larger than the other player’s bid).
+But no proﬁle of bids in which the two highest bids are equal is a Nash equilibrium,
+because the player with the higher index who submits this bid can increase her
+payoff by slightly increasing her bid, so that she wins rather than loses.
+90.1 Multiunit auctions
+Discriminatory auction
+To show that the action of bidding vi and wi is not domi-
+nant for player i, we need only ﬁnd actions for the other players and alterna-
+tive bids for player i such that player i’s payoff is higher under the alternative
+bids than it is under the vi and wi, given the other players’ actions. Suppose
+that each of the other players submits two bids of 0. Then if player i submits
+one bid between 0 and vi and one bid between 0 and wi she still wins two
+units, and pays less than when she bids vi and wi.
+Uniform-price auction
+Suppose that some bidder other than i submits one bid
+between wi and vi and one bid of 0, and all the remaining bidders submit
+two bids of 0. Then bidder i wins one unit, and pays the price wi. If she
+replaces her bid of wi with a bid between 0 and wi then she pays a lower
+price, and hence is better off.
+
+
+Chapter 3. Nash Equilibrium: Illustrations
+19
+Vickrey auction
+Suppose that player i bids vi and wi. Consider separately the
+cases in which the bids of the players other than i are such that player i wins
+0, 1, and 2 units.
+Player i wins 0 units: In this case the second highest of the other players’
+bids is at least vi, so that if player i changes her bids so that she wins
+one or more units, for any unit she wins she pays at least vi. Thus no
+change in her bids increases her payoff from its current value of 0 (and
+some changes lower her payoff).
+Player i wins 1 unit: If player i raises her bid of vi then she still wins one unit
+and the price remains the same. If she lowers this bid then either she still
+wins and pays the same price, or she does not win any units. If she raises
+her bid of wi then either the outcome does not change, or she wins a sec-
+ond unit. In the latter case the price she pays is the previously-winning
+bid she beat, which is at least wi, so that her payoff either remains zero
+or becomes negative.
+Player i wins 2 units: Player i’s raising either of her bids has no effect on the
+outcome; her lowering a bid either has no effect on the outcome or leads
+her to lose rather than to win, leading her to obtain the payoff of zero.
+90.3 Internet pricing
+The situation may be modeled as a multiunit auction in which k units are available,
+and each player attaches a positive value to only one unit and submits a bid for
+only one unit. The k highest bids win, and each winner pays the (k + 1)st highest
+bid.
+By a variant of the argument for a second-price auction, in which “highest of
+the other players’ bids” is replaced by “highest rejected bid”, each player’s action
+of bidding her value is weakly dominates all her other actions.
+96.2 Alternative standards of care under negligence with contributory negligence
+First consider the case in which X1 = ˆa1 and X2 ≤ˆa2. The pair (ˆa1, ˆa2) is a Nash
+equilibrium by the following argument.
+If a2 = ˆa2 then the victim’s level of care is sufﬁcient (at least X2), so that the
+injurer’s payoff is given by (94.1) in the text. Thus the argument that the injurer’s
+action ˆa1 is a best response to ˆa2 is exactly the same as the argument for the case
+X2 = ˆa2 in the text.
+Since X1 is the same as before, the victim’s payoff is the same also, so that by
+the argument in the text the victim’s best response to ˆa1 is ˆa2. Thus (ˆa1, ˆa2) is a
+Nash equilibrium.
+To show that (ˆa1, ˆa2) is the only Nash equilibrium of the game, we study the
+players’ best response functions. First consider the injurer’s best response func-
+tion. As in the text, we split the analysis into three cases.
+
+
+20
+Chapter 3. Nash Equilibrium: Illustrations
+a2 < X2: In this case the injurer does not have to pay any compensation, re-
+gardless of her level of care; her payoff is −a1, so that her best response is
+a1 = 0.
+a2 = X2: In this case the injurer’s best response is ˆa1, as argued when showing
+that (ˆa1, ˆa2) is a Nash equilibrium.
+a2 > X2: In this case the injurer’s best response is at most ˆa1, since her payoff
+is equal to −a1 for larger values of a1.
+Thus the injurer’s best response takes a form like that shown in the left panel
+of Figure 20.1. (In fact, b1(a2) = ˆa1 for X2 ≤a2 ≤ˆa2, but the analysis depends only
+on the fact that b1(a2) ≤ˆa1 for a2 > X2.)
+0
+ˆa2
+X2
+ˆa1
+a1 →
+↑
+a2
+b1(a2)
+0
+X2
+ˆa1
+a1 →
+↑
+a2
+?
+b2(a1)
+Figure 20.1 The players’ best response functions under the rule of negligence with contributory negli-
+gence when X1 = ˆa1 and X2 = ˆa2. Left panel: the injurer’s best response function b1. Right panel: the
+victim’s best response function b2. (The position of the victim’s best response function for a1 > ˆa1 is
+not signiﬁcant, and is not determined in the solution.)
+Now consider the victim’s best response function. The victim’s payoff function
+is
+u2(a1, a2) =
+ −a2
+if a1 < ˆa1 and a2 ≥X2
+−a2 −L(a1, a2)
+if a1 ≥ˆa1 or a2 < X2.
+As before, for a1 < ˆa1 we have −a2 −L(a1, a2) < −ˆa2 for all a2, so that the victim’s
+best response is X2. As in the text, the nature of the victim’s best responses to levels
+of care a1 for which a1 > ˆa1 are not signiﬁcant.
+Combining the two best response functions we see that (ˆa1, ˆa2) is the unique
+Nash equilibrium of the game.
+Now consider the case in which X1 = M and a2 = ˆa2, where M ≥ˆa1. The
+injurer’s payoff is
+u1(a1, a2) =
+ −a1 −L(a1, a2)
+if a1 < M and a2 ≥ˆa2
+−a1
+if a1 ≥M or a2 < ˆa2.
+Now, the maximizer of −a1 −L(a1, ˆa2) is ˆa1 (see the argument following (94.1) in
+the text), so that if M is large enough then the injurer’s best response to ˆa2 is ˆa1.
+As before, if a2 < ˆa2 then the injurer’s best response is 0, and if a2 > ˆa2 then the
+
+
+Chapter 3. Nash Equilibrium: Illustrations
+21
+0
+ˆa2
+ˆa1 M
+a1 →
+↑
+a2
+b1(a2)
+0
+ˆa2
+ˆa1 M
+a1 →
+↑
+a2
+?
+b2(a1)
+Figure 21.1 The players’ best response functions under the rule of negligence with contributory negli-
+gence when (X1, X2) = (M, ˆa2), with M ≥ˆa1. Left panel: the injurer’s best response function b1. Right
+panel: the victim’s best response function b2. (The position of the victim’s best response function for
+a1 > M is not signiﬁcant, and is not determined in the text.)
+injurer’s payoff decreases for a1 > M, so that her best response is less than M. The
+injurer’s best response function is shown in the left panel of Figure 21.1.
+The victim’s payoff is
+u2(a1, a2) =
+ −a2
+if a1 < M and a2 ≥ˆa2
+−a2 −L(a1, a2)
+if a1 ≥M or a2 < ˆa2.
+If a1 ≤ˆa1 then the victim’s best response is ˆa2 by the same argument as the one in
+the text. If a1 is such that ˆa1 < a1 < M then the victim’s best response is at most
+ˆa2 (since her payoff is decreasing for larger values of a2). This information about
+the victim’s best response function is recorded in the right panel of Figure 21.1; it
+is sufﬁcient to deduce that (ˆa1, ˆa2) is the unique Nash equilibrium of the game.
+
+
+4
+Mixed Strategy Equilibrium
+101.1 Variant of Matching Pennies
+The analysis is the same as for Matching Pennies. There is a unique steady state, in
+which each player chooses each action with probability 1
+2.
+106.2 Extensions of BoS with vNM preferences
+In the ﬁrst case, when player 1 is indifferent between going to her less preferred
+concert in the company of player 2 and the lottery in which with probability 1
+2 she
+and player 2 go to different concerts and with probability 1
+2 they both go to her
+more preferred concert, the Bernoulli payoffs that represent her preferences satisfy
+the condition
+u1(S, S) = 1
+2u1(S, B) + 1
+2u1(B, B).
+If we choose u1(S, B) = 0 and u1(B, B) = 2, then u1(S, S) = 1. Similarly, for
+player 2 we can set u2(B, S) = 0, u2(S, S) = 2, and u2(B, B) = 1. Thus the Bernoulli
+payoffs in the left panel of Figure 23.1 are consistent with the players’ preferences.
+In the second case, when player 1 is indifferent between going to her less pre-
+ferred concert in the company of player 2 and the lottery in which with probabil-
+ity 3
+4 she and player 2 go to different concerts and with probability 1
+4 they both go
+to her more preferred concert, the Bernoulli payoffs that represent her preferences
+satisfy the condition
+u1(S, S) = 3
+4u1(S, B) + 1
+4u1(B, B).
+If we choose u1(S, B) = 0 and u1(B, B) = 2 (as before), then u1(S, S) = 1
+2. Similarly,
+for player 2 we can set u2(B, S) = 0, u2(S, S) = 2, and u2(B, B) = 1
+2. Thus the
+Bernoulli payoffs in the right panel of Figure 23.1 are consistent with the players’
+preferences.
+Bach
+Stravinsky
+Bach
+2, 1
+0, 0
+Stravinsky
+0, 0
+1, 2
+Bach
+Stravinsky
+Bach
+2, 1
+2
+0, 0
+Stravinsky
+0, 0
+1
+2, 2
+Figure 23.1 The Bernoulli payoffs for two extensions of BoS.
+23
+
+
+24
+Chapter 4. Mixed Strategy Equilibrium
+↑
+Player 1’s
+expected payoff
+2
+q = 1
+1
+2
+1
+q = 1
+2
+1
+q = 0
+0
+1
+p →
+Figure 24.1 Player 1’s expected payoff as a function of the probability p that she assigns to B in BoS,
+when the probability q that player 2 assigns to B is 0, 1
+2 , and 1.
+110.1 Expected payoffs
+For BoS, player 1’s expected payoff is shown in Figure 24.1.
+For the game in the right panel of Figure 21.1 in the book, player 1’s expected
+payoff is shown in Figure 24.2.
+↑
+Player 1’s
+expected payoff
+3
+2
+q = 1
+3
+2
+q = 1
+2
+1
+q = 0
+0
+1
+p →
+Figure 24.2 Player 1’s expected payoff as a function of the probability p that she assigns to Refrain in
+the game in the right panel of Figure 21.1 in the book, when the probability q that player 2 assigns to
+Refrain is 0, 1
+2 , and 1.
+111.1 Examples of best responses
+For BoS: for q = 0 player 1’s unique best response is p = 0 and for q = 1
+2 and q = 1
+her unique best response is p = 1. For the game in the right panel of Figure 21.1:
+for q = 0 player 1’s unique best response is p = 0, for q =
+1
+2 her set of best
+responses is the set of all her mixed strategies (all values of p), and for q = 1 her
+unique best response is p = 1.
+
+
+Chapter 4. Mixed Strategy Equilibrium
+25
+114.1 Mixed strategy equilibrium of Hawk–Dove
+Denote by ui a payoff function whose expected value represents player i’s prefer-
+ences. The conditions in the problem imply that for player 1 we have
+u1(Passive, Passive) = 1
+2u1(Aggressive, Aggressive) + 1
+2u1(Aggressive, Passive)
+and
+u1(Passive, Aggressive) = 2
+3u1(Aggressive, Aggressive) + 1
+3u1(Passive, Passive).
+Given u1(Aggressive, Aggressive) = 0 and u1(Passive, Aggressive = 1, we have
+u1(Passive, Passive) = 1
+2u1(Aggressive, Passive)
+and
+1 = 1
+3u1(Passive, Passive),
+so that
+u1(Passive, Passive) = 3 and u1(Aggressive, Passive) = 6.
+Similarly,
+u2(Passive, Passive) = 3 and u2(Passive, Aggressive) = 6.
+Thus the game is given in the left panel of Figure 25.1. The players’ best re-
+sponse functions are shown in the right panel. The game has three mixed strategy
+Nash equilibria: ((0, 1), (1, 0)), (( 3
+4, 1
+4), ( 3
+4, 1
+4)), and ((1, 0), (0, 1)).
+Aggressive
+Passive
+Aggressive
+0, 0
+6, 1
+Passive
+1, 6
+3, 3
+0
+3
+4
+1
+p →
+3
+4
+1
+↑
+q
+B1
+B2
+Figure 25.1 An extension of Hawk–Dove (left panel) and the players’ best response functions when
+randomization is allowed in this game (right panel). The probability that player 1 assigns to Aggressive
+is p and the probability that player 2 assigns to Aggressive is q. The disks indicate the Nash equilibria
+(two pure, one mixed).
+
+
+26
+Chapter 4. Mixed Strategy Equilibrium
+117.2 Choosing numbers
+a. To show that the pair of mixed strategies in the question is a mixed strategy
+equilibrium, it sufﬁces to verify the conditions in Proposition 116.2. Thus,
+given that each player’s strategy speciﬁes a positive probability for every
+action, it sufﬁces to show that each action of each player yields the same
+expected payoff. Player 1’s expected payoff to each pure strategy is 1/K,
+because with probability 1/K player 2 chooses the same number, and with
+probability 1 −1/K player 2 chooses a different number. Similarly, player 2’s
+expected payoff to each pure strategy is −1/K, because with probability 1/K
+player 1 chooses the same number, and with probability 1 −1/K player 2
+chooses a different number. Thus the pair of strategies is a mixed strategy
+Nash equilibrium.
+b. Let (p∗, q∗) be a mixed strategy equilibrium, where p∗and q∗are vectors,
+the jth components of which are the probabilities assigned to the integer j
+by each player. Given that player 2 uses the mixed strategy q∗, player 1’s
+expected payoff if she chooses the number k is q∗
+k. Hence if p∗
+k > 0 then (by
+the ﬁrst condition in Proposition 116.2) we need q∗
+k ≥q∗
+j for all j, so that, in
+particular, q∗
+k > 0 (q∗
+j cannot be zero for all j!). But player 2’s expected payoff
+if she chooses the number k is −p∗
+k, so given q∗
+k > 0 we need p∗
+k ≤p∗
+j for all
+j (again by the ﬁrst condition in Proposition 116.2), and, in particular, p∗
+k ≤
+1/K (p∗
+j cannot exceed 1/K for all j!). We conclude that any probability p∗
+k
+that is positive must be at most 1/K. The only possibility is that p∗
+k = 1/K
+for all k. A similar argument implies that q∗
+k = 1/K for all k.
+120.2 Strictly dominating mixed strategies
+Denote the probability that player 1 assigns to T by p and the probability she as-
+signs to M by r (so that the probability she assigns to B is 1 −p −r). A mixed
+strategy of player 1 strictly dominates T if and only if
+p + 4r > 1
+and
+p + 3(1 −p −r) > 1,
+or if and only if 1 −4r < p < 1 −3
+2r. For example, the mixed strategies ( 1
+4, 1
+4, 1
+2)
+and (0, 1
+3, 2
+3) both strictly dominate T.
+120.3 Strict domination for mixed strategies
+(a) True. Suppose that the mixed strategy α′
+i assigns positive probability to the
+action a′
+i, which is strictly dominated by the action ai. Then ui(ai, a−i) > ui(a′
+i, a−i)
+for all a−i. Let αi be the mixed strategy that differs from α′
+i only in the weight that α′
+i
+assigns to a′
+i is transferred to ai. That is, αi is deﬁned by αi(a′
+i) = 0, αi(ai) = α′
+i(a′
+i) +
+α′
+i(ai), and αi(bi) = α′
+i(bi) for every other action bi. Then αi strictly dominates α′
+i:
+for any a−i we have U(αi, a−i) −U(α′
+i, a−i) = α′
+i(a′
+i)(u(ai, a−i) −ui(a′
+i, a−i)) > 0.
+
+
+Chapter 4. Mixed Strategy Equilibrium
+27
+(b) False. Consider a variant of the game in Figure 120.1 in the text in which
+player 1’s payoffs to (T, L) and to (T, R) are both 5
+2 instead of 1. Then player 1’s
+mixed strategy that assigns probability 1
+2 to M and probability 1
+2 to B is strictly
+dominated by T, even though neither M nor B is strictly dominated.
+127.1 Equilibrium in the expert diagnosis game
+When E = rE′ + (1 −r)I′ the consumer is indifferent between her two actions
+when p = 0, so that her best response function has a vertical segment at p = 0.
+Referring to Figure 126.1 in the text, we see that the set of mixed strategy Nash
+equilibria correspond to p = 0 and π/π′ ≤q ≤1.
+130.3 Bargaining
+The game is given in Figure 27.1.
+0
+2
+4
+6
+8
+10
+0
+5, 5
+4, 6
+3, 7
+2, 8
+1, 9
+0, 10
+2
+6, 4
+5, 5
+4, 6
+3, 7
+2, 8
+0, 0
+4
+7, 3
+6, 4
+5, 5
+4, 6
+0, 0
+0, 0
+6
+8, 2
+7, 3
+6, 4
+0, 0
+0, 0
+0, 0
+8
+9, 1
+8, 2
+0, 0
+0, 0
+0, 0
+0, 0
+10
+10, 0
+0, 0
+0, 0
+0, 0
+0, 0
+0, 0
+Figure 27.1 A bargaining game.
+By inspection it has a single symmetric pure strategy Nash equilibrium,
+(10, 10).
+Now consider situations in which the common mixed strategy assigns positive
+probability to two actions. Suppose that player 2 assigns positive probability only
+to 0 and 2. Then player 1’s payoff to her action 4 exceeds her payoff to either 0 or
+2. Thus there is no symmetric equilibrium in which the actions assigned positive
+probability are 0 and 2. By a similar argument we can rule out equilibria in which
+the actions assigned positive probability are any pair except 2 and 8, or 4 and 6.
+If the actions to which player 2 assigns positive probability are 2 and 8 then
+player 1’s expected payoffs to 2 and 8 are the same if the probability player 2 as-
+signs to 2 is 2
+5 (and the probability she assigns to 8 is 3
+5). Given these probabilities,
+player 1’s expected payoff to her actions 2 and 8 is 16
+5 , and her expected payoff to
+every other action is less than 16
+5 . Thus the pair of mixed strategies in which every
+player assigns probability 2
+5 to 2 and 3
+5 to 8 is a symmetric mixed strategy Nash
+equilibrium.
+Similarly, the game has a symmetric mixed strategy equilibrium (α∗, α∗) in
+which α∗assigns probability 4
+5 to the demand of 4 and probability 1
+5 to the demand
+of 6.
+
+
+28
+Chapter 4. Mixed Strategy Equilibrium
+In summary, the game has three symmetric mixed strategy Nash equilibria in
+which each player’s strategy assigns positive probability to at most two actions:
+one in which probability 1 is assigned to 10, one in which probability 2
+5 is assigned
+to 2 and probability 3
+5 is assigned to 8, and one in which probability 4
+5 is assigned
+to 4 and probability 1
+5 is assigned to 6.
+132.2 Reporting a crime when the witnesses are heterogeneous
+Denote by pi the probability with which each witness with cost ci reports the crime,
+for i = 1, 2. For each witness with cost c1 to report with positive probability less
+than one, we need
+v −c1 = v · Pr{at least one other person calls}
+= v
+
+1 −(1 −p1)n1−1(1 −p2)n2
+
+,
+or
+c1 = v(1 −p1)n1−1(1 −p2)n2.
+(28.1)
+Similarly, for each witness with cost c2 to report with positive probability less than
+one, we need
+v −c2 = v · Pr{at least one other person calls}
+= v
+
+1 −(1 −p1)n1(1 −p2)n2−1
+,
+or
+c2 = v(1 −p1)n1(1 −p2)n2−1.
+(28.2)
+Dividing (28.1) by (28.2) we obtain
+1 −p2 = c1(1 −p1)/c2.
+Substituting this expression for 1 −p2 into (28.1) we get
+p1 = 1 −
+c1
+v ·
+c2
+c1
+n21/(n−1)
+.
+Similarly,
+p2 = 1 −
+c2
+v ·
+c1
+c2
+n11/(n−1)
+.
+For these two numbers to be probabilities, we need each of them to be nonnegative
+and at most one, which requires
+ 
+cn2
+2
+v
+!1/(n2−1)
+< c1 <
+
+vcn1−1
+2
+1/n1 .
+
+
+Chapter 4. Mixed Strategy Equilibrium
+29
+136.1 Best response dynamics in Cournot’s duopoly game
+The best response functions of both ﬁrms are the same, so if the ﬁrms’ outputs are
+initially the same, they are the same in every period: qt
+1 = qt
+2 for every t. For each
+period t, we thus have
+qt
+i = 1
+2(α −c −qt
+i).
+Given that q1
+i = 0 for i = 1, 2, solving this ﬁrst-order difference equation we have
+qt
+i = 1
+3(α −c)[1 −(−1
+2)t−1]
+for each period t. When t is large, qt
+i is close to 1
+3(α −c), a ﬁrm’s equilibrium
+output.
+In the ﬁrst few periods, these outputs are 0, 1
+2(α −c), 1
+4(α −c), 3
+8(α −c), 5
+16(α −
+c).
+139.1 Finding all mixed strategy equilibria of two-player games
+Left game:
+• There is no equilibrium in which each player’s mixed strategy assigns posi-
+tive probability to a single action (i.e. there is no pure equilibrium).
+• Consider the possibility of an equilibrium in which one player assigns prob-
+ability 1 to a single action while the other player assigns positive probability
+to both her actions. For neither action of player 1 is player 2’s payoff the same
+for both her actions, and for neither action of player 2 is player 1’s payoff the
+same for both her actions, so there is no mixed strategy equilibrium of this
+type.
+• Consider the possibility of a mixed strategy equilibrium in which each player
+assigns positive probability to both her actions. Denote by p the probability
+player 1 assigns to T and by q the probability player 2 assigns to L. For
+player 1’s expected payoff to her two actions to be the same we need
+6q = 3q + 6(1 −q),
+or q = 2
+3. For player 2’s expected payoff to her two actions to be the same we
+need
+2(1 −p) = 6p,
+or p = 1
+4. We conclude that the game has a unique mixed strategy equilib-
+rium, (( 1
+4, 3
+4), ( 2
+3, 1
+3)).
+Right game:
+• By inspection, (T, R) and (B, L) are the pure strategy equilibria.
+
+
+30
+Chapter 4. Mixed Strategy Equilibrium
+• Consider the possibility of a mixed strategy equilibrium in which one player
+assigns probability 1 to a single action while the other player assigns positive
+probability to both her actions.
+◦{T} for player 1, {L, R} for player 2: no equilibrium, because player 2’s
+payoffs to (T, L) and (T, R) are not the same.
+◦{B} for player 1, {L, R} for player 2: no equilibrium, because player 2’s
+payoffs to (B, L) and (B, R) are not the same.
+◦{T, B} for player 1, {L} for player 2: no equilibrium, because player 1’s
+payoffs to (T, L) and (B, L) are not the same.
+◦{T, B} for player 1, {R} for player 2: player 1’s payoffs to (T, R) and
+(B, R) are the same, so there is an equilibrium in which player 1 uses T
+with probability p if player 2’s expected payoff to R, which is 2p + 1 −p,
+is at least her expected payoff to L, which is p + 2(1 −p). That is, the
+game has equilibria in which player 1’s mixed strategy is (p, 1 −p), with
+p ≥1
+2, and player 2 uses R with probability 1.
+• Consider the possibility of an equilibrium in which both players assign posi-
+tive probability to both their actions. Denote by q the probability that player 2
+assigns to L. For player 1’s expected payoffs to T and B to be the same we
+need 0 = 2q, or q = 0, so there is no equilibrium in which both players assign
+positive probability to both their actions.
+In summary, the mixed strategy equilibria of the game are ((0, 1), (1, 0)) (i.e.
+the pure equilibrium (B, L)) and ((p, 1 −p), (0, 1)) for 1
+2 ≤p ≤1 (of which one
+equilibrium is the pure equilibrium (T, R)).
+145.1 All-pay auction with many bidders
+Denote the common mixed strategy by F. Look for an equilibrium in which the
+largest value of z for which F(z) = 0 is 0 and the smallest value of z for which
+F(z) = 1 is z = K.
+A player who bids ai wins if and only if the other n −1 players all bid less than
+she does, an event with probability (F(ai))n−1. Thus, given that the probability
+that she ties for the highest bid is zero, her expected payoff is
+(K −ai)(F(ai))n−1 + (−ai)(1 −(F(ai))n−1).
+Given the form of F, for an equilibrium this expected payoff must be constant
+for all values of ai with 0 ≤ai ≤K. That is, for some value of c we have
+K(F(ai))n−1 −ai = c for all 0 ≤ai ≤K.
+For F(0) = 0 we need c = 0, so that F(ai) = (ai/K)1/(n−1) is the only candidate
+for an equilibrium strategy.
+
+
+Chapter 4. Mixed Strategy Equilibrium
+31
+The function F is a cumulative probability distribution on the interval from 0 to
+K because F(0) = 0, F(K) = 1, and F is increasing. Thus F is indeed an equilibrium
+strategy.
+We conclude that the game has a mixed strategy Nash equilibrium in which
+each player randomizes over all her actions according to the probability distribu-
+tion F(ai) = (ai/K)1/(n−1); each player’s equilibrium expected payoff is 0.
+Each player’s mean bid is K/n.
+147.2 Preferences over lotteries
+The ﬁrst piece of information about the decision-maker’s preferences among lot-
+teries is consistent with her preferences being represented by the expected value
+of a payoff function: set u(a1) = 0, u(a2) equal to any number between 1
+2 and 1
+4,
+and u(a3) = 1.
+The second piece of information about the decision-maker’s preferences is not
+consistent with these preferences being represented by the expected value of a pay-
+off function, by the following argument. For consistency with the information
+about the decision-maker’s preferences among the four lotteries, we need
+0.4u(a1) + 0.6u(a3) > 0.5u(a2) + 0.5u(a3) >
+0.3u(a1) + 0.2u(a2) + 0.5u(a3) > 0.45u(a1) + 0.55u(a3).
+The ﬁrst inequality implies u(a2) < 0.8u(a1) + 0.2u(a3) and the last inequality im-
+plies u(a2) > 0.75u(a1) + 0.25u(a3). Because u(a1) < u(a3), we have 0.75u(a1) +
+0.25u(a3) > 0.8u(a1) + 0.2u(a3), so that the two inequalities are incompatible.
+149.2 Normalized vNM payoff functions
+Let a be the best outcome according to her preferences and let a be the worse out-
+come. Let η = −u(a)/(u(a) −u(a)) and θ = 1/(u(a) −u(a)) > 0. Lemma 148.1
+implies that the function v deﬁned by v(x) = η + θu(x) represents the same
+preferences as does u; we have v(a) = 0 and v(a) = 1.
+
+
+5
+Extensive Games with Perfect Information:
+Theory
+163.1 Nash equilibria of extensive games
+The strategic form of the game in Exercise 156.2a is given in Figure 33.1.
+EG
+EH
+FG
+FH
+C
+1, 0
+1, 0
+3, 2
+3, 2
+D
+2, 3
+0, 1
+2, 3
+0, 1
+Figure 33.1 The strategic form of the game in Exercise 156.2a.
+The Nash equilibria of the game are (C, FG), (C, FH), and (D, EG).
+The strategic form of the game in Figure 160.1 is given in Figure 33.2.
+E
+F
+CG
+1, 2
+3, 1
+CH
+0, 0
+3, 1
+DG
+2, 0
+2, 0
+DH
+2, 0
+2, 0
+Figure 33.2 The strategic form of the game in Figure 160.1.
+The Nash equilibria of the game are (CH, F), (DG, E), and (DH, E).
+164.2 Subgames
+The subgames of the game in Exercise 156.2c are the whole game and the six games
+in Figure 34.1.
+168.1 Checking for subgame perfect equilibria
+The Nash equilibria (CH, F) and (DH, E) are not subgame perfect equilibria: in the
+subgame following the history (C, E), player 1’s strategies CH and DH induce the
+strategy H, which is not optimal.
+The Nash equilibrium (DG, E) is a subgame perfect equilibrium: (a) it is a
+Nash equilibrium, so player 1’s strategy is optimal at the start of the game, given
+player 2’s strategy, (b) in the subgame following the history C, player 2’s strategy
+E induces the strategy E, which is optimal given player 1’s strategy, and (c) in the
+subgame following the history (C, E), player 1’s strategy DG induces the strategy
+G, which is optimal.
+33
+
+
+34
+Chapter 5. Extensive Games with Perfect Information: Theory
+H
+B
+R
+H
+0, 0, 0
+B
+1, 2, 1
+E
+H
+2, 1, 2
+B
+0, 0, 0
+E
+H
+B
+E
+H
+0, 0, 0
+B
+1, 2, 1
+R
+H
+2, 1, 2
+B
+0, 0, 0
+R
+H
+0, 0, 0
+B
+1, 2, 1
+E
+H
+2, 1, 2
+B
+0, 0, 0
+E
+H
+0, 0, 0
+B
+1, 2, 1
+R
+H
+2, 1, 2
+B
+0, 0, 0
+R
+Figure 34.1 The proper subgames of the game in Exercise 156.2c.
+174.1 Sharing heterogeneous objects
+Let n = 2 and k = 3, and call the objects a, b, and c. Suppose that the values
+person 1 attaches to the objects are 3, 2, and 1 respectively, while the values player 2
+attaches are 1, 3, 2. If player 1 chooses a on the ﬁrst round, then in any subgame
+perfect equilibrium player 2 chooses b, leaving player 1 with c on the second round.
+If instead player 1 chooses b on the ﬁrst round, in any subgame perfect equilibrium
+player 2 chooses c, leaving player 1 with a on the second round. Thus in every
+subgame perfect equilibrium player 1 chooses b on the ﬁrst round (though she
+values a more highly.)
+Now I argue that for any preferences of the players, G(2, 3) has a subgame
+perfect equilibrium of the type described in the exercise. For any object chosen
+by player 1 in round 1, in any subgame perfect equilibrium player 2 chooses her
+favorite among the two objects remaining in round 2. Thus player 2 never obtains
+the object she least prefers; in any subgame perfect equilibrium, player 1 obtains
+that object. Player 1 can ensure she obtains her more preferred object of the two
+remaining by choosing that object on the ﬁrst round. That is, there is a subgame
+perfect equilibrium in which on the ﬁrst round player 1 chooses her more preferred
+object out of the set of objects excluding the object player 2 least prefers, and on
+the last round she obtains x3. In this equilibrium, player 2 obtains the object less
+preferred by player 1 out of the set of objects excluding the object player 2 least
+prefers. That is, player 2 obtains x2. (Depending on the players’ preferences, the
+game also may have a subgame perfect equilibrium in which player 1 chooses x3
+on the ﬁrst round.)
+177.3 Comparing simultaneous and sequential games
+a. Denote by (a∗
+1, a∗
+2) a Nash equilibrium of the strategic game in which player
+1’s payoff is maximal in the set of Nash equilibria. Because (a∗
+1, a∗
+2) is a Nash
+equilibrium, a∗
+2 is a best response to a∗
+1. By assumption, it is the only best
+
+
+Chapter 5. Extensive Games with Perfect Information: Theory
+35
+response to a∗
+1. Thus if player 1 chooses a∗
+1 in the extensive game, player 2
+must choose a∗
+2 in any subgame perfect equilibrium of the extensive game.
+That is, by choosing a∗
+1, player 1 is assured of a payoff of at least u1(a∗
+1, a∗
+2).
+Thus in any subgame perfect equilibrium player 1’s payoff must be at least
+u1(a∗
+1, a∗
+2).
+b. Suppose that A1 = {T, B}, A2 = {L, R}, and the payoffs are those given
+in Figure 35.1. The strategic game has a unique Nash equilibrium, (T, L),
+in which player 2’s payoff is 1. The extensive game has a unique subgame
+perfect equilibrium, (B, LR) (where the ﬁrst component of player 2’s strategy
+is her action after the history T and the second component is her action after
+the history B). In this subgame perfect equilibrium player 2’s payoff is 2.
+L
+R
+T
+1, 1
+3, 0
+B
+0, 0
+2, 2
+Figure 35.1 The payoffs for the example in Exercise 177.3b.
+c. Suppose that A1 = {T, B}, A2 = {L, R}, and the payoffs are those given in
+Figure 35.2. The strategic game has a unique Nash equilibrium, (T, L), in
+which player 2’s payoff is 2. A subgame perfect equilibrium of the exten-
+sive game is (B, RL) (where the ﬁrst component of player 2’s strategy is her
+action after the history T and the second component is her action after the
+history B). In this subgame perfect equilibrium player 1’s payoff is 1. (If you
+read Chapter 4, you can ﬁnd the mixed strategy Nash equilibria of the strate-
+gic game; in all these equilibria, as in the pure strategy Nash equilibrium,
+player 1’s expected payoff exceeds 1.)
+L
+R
+T
+2, 2
+0, 2
+B
+1, 1
+3, 0
+Figure 35.2 The payoffs for the example in Exercise 177.3c.
+179.3 Three Men’s Morris, or Mill
+Number the squares 1 through 9, starting at the top left, working across each row.
+The following strategy of player 1 guarantees she wins, so that the subgame perfect
+equilibrium outcome is that she wins. First player 1 chooses the central square (5).
+• Suppose player 2 then chooses a corner; take it to be square 1. Then player 1
+chooses square 6. Now player 2 must choose square 4 to avoid defeat; player
+1 must choose square 7 to avoid defeat; and then player 2 must choose square
+
+
+36
+Chapter 5. Extensive Games with Perfect Information: Theory
+3 to avoid defeat (otherwise player 1 can move from square 6 to square 3
+on her next turn). If player 1 now moves from square 6 to square 9, then
+whatever player 2 does she can subsequently move her counter from square
+5 to square 8 and win.
+• Suppose player 2 then chooses a noncorner; take it to be square 2. Then
+player 1 chooses square 7. Now player 2 must choose square 3 to avoid
+defeat; player 1 must choose square 1 to avoid defeat; and then player 2 must
+choose square 4 to avoid defeat (otherwise player 1 can move from square 5
+to square 4 on her next turn). If player 1 now moves from square 7 to square
+8, then whatever player 2 does she can subsequently move from square 8 to
+square 9 and win.
+
+
+6
+Extensive Games with Perfect Information:
+Illustrations
+183.1 Nash equilibria of the ultimatum game
+For every amount x there are Nash equilibria in which person 1 offers x. For exam-
+ple, for any value of x there is a Nash equilibrium in which person 1’s strategy is
+to offer x and person 2’s strategy is to accept x and any offer more favorable, and
+reject every other offer. (Given person 2’s strategy, person 1 can do no better than
+offer x. Given person 1’s strategy, person 2 should accept x; whether person 2 ac-
+cepts or rejects any other offer makes no difference to her payoff, so that rejecting
+all less favorable offers is, in particular, optimal.)
+183.2 Subgame perfect equilibria of the ultimatum game with indivisible units
+In this case each player has ﬁnitely many actions, and for both possible subgame
+perfect equilibrium strategies of player 2 there is an optimal strategy for player 1.
+If player 2 accepts all offers then player 1’s best strategy is to offer 0, as before.
+If player 2 accepts all offers except 0 then player 1’s best strategy is to offer one
+cent (which player 2 accepts).
+Thus the game has two subgame perfect equilibria: one in which player 1 offers
+0 and player 2 accepts all offers, and one in which player 1 offers one cent and
+player 2 accepts all offers except 0.
+186.1 Holdup game
+The game is deﬁned as follows.
+Players
+Two people, person 1 and person 2.
+Terminal histories
+The set of all sequences (low, x, Z), where x is a number with
+0 ≤x ≤cL (the amount of money that person 1 offers to person 2 when the
+pie is small), and (high, x, Z), where x is a number with 0 ≤x ≤cH (the
+amount of money that person 1 offers to person 2 when the pie is large) and
+Z is either Y (“yes, I accept”) or N (“no, I reject”).
+Player function
+P(∅) = 2, P(low) = P(high) = 1, and P(low, x) = P(high, x) =
+2 for all x.
+Preferences
+Person 1’s preferences are represented by payoffs equal to the
+amounts of money she receives, equal to cL −x for any terminal history
+(low, x, Y) with 0 ≤x ≤cL, equal to cH −x for any terminal history
+37
+
+
+38
+Chapter 6. Extensive Games with Perfect Information: Illustrations
+(high, x, Y) with 0 ≤x ≤cH, and equal to 0 for any terminal history
+(low, x, N) with 0 ≤x ≤cL and for any terminal history (high, x, N) with
+0 ≤x ≤cH. Person 2’s preferences are represented by payoffs equal to x −L
+for the terminal history (low, x, Y), x −H for the terminal history (high, x, Y),
+−L for the terminal history (low, x, N), and −H for the terminal history
+(high, x, N).
+189.1 Stackelberg’s duopoly game with quadratic costs
+From Exercise 59.1, the best response function of ﬁrm 2 is the function b2 deﬁned
+by
+b2(q1) =
+ 1
+4(α −q1)
+if q1 ≤α
+0
+if q1 > α.
+Firm 1’s subgame perfect equilibrium strategy is the value of q1 that maximizes
+q1(α −q1 −b2(q1)) −q2
+1, or q1(α −q1 −1
+4(α −q1)) −q2
+1, or 1
+4q1(3α −7q1). The
+maximizer is q1 =
+3
+14α.
+We conclude that the game has a unique subgame perfect equilibrium, in which
+ﬁrm 1’s strategy is the output 3
+14α and ﬁrm 2’s strategy is its best response function
+b2.
+The outcome of the subgame perfect equilibrium is that ﬁrm 1 produces q∗
+1 =
+3
+14α units of output and ﬁrm 2 produces q∗
+2 = b2( 3
+14α) =
+11
+56α units. In a Nash
+equilibrium of Cournot’s (simultaneous-move) game each ﬁrm produces 1
+5α (see
+Exercise 59.1). Thus ﬁrm 1 produces more in the subgame perfect equilibrium of
+the sequential game than it does in the Nash equilibrium of Cournot’s game, and
+ﬁrm 2 produces less.
+196.4 Sequential positioning by three political candidates
+The following extensive game models the situation.
+Players
+The candidates.
+Terminal histories
+The set of all sequences (x1, . . . , xn), where xi is either Out or
+a position of candidate i (a number) for i = 1, . . . , n.
+Player function
+P(∅) = 1, P(x1) = 2 for all x1, P(x1, x2) = 3 for all (x1, x2), ...,
+P(x1, . . . , xn−1) = n for all (x1, . . . , xn−1).
+Preferences
+Each candidate’s preferences are represented by a payoff function
+that assigns n to every terminal history in which she wins, k to every terminal
+history in which she ties for ﬁrst place with n −k other candidates, for 1 ≤
+k ≤n −1, 0 to every terminal history in which she stays out, and −1 to
+every terminal history in which she loses, where positions attract votes as in
+Hotelling’s model of electoral competition (Section 3.3).
+
+
+Chapter 6. Extensive Games with Perfect Information: Illustrations
+39
+When there are two candidates the analysis of the subgame perfect equilibria
+is similar to that in the previous exercise. In every subgame perfect equilibrium
+candidate 1’s strategy is m; candidate 2’s strategy chooses m after the history m,
+some position between x1 and 2m −x1 after the history x1 for any position x1, and
+any position after the history Out.
+Now consider the case of three candidates when the voters’ favorite positions
+are distributed uniformly from 0 to 1. I claim that every subgame perfect equilib-
+rium results in the ﬁrst candidate’s entering at 1
+2, the second candidate’s staying
+out, and the third candidate’s entering at 1
+2.
+To show this, ﬁrst consider the best response of candidate 3 to each possible
+pair of actions of candidates 1 and 2. Figure 39.1 illustrates these optimal actions in
+every case that candidate 1 enters. (If candidate 1 does not enter then the subgame
+is exactly the two-candidate game.)
+2
+3
+2
+3
+1
+2
+1
+3
+1
+3
+In (e.g. at 1
+2)
+3 wins
+In (e.g. at 1
+2)
+3 wins
+In (e.g. at z)
+3 wins
+In (e.g. at z)
+3 wins
+In (near 1
+2); 3 wins
+1, 2, and 3 tie
+1, 2, and 3 tie
+2 wins
+1 wins
+1 and 2 tie
+1 wins
+2 wins
+1 and 2 tie
+2 wins
+2 wins
+1 wins
+1 wins
+0
+1
+1
+x1 →
+↑
+x2
+Out
+In; 3 wins
+In; 1 and 3 tie
+In; 3 wins
+Figure 39.1 The outcome of a best response of candidate 3 to each pair of actions by candidates 1 and
+2. The best response for any point in the gray shaded area (including the black boundaries of this area,
+but excluding the other boundaries) is Out. The outcome at each of the four small disks at the outer
+corners of the shaded area is that all three candidates tie. The value of z is 1 −1
+2 (x1 + x2).
+
+
+40
+Chapter 6. Extensive Games with Perfect Information: Illustrations
+Now consider the optimal action of candidate 2, given x1 and the outcome of
+candidate 3’s best response, as given in Figure 39.1. In the ﬁgure, take a value
+of x1 and look at the outcomes as x2 varies; ﬁnd the value of x2 that induces the
+best outcome for candidate 2. For example, for x1 = 0 the only value of x2 for
+which candidate 2 does not lose is 2
+3, at which point she ties with the other two
+candidates. Thus when candidate 1’s strategy is x1 = 0, candidate 2’s best action,
+given candidate 3’s best response, is x2 = 2
+3, which leads to a three-way tie. We
+ﬁnd that the outcome of the optimal value of x2, for each value of x1, is given as
+follows.
+
+
+
+
+
+
+
+
+
+
+
+1, 2, and 3 tie (x2 = 2
+3)
+if x1 = 0
+2 wins
+if 0 < x1 < 1
+2
+1 and 3 tie (2 stays out)
+if x1 = 1
+2
+2 wins
+if 1
+2 < x1 < 1
+1, 2, and 3 tie (x2 = 1
+3)
+if x1 = 1.
+Finally, consider candidate 1’s best strategy, given the responses of candidates 2
+and 3. If she stays out then candidates 2 and 3 enter at m and tie. If she enters then
+the best position at which to do so is x1 = 1
+2, where she ties with candidate 3. (For
+every other position she either loses or ties with both of the other candidates.)
+We conclude that in every subgame perfect equilibrium the outcome is that
+candidate 1 enters at 1
+2, candidate 2 stays out, and candidate 3 enters at 1
+2. (There
+are many subgame perfect equilibria, because after many histories candidate 3’s
+optimal action is not unique.)
+(The case in which there are many potential candidates, is discussed on the
+page http://www.economics.utoronto.ca/osborne/research/CONJECT.HTM.)
+198.1 The race G1(2, 2)
+The consequences of player 1’s actions at the start of the game are as follows.
+Take two steps: Player 1 wins.
+Take one step: Go to the game G2(1, 2), in which player 2 initially takes two
+steps and wins.
+Do not move: If player 2 does not move, the game ends. If she takes one step
+we go to the game G1(2, 1), in which player 1 takes two steps and wins. If she
+takes two steps, she wins. Thus in a subgame perfect equilibrium player 2
+takes two steps, and wins.
+We conclude that in a subgame perfect equilibrium of G1(2, 2) player 1 initially
+takes two steps, and wins.
+203.1 A race with a liquidity constraint
+In the absence of the constraint, player 1 initially takes one step. Suppose she does
+so in the game with the constraint. Consider player 2’s options after player 1’s
+move.
+
+
+Chapter 6. Extensive Games with Perfect Information: Illustrations
+41
+Player 2 takes two steps: Because of the liquidity constraint, player 1 can take
+at most one step. If she takes one step, player 2’s optimal action is to take one
+step, and win. Thus player 1’s best action is not to move; player 2’s payoff
+exceeds 1 (her steps cost 5, and the prize is worth more than 6).
+Player 2 moves one step: Again because of the liquidity constraint, player 1
+can take at most one step. If she takes one step, player 2 can take two steps
+and win, obtaining a payoff of more than 1 (as in the previous case).
+Player 2 does not move: Player 1, as before, can take one step on each turn, and
+win; player 2’s payoff is 0.
+We conclude that after player 1 moves one step, player 2 should take either
+one or two steps, and ultimately win; player 1’s payoff is −1. A better option for
+player 1 is not to move, in which case player 2 can move one step at a time, and
+win; player 1’s payoff is zero.
+Thus the subgame perfect equilibrium outcome is that player 1 does not move,
+and player 2 takes one step at a time and wins.
+
+
+7
+Extensive Games with Perfect Information:
+Extensions and Discussion
+210.2 Extensive game with simultaneous moves
+The game is shown in Figure 43.1.
+B
+A
+1
+C
+D
+C
+4, 2
+0, 0
+D
+0, 0
+2, 4
+E
+F
+E
+3, 1
+0, 0
+F
+0, 0
+1, 3
+Figure 43.1 The game in Exercise 210.2.
+The subgame following player 1’s choice of A has two Nash equilibria, (C, C)
+and (D, D); the subgame following player 1’s choice of B also has two Nash equi-
+libria, (E, E) and (F, F). If the equilibrium reached after player 1 chooses A is
+(C, C), then regardless of the equilibrium reached after she chooses (E, E), she
+chooses A at the beginning of the game. If the equilibrium reached after player 1
+chooses A is (D, D) and the equilibrium reached after she chooses B is (F, F), she
+chooses A at the beginning of the game. If the equilibrium reached after player 1
+chooses A is (D, D) and the equilibrium reached after she chooses B is (E, E), she
+chooses B at the beginning of the game.
+Thus the game has four subgame perfect equilibria: (ACE, CE), (ACF, CF),
+(ADF, DF), and (BDE, DE) (where the ﬁrst component of player 1’s strategy is
+her choice at the start of the game, the second component is her action after she
+chooses A, and the third component is her action after she chooses B, and the ﬁrst
+component of player 2’s strategy is her action after player 1 chooses A at the start
+of the game and the second component is her action after player 1 chooses B at the
+start of the game).
+In the ﬁrst two equilibria the outcome is that player 1 chooses A and then both
+players choose C, in the third equilibrium the outcome is that player 1 chooses A
+and then both players choose D, and in the last equilibrium the outcome is that
+player 1 chooses B and then both players choose E.
+217.1 Electoral competition with strategic voters
+I ﬁrst argue that in any equilibrium each candidate that enters is in the set of win-
+ners. If some candidate that enters is not a winner, she can increase her payoff by
+deviating to Out.
+43
+
+
+44
+Chapter 7. Extensive Games with Perfect Information: Extensions and Discussion
+Now consider the voting subgame in which there are more than two candidates
+and not all candidates’ positions are the same. Suppose that the citizens’ votes are
+equally divided among the candidates. I argue that this list of citizens’ strategies
+is not a Nash equilibrium of the voting subgame.
+For either the citizen whose favorite position is 0 or the citizen whose favorite
+position is 1 (or both), at least two candidates’ positions are better than the position
+of the candidate furthest from the citizen’s favorite position. Denote a citizen for
+whom this condition holds by i. (The claim that citizen i exists is immediate if the
+candidates occupy at least three distinct positions, or they occupy two distinct po-
+sitions and at least two candidates occupy each position. If the candidates occupy
+only two positions and one position is occupied by a single candidate, then take
+the citizen whose favorite position is 0 if the lone candidate’s position exceeds the
+other candidates’ position; otherwise take the citizen whose favorite position is 1.)
+Now, given that each candidate obtains the same number of votes, if citizen i
+switches her vote to one of the candidates whose position is better for her than
+that of the candidate whose position is furthest from her favorite position, then
+this candidate wins outright. (If citizen i originally votes for one of these superior
+candidates, she can switch her vote to the other superior candidate; if she originally
+votes for neither of the superior candidates, she can switch her vote to either one
+of them.) Citizen i’s payoff increases when she thus switches her vote, so that the
+list of citizens’ strategies is not a Nash equilibrium of the voting subgame.
+We conclude that in every Nash equilibrium of every voting subgame in which
+there are more than two candidates and not all candidates’ positions are the same
+at least one candidate loses. Because no candidate loses in a subgame perfect equi-
+librium (by the ﬁrst argument in the proof), in any subgame perfect equilibrium
+either only two candidates enter, or all candidates’ positions are the same.
+If only two candidates enter, then by the argument in the text for the case n = 2,
+each candidate’s position is m (the median of the citizens’ favorite positions).
+Now suppose that more than two candidates enter, and their common position
+is not equal to m. If a candidate deviates to m then in the resulting voting subgame
+only two positions are occupied, so that for every citizen, any strategy that is not
+weakly dominated votes for a candidate at the position closest to her favorite po-
+sition. Thus a candidate who deviates to m wins outright. We conclude that in
+any subgame perfect equilibrium in which more than two candidates enter, they
+all choose the position m.
+220.1 Top cycle set
+a. The top cycle set is the set {x, y, z} of all three alternatives because x beats y
+beats z beats x.
+b. The top cycle set is the set {w, x, y, z} of all four alternatives.
+As in the
+previous case, x beats y beats z beats x; also y beats w.
+
+
+Chapter 7. Extensive Games with Perfect Information: Extensions and Discussion
+45
+224.1 Exit from a declining industry
+Period t1 is the largest value of t for which Pt(k1) ≥c, or 60 −t ≥10. Thus t1 = 50.
+Similarly, t2 = 70.
+If both ﬁrms are active in period t1, then ﬁrm 2’s proﬁt in this period is −ck2 =
+−10(20) = −200. (Note that the price is zero, because k1 + k2 > 50.) Its proﬁt in
+any period t in which it is alone in the market is (100 −t −c −k2)k2 = (70 −t)(20).
+Thus its proﬁt from period t1 + 1 through period t2 is
+(19 + 18 + . . . + 1)(20) = 3800.
+Hence ﬁrm 2’s loss in period t1 when both ﬁrms are active is (much) less than the
+sum of its proﬁts in periods t1 + 1 through t2 when it alone is active.
+227.1 Variant of ultimatum game with equity-conscious players
+The game is deﬁned as follows.
+Players
+The two people.
+Terminal histories
+The set of sequences (x, β2, Z), where x is a number with 0 ≤
+x ≤c (the amount of money that person 1 offers to person 2), β2 is 0 or 1 (the
+value of β2 selected by chance), and Z is either Y (“yes, I accept”) or N (“no,
+I reject”).
+Player function
+P(∅) = 1, P(x) = c for all x, and P(x, β2) = 2 for all x and all
+β2.
+Chance probabilities
+For every history x, chance chooses 0 with probability p
+and 1 with probability 1 −p.
+Preferences
+Each person’s preferences are represented by the expected value of
+a payoff equal to the amount of money she receives. For any terminal history
+(x, β2, Y) person 1 receives c −x and person 2 receives x; for any terminal
+history (x, β2, N) each person receives 0.
+Given the result from Exercise 183.4 stated in the question, an offer x of player 1
+is accepted with probability either 0 or p if x = 0, is accepted with probability p if
+0 < x < 1
+3, is accepted with probability either p or 1 if x = 1
+3, and is accepted with
+probability 1 if x > 1
+3. By an argument like that for the original ultimatum game,
+in any equilibrium in which player 1 makes an offer of 0, player 2 certainly accepts
+the offer if β2 = 0, and in any equilibrium in which player 1 makes an offer of 1
+3,
+player 2 certainly accepts the offer if β2 = 1. Thus player 1’s expected payoff to
+making the offer x is
+ p(1 −x)
+if 0 ≤x < 1
+3
+1 −x
+if 1
+3 ≤x < 1.
+
+
+46
+Chapter 7. Extensive Games with Perfect Information: Extensions and Discussion
+The maximizer of this function is x = 1
+3 if p < 2
+3 and x = 0 if p > 2
+3; if p = 2
+3 then
+both offers are optimal. (If you do not see that the maximizer takes this form, plot
+the expected payoff as a function of x.)
+We conclude that if p̸ = 2
+3, the subgame perfect equilibria of the game are given
+as follows.
+p < 2
+3
+Player 1 offers 1
+3. After a history in which β2 = 0, player 2 accepts an
+offer x with x > 0 and either accepts or rejects the offer 0. After a history in
+which β2 = 1, player 2 accepts an offer x with x ≥1
+3 and rejects an offer x
+with x < 1
+3.
+p > 2
+3
+Player 1 offers 0. After a history in which β2 = 0, player 2 accepts all offers.
+After a history in which β2 = 1, player 2 accepts an offer x with x > 1
+3, rejects
+an offer x with x < 1
+3, and either accepts or rejects the offer 1
+3.
+If p = 2
+3, both these strategy pairs are subgame perfect equilibria.
+We see that if p > 2
+3 then in a subgame perfect equilibrium player 1’s offers are
+rejected by every player 2 with for whom β2 = 1 (that is, with probability 1 −p).
+230.1 Nash equilibria when players may make mistakes
+The players’ best response functions are indicated in Figure 46.1. We see that the
+game has two Nash equilibria, (A, A, A) and (B, A, A).
+A
+B
+A
+1∗, 1∗, 1∗
+0, 0, 1∗
+B
+1∗, 1∗, 1∗
+1∗, 0, 1∗
+A
+A
+B
+A
+0, 1∗, 0
+1∗, 0, 0
+B
+1∗, 1∗, 0
+0, 0, 0
+B
+Figure 46.1 The player’s best response functions in the game in Exercise 230.1.
+The action A is not weakly dominated for any player. For player 1, A is better
+than B if players 2 and 3 both choose B; for players 2 and 3, A is better than B for
+all actions of the other players.
+If players 2 and 3 choose A in the modiﬁed game, player 1’s expected payoffs
+to A and B are
+A: (1 −p2)(1 −p3) + p1p2(1 −p3) + p1(1 −p2)p3 + (1 −p1)p2p3
+B: (1 −p2)(1 −p3) + (1 −p1)p2(1 −p3) + (1 −p1)(1 −p2)p3 + p1p2p3.
+The difference between the expected payoff to B and the expected payoff to A is
+(1 −2p1)[p2 + p3 −3p2p3].
+If 0 < pi < 1
+2 for i = 1, 2, 3, this difference is positive, so that (A, A, A) is not a
+Nash equilibrium of the modiﬁed game.
+
+
+Chapter 7. Extensive Games with Perfect Information: Extensions and Discussion
+47
+233.1 Nash equilibria of the chain-store game
+Any terminal history in which the event in each period is either Out or (In, A) is
+the outcome of a Nash equilibrium. In any period in which challenger chooses
+Out, the strategy of the chain-store speciﬁes that it choose F in the event that the
+challenger chooses In.
+
+
+8
+Coalitional Games and the Core
+245.1 Three-player majority game
+Let (x1, x2, x3) be an action of the grand coalition. Every coalition consisting of two
+players can obtain one unit of output, so for (x1, x2, x3) to be in the core we need
+x1 + x2 ≥1
+x1 + x3 ≥1
+x2 + x3 ≥1
+x1 + x2 + x3 = 1.
+Adding the ﬁrst three conditions we conclude that
+2x1 + 2x2 + 2x3 ≥3,
+or x1 + x2 + x3 ≥3
+2, contradicting the last condition. Thus no action of the grand
+coalition satisﬁes all the conditions, so that the core of the game is empty.
+248.1 Core of landowner–worker game
+Let aN be an action of the grand coalition in which the output received by each
+worker is at most f(n) −f(n −1). No coalition consisting solely of workers can
+obtain any output, so no such coalition can improve upon aN. Let S be a coalition
+of the landowner and k −1 workers. The total output received by the members of
+S in aN is at least
+f(n) −(n −k)( f(n) −f(n −1))
+(because the total output is f(n), and every other worker receives at most f(n) −
+f(n −1)). Now, the output that S can obtain is f(k), so for S to improve upon aN
+we need
+f(k) > f(n) −(n −k)( f(n) −f(n −1)),
+which contradicts the inequality given in the exercise.
+249.1 Unionized workers in landowner–worker game
+The following game models the situation.
+Players
+The landowner and the workers.
+49
+
+
+50
+Chapter 8. Coalitional Games and the Core
+Actions
+The set of actions of the grand coalition is the set of all allocations of
+the output f(n). Every other coalition has a single action, which yields the
+output 0.
+Preferences
+Each player’s preferences are represented by the amount of output
+she obtains.
+The core of this game consists of every allocation of the output f(n) among
+the players. The grand coalition cannot improve upon any allocation x because
+for every other allocation x′ there is at least one player whose payoff is lower in
+x′ than it is in x. No other coalition can improve upon any allocation because no
+other coalition can obtain any output.
+249.2 Landowner–worker game with increasing marginal products
+We need to show that no coalition can improve upon the action aN of the grand
+coalition in which every player receives the output f(n)/n. No coalition of work-
+ers can obtain any output, so we need to consider only coalitions containing the
+landowner. Consider a coalition consisting of the landowner and k workers, which
+can obtain f(k + 1) units of output by itself. Under aN this coalition obtains the
+output (k + 1) f(n)/n, and we have f(k + 1)/(k + 1) < f(n)/n because k < n.
+Thus no coalition can improve upon aN.
+254.1 Range of prices in horse market
+The equality of the number of owners who sell their horses and the number of
+nonowners who buy horses implies that the common trading price p∗
+• is not less than σk∗, otherwise at most k∗−1 owners’ valuations would be
+less than p∗and at least k∗nonowners’ valuations would be greater than p∗,
+so that the number of buyers would exceed the number of sellers
+• is not less than βk∗+1, otherwise at most k∗owners’ valuations would be less
+than p∗and at least k∗+ 1 nonowners’ valuations would be greater than p∗,
+so that the number of buyers would exceed the number of sellers
+• is not greater than βk∗, otherwise at least k∗owners’ valuations would be less
+than p∗and at most k∗−1 nonowners’ valuations would be greater than p∗,
+so that the number of sellers would exceed the number of buyers
+• is not greater than σk∗+1, otherwise at least k∗+ 1 owners’ valuations would
+be less than p∗and at most k∗nonowners’ valuations would be greater than
+p∗, so that the number of sellers would exceed the number of buyers.
+That is, p∗≥max{σk∗, βk∗+1} and p∗≤min{βk∗, σk∗+1}.
+
+
+Chapter 8. Coalitional Games and the Core
+51
+258.1 House assignment with identical preferences
+Because the players rank the houses in the same way, we can refer to the “best
+house”, the “second best house”, and so on. In any assignment in the core, the
+player who owns the best house is assigned this house (because she has the option
+of keeping it). Among the remaining players, the one who owns the second best
+house must be assigned this house (again, because she has the option of keeping
+it). Continuing to argue in the same way, we see that there is a single assignment
+in the core, in which every player is assigned the house she owns initially.
+261.1 Median voter theorem
+Denote the median favorite position by m. If x < m then every player whose fa-
+vorite position is m or greater—a majority of the players—prefers m to x. Similarly,
+if x > m then every player whose favorite position is m or less—a majority of the
+players—prefers m to x.
+267.2 Empty core in roommate problem
+Notice that ℓis at the bottom of each of the other players’ preferences. Suppose
+that she is matched with i. Then j and k are matched, and {i, k} can improve upon
+the matching. Similarly, if ℓis matched with j then {i, j} can improve upon the
+matching, and if ℓis matched with k then {j, k} can improve upon the matching.
+Thus the core is empty (ℓhas to be matched with someone!).
+
+
+9
+Bayesian Games
+276.1 Equilibria of a variant of BoS with imperfect information
+If player 1 chooses S then type 1 of player 2 chooses S and type 2 chooses B. But
+if the two types of player 2 make these choices then player 1 is better off choosing
+B (which yields her an expected payoff of 1) than choosing S (which yields her an
+expected payoff of 1
+2). Thus there is no Nash equilibrium in which player 1 chooses
+S.
+Now consider the mixed strategy Nash equilibria. If both types of player 2 use
+a pure strategy then player 1’s two actions yield her different payoffs. Thus there
+is no equilibrium in which both types of player 2 use pure strategies and player 1
+randomizes.
+Now consider an equilibrium in which type 1 of player 2 randomizes. Denote
+by p the probability that player 1’s mixed strategy assigns to B. In order for type 1
+of player 2 to obtain the same expected payoff to B and S we need p = 2
+3. For this
+value of p the best action of type 2 of player 2 is S. Denote by q the probability that
+type 1 of player 2 assigns to B. Given these strategies for the two types of player 2,
+player 1’s expected payoff if she chooses B is
+1
+2 · 2q = q
+and her expected payoff if she chooses S is
+1
+2 · (1 −q) + 1
+2 · 1 = 1 −1
+2q.
+These expected payoffs are equal if and only if q = 2
+3. Thus the game has a mixed
+strategy equilibrium in which the mixed strategy of player 1 is ( 2
+3, 1
+3), that of type 1
+of player 2 is ( 2
+3, 1
+3), and that of type 2 of player 2 is (0, 1) (that is, type 2 of player 2
+uses the pure strategy that assigns probability 1 to S).
+Similarly the game has a mixed strategy equilibrium in which the strategy of
+player 1 is ( 1
+3, 2
+3), that of type 1 of player 2 is (0, 1), and that of type 2 of player 2 is
+( 2
+3, 1
+3).
+For no mixed strategy of player 1 are both types of player 2 indifferent between
+their two actions, so there is no equilibrium in which both types randomize.
+277.1 Expected payoffs in a variant of BoS with imperfect information
+The expected payoffs are given in Figure 54.1.
+53
+
+
+54
+Chapter 9. Bayesian Games
+(B, B)
+(B, S)
+(S, B)
+(S, S)
+B
+0
+1
+1
+2
+S
+1
+1
+2
+1
+2
+0
+Type n1 of player 1
+(B, B)
+(B, S)
+(S, B)
+(S, S)
+B
+1
+2
+3
+1
+3
+0
+S
+0
+2
+3
+4
+3
+2
+Type y2 of player 2
+(B, B)
+(B, S)
+(S, B)
+(S, S)
+B
+0
+1
+3
+2
+3
+1
+S
+2
+4
+3
+2
+3
+0
+Type n2 of player 2
+Figure54.1 The expected payoffs of type n1 of player 1 and types y2 and n2 of player 2 in Example 276.2.
+282.2 An exchange game
+The following Bayesian game models the situation.
+Players
+The two individuals.
+States
+The set of all pairs (s1, s2), where si is the number on player i’s ticket
+(an integer from 1 to m).
+Actions
+The set of actions of each player is {Exchange, Don’t exchange}.
+Signals
+The signal function of each player i is deﬁned by τi(s1, s2) = si (each
+player observes her own ticket, but not that of the other player)
+Beliefs
+Type si of player i assigns the probability Prj(sj) to the state (s1, s2),
+where j is the other player and Prj(sj) is the probability with which player j
+receives a ticket with the prize sj on it.
+Payoffs
+Player i’s Bernoulli payoff function is given by ui((X, Y), ω) = ωj if
+X = Y = Exchange and ui((X, Y), ω) = ωi otherwise.
+Let Mi be the highest type of player i that chooses Exchange. If Mi > 1 then
+type 1 of player j optimally chooses Exchange: by exchanging her ticket, she cannot
+obtain a smaller prize, and may receive a bigger one. Thus if Mi ≥Mj and Mi > 1,
+type Mi of player i optimally chooses Don’t exchange, because the expected value of
+the prizes of the types of player j that choose Exchange is less than Mi. Thus in any
+possible Nash equilibrium Mi = Mj = 1: the only prizes that may be exchanged
+are the smallest.
+
+
+Chapter 9. Bayesian Games
+55
+287.1 Cournot’s duopoly game with imperfect information
+We have
+b1(qL, qH) =
+ 1
+2(α −c −(θqL + (1 −θ)qH))
+if θqL + (1 −θ)qH ≤α −c
+0
+otherwise.
+The best response function of each type of player 2 is similar:
+bI(q1) =
+ 1
+2(α −cI −q1)
+if q1 ≤α −cI
+0
+otherwise
+for I = L, H.
+The three equations that deﬁne a Nash equilibrium are
+q∗
+1 = b1(q∗
+L, q∗
+H), q∗
+L = bL(q∗
+1), and q∗
+H = bH(q∗
+1).
+Solving these equations under the assumption that they have a solution in which
+all three outputs are positive, we obtain
+q∗
+1 =
+1
+3(α −2c + θcL + (1 −θ)cH)
+q∗
+L =
+1
+3(α −2cL + c) −1
+6(1 −θ)(cH −cL)
+q∗
+H =
+1
+3(α −2cH + c) + 1
+6θ(cH −cL)
+If both ﬁrms know that the unit costs of the two ﬁrms are c1 and c2 then in
+a Nash equilibrium the output of ﬁrm i is 1
+3(α −2ci + cj) (see Exercise 58.1). In
+the case of imperfect information considered here, ﬁrm 2’s output is less than
+1
+3(α −2cL + c) if its cost is cL and is greater than 1
+3(α −2cH + c) if its cost is cH.
+Intuitively, the reason is as follows. If ﬁrm 1 knew that ﬁrm 2’s cost were high
+then it would produce a relatively large output; if it knew this cost were low then
+it would produce a relatively small output. Given that it does not know whether
+the cost is high or low it produces a moderate output, less than it would if it knew
+ﬁrm 2’s cost were high. Thus if ﬁrm 2’s cost is in fact high, ﬁrm 2 beneﬁts from
+ﬁrm 1’s lack of knowledge and optimally produces more than it would if ﬁrm 1
+knew its cost.
+288.1 Cournot’s duopoly game with imperfect information
+The best response b0(qL, qH) of type 0 of ﬁrm 1 is the solution of
+max
+q0 [θ(P(q0 + qL) −c)q0 + (1 −θ)(P(q0 + qH) −c)q0].
+The best response bℓ(qL, qH) of type ℓof ﬁrm 1 is the solution of
+max
+qℓ(P(qℓ+ qL) −c)qℓ
+
+
+56
+Chapter 9. Bayesian Games
+and the best response bh(qL, qH) of type h of ﬁrm 1 is the solution of
+max
+qh (P(qh + qH) −c)qh.
+The best response bL(q0, qℓ, qh) of type L of ﬁrm 2 is the solution of
+max
+qL [(1 −π)(P(q0 + qL) −cL)qL + π(P(qℓ+ qL) −cL)qL]
+and the best response bH(q0, qℓ, qh) of type H of ﬁrm 2 is the solution of
+max
+qH [(1 −π)(P(q0 + qH) −cH)qH + π(P(qh + qH) −cH)qH].
+A Nash equilibrium is a proﬁle (q∗
+0, q∗
+ℓ, q∗
+h, q∗
+L, q∗
+H) for which q∗
+0, q∗
+ℓ, and q∗
+h are
+best responses to q∗
+L and q∗
+H, and q∗
+L and q∗
+H are best responses to q∗
+0, q∗
+ℓ, and q∗
+h.
+When P(Q) = α −Q for Q ≤α and P(Q) = 0 for Q > α we ﬁnd, after some
+exciting algebra, that
+q∗
+0 = 1
+3 (α −2c + cH −θ (cH −cL))
+q∗
+ℓ= 1
+3
+
+α −2c + cL + (1 −θ)(1 −π)(cH −cL)
+4 −π
+
+q∗
+h = 1
+3
+
+α −2c + cH −θ(1 −π)(cH −cL)
+4 −π
+
+q∗
+L = 1
+3
+
+α −2cL + c −2(1 −θ)(1 −π)(cH −cL)
+4 −π
+
+q∗
+H = 1
+3
+
+α −2cH + c + 2θ(1 −π)(cH −cL)
+4 −π
+
+.
+When π = 0 we have
+q∗
+0 = 1
+3 (α −2c + cH −θ (cH −cL))
+q∗
+ℓ= 1
+3
+
+α −2c + cL + (1 −θ)(cH −cL)
+4
+
+q∗
+h = 1
+3
+
+α −2c + cH −θ(cH −cL)
+4
+
+q∗
+L = 1
+3
+
+α −2cL + c −(1 −θ)(cH −cL)
+2
+
+q∗
+H = 1
+3
+
+α −2cH + c + θ(cH −cL)
+2
+
+,
+so that q∗
+0 is equal to the equilibrium output of ﬁrm 1 in Exercise 287.1, and q∗
+L
+and q∗
+H are the same as the equilibrium outputs of the two types of ﬁrm 2 in that
+exercise.
+
+
+Chapter 9. Bayesian Games
+57
+When π = 1 we have
+q∗
+0 = 1
+3 (α −2c + cH −θ (cH −cL))
+q∗
+ℓ= 1
+3 (α −2c + cL)
+q∗
+h = 1
+3 (α −2c + cH)
+q∗
+L = 1
+3 (α −2cL + c)
+q∗
+H = 1
+3 (α −2cH + c) ,
+so that q∗
+ℓand q∗
+L are the same as the equilibrium outputs when there is perfect
+information and the costs are c and cL (see Exercise 58.1), and q∗
+h and q∗
+H are the
+same as the equilibrium outputs when there is perfect information and the costs
+are c and cH.
+Now, for an arbitrary value of π we have
+q∗
+L = 1
+3
+
+α −2cL + c −2(1 −θ)(1 −π)(cH −cL)
+4 −π
+
+q∗
+H = 1
+3
+
+α −2cH + c + 2θ(1 −π)(cH −cL)
+4 −π
+
+.
+To show that for 0 < π < 1 the values of these variables lie between their values
+when π = 0 and when π = 1, we need to show that
+0 ≤2(1 −θ)(1 −π)(cH −cL)
+4 −π
+≤(1 −θ)(cL −cH)
+2
+and
+0 ≤2θ(1 −π)(cH −cL)
+4 −π
+≤θ(cL −cH)
+2
+.
+These inequalities follow from cH ≥cL, θ ≥0, and 0 ≤π ≤1.
+290.1 Nash equilibria of game of contributing to a public good
+Any type vj of any player j with vj < c obtains a negative payoff if she contributes
+and 0 if she does not. Thus she optimally does not contribute.
+Any type vi ≥c of player i obtains the payoff vi −c ≥0 if she contributes, and
+the payoff 0 if she does not, so she optimally contributes.
+Any type vj ≥c of any player j̸ = i obtains the payoff vj −c if she contributes,
+and the payoff (1 −F(c))vj if she does not. (If she does not contribute, the prob-
+ability that player i does so is 1 −F(c), the probability that player i’s valuation
+is at least c.) Thus she optimally does not contribute if (1 −F(c))vj ≥vj −c, or
+F(c) ≤c/vj. This condition must hold for all types of every player j̸ = i, so we
+need F(c) ≤c/v for the strategy proﬁle to be a Nash equilibrium.
+
+
+58
+Chapter 9. Bayesian Games
+294.1 Weak domination in second-price sealed-bid action
+Fix player i, and choose a bid for every type of every other player. Player i, who
+does not know the other players’ types, is uncertain of the highest bid of the other
+players. Denote by b this highest bid. Consider a bid bi of type vi of player i for
+which bi < vi. The dependence of the payoff of type vi of player i on b is shown in
+Figure 58.1.
+i’s bid
+Highest of other players’ bids
+b < bi
+bi = b
+(m-way tie)
+bi < b < vi
+b ≥vi
+bi < vi
+vi −b
+(vi −b)/m
+0
+0
+vi
+vi −b
+vi −b
+vi −b
+0
+Figure 58.1 Player i’s payoffs to her bids bi < vi and vi in a second-price sealed-bid auction as a
+function of the highest of the other player’s bids, denoted b.
+Player i’s expected payoffs to the bids bi and vi are weighted averages of the
+payoffs in the columns; each value of b gets the same weight when calculating the
+expected payoff to bi as it does when calculating the expected payoff to vi. The
+payoffs in the two rows are the same except when bi ≤b < vi, in which case vi
+yields a payoff higher than does bi. Thus the expected payoff to vi is at least as high
+as the expected payoff to bi, and is greater than the expected payoff to bi unless the
+other players’ bids lead this range of values of b to get probability 0.
+Now consider a bid bi of type vi of player i for which bi > vi. The dependence
+of the payoff of type vi of player i on b is shown in Figure 58.2.
+i’s bid
+Highest of other players’ bids
+b ≤vi
+vi < b < bi
+bi = b
+(m-way tie)
+b > bi
+vi
+vi −b
+0
+0
+0
+bi > vi
+vi −b
+vi −b
+(vi −b)/m
+0
+Figure 58.2 Player i’s payoffs to her bids vi and bi > vi in a second-price sealed-bid auction as a
+function of the highest of the other player’s bids, denoted b.
+As before, player i’s expected payoffs to the bids bi and vi are weighted av-
+erages of the payoffs in the columns; each value of b gets the same weight when
+calculating the expected payoff to vi as it does when calculating the expected pay-
+off to bi. The payoffs in the two rows are the same except when vi < b ≤bi, in
+which case vi yields a payoff higher than does bi. (Note that vi −b < 0 for b in this
+range.) Thus the expected payoff to vi is at least as high as the expected payoff to
+bi, and is greater than the expected payoff to bi unless the other players’ bids lead
+this range of values of b to get probability 0.
+We conclude that for type vi of player i, every bid bi̸ = vi is weakly dominated
+by the bid vi.
+
+
+Chapter 9. Bayesian Games
+59
+299.1 Asymmetric Nash equilibria of second-price sealed-bid common value auctions
+Suppose that each type t2 of player 2 bids (1 + 1/λ)t2 and that type t1 of player 1
+bids b1. Then by the calculations in the text, with α = 1 and γ = 1/λ,
+• a bid of b1 by player 1 wins with probability b1/(1 + 1/λ)
+• the expected value of player 2’s bid, given that it is less than b1, is 1
+2b1
+• the expected value of signals that yield a bid of less than b1 is 1
+2b1/(1 + 1/λ)
+(because of the uniformity of the distribution of t2).
+Thus player 1’s expected payoff if she bids b1 is
+(t1 + 1
+2b1/(1 + 1/λ) −1
+2b1) ·
+b1
+1 + 1/λ,
+or
+λ
+2(1 + λ)2 · (2(1 + λ)t1 −b1)b1.
+This function is maximized at b1 = (1 + λ)t1. That is, if each type t2 of player 2
+bids (1 + 1/λ)t2, any type t1 of player 1 optimally bids (1 + λ)t1. Symmetrically,
+if each type t1 of player 1 bids (1 + λ)t1, any type t2 of player 2 optimally bids
+(1 + 1/λ)t2. Hence the game has the claimed Nash equilibrium.
+299.2 First-price sealed-bid auction with common valuations
+Suppose that each type t2 of player 2 bids 1
+2(α + γ)t2 and type t1 of player 1 bids
+b1. To determine the expected payoff of type t1 of player 1, we need to ﬁnd the
+probability with which she wins, and the expected value of player 2’s signal if
+player 1 wins. (The price she pays is her bid, b1.)
+Probability of player 1’s winning: Given that player 2’s bidding function is
+1
+2(α + γ)t2, player 1’s bid of b1 wins only if b1 ≥1
+2(α + γ)t2, or if t2 ≤2b1/(α + γ).
+Now, t2 is distributed uniformly from 0 to 1, so the probability that it is at most
+2b1/(α + γ) is 2b1/(α + γ). Thus a bid of b1 by player 1 wins with probabil-
+ity 2b1/(α + γ).
+Expected value of player 2’s signal if player 1 wins: Player 2’s bid, given her
+signal t2, is 1
+2(α + γ)t2, so that the expected value of signals that yield a bid of less
+than b1 is b1/(α + γ) (because of the uniformity of the distribution of t2).
+Thus player 1’s expected payoff if she bids b1 is
+2(αt1 + γb1/(α + γ) −b1) ·
+b1
+α + γ,
+or
+2α
+(α + γ)2 ((α + γ)t1 −b1)b1.
+
+
+60
+Chapter 9. Bayesian Games
+This function is maximized at b1 = 1
+2(α + γ)t1. That is, if each type t2 of player 2
+bids 1
+2(α + γ)t2, any type t1 of player 1 optimally bids 1
+2(α + γ)t1. Hence, as
+claimed, the game has a Nash equilibrium in which each type ti of player i bids
+1
+2(α + γ)ti.
+309.2 Properties of the bidding function in a ﬁrst-price sealed-bid auction
+We have
+β∗′(v) = 1 −
+(F(v))n−1(F(v))n−1 −(n −1)(F(v))n−2F′(v) R v
+v (F(x))n−1 dx
+(F(v))2n−2
+= 1 −
+(F(v))n −(n −1)F′(v) R v
+v (F(x))n−1 dx
+(F(v))n
+=
+(n −1)F′(v) R v
+v (F(x))n−1 dx
+(F(v))n
+> 0
+if v > v
+because F′(v) > 0 (F is increasing). (The ﬁrst line uses the quotient rule for deriva-
+tives and the fact that the derivative of R v f(x)dx with respect to v is f(v) for any
+function f.)
+If v > v then the integral in (309.1) is positive, so that β∗(v) < v. If v = v
+then both the numerator and denominator of the quotient in (309.1) are zero, so
+we may use L’Hôpital’s rule to ﬁnd the value of the quotient as v →v. Taking the
+derivatives of the numerator and denominator we obtain
+(F(v))n−1
+(n −1)(F(v))n−2F′(v) =
+F(v)
+(n −1)F′(v),
+the numerator of which is zero and the denominator of which is positive. Thus the
+quotient in (309.1) is zero, and hence β∗(v) = v.
+309.3 Example of Nash equilibrium in a ﬁrst-price auction
+From (309.1) we have
+β∗(v) = v −
+R v
+0 xn−1 dx
+vn−1
+= v −
+R v
+0 xn−1 dx
+vn−1
+= v −v/n = (n −1)v/n.
+
+
+10
+Extensive Games with Imperfect Information
+316.1 Variant of card game
+An extensive game that models the game is shown in Figure 61.1.
+HL ( 1
+4)
+HH ( 1
+4)
+Chance
+LL ( 1
+4)
+LH ( 1
+4)
+1
+1
+Raise
+See
+0, 0
+Raise
+See
+−1, 1
+Meet
+0, 0
+Pass
+1, −1
+Meet
+−1 −k, 1 + k
+Pass
+1, −1
+2
+Raise
+See
+1, −1
+Raise
+See
+0, 0
+Meet
+1 + k, −1 −k
+Pass
+1, −1
+Meet
+0, 0
+Pass
+1, −1
+2
+Figure 61.1 An extensive game that models the situation in Exercise 316.1.
+318.2 Strategies in variants of card game and entry game
+Card game: Each player has two information sets, and has two actions at each
+information set. Thus each player has four strategies: SS, SR, RS, and RR for
+player 1 (where S stands for See and R for Raise, the ﬁrst letter of each strategy is
+player 1’s action if her card is High, and the second letter if her action is her card is
+Low), and PP, PM, MP, and MM for player 2 (where P stands for Pass and M for
+Meet).
+Entry game: The challenger has a single information set (the empty history) and
+has three actions after this history, so it has three strategies—Ready, Unready, and
+Out. The incumbent also has a single information set, at which two actions are
+available, so it has two strategies—Acquiesce and Fight.
+61
+
+
+62
+Chapter 10. Extensive Games with Imperfect Information
+331.2 Weak sequential equilibrium and Nash equilibrium in subgames
+Consider the assessment in which the Challenger’s strategy is (Out, R), the In-
+cumbent’s strategy is F, and the Incumbent’s belief assigns probability 1 to the
+history (In, U) at her information set. Each player’s strategy is sequentially ratio-
+nal. The Incumbent’s belief satisﬁes the condition of weak consistency because her
+information set is not reached when the Challenger follows her strategy. Thus the
+assessment is a weak sequential equilibrium.
+The players’ actions in the subgame following the history In do not constitute a
+Nash equilibrium of the subgame because the Incumbent’s action F is not optimal
+when the Challenger chooses R. (The Incumbent’s action F is optimal given her
+belief that the history is (In, U), as it is in the weak sequential equilibrium. In a
+Nash equilibrium she acts as if she has a belief that coincides with the Challenger’s
+action in the subgame.)
+340.1 Pooling equilibria of game in which expenditure signals quality
+We know that in the second period the high-quality ﬁrm charges the price H and
+the low-quality ﬁrm charges any nonnegative price, and the consumer buys the
+good from a high-quality ﬁrm, does not buy the good from a low-quality ﬁrm that
+charges a positive price, and may or may not buy from a low-quality ﬁrm that
+charges a price of 0.
+Consider an assessment in which each type of ﬁrm chooses (p∗, E∗) in the ﬁrst
+period, the consumer believes the ﬁrm is high-quality with probability π if it ob-
+serves (p∗, E∗) and low quality if it observes any other (price, expenditure) pair,
+and buys the good if and only if it observes (p∗, E∗).
+The payoff of a high-quality ﬁrm under this assessment is p∗+ H −E∗−2cH,
+that of a low-quality ﬁrm is p∗−E∗, and that of the consumer is π(H −p∗) + (1 −
+π)(−p∗) = πH −p∗.
+This assessment is consistent—the only ﬁrst-period action of the ﬁrm observed
+in equilibrium is (p∗, E∗), and after observing this pair the consumer believes,
+correctly, that the ﬁrm is high-quality with probability π.
+Under what conditions is the assessment sequentially rational?
+Firm
+If the ﬁrm chooses a (price, expenditure) pair different from (p∗, E∗) then
+the consumer does not buy the good, and the ﬁrm’s proﬁt is 0. Thus for the
+assessment to be an equilibrium we need p∗+ H −E∗−2cH ≥0 (for the
+high-quality ﬁrm) and p∗−E∗≥0 (for the low-quality ﬁrm).
+Consumer
+If the consumer does not buy the good after observing (p∗, E∗) then its
+payoff is 0, so for the assessment to be an equilibrium we need πH −p∗≥0.
+In summary, the assessment is a weak sequential equilibrium if and only if
+max{E∗, E∗−H + 2cH} ≤p∗≤πH.
+
+
+Chapter 10. Extensive Games with Imperfect Information
+63
+346.1 Comparing the receiver’s expected payoff in two equilibria
+The receiver’s payoff as a function of the state t in each equilibrium is shown in
+Figure 63.1. The area above the black curve is smaller than the area above the gray
+curve: if you shift the black curve 1
+2t1 to the left and move the section from 0 to 1
+2t1
+to the interval from 1 −1
+2t1 to 1 then the area above the black curve is a subset of
+the area above the gray curve.
+0
+1
+2t1
+t1
+1
+2
+1
+2(t1 + 1)
+t →
+1
+−( 1
+2 −t)2
+−( 1
+2t1 −t)2
+−( 1
+2(t1 + 1) −t)2
+Figure 63.1 The gray curve gives the receiver’s payoff in each state in the equilibrium in which no
+information is transferred. The black curve gives her payoff in each state in the two-report equilibrium.
+350.1 Variant of model with piecewise linear payoff functions
+The equilibria of the variant are exactly the same as the equilibria of the original
+model.
+
+
+11
+Strictly Competitive Games and
+Maxminimization
+363.1 Maxminimizers in a bargaining game
+If a player demands any amount x up to $5 then her payoff is x regardless of the
+other player’s action. If she demands $6 then she may get as little as $5 (if the
+other player demands $5 or $6). If she demands x ≥$7 then she may get as little
+as $(11 −x) (if the other player demands x −1). For each amount that a player
+demands, the smallest amount that you may get is given in Figure 65.1. We see
+that each player’s maxminimizing pure strategies are $5 and $6 (for both of which
+the worst possible outcome is that the player receives $5).
+Amount demanded
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+Smallest amount obtained
+0
+1
+2
+3
+4
+5
+5
+4
+3
+2
+1
+Figure 65.1 The lowest payoffs that a player receives in the game in Exercise 38.2 for each of her
+possible actions, as the other player’s action varies.
+363.3 Finding a maxminimizer
+The analog of Figure 364.1 in the text is Figure 65.2. From this ﬁgure we see that the
+maxminimizer for player 2 is the strategy that assigns probability 2
+5 to L. Player 2’s
+maxminimized payoff is −1
+5.
+↑
+payoff of
+player 2
+0
+−1
+5
+1
+−1
+1
+1
+−2
+q →
+2
+5
+T
+B
+Figure 65.2 The expected payoff of player 2 in the game in Figure 363.1 for each of player 1’s actions,
+as a function of the probability q that player 2 assigns to L.
+65
+
+
+66
+Chapter 11. Strictly Competitive Games and Maxminimization
+366.2 Determining strictly competitiveness
+Game in Exercise 365.1: Strictly competitive in pure strategies (because player 1’s
+ranking of the four outcomes is the reverse of player 2’s ranking). Not strictly
+competitive in mixed strategies (there exist no values of π and θ > 0 such that
+−u1(a) = π + θu2(a) for every outcome a; or, alternatively, player 1 is indifferent
+between (B, L) and the lottery that yields (T, L) with probability 1
+2 and (T, R) with
+probability 1
+2, whereas player 2 is not indifferent between these two outcomes).
+Game in Figure 367.1: Strictly competitive both in pure and in mixed strate-
+gies. (Player 2’s preferences are represented by the expected value of the Bernoulli
+payoff function −u1 because −u1(a) = −1
+2 + 1
+2u2(a) for every pure outcome a.)
+370.2 Maxminimizing in BoS
+Player 1’s maxminimizer is ( 1
+3, 2
+3) while player 2’s is ( 2
+3, 1
+3). Clearly neither pure
+equilibrium strategy of either player guarantees her equilibrium payoff. In the
+mixed strategy equilibrium, player 1’s expected payoff is 2
+3. But if, for example,
+player 2 choose S instead of her equilibrium strategy, then player 1’s expected
+payoff is 1
+3. Similarly for player 2.
+372.2 Equilibrium in strictly competitive game
+The claim is false. In the strictly competitive game in Figure 66.1 the action pair
+(T, L) is a Nash equilibrium, so that player 1’s unique equilibrium payoff in the
+game is 0. But (B, R), which also yields player 1 a payoff of 0, is not a Nash
+equilibrium.
+L
+R
+T
+0, 0
+1, −1
+B
+−1, 1
+0,
+0
+Figure 66.1 The game in Exercise 372.2.
+372.4 O’Neill’s game
+a. Denote the probability with which player 1 chooses each of her actions 1,
+2, and 3, by p, and the probability with which player 2 chooses each of
+these actions by q. Then all four of player 1’s actions yield the same ex-
+pected payoff if and only if 4q −1 = 1 −6q, or q =
+1
+5, and similarly all
+four of player 2’s actions yield the same expected payoff if and only if p = 1
+5.
+Thus (( 1
+5, 1
+5, 1
+5, 2
+5), ( 1
+5, 1
+5, 1
+5, 2
+5)) is a Nash equilibrium of the game. The players’
+payoffs in this equilibrium are (−1
+5, 1
+5).
+
+
+Chapter 11. Strictly Competitive Games and Maxminimization
+67
+b. Let (p1, p2, p3, p4) be an equilibrium strategy of player 1. In order that it
+guarantee her the payoff of −1
+5, we need
+−p1 + p2 + p3 −p4 ≥−1
+5
+p1 −p2 + p3 −p4 ≥−1
+5
+p1 + p2 −p3 −p4 ≥−1
+5
+−p1 −p2 −p3 + p4 ≥−1
+5.
+Adding these four inequalities, we deduce that p4 ≤2
+5. Adding each pair of
+the ﬁrst three inequalities, we deduce that p1 ≤1
+5, p2 ≤1
+5, and p3 ≤1
+5. We
+have p1 + p2 + p3 + p4 = 1, so we deduce that (p1, p2, p3, p4) = ( 1
+5, 1
+5, 1
+5, 2
+5).
+A similar analysis of the conditions for player 2’s strategy to guarantee her
+the payoff of 1
+5 leads to the conclusion that (q1, q2, q3, q4) = ( 1
+5, 1
+5, 1
+5, 2
+5).
+
+
+12
+Rationalizability
+379.2 Best responses to beliefs
+Consider a two-player game in which player 1’s payoffs are given in Figure 69.1.
+The action B of player 1 is a best response to the belief that assigns probability 1
+2 to
+both L and R, but is not a best response to any belief that assigns probability 1 to
+either action.
+L
+R
+T
+3
+0
+M
+0
+3
+B
+2
+2
+Figure 69.1 The action B is a best response to a belief that assigns probability 1
+2 to L and to R, but is not
+a best response to any belief that assigns probability 1 to either L or R.
+384.1 Mixed strategy equilibria of game in Figure 384.1
+The game has no equilibrium in which player 2 assigns positive probability only
+to L and C, because if she does so then only M and B are possible best responses
+for player 1, but if player 1 assigns positive probability only to these actions then
+L is not optimal for player 2.
+Similarly, the game has no equilibrium in which player 2 assigns positive prob-
+ability only to C and R, because if she does so then only T and M are possible best
+responses for player 1, but if player 1 assigns positive probability only to these
+actions then R is not optimal for player 2.
+Now assume that player 2 assigns positive probability only to L and R. There
+are no probabilities for L and R under which player 1 is indifferent between all
+three of her actions, so player 1 must assign positive probability to at most two
+actions. If these two actions are T and M then player 2 prefers L to R, while if
+the two actions are M and B then player 2 prefers R to L. The only possibility
+is thus that the two actions are T and B. In this case we need player 2 to assign
+probability 1
+2 to L and R (in order that player 1 be indifferent between T and B);
+but then M is better for player 1. Thus there is no equilibrium in which player 2
+assigns positive probability only to L and R.
+Finally, if player 2 assigns positive probability to all three of her actions then
+player 1’s mixed strategy must be such that each of these three actions yields the
+69
+
+
+70
+Chapter 12. Rationalizability
+same payoff. A calculation shows that there is no mixed strategy of player 1 with
+this property.
+We conclude that the game has no mixed strategy equilibrium in which either
+player assigns positive probability to more than one action.
+387.2 Finding rationalizable actions
+I claim that the action R of player 2 is strictly dominated. Consider a mixed strat-
+egy of player 2 that assigns probability p to L and probability 1 −p to C. Such a
+mixed strategy strictly dominates R if p + 4(1 −p) > 3 and 8p + 2(1 −p) > 3, or if
+1
+6 < p < 1
+3. Now eliminate R from the game. In the reduced game, B is dominated
+by T. In the game obtained by eliminating B, L is dominated by C. Thus the only
+rationalizable action of player 1 is T and the only rationalizable action of player 2
+is C.
+387.5 Hotelling’s model of electoral competition
+The positions 0 and ℓare strictly dominated by the position m:
+• if her opponent chooses m, a player who chooses m ties whereas a player
+who chooses 0 loses
+• if her opponent chooses 0 or ℓ, a player who chooses m wins whereas a player
+who chooses 0 or ℓeither loses or ties
+• if her opponent chooses any other position, a player who chooses m wins
+whereas a player who chooses 0 or ℓloses.
+In the game obtained by eliminating the two positions 0 and ℓ, the positions 1
+and ℓ−1 are similarly strictly dominated. Continuing in the same way, we are left
+with the position m.
+388.2 Cournot’s duopoly game
+From Figure 58.1 we see that ﬁrm 1’s payoff to any output greater than 1
+2(α −c)
+is less than its payoff to the output 1
+2(α −c) for any output q2 of ﬁrm 2. Thus any
+output greater than 1
+2(α −c) is strictly dominated by the output 1
+2(α −c) for ﬁrm 1;
+the same argument applies to ﬁrm 2.
+Now eliminate all outputs greater than 1
+2(α −c) for each ﬁrm. The maximizer
+of ﬁrm 1’s payoff function for q2 = 1
+2(α −c) is 1
+4(α −c), so from Figure 58.1 we see
+that ﬁrm 1’s payoff to any output less than 1
+4(α −c) is less than its payoff to the
+output 1
+4(α −c) for any output q2 ≤1
+2(α −c) of ﬁrm 2. Thus any output less than
+1
+4(α −c) is strictly dominated by the output 1
+4(α −c) for ﬁrm 1; the same argument
+applies to ﬁrm 2.
+
+
+Chapter 12. Rationalizability
+71
+Now eliminate all outputs less than 1
+4(α −c) for each ﬁrm. Then by another
+similar argument, any output greater than 3
+8(α −c) is strictly dominated by 3
+8(α −
+c). Continuing in this way, we see from Figure 59.1 that in a ﬁnite number of
+rounds (given the ﬁnite number of possible outputs for each ﬁrm) we reach the
+Nash equilibrium output 1
+3(α −c).
+391.1 Example of dominance-solvable game
+The Nash equilibria of the game are (T, L), any ((0, 0, 1), (0, q, 1−q)) with 0 ≤q ≤
+1, and any ((0, p, 1 −p), (0, 0, 1)) with 0 ≤p ≤1.
+The game is dominance solvable, because T and L are the only weakly domi-
+nated actions, and when they are eliminated the only weakly dominated actions
+are M and C, leaving (B, R), with payoffs (0, 0).
+If T is eliminated, then L and C, no remaining action is weakly dominated;
+(M, R) and (B, R) both remain.
+391.2 Dividing money
+In the ﬁrst round every action ai ≤5 of each player i is weakly dominated by 6.
+No other action is weakly dominated, because 100 is a strict best response to 0 and
+every other action ai ≥6 is a strict best response to ai + 1. In the second round,
+10 is weakly dominated by 6 for each player, and each other remaining action ai of
+player i is a strict best response to a1 + 1, so no other action is weakly dominated.
+Similarly, in the third round, 9 is weakly dominated by 6, and no other action is
+weakly dominated. In the fourth and ﬁfth rounds 8 and 7 are eliminated, leaving
+the single action pair (6, 6), with payoffs (5, 5).
+392.2 Strictly competitive extensive games with perfect information
+Every ﬁnite extensive game with perfect information has a (pure strategy) sub-
+game perfect equilibrium (Proposition 173.1). This equilibrium is a pure strategy
+Nash equilibrium of the strategic form of the game. Because the game has only
+two possible outcomes, one of the players prefers the Nash equilibrium outcome
+to the other possible outcome. By Proposition 368.1, this player’s equilibrium strat-
+egy guarantees her equilibrium payoff, so this strategy weakly dominates all her
+nonequilibrium strategies. After all dominated strategies are eliminated, every
+remaining pair of strategies generates the same outcome.
+
+
+13
+Evolutionary Equilibrium
+400.1 Evolutionary stability and weak domination
+The ESS a∗does not necessarily weakly dominate every other action in the game.
+For example, in the game in Figure 395.1 of the text, X is an ESS but does not
+weakly dominate Y.
+No action can weakly dominate an ESS. To see why, let a∗be an ESS and let
+b be another action. Because a∗is an ESS, (a∗, a∗) is a Nash equilibrium, so that
+u(b, a∗) ≤u(a∗, a∗). Now, if u(b, a∗) < u(a∗, a∗), certainly b does not weakly dom-
+inate a∗, so suppose that u(b, a∗) = u(a∗, a∗). Then by the second condition for an
+ESS we have u(b, b) < u(a∗, b). We conclude that b does not weakly dominate a∗.
+405.1 Hawk–Dove–Retaliator
+First suppose that v ≥c. In this case the game has two pure symmetric Nash
+equilibria, (A, A) and (R, R). However, A is not an ESS, because R is a best re-
+sponse to A and u(R, R) > u(A, R). The action pair (R, R) is a strict equilibrium,
+so R is an ESS. Now consider the possibility that the game has a mixed strategy
+equilibrium (α, α). If α assigns positive probability to either P or R (or both) then
+R yields a payoff higher than does P, so only A and R may be assigned positive
+probability in a mixed strategy equilibrium. But if a strategy α assigns positive
+probability to A and R and probability 0 to P, then R yields a payoff higher than
+does A against an opponent who uses α. Thus the game has no symmetric mixed
+strategy equilibrium in this case.
+Now suppose that v < c. Then the only symmetric pure strategy equilibrium is
+(R, R). This equilibrium is strict, so that R is an ESS. Now consider the possibility
+that the game has a mixed strategy equilibrium (α, α). If α assigns probability 0 to
+A then R yields a payoff higher than does P against an opponent who uses α; if
+α assigns probability 0 to P then R yields a payoff higher than does A against an
+opponent who uses α. Thus in any mixed strategy equilibrium (α, α), the strategy α
+must assign positive probability to both A and P. If α assigns probability 0 to R
+then we need α = (v/c, 1 −v/c) (the calculation is the same as for Hawk–Dove).
+Because R yields a lower payoff against this strategy than do A and P, and the
+strategy is an ESS in Hawk–Dove, it is an ESS in the present game. The remaining
+possibility is that the game has a mixed strategy equilibrium (α, α) in which α
+assigns positive probability to all three actions. If so, then the expected payoff to
+this strategy is less than 1
+2v, because the pure strategy P yields an expected payoff
+73
+
+
+74
+Chapter 13. Evolutionary Equilibrium
+less than 1
+2v against any such strategy. But then U(R, R) = 1
+2v > U(α, R), violating
+the second condition in the deﬁnition of an ESS.
+In summary:
+• If v ≥c then R is the unique ESS of the game.
+• If v < c then both R and the mixed strategy that assigns probability v/c to A
+and 1 −v/c to P are ESSs.
+405.3 Bargaining
+The game is given in Figure 27.1.
+The pure strategy of demanding 10 is not an ESS because 2 is a best response to
+10 and u(2, 2) > u(10, 2).
+Now let α be the mixed strategy that assigns probability 2
+5 to 2 and 3
+5 to 8. Each
+player’s payoff at the strategy pair (α, α) is 16
+5 . Thus the only actions a that are best
+responses to α are 2 and 8, so that the only mixed strategies that are best responses
+to α assign positive probability only to the actions 2 and 8. Let β be the mixed
+strategy that assigns probability p to 2 and probability 1 −p to 8. We have
+U(β, β) = 5p(2 −p)
+and
+U(α, β) = 6p + 4
+5.
+We ﬁnd that U(α, β) −U(β, β) = 5(p −2
+5)2, which is positive if p̸ = 2
+5. Hence α is
+an ESS.
+Finally let α be the mixed strategy that assigns probability 4
+5 to 4 and 1
+5 to 6.
+Each player’s payoff at the strategy pair (α, α) is 24
+5 . Thus the only actions a that
+are best responses to α are 4 and 6, so that the only mixed strategies that are best
+responses assign positive probability only to the actions 4 and 6. Let β be the mixed
+strategy that assigns probability p to 4 and probability 1 −p to 6. We have
+U(β, β) = 5p(2 −p)
+and
+U(α∗, β) = 2p + 16
+5 .
+We ﬁnd that U(α, β) −U(β, β) = 5(p −4
+5)2, which is positive if p̸ = 4
+5. Hence α∗is
+an ESS.
+408.1 Equilibria of C and of G
+First suppose that (α1, α2) is a mixed strategy Nash equilibrium of C. Then for all
+mixed strategies β1 of player 1 and all mixed strategies β2 of player 2 we have
+U1(α1, α2) ≥U1(β1, α2) and U2(α1, α2) ≥U2(α1, β2).
+
+
+Chapter 13. Evolutionary Equilibrium
+75
+Thus
+u((α1, α2), (α1, α2)) = 1
+2U1(α1, α2) + 1
+2U2(α1, α2)
+≥1
+2U1(β1, α2) + 1
+2U2(α1, β2)
+= u((β1, β2), (α1, α2)),
+so that ((α1, α2), (α1, α2)) is a Nash equilibrium of G. If (α1, α2) is a strict Nash
+equilibrium of C then the inequalities are strict, and ((α1, α2), (α1, α2)) is a strict
+Nash equilibrium of G.
+Now assume that ((α1, α2), (α1, α2)) is a Nash equilibrium of G. Then
+u((α1, α2), (α1, α2)) ≥u((β1, β2), (α1, α2)),
+or
+1
+2U1(α1, α2) + 1
+2U2(α1, α2) ≥1
+2U1(β1, α2) + 1
+2U2(α1, β2),
+for all conditional strategies (β1, β2). Taking β2 = α2 we see that α1 is a best re-
+sponse to α2 in C, and taking β1 = α1 we see that α2 is a best response to α1 in C.
+Thus (α1, α2) is a Nash equilibrium of G.
+414.1 A coordination game between siblings
+The game with payoff function v is shown in Figure 75.1. If x < 2 then (Y, Y) is
+a strict Nash equilibrium of the games, so Y is an evolutionarily stable action in
+the game between siblings. If x > 2 then the only Nash equilibrium of the game is
+(X, X), and this equilibrium is strict. Thus the range of values of x for which the
+only evolutionarily stable action is X is x > 2.
+X
+Y
+X
+x, x
+1
+2x, 1
+2
+Y
+1
+2, 1
+2x
+1, 1
+v
+Figure 75.1 The game with payoff function v derived from the game in Exercise 414.1.
+414.2 Assortative mating
+Under assortative mating, all siblings take the same action, so the analysis is the
+same as that for asexual reproduction. (A difﬁculty with the assumption of assor-
+tative mating is that a rare mutant will have to go to great lengths to ﬁnd a mate
+that is also a mutant.)
+
+
+76
+Chapter 13. Evolutionary Equilibrium
+416.1 Darwin’s theory of the sex ratio
+A normal organism produces pn male offspring and (1 −p)n female offspring
+(ignoring the small probability that the partner of a normal organism is a mutant).
+Thus it has pn · ((1 −p)/p)n + (1 −p)n · n = 2(1 −p)n2 grandchildren.
+A mutant has 1
+2n male offspring and 1
+2n female offspring, and hence 1
+2n · ((1 −
+p)/p)n + 1
+2n · n = 1
+2n2/p grandchildren.
+Thus the difference between the number of grandchildren produced by mutant
+and normal organisms is
+1
+2n2/p −2(1 −p)n2 = n2
+ 1
+2p
+
+(1 −2p)2,
+which is positive if p̸ = 1
+2. (The point is that if p > 1
+2 then the fraction of a mutant’s
+offspring that are males is higher than the fraction of a normal organism’s offspring
+that are males, and males each bear more offspring than females. Similarly, if p < 1
+2
+then the fraction of a mutant’s offspring that are females is higher than the fraction
+of a normal organism’s offspring that are females, and females each bear more
+offspring than males.)
+Thus any mutant with p̸ = 1
+2 invades the population; only p = 1
+2 is evolution-
+arily stable.
+
+
+14
+Repeated Games: The Prisoner’s Dilemma
+423.1 Equivalence of payoff functions
+Suppose that a person’s preferences are represented by the discounted sum of pay-
+offs with payoff function u and discount factor δ. Then if the two sequences of
+outcomes (x1, x2, . . .) and (y1, y2, . . .) are indifferent, we have
+∞
+∑
+t=0
+δt−1u(xt) =
+∞
+∑
+t=0
+δt−1u(yt).
+Now let v(x) = α + βu(x) for all x, with β > 0. Then
+∞
+∑
+t=0
+δt−1v(xt) =
+∞
+∑
+t=0
+δt−1[α + βu(xt)] =
+∞
+∑
+t=0
+δt−1α + β
+∞
+∑
+t=0
+δt−1u(xt)
+and similarly
+∞
+∑
+t=0
+δt−1v(yt) =
+∞
+∑
+t=0
+δt−1[α + βu(yt)] =
+∞
+∑
+t=0
+δt−1α + β
+∞
+∑
+t=0
+δt−1u(yt),
+so that
+∞
+∑
+t=0
+δt−1v(xt) =
+∞
+∑
+t=0
+δt−1v(yt).
+Thus the person’s preferences are represented also by the discounted sum of pay-
+offs with payoff function v and discount factor δ.
+426.1 Subgame perfect equilibrium of ﬁnitely repeated Prisoner’s Dilemma
+Use backward induction. In the last period, the action C is strictly dominated for
+each player, so each player chooses D, regardless of history. Now consider pe-
+riod T −1. Each player’s action in this period affects only the outcome in this
+period—it has no effect on the outcome in period T, which is (D, D). Thus in
+choosing her action in period T −1, a player considers only her payoff in that pe-
+riod. As in period T, her action D strictly dominates her action C, so that in any
+subgame perfect equilibrium she chooses D. A similar argument applies to all pre-
+vious periods, leading to the conclusion that in every subgame perfect equilibrium
+each player chooses D in every period, regardless of history.
+77
+
+
+78
+Chapter 14. Repeated Games: The Prisoner’s Dilemma
+P0: C
+-
+(·, D)
+P1: C
+-
+all
+outcomes
+D: D
+Figure 78.1 The strategy in Exercise 428.1a.
+428.1 Strategies in an inﬁnitely repeated Prisoner’s Dilemma
+a. The strategy is shown in Figure 78.1.
+b. The strategy is shown in Figure 78.2.
+P0: C
+-
+(·, D)
+P1: C
+-
+(·, D)
+D: D
+Figure 78.2 The strategy in Exercise 428.1b.
+c. The strategy is shown in Figure 78.3.
+C: C
+D: D
+-
+(D, C) or (C, D)
+?
+
+
+(C, C) or (D, D)
+Figure 78.3 The strategy in Exercise 428.1c.
+439.1 Finitely repeated Prisoner’s Dilemma with switching cost
+a. Consider deviations by player 1, given that player 2 adheres to her strategy,
+in the subgames following histories that end in each of the four outcomes of
+the game.
+(C, C): If player 1 adheres to her strategy, her payoff is 3 in every period. If
+she deviates in the ﬁrst period of the subgame, but otherwise follows
+her strategy, her payoff is 4 −ǫ in the ﬁrst period of the subgame, and
+2 in every subsequent period. Given ǫ > 1, player 1’s deviation is not
+proﬁtable, even if it occurs in the last period of the game.
+(D, C) or (D, D): If player 1 adheres to her strategy, her payoff is 2 in ev-
+ery period. If she deviates in the ﬁrst period of the subgame, but oth-
+erwise follows her strategy, her payoff is −ǫ in the ﬁrst period of the
+subgame, 2 −ǫ in the next period, and 2 subsequently. Thus adhering
+to her strategy is optimal for player 1.
+(C, D): If player 1 adheres to her strategy, her payoff is 2 −ǫ in the ﬁrst pe-
+riod of the subgame, and 2 subsequently. If she deviates in the ﬁrst
+period of the subgame, but otherwise follows her strategy, her payoff
+
+
+Chapter 14. Repeated Games: The Prisoner’s Dilemma
+79
+is 0 in the ﬁrst period of the subgame, 2 −ǫ in the next period, and 2
+subsequently. Given ǫ < 2, player 1’s deviation is not optimal even if it
+occurs in the last period of the game.
+b. Given ǫ > 2, a player does not gain from deviating from (C, C) in the next-
+to-last or last periods, even if she is not punished, and does not optimally
+punish such a deviation by her opponent. Consider the strategy that chooses
+C at the start of the game and after any history that ends with (C, C), chooses
+D after any other history that has length at most T −2, and chooses the action
+it chose in period T −1 after any history of length T −1 (where T is the length
+of the game). I claim that the strategy pair in which both players use this
+strategy is a subgame perfect equilibrium. Consider deviations by player 1,
+given that player 2 adheres to her strategy, in the subgames following the
+various possible histories.
+History ending in (C, C), length ≤T −3: If player 1 adheres to her strategy,
+her payoff is 3 in every period of the subgame. If she deviates in the ﬁrst
+period of the subgame, but otherwise follows her strategy, her payoff
+is 4 −ǫ in the ﬁrst period of the subgame, and 2 in every subsequent
+period (her opponent switches to D). Given ǫ > 1, player 1’s deviation
+is not proﬁtable.
+History ending in (C, C), length ≥T −2: If player 1 adheres to her strategy,
+her payoff is 3 in each period of the subgame. If she deviates to D in the
+ﬁrst period of the subgame, her payoff is 4 −ǫ in that period, and 4 sub-
+sequently (her deviation is not punished). The length of the subgame is
+at most 2, so given ǫ > 2, her deviation is not proﬁtable.
+History ending in (D, C) or (D, D): If player 1 adheres to her strategy, her
+payoff is 2 in every period. If she deviates in the ﬁrst period of the
+subgame, but otherwise follows her strategy, her payoff is −ǫ in the
+ﬁrst period of the subgame, 2 −ǫ in the next period, and 2 subsequently.
+Thus adhering to her strategy is optimal for player 1.
+History ending in (C, D), length ≤T −2: If player 1 adheres to her strategy,
+her payoff is 2 −ǫ in the ﬁrst period of the subgame (she switches to D),
+and 2 subsequently. If she deviates in the ﬁrst period of the subgame,
+but otherwise follows her strategy, her payoff is 0 in the ﬁrst period of
+the subgame, 2 −ǫ in the next period, and 2 subsequently.
+History ending in (C, D), length T −1: If player 1 adheres to her strategy,
+her payoff is 0 in period T (the outcome is (C, D)). If she deviates to
+D, her payoff is 2 −ǫ in period T. Given ǫ > 2, adhering to her strategy
+is thus optimal.
+
+
+80
+Chapter 14. Repeated Games: The Prisoner’s Dilemma
+442.1 Deviations from grim trigger strategy
+• If player 1 adheres to the strategy, she subsequently chooses D (because
+player 2 chose D in the ﬁrst period). Player 2 chooses C in the ﬁrst period
+of the subgame (player 1 chose C in the ﬁrst period of the game), and then
+chooses D (because player 1 chooses D in the ﬁrst period of the subgame).
+Thus the sequence of outcomes in the subgame is ((D, C), (D, D), (D, D), . . .),
+yielding player 1 a discounted average payoff in the subgame of
+(1 −δ)(3 + δ + δ2 + δ3 + · · ·) = (1 −δ)
+
+3 +
+δ
+1 −δ
+
+= 3 −2δ.
+• If player 1 refrains from punishing player 2 for her lapse, and simply chooses
+C in every subsequent period, then the outcome in period 2 and subsequently
+is (C, C), so that the sequence of outcomes in the subgame yields player 1 a
+discounted average payoff of 2.
+If δ > 1
+2 then 2 > 3 −2δ, so that player 1 prefers to ignore player 2’s deviation
+rather than to adhere to her strategy and punish player 2 by choosing D. (Note
+that the theory does not consider the possibility that player 1 takes player 2’s play
+of D as a signal that she is using a strategy different from the grim trigger strategy.)
+443.2 Different punishment lengths in subgame perfect equilibrium
+Yes, an inﬁnitely repeated Prisoner’s Dilemma has such subgame perfect equilibria.
+As for the modiﬁed grim trigger strategy, each player’s strategy has to switch to
+D not only if the other player chooses D but also if the player herself chooses
+D. The only subtlety is that the number of periods for which a player chooses
+D after a history in which not all the outcomes were (C, C) must depend on the
+identity of the player who ﬁrst deviated. If, for example, player 1 punishes for
+two periods while player 2 punishes for three periods, then the outcome (C, D)
+induces player 1 to choose D for two periods (to punish player 2 for her deviation)
+while the outcome (D, C) induces her to choose D for three periods (while she is
+being punished by player 2). The strategy of each player in this case is shown
+in Figure 81.1. Viewed as a strategy of player 1, the top part of the ﬁgure entails
+punishment of player 2 and the bottom part entails player 1’s reaction to her own
+deviation. Similarly, viewed as a strategy of player 2, the bottom part of the ﬁgure
+entails punishment of player 1 and the top part entails player 2’s reaction to her
+own deviation.
+To ﬁnd the values of δ for which the strategy pair in which each player uses
+the strategy in Figure 81.1 is a subgame perfect equilibrium, consider the result of
+each player’s deviating at the start of a subgame.
+First consider player 1. If she deviates when both players are in state P0, she
+induces the outcome (D, C) followed by three periods of (D, D), and then (C, C)
+subsequently. This outcome path is worse for her than (C, C) in every period if
+
+
+Chapter 14. Repeated Games: The Prisoner’s Dilemma
+81
+P0: C 
+
+*
+(·, D)
+P1: D
+-
+all
+outcomes
+P2: D
+?
+
+
+all outcomes
+HHHH
+H
+j
+(D, ·)
+P′
+1: D
+-
+all
+outcomes
+P′
+2: D
+-
+all
+outcomes
+P′
+3: D
+6
+
+	
+all outcomes
+Figure 81.1 A strategy in an inﬁnitely repeated Prisoner’s Dilemma that punishes deviations for two
+periods and reacts to punishment by choosing D for three periods.
+and only if δ3 −2δ + 1 ≤0, or if and only if δ is at least around 0.62 (as we found in
+Section 14.7.2). If she deviates when both players are in one of the other states then
+she is worse off in the period of her deviation and her deviation does not affect the
+subsequent outcomes. Thus player 1 cannot proﬁtably deviate in the ﬁrst period
+of any subgame if δ is at least around 0.62.
+The same argument applies to player 2, except that a deviation when both play-
+ers are in state P0 induces (C, D) followed by three, rather than two periods of
+(D, D). This outcome path is worse for player 2 than (C, C) in every period if and
+only if δ4 −2δ + 1 ≤0, or if and only if δ is at least around 0.55 (as we found in
+Section 14.7.2).
+We conclude that the strategy pair in which each player uses the strategy in
+Figure 81.1 is a subgame perfect equilibrium if and only if δ3 −2δ + 1 ≤0, or if
+and only if δ is at least around 0.62.
+445.1 Tit-for-tat as a subgame perfect equilibrium
+Suppose that player 2 adheres to tit-for-tat. Consider player 1’s behavior in sub-
+games following histories that end in each of the following outcomes.
+(C, C)
+If player 1 adheres to tit-for-tat the outcome is (C, C) in every period, so
+that her discounted average payoff in the subgame is x. If she chooses D
+in the ﬁrst period of the subgame, then adheres to tit-for-tat, the outcome
+alternates between (D, C) and (C, D), and her discounted average payoff is
+y/(1 + δ). Thus we need x ≥y/(1 + δ), or δ ≥(y −x)/x, for a one-period
+deviation from tit-for-tat not to be proﬁtable for player 1.
+(C, D)
+If player 1 adheres to tit-for-tat the outcome alternates between (D, C) and
+(C, D), so that her discounted average payoff is y/(1 + δ). If she deviates to
+C in the ﬁrst period of the subgame, then adheres to tit-for-tat, the outcome is
+(C, C) in every period, and her discounted average payoff is x. Thus we need
+y/(1 + δ) ≥x, or δ ≤(y −x)/x, for a one-period deviation from tit-for-tat
+not to be proﬁtable for player 1.
+
+
+82
+Chapter 14. Repeated Games: The Prisoner’s Dilemma
+(D, C)
+If player 1 adheres to tit-for-tat the outcome alternates between (C, D) and
+(D, C), so that her discounted average payoff is δy/(1 + δ). If she deviates to
+D in the ﬁrst period of the subgame, then adheres to tit-for-tat, the outcome
+is (D, D) in every period, and her discounted average payoff is 1. Thus we
+need δy/(1 + δ) ≥1, or δ ≥1/(y −1), for a one-period deviation from
+tit-for-tat not to be proﬁtable for player 1.
+(D, D)
+If player 1 adheres to tit-for-tat the outcome is (D, D) in every period, so
+that her discounted average payoff is 1. If she deviates to C in the ﬁrst period
+of the subgame, then adheres to tit-for-tat, the outcome alternates between
+(C, D) and (D, C), and her discounted average payoff is δy/(1 + δ). Thus
+we need 1 ≥δy/(1 + δ), or δ ≤1/(y −1), for a one-period deviation from
+tit-for-tat not to be proﬁtable for player 1.
+The same arguments apply to deviations by player 2, so we conclude that
+(tit-for-tat, tit-for-tat) is a subgame perfect equilibrium if and only if δ = (y −x)/x
+and δ = 1/(y −1), or y −x = 1 and δ = 1/x.
+
+
+15
+Repeated Games: General Results
+454.3 Repeated Bertrand duopoly
+a. Suppose that ﬁrm i uses the strategy si. If the other ﬁrm, j, uses sj, then its
+discounted average payoff is
+(1 −δ)
+
+1
+2π(pm) + 1
+2δπ(pm) + · · ·
+
+= 1
+2π(pm).
+If, on the other hand, ﬁrm j deviates to a price p then the closer this price
+is to pm, the higher is j’s proﬁt, because the punishment does not depend
+on p. Thus by choosing p close enough to pm the ﬁrm can obtain a proﬁt as
+close as it wishes to π(pm) in the period of its deviation. Its proﬁt during
+its punishment in the following k periods is zero. Once its punishment is
+complete, it can either revert to pm or deviate once again. If it can proﬁt
+from deviating initially then it can proﬁt by deviating once its punishment is
+complete, so its maximal proﬁt from deviating is
+(1 −δ)
+
+π(pm) + δk+1π(pm) + δ2k+2π(pm) + · · ·
+
+= (1 −δ)π(pm)
+1 −δk+1
+.
+Thus for (s1, s2) to be a Nash equilibrium we need
+1 −δ
+1 −δk+1 ≤1
+2,
+or
+δk+1 −2δ + 1 ≤0.
+(This condition is the same as the one we found for a pair of k-period pun-
+ishment strategies to be a Nash equilibrium in the Prisoner’s Dilemma (Sec-
+tion 14.7.2).)
+b. Suppose that ﬁrm i uses the strategy si. If the other ﬁrm does so then its
+discounted average payoff is 1
+2π(pm), as in part a. If the other ﬁrm deviates
+to some price p with c < p < pm in the ﬁrst period, and maintains this price
+subsequently, then it obtains π(p) in the ﬁrst period and shares π(p) in each
+subsequent period, so that its discounted average payoff is
+(1 −δ)
+
+π(p) + 1
+2δπ(p) + 1
+2δ2π(p) + · · ·
+
+= 1
+2(2 −δ)π(p).
+If p is close to pm then π(p) is close to π(pm) (because π is continuous). In
+fact, for any δ < 1 we have 2 −δ > 1, so that we can ﬁnd p < pm such that
+(2 −δ)π(p) > π(pm). Hence the strategy pair is not a Nash equilibrium of
+the inﬁnitely repeated game for any value of δ.
+83
+
+
+84
+Chapter 15. Repeated Games: General Results
+459.2 Detection lags
+a. The best deviations involve prices slightly less than p∗. Such a deviation by
+ﬁrm i yields a discounted average payoff close to
+(1 −δ)
+
+π(p∗) + δπ(p∗) + · · · + δki−1π(p∗)
+
+= (1 −δki)π(p∗),
+whereas compliance with the strategy yields the discounted average payoff
+1
+2π(p∗). Thus the strategy pair is a subgame perfect equilibrium for any
+value of p∗if δk1 ≥1
+2 and δk2 ≥1
+2, and is not a subgame perfect equilibrium
+for any value of p∗if δk1 < 1
+2 or δk2 < 1
+2. That is, the most proﬁtable price for
+which the strategy pair is a subgame perfect equilibrium is pm if δk1 ≥1
+2 and
+δk2 ≥1
+2 and is c if δk1 < 1
+2 or δk2 < 1
+2.
+b. Denote by k∗
+i the critical value of ki found in part a. (That is, δk∗
+i ≥1
+2 and
+δk∗
+i +1 < 1
+2.)
+If ki > k∗
+i then no change in kj affects the outcome of the price-setting sub-
+game, so j’s best action at the start of the game is θ, in which case i’s best ac-
+tion is the same. Thus in one subgame perfect equilibrium both ﬁrms choose
+θ at the start of the game, and c regardless of history in the rest of the game.
+If ki ≤k∗
+i then j’s best action is k∗
+j if the cost of choosing k∗
+j is at most 1
+2π(pm).
+Thus if the cost of choosing k∗
+i is at most 1
+2π(pm) for each ﬁrm then the game
+has another subgame perfect equilibrium, in which each ﬁrm i chooses k∗
+i at
+the start of the game and the strategy si in the price-setting subgame.
+A promise by ﬁrm i to beat another ﬁrm’s price is an inducement for con-
+sumers to inform ﬁrm i of deviations by other ﬁrms, and thus reduce its
+detection time. To this extent, such a promise tends to promote collusion.
+
+
+16
+Bargaining
+468.1 Two-period bargaining with constant cost of delay
+In the second period, player 1 accepts any proposal that gives a positive amount
+of the pie. Thus in any subgame perfect equilibrium player 2 proposes (0, 1) in
+period 2, which player 1 accepts, obtaining the payoff −c1.
+Now consider the ﬁrst period. Given the second period outcome of any sub-
+game perfect equilibrium, player 2 accepts any proposal that gives her more than
+1 −c2 and rejects any proposal that gives her less than 1 −c2. Thus in any subgame
+perfect equilibrium player 1 proposes (c2, 1 −c2), which player 2 accepts.
+In summary, the game has a unique subgame perfect equilibrium, in which
+• player 1 proposes (c2, 1 −c2) in period 1, and accepts all proposals in period 2
+• player 2 accepts a proposal in period 1 if and only if it gives her at least 1 −c2,
+and proposes (0, 1) in period 2 after any history.
+The outcome of the equilibrium is that the proposal (c2, 1 −c2) is made by player 1
+and immediately accepted by player 2.
+468.2 Three-period bargaining with constant cost of delay
+The subgame following a rejection by player 2 in period 1 is a two-period game in
+which player 2 makes the ﬁrst proposal. Thus by the result of Exercise 468.1, the
+subgame has a unique subgame perfect equilibrium, in which player 2 proposes
+(1 −c1, c1), which player 1 immediately accepts.
+Now consider the ﬁrst period.
+• If c1 ≥c2, player 2 rejects any offer of less than c1 −c2 (which she obtains if
+she rejects an offer), and accepts any offer of more than c1 −c2. Thus in an
+equilibrium player 1 offers her c1 −c2, which she accepts.
+• If c1 < c2, player 2 accepts all offers, so that player 1 proposes (1, 0), which
+player 2 accepts.
+In summary, the game has a unique subgame perfect equilibrium, in which
+• player 1 proposes (1 −(c1 −c2), c1 −c2) if c1 ≥c2 and (1, 0) otherwise in
+period 1, accepts any proposal that gives her at least 1 −c1 in period 2, and
+proposes (1, 0) in period 3
+85
+
+
+86
+Chapter 16. Bargaining
+• player 2 accepts any proposal that gives her at least c1 −c2 if c1 ≥c2 and
+accepts all proposals otherwise in period 1, proposes (1 −c1, c1) in period 2,
+and accepts all proposals in period 3.
+
+
+17
+Appendix: Mathematics
+497.1 Maximizer of quadratic function
+We can write the function as −x(x −α). Thus r1 = 0 and r2 = α, and hence the
+maximizer is α/2.
+499.3 Sums of sequences
+In the ﬁrst case set r = δ2 to transform the sum into 1 + r + r2 + · · ·, which is equal
+to 1/(1 −r) = 1/(1 −δ2).
+In the second case split the sum into (1 + δ2 + δ4 + · · ·) + (2δ + 2δ3 + 2δ5 + · · ·);
+the ﬁrst part is equal to 1/(1 −δ2) and the second part is equal to 2δ(1 + δ2 + δ4 +
+· · ·), or 2δ/(1 −δ2). Thus the complete sum is
+1 + 2δ
+1 −δ2 .
+504.2 Bayes’ law
+Your posterior probability of carrying X given that you test positive is
+Pr(positive test|X) Pr(X)
+Pr(positive test|X) Pr(X) + Pr(positive test|¬X) Pr(¬X)
+where ¬X means “not X”. This probability is equal to 0.9p/(0.9p + 0.2(1 −p)) =
+0.9p/(0.2 + 0.7p), which is increasing in p (i.e. a smaller value of p gives a smaller
+value of the probability). If p = 0.001 then the probability is approximately 0.004.
+(That is, if 1 in 1,000 people carry the gene then if you test positive on a test that
+is 90% accurate for people who carry the gene and 80% accurate for people who
+do not carry the gene, then you should assign probability 0.004 to your carrying
+the gene.) If the test is 99% accurate in both cases then the posterior probability is
+(0.99 · 0.001)/[0.99 · 0.001 + 0.01 · 0.999] ≈0.09.
+87
+
+
+References
+The page numbers on which the references are cited are given in brackets after each item.
+Nagel, Rosemarie (1995), “Unraveling in guessing games: an experimental study”,
+American Economic Review 85, 1313–1326. [4]
+Ochs, Jack (1995), “Coordination problems”, in Handbook of experimental economics
+(John H. Kagel and Alvin E. Roth, eds.), 195–251. Princeton: Princeton
+University Press. [4]
+Van Huyck, John B., Raymond C. Battalio, and Richard O. Beil (1990), “Tacit coor-
+dination games, strategic uncertainty, and coordination failure”, American
+Economic Review 80, 234–248. [4]
+89

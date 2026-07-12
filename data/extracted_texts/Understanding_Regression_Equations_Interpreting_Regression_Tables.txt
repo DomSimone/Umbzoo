@@ -1,0 +1,695 @@
+Basics of Regression
+Understanding Regression Equations and Interpreting
+Regression Tables
+Robert Upton
+Cambridge, Massachusetts USA
+
+
+Contents
+1
+Introduction
+1
+2
+What is Linear Regression?
+2
+2.1
+Understanding a Regression Equation . . . . . . . . . . . . . . . . . . . .
+2
+2.2
+Example: Using Regression Coeﬃcients . . . . . . . . . . . . . . . . . . .
+3
+2.3
+Dummy Variables and Experimentation . . . . . . . . . . . . . . . . . . .
+4
+2.4
+Control Variables . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+5
+2.4.1
+Example: Using Regression Equations with Dummy Variables . .
+5
+3
+Interpreting a Regression Table
+6
+3.1
+Example: Interpreting a Table . . . . . . . . . . . . . . . . . . . . . . . .
+7
+3.2
+Example: Interpreting a Table . . . . . . . . . . . . . . . . . . . . . . . .
+9
+4
+Special Cases
+11
+4.1
+Interaction Variables . . . . . . . . . . . . . . . . . . . . . . . . . . . . .
+11
+4.1.1
+Interaction Example 1: Finding Relevant Coeﬃcients . . . . . . .
+12
+4.1.2
+Interaction Example 2: Interpreting a Table A . . . . . . . . . . .
+13
+4.1.3
+Interaction Example 3: Interpreting a Table B . . . . . . . . . . .
+14
+4.2
+Diﬀerence in Diﬀerences
+. . . . . . . . . . . . . . . . . . . . . . . . . . .
+15
+5
+Another Type of Table: Baseline Summary Statistics
+16
+6
+Glossary
+17
+7
+Recommended Resources
+18
+References
+18
+1
+Introduction
+Regression tables are an integral part of how economists share information about their
+data and explain their ﬁndings. This guide is intended to help you understand the basics
+of regression in order to interpret the results of regression analyses. Using explanation
+and examples, we will go through the basic structure of regression equations and learn
+how to glean relevant and useful information from regression tables. Someone new to
+regression will beneﬁt most from reading the entire reference manual in order while the
+more experienced user can skip to the relevant section of interest. Each section contains
+a set of key words that link to their deﬁnition in the glossary. Each section begins with
+an explanation of the topic and examples follow.
+1
+
+
+2
+What is Linear Regression?
+2.1
+Understanding a Regression Equation
+• Regression Analysis
+• Regression Equation
+• Independent Variable
+• Dependent Variable
+• Regression Coeﬃcient
+A linear regression relies on a complicated mathematical process to create coeﬃcients
+for the regression equation, and so we typically use statistical software to do this for us.
+Despite being a complicated equation to create, a regression equation is a simple formula
+to use in order to determine causality. We use the regression equation by inputting the
+characteristics of a person, thing, or group to get a prediction of the average result for
+someone like that person. Examples of the type of result we might look at include income,
+visits to the hospital, or height and weight. Essentially, the simplest form of a regression
+is determining if there is a correlation between an input (or series of inputs) and the
+outcome. In order to get a prediction, we take in the data on inputs and outcomes, then
+try to draw a line that is as close to the trend as possible. Finally, based on how spread
+the data is from the line, regression tells us how likely it is that the input caused the
+outcome rather than the trend happening by chance.
+Figure 1: This graph shows the relationship between height and weight. Notice how the
+line follows the trend of the data.
+2
+
+
+In the above graph each dot represents a data point (in this case, each dot represents
+a person), and the equation of the line is our regression. Our predicted height for any
+given person is the point along the line corresponding to that person’s weight. While
+the outcome variable is what we are interested in changing or observing, we usually
+are not concerned about ﬁnding predicted values. Rather, we are interested in how the
+independent variables aﬀect the outcome variable, which the coeﬃcients tell us. In the
+following equation, we are interested in the height of a person and think it may depend
+on a person’s age, parental income, and cigarettes smoked in a year.
+Height = β0 + β1 ∗Age + β2 ∗Parent Inc + β3 ∗Cigar + ϵ
+The equation follows the format we discussed. It is an equation that takes in the char-
+acteristics of a person (Age, Parent Inc, Cigar) and produces a prediction of their result
+(Height). The characteristics (Age, Paren Inc, Cigar) are the independent variables
+(variables we pick as input) and the output (Height) is the dependent variable (the
+variable that depends on the what we pick). Finally, what we are really interested in
+are the βs (betas - called regression coeﬃcients), which answer this question:
+for every one unit increase in the independent variable that the coeﬃcient
+multiplies, what is the change in the dependent variable? Notice how β0 has
+no variable that it multiplies. This is called the intercept or constant and represents
+everyone’s starting point. If we plug in zeroes for every independent variable, we see that
+Height = β0. Therefore, β0 theoretically shows the height of someone who is age zero,
+has zero income, and smokes zero cigarettes (this would be like a new born baby), but
+most of the time, we aren’t interested in the intercept.
+A common criticism of this equation is that it can’t possibly predict a person’s height,
+and ultimately that is right. The predicted value tells us what the average height would
+be for everyone sharing these characteristics, not what each speciﬁc person’s height would
+be. The regression is limited to the characteristics we give it. In this case, that is age,
+income, and cigarettes smoked yearly. While you can predict a bit with that information,
+there is still a lot of uncertainty and information left out.
+The uncertainty and the
+fact that people are diﬀerent from the average are why we have the term ϵ (epsilon)
+in the equation. ϵ represents what the expression can not explain by the given
+variables and on average always equals zero (mathematical fact of regression).
+2.2
+Example: Using Regression Coeﬃcients
+Let’s use a medically inaccurate but nevertheless interesting example to understand how
+to use regression coeﬃcients. We will use the same regression equation from the last
+section.
+Height = β0 + β1 ∗Age + β2 ∗Parent Inc + β3 ∗Cigar + ϵ
+Once we have the equation, the next step is to ﬁnd the regression coeﬃcients. Nor-
+mally we plug data into a statistical computer program, and the computer tells us the
+values of the regression coeﬃcients. In order to keep it simple, I have made up some
+coeﬃcients and plugged them into the regression equation above to get
+Height = 20 + 1.9 ∗Age + .0004 ∗Parent Inc −.001 ∗Cigar + ϵ
+3
+
+
+Now let’s make a chart of the βs. To ﬁnd the coeﬃcients, we look at the constant
+(β0) and then the numbers that multiply the independent variables to get
+β0
+β1
+β2
+β3
+20
+1.9
+.0004
+-.001
+So what do these numbers mean? Let’s look at β1. If we look at the ﬁrst equation
+we see that β1 is the number that multiplies Age. This means that β1 shows the change
+in height due to a one unit (in this case, one year) increase in age. Since the number is
+1.9, we know that a 1 year increase in age results in a 1.9 inch increase in height. What
+about β3? We see that the corresponding number is -.001 and so we know that a 1 unit
+increase in the number of cigarettes smoked a year leads to a .001 inch decrease in height.
+If we wanted to predict the height of someone who is 20 years old, earns $20,000, and
+smokes 365 cigarettes a year, we just plug those numbers into the regression equation to
+get
+Height = 20 + 1.9 ∗20 + .0004 ∗20, 000 −.001 ∗365 + ϵ = 65.6inches
+Does this mean that we think everyone with those characteristics is 65.6 inches tall?
+No, we just think on average they are 65.6 inches tall. The uncertainty and the fact that
+people are diﬀerent from the mean are captured by the ϵ.
+2.3
+Dummy Variables and Experimentation
+• Dummy Variable
+Often, the reason we use regression equations is to tease out the results of an experiment.
+In order to use regression to test the eﬀects of receiving the treatment in an experiment,
+we add what is called a dummy variable. A dummy variable is a variable that
+equals 1 or 0 depending on whether or not a person can be deﬁned by some
+designated descriptor. For example, in the case of an experiment, the variable
+equals 1 if the person is in the treatment group and 0 if the person is not. Let’s
+say we are trying to ﬁnd the eﬀect of giving a person a million dollars on that person’s
+health. In order to test this, we give a random set of people a million dollars and give
+the rest nothing. In order to account for this in regressions, we create a variable called
+Treat and set it equal to 1 if the person was in treatment and therefore received 1 million
+dollars and we set Treat equal to 0 if we gave them nothing. The variable, Treat, is the
+treatment dummy. We will also add in variables for age, sex (also a dummy variable, in
+which Sex = 1 if female and 0 if male), and number of siblings. The resulting equation
+is
+Health = β0 + β1 ∗Treat + β2 ∗Age + β3 ∗Sex + β4 ∗Siblings + ϵ
+In the above equation the β1 represents the eﬀect of a 1 unit increase in the treatment
+variable. In other words, it shows the eﬀect of going from Treat = 0 to Treat = 1 on
+health. This means β1 shows the eﬀect of receiving treatment vs not receiving treatment,
+and this is exactly what we want to know from our experiment.
+4
+
+
+2.4
+Control Variables
+• Control Variable
+Let’s look at a regression that has the variable Treat which indicates whether or not
+someone received treatment.
+Health = β0 + β1 ∗Treat + β2 ∗Age + β3 ∗Sex + β4 ∗Siblings + ϵ
+Despite being primarily interested in the eﬀect of treatment, we added age, sex, and
+number of siblings. These added variables are called controls. Controls are a type of
+independent variable we add to a regression that are usually of no interest to
+us but might aﬀect the result. For example, when looking at health, age is a useful
+control since as someone gets older, they probably become less healthy. While we don’t
+care about the eﬀect of age on health, we want to account for whatever eﬀects age might
+have on health.
+If we are evaluating an experiment and it is well randomized, controls don’t play a
+large part in the analysis. On the other hand, if the two groups are diﬀerent from the
+start, then controls become very useful. Let’s say we are trying to see the eﬀect of a
+treatment on someone’s height, and somehow, one group starts out much taller than the
+other group. If we add a control for starting height, the regression is able to account for
+the diﬀerence in the starting height. If we don’t control for this diﬀerence in starting
+height, results can become misleading as whatever is given to the taller group will look
+better.
+If an experiment is well randomized, controls should not aﬀect the coeﬃcient of the
+treatment much, and in fact, this is a good test of whether or not an experiment is well
+randomized. If adding controls radically changes the treatment coeﬃcient, then
+the group is probably not well randomized.
+2.4.1
+Example: Using Regression Equations with Dummy Variables
+Let’s say that 50 people out of a group of 100 are randomly exposed to radiation that
+turns them into superheroes. We want to know the average eﬀect of radiation on people’s
+height.
+We will consider the radiation the treatment.
+In order to ﬁnd the eﬀect of
+radiation on someone’s height, we need to compare two hypothetical people who are the
+same in all possible ways and observe what the height diﬀerence is between the person
+who was treated and the person who was not. So let’s ﬁnd the diﬀerence between two
+people who are identical except that one person receives the treatment and the other
+does not. We will use subscripts Bob and Sally to represent the two people and on this
+lucky day Sally receives the treatment. Here are each of the equations for Sally and Bob.
+HeightSally = β0 + β1 ∗TreatSally + β2 ∗Parent IncSally + ϵ
+HeightBob = β0 + β1 ∗TreatBob + β2 ∗Parent IncBob + ϵ
+Next let’s write an equation that represents the diﬀerence in height between Sally and
+Bob. Since we want to know the diﬀerence in their heights, we want to know HeightSally−
+5
+
+
+HeightBob. We can subtract the two equations to get
+HeightSally −HeightBob = β0 + β1 ∗TreatSally + β2 ∗Parent IncSally + ϵ
+−(β0 + β1 ∗TreatBob + β2 ∗Parent IncBob + ϵ)
+(1)
+Since Sally and Bob are identical in all aspects except for treatment, we know that the
+income of Sally’s and Bob’s parents are the same ie Parent IncBob = Parent IncSally, so
+when we subtract the two equations we get
+HeightSally −HeightBob = β1 ∗TreatSally −β1 ∗TreatBob
+HeightSally −HeightBob = β1 ∗1 −β1 ∗0 = β1
+Since the two people are identical in all regards other than treatment (TreatSally = 1
+and TreatBob = 0), the only explanation for why one person is taller than the other is
+the treatment. Therefore β1 shows us the change in height caused by treatment!
+The math is just trying to explain one thing: the key to ﬁnding the eﬀect of a
+treatment is to compare two people who are identical in every way except
+whether or not they were treated. In a randomized control trial, the two groups are
+identical on average, and so the coeﬃcient in front of the treatment variable is the eﬀect
+of treatment.
+Most of the time you can just interpret the coeﬃcient corresponding to your treat-
+ment without going through the math like we have here, but this exercise is useful for
+understanding where the coeﬃcients come from.
+3
+Interpreting a Regression Table
+The primary way an economist represents a regression equation in by using a regression
+table. While regression equations are useful, we need to know how to ﬁnd the relevant
+information in the regression table and apply it to a regression equation. Below is an
+example of a regression table.
+Figure 2: This table shows the eﬀect of weight, mileage and car type on price.
+6
+
+
+First notice that there are two columns. Each column represents a diﬀerent regression
+equation. The ﬁrst column (column (1)) shows a regression where price is our dependent
+variable, and our independent variables are weight and mileage.
+The second column
+represents a regression equation that also includes car type as an independent variable.
+At the top of each column is the dependent variable (Price), and each row represents an
+independent variable.
+Focus only on column (1) for the example. The result we are trying to ﬁnd is the
+price of a car and so the price is the dependent variable. What are we using to predict
+the price? We are going to use only mileage and weight because they are the variables
+included in the regression equation that gives us the information in column (1). Car type
+is left blank in column (1) because this variable was not included in the regression equa-
+tion corresponding to column (1). Car type was excluded from this regression equation
+because, in this case, it is not part of what we are interested in. Finally, we need to know
+what the regression coeﬃcients (βs) are. At the moment, we have the following equations
+for column (1).
+Price = β0 + β1 ∗Weight + β2 ∗Mileage + ϵ
+We know β0 is the constant so it is 1946.1. Since β1 is multiplied by Weight, it is the
+eﬀect of weight on price. To ﬁnd the coeﬃcient for weight, we want to look at the row
+containing Weight (lbs.), and we see that the value is 1.747. This is our β1. Next, we can
+use the same reasoning to look at the row for Mileage (mpg) and see that the coeﬃcient
+is -49.51. The table below summarizes this.
+β0
+β1
+β2
+1946.1
+1.747
+-49.51
+Let’s now interpret these coeﬃcients. We know that β1 is the change in price due to a
+unit increase in weight. This means that for every pound the weight increases, the price
+increases by $1.747. For β2, every increase in mpg leads to a -$49.51 change in price.
+We can translate between a regression table and a regression equation in
+the following way: ﬁrst, ﬁnd the outcome we are trying to predict (normally
+the top of the column) and and plug it in for the dependent variable; then
+ﬁnd what we are using to make this prediction (usually the left most column),
+then look at each row to get the βs.
+3.1
+Example: Interpreting a Table
+In this example, we will look at the eﬀects of having a racial minority roommate on one’s
+attitude towards diversity. Let’s focus entirely on the second column.
+7
+
+
+Figure 3: The table shows how ones attitude toward aﬃrmative action changes based on
+ones roommates.
+Our goal is to ﬁnd the eﬀect of having a black roommate on a person’s
+attitude towards aﬃrmative action.
+As a quick note, observe that the top of the table says ”Ordered probit regressions”.
+This just indicates that the regression measures likelihood. This means that a positive
+coeﬃcient implies that a respondent is more likely to approve of aﬃrmative action, while
+a negative coeﬃcient indicates that a respondent is less likely to approve of aﬃrmative
+action.
+Now let’s use the regression equation to ﬁnd the eﬀect. One thing to note is that
+the constant term is not reported in the table. This is due to the fact that
+we are almost always interested in the eﬀect of a treatment, not in predicting
+someone’s outcomes. When we subtract two equations to ﬁnd this treatment
+eﬀect, the constant term cancels out. First, we will translate the table back into
+a regression equation.
+Each row indicates a diﬀerent independent variable and each
+independent variable has a coeﬃcient. Each variable is also a dummy variable that equals
+one if the row describes one’s roommate and zero if the row does not. The dependent
+variable is how likely one is to support aﬃrmative action. The ﬁnal regression is
+Approve = β0 + β1 ∗B + β2 ∗Min + β3 ∗I1 + β4 ∗I2 + β5 ∗I3 + β6 ∗I4 + ϵ
+In the above equation B indicates having a black roommate, Min indicates a room-
+mate who is a minority other than black, and I1, I2, I3, and I4 represents having a
+roommate with a family income below $50,000, between $50,000 and $74,999, between
+$150,000 and $199,999, or above $200,000, respectively. Approve represents how likely
+one is to approve of aﬃrmative action.
+8
+
+
+In order to ﬁnd the eﬀects of having a black roommate on one’s attitude towards
+Aﬃrmative Action, we compare two students who are the same in every way except that
+one of them has a black roommate. Let’s write the regression equation for person 1 and
+person 0. For person 1 the regression equation is
+Approve1 = β0 + β1 ∗B1 + β2 ∗Min1 + β3 ∗I11 + β4 ∗I21 + β5 ∗I31 + β6 ∗I41 + ϵ
+and for person 0 it is
+Approve0 = β0 + β1 ∗B0 + β2 ∗Min0 + β3 ∗I10 + β4 ∗I20 + β5 ∗I30 + β6 ∗I40 + ϵ
+To ﬁnd the diﬀerence in approval between the two students we subtract their equations
+to get
+Approve1 −Approve0 = β0 + β1 ∗B1 + β2 ∗Min1 + β3 ∗I11 + β4 ∗I21 + β5 ∗I31 + β6 ∗I41 + ϵ
+−(β0 + β1 ∗B0 + β2 ∗Min0 + β3 ∗I10 + β4 ∗I20 + β5 ∗I30 + β6 ∗I40 + ϵ)
+(2)
+The important thing to remember is that we are assuming that the two people are
+identical in all ways except for whether or not they have a black roommate, so the
+variable values for all variables other than B are the same. In other words, this means
+that Min1 = Min0, I11 = I10, I21 = I20, I31 = I30, and I41 = I40. On the other hand,
+since person 1 has a black roommate, B1 = 1 and since person 0 does not have a black
+roommate, B0 = 0. This causes the above equation to become
+Approve1 −Approve0 = β1 ∗1 −β1 ∗0 = β1
+Looking at the original regression equation, we see that β1 multiplies B. This means
+that β1 is the eﬀect of having a black roommate. Returning to the regression table, we
+look at the row for having a black roommate and see that it is .489. Since .489 > 0,
+the table is saying that having a black roommate increases the likelihood that someone
+approves of Aﬃrmative Action.
+3.2
+Example: Interpreting a Table
+In this example, let’s focus completely on column (1).
+9
+
+
+Figure 4: Table shows the eﬀect of each grandparent being eligible for a pension.
+Let’s say we want to know the eﬀect of a mother’s mother’s eligibility on
+the grand kids’ weight/height score.
+Since the groups are randomized, we
+can just look at the number in the table corresponding to the row ”Mother’s
+mother eligible” and that is the eﬀect of one’s Mother’s mother’s eligibility
+on one’s weight/height score.
+Now let’s use the regression equation to see why that is the case. Before we start,
+let’s note a few things.
+At the bottom of the table, we see that there is a row for
+control variables, but we are going to choose to ignore those since they don’t contain
+information that is interesting to us for answering our question and are accounted for
+in the coeﬃcients. Another thing to note is that there is no constant term.
+This is due to the fact that we are almost always interested in the eﬀect
+of a treatment, not in predicting someone’s outcomes.
+When we subtract
+two equations to ﬁnd this treatment eﬀect, the constant term cancels out.
+Now let’s translate the table back into a regression equation. Each row indicates which
+grandparent is eligible for pension. The ﬁrst row is a dummy for the mother’s mother’s
+eligibility (MM), the next row is the father’s mother’s eligibility (FM) etc., so that we
+have four dummy variables: MM, FM, MF, FF. The ﬁnal equation is.
+Weight/HeightScore = β0 + β1 ∗MM + β2 ∗FM + β3 ∗MF + β4 ∗FF + controls + ϵ
+Let’s try to ﬁnd the eﬀect of one’s mother’s mother being eligible. In order to do this
+we need to compare two hypothetical people (Person 1 and 2) who are the exact same
+except that one’s mother’s mother is eligible while the others is not. We will do this later,
+but for now the regression equations for person 1 and 2 are
+Weight/Height1 = β0 + β1 ∗MM1 + β2 ∗FM1 + β3 ∗MF1 + β4 ∗FF1 + controls + ϵ
+Weight/Height2 = β0 + β1 ∗MM2 + β2 ∗FM2 + β3 ∗MF2 + β4 ∗FF2 + controls + ϵ
+We are interested in the diﬀerence of their scores, so we subtract one equation from
+the other. We will shorten Weight/Height to W/H.
+10
+
+
+W/H1 −W/H2 = β0 + β1 ∗MM1 + β2 ∗FM1 + β3 ∗MF1 + β4 ∗FF1 + controls + ϵ
+−(β0 + β1 ∗MM2 + β2 ∗FM2 + β3 ∗MF2 + β4 ∗FF2 + controls + ϵ)
+(3)
+Now we will plug in the values for each person. As stated before, the two people are
+the same in every way except that the mother’s mother of person one is eligible for a
+pension, while the mother’s mother of person two is not eligible for a pension. This
+implies MM1 = 1 and MM1 = 0. The rest of the variables are the same so FM1 = FM2,
+MF1 = MF2, and FF1 = FF2.
+W/H1 −W/H2 = β0 + β1 ∗1 + β2 ∗FM1 + β3 ∗MF1 + β4 ∗FF1 + controls + ϵ
+−(β0 + β1 ∗0 + β2 ∗FM2 + β3 ∗MF2 + β4 ∗FF2 + controls + ϵ)
+(4)
+And so ﬁnally
+W/H1 −W/H2 = β1 = .099
+This means that if your MM is eligible, then you receive a .099 point increase in your
+W/H (Weight/Height) score.
+4
+Special Cases
+4.1
+Interaction Variables
+• Interaction Variable
+Another type of variable we can add to a regression equation is an interaction term.
+We get our interaction variable by multiplying two diﬀerent variables. If you have reason
+to believe treatment might aﬀect the outcome of one subgroup diﬀerently than another,
+you can use an interaction term to test and account for this. Examples of subgroups
+include white vs. black, tall vs. short, or rich vs. poor. For example, giving fertilizer
+to a plant in a sunny location will probably make it grow more than giving fertilizer to
+a plant in a cloudy location. While the fertilizer causes both plants to grow, if we don’t
+add an interaction we won’t see that it is more eﬀective for the plant in the sun than
+for the plant in the shade. Instead, we would just observe the average growth across
+all plants due to fertilizer. This can also extend to education where we can see which
+demographics receive more gains from education. Let’s say that we interact Treat and a
+dummy variable Sex. For the next regression we are only going to look at the interaction
+between Treatment and Sex.
+Height = β0 + β1 ∗Treat + β2 ∗Sex + β3 ∗Treat ∗Sex + ϵ
+The Treat∗Sex term represents an interaction as the Treat and Sex variable interact
+by multiplying each other. The point of this interaction is to ﬁnd the eﬀect of treatment
+on the height of the speciﬁc male and female sub-populations.
+How do interactions
+account for the sub-population? The table below shows us how.
+11
+
+
+Control (Treat = 0)
+Treatment (Treat = 1)
+Male (Sex = 0)
+β0
+β0 + β1
+Female (Sex = 1)
+β0 + β2
+β0 + β1 + β2
+We derive the coeﬃcients for a male and female in treatment in the next sections as
+an example. In the table, we can the see the height of someone who entered treatment
+as a male or a female. This means that instead of looking at the eﬀect of treatment on
+the whole treatment group we can focus on the subcategories male and female. If we are
+looking for the height of someone who is part of the treatment and is male we look at the
+top right box and get β0 + β1. Otherwise you plug in the relevant values and see what
+coeﬃcients are left in the equation. This type of variable will become essential when we
+look at regression tables.
+The key takeaway is this: interaction variables are just two variables that
+multiply each other. The point of interactions is to look at the eﬀects of an
+independent variable on the dependent variable for diﬀerent subgroups. This
+gives important information as the treatment may eﬀect diﬀerent demograph-
+ics diﬀerently.
+4.1.1
+Interaction Example 1: Finding Relevant Coeﬃcients
+In the previous section we looked at the regression relating height with treatment and
+sex. Let’s derive the coeﬃcient for a male in the treatment group and a female in the
+treatment group. First let’s look at a male and call him Joe. The regression equation for
+Joe is
+HeightJoe = β0 + β1 ∗TreatJoe + β2 ∗SexJoe + β3 ∗TreatJoe ∗SexJoe + ϵ
+Since Joe is a male, SexJoe = 0, and since Joe is in the treatment group, TreatJoe = 1.
+When we plug these values into the regression equation we ﬁnd that
+HeightJoe = β0 + β1 ∗1 + β2 ∗0 + β3 ∗1 ∗0 + ϵ = β0 + β1 + ϵ
+This corresponds with the intersection of male and Treat = 1 in the table above.
+Now let’s do the same derivation for a female. The equation for a female in treatment
+(call her Megan) is
+HeightMegan = β0 + β1 ∗TreatMegan + β2 ∗SexMegan + β3 ∗TreatMegan ∗SexMegan + ϵ
+Since Megan is a female, SexMegan = 1, and since Megan is in the treatment group,
+TreatMegan = 1. When we plug these values into the regression equation we ﬁnd that
+HeightMegan = β0 + β1 ∗1 + β2 ∗1 + β3 ∗1 ∗1 + ϵ = β0 + β1 + β3 + ϵ
+This corresponds to the intersection of female and treatment in the table above! Let’s
+say we want to compare the eﬀects of the treatment on a male and female. To do this,
+we subtract the Joe’s height from Megan’s height. (HeightMegan −HeightJoe) gives us
+HeightMegan −HeightJoe = β0 + β1 + β3 −(β0 + β1) = β3
+12
+
+
+4.1.2
+Interaction Example 2: Interpreting a Table A
+Let’s look at a table with some interactions now.
+Tracking is a dummy variable for
+whether or not the student was in a school where classes were split based on the students’
+ability level.
+Figure 5: This is a table linking academic tracking to a student’s total test score. The
+table also accounts for what quartile the student started in based on test scores
+First lets take a look a column 4 and let’s try to ﬁnd the eﬀect of being tracked for
+a student in the second quartile. First, we will deﬁne dummy variables for whether or
+not a student belongs in a certain quartile: let X1, X3, and X4 represent a dummy for
+whether or not the student was in the ﬁrst, third or fourth quartile. Track is a dummy
+variable for whether or not the student was in a tracking school. The equation for the
+regression is
+Score = β0 + β1 ∗Track + β2 ∗X1 ∗Track + β3 ∗X3 ∗Track + β4 ∗X4 ∗Track + ϵ
+Since we are looking for the eﬀect of tracking on a student in the second quartile, we
+need to compare one student to another and have the only diﬀerence between the two
+students be that one receives treatment and the other doesn’t. This means that both
+students are in the second quartile. Let’s say student A is in treatment and student B is
+not. We will shorten Track to T. Student A’s regression is
+ScoreA = β0 + β1 ∗TA + β2 ∗X1A ∗TA + β3 ∗X3A ∗TA + β4 ∗X4A ∗TA + ϵ
+ScoreA = β0 + β1 ∗1 + β2 ∗0 ∗1 + β3 ∗0 ∗1 + β4 ∗0 ∗1 + ϵ = β0 + β1
+TA = 1 because student A is in treatment and the rest of the variables are 0 because
+Student A is not in the bottom, second to bottom, or top quartile. On the other hand,
+student B’s regression is
+13
+
+
+ScoreB = β0 + β1 ∗0 + β2 ∗0 ∗0 + β3 ∗0 ∗0 + β4 ∗0 ∗0 + ϵ = β0
+Where TB = 0 because student B is not in treatment, and the rest of the variables
+are 0 because Student B is not in the bottom, second to bottom, or top quartile.
+The diﬀerence between the two regressions is
+ScoreA −ScoreB = β0 + β1 −β0 = β1 = .18
+This means that being tracked causes a .18 point increase in total score for a second
+quartile student, compared with everyone else (i.e. those who were not in tracking schools
+as well as those who were in tracking schools but not in the second quartile).
+4.1.3
+Interaction Example 3: Interpreting a Table B
+Now lets take one more example and look at column 4. What is the eﬀect of being tracked
+for a student in the third quartile? The equation is still
+Score = β0 + β1 ∗Track + β2 ∗X1 ∗Track + β3 ∗X3 ∗Track + β4 ∗X4 ∗Track + ϵ
+In order ﬁnd the eﬀect of tracking on a student in the third quartile we need to
+compare two students in the third quartile and have the only diﬀerence betweem the two
+be the fact that one is tracked and the other isn’t. Let’s say student A is tracked and
+student B is not. The equation for A is
+ScoreA = β0 + β1 ∗TA + β2 ∗X1A ∗TA + β3 ∗X3A ∗TA + β4 ∗X4A ∗TA + ϵ
+ScoreA = β0 + β1 + β3
+We plugged in TA = 1 since person A receives treatment and we set all X = 0 except
+X3 = 1 since the student is in the third quartile. For person B, TB = 0, and the X’s are
+the same as person A
+ScoreB = β0 + β1 ∗TB + β2 ∗X1B ∗TB + β3 ∗X3B ∗TB + β4 ∗X4B ∗TB + ϵ
+ScoreB = β0
+Finally when we subtract B from A we ﬁnd
+ScoreA −ScoreB = β1 + β3 = .018 −.014 = .166
+The equation above shows that being tracked adds .166 points to the test score of a
+students who was in the 3rd quartile. If you look at the ﬁrst example the eﬀect was .18
+and so it seems being tracked is slightly more beneﬁcial for students in the 2nd quartile.
+A simple way to ﬁnd the eﬀects of treatment on a group is to add all the coeﬃcients
+that are relevant for the group in question. For example, for a student who is being
+tracked and is in the third quartile, we add the numbers .18 and -.014 together. We use
+the ﬁrst number (.18) because the student is in a tracking school and we use the second
+number (-.014) because the student is in a tracking school and is in the second to bottom
+(third) quartile.
+14
+
+
+4.2
+Diﬀerence in Diﬀerences
+• Diﬀerence in Diﬀerences Estimator
+The ﬁnal type of regression we will discuss is diﬀerence in diﬀerences.
+This type of
+regression is used to compare how one group’s outcome changes compared to how the
+other group’s outcome changes over a certain period of time. For example, we could use
+it to ﬁnd the eﬀects of an increase in minimum wage on employment. In order to use
+Diﬀerence in Diﬀerences it is best to use two groups that are essentially the same. They
+deal with the same issues and circumstances so when a change happens, say a change in
+the minimum wage, the only diﬀerence between the two groups is the change in minimum
+wage.
+For this example, we will compare the groups of people who are on the two sides of
+the Pennsylvania-New Jersey border when New Jersey suddenly hiked its minimum wage
+up. Since the people are geographically very close and subject to the same economy,
+we assume that the New Jersey side of the border would undergo the same trend that
+the Pennsylvanians dealt with without the hike of minimum wage. The only diﬀerence
+between the groups is the change in minimum wage. Since this is the case, you can
+compare the economic trend PA undergoes to the trend NJ undergoes. By subtracting
+the trend of PA away from NJ you can theoretically ﬁnd the minimum wage eﬀect. The
+below graphic tries to paint a picture to explain this.
+Figure 6: The top solid line is the trend for PA, the bottom solid line is the trend for NJ,
+and the dotted bottom line is the trend NJ would have underwent if it did not increase
+minimum wage.
+The regression table for this is below and focuses on outcomes for restaurants near
+the border.
+15
+
+
+To ﬁnd the eﬀect of the increase in minimum wage on employment, we ﬁrst ﬁnd the
+change in PA employment over time and we see the change is 21.17−23.33 = −2.16. This
+means PA experienced a 2.16 drop in the average number of fast food workers in each
+restaurant, and it is important to note that PA did not raise its minimum wage. On the
+other hand, NJ experienced a change in employment of 21.03 −20.44 = .59, so while the
+employment in PA dropped, the employment in NJ did not! If we believe that the only
+diﬀerence between the two states is the hike in minimum wage, then we are somehow led
+to believe that an increase in minimum wage actually increased employment. It seems
+unlikely, but the diﬀerence in trends is NJ −PA or .59 −(−2.16) = 2.76, and so it
+seems the increase in minimum wage actually increased employment by 2.76 people per
+restaurant. Now keep in mind this result is barely statistically signiﬁcant, and this paper
+is very hotly contested because we rely on many assumptions, but this is a good example
+of diﬀerence in diﬀerence nevertheless.
+5
+Another Type of Table: Baseline Summary Statis-
+tics
+In this section, we consider the type of table that uses baseline data rather than data
+collected after some treatment or event causing a change in our outcome variable. In
+the case of an experiment, baseline data is the data collected before the start of the
+experiment. When we randomize a group of people to treatment or control we need to
+know people’s starting values for the variables we are concerned about. On top of this
+we need to understand if the groups are equivalent. This is an assumption we make if we
+ignore controls in regression analysis. In order to see if the diﬀerences are statistically
+16
+
+
+signiﬁcant, we use regression.
+In other words, we use regression to ﬁgure out if the
+diﬀerence is large enough or precise enough to care about. When testing who lives longer
+after receiving free health care we don’t want to compare those who are already sick to
+those who are not sick. We want them to be basically equivalent on whatever metrics we
+can gather. If there is a statistically signiﬁcant diﬀerence between groups on a baseline
+variable, we can use the baseline variable as a control variable in our ﬁnal regression
+(where the outcome is the dependent variable). Below is an example from a paper that
+looks at the eﬀects of a summer job on youth violence.
+Figure 7: Baseline Table
+When we look above we see the statistics are nearly the same. An important part
+of this table is the ﬁnal column: P-value. Think of P-value as Probability Value or the
+probability that the two numbers are essentially the same due to random chance. For
+example, in the percent days absent row, we see that there is a 99% chance the two groups
+are the same.
+6
+Glossary
+• Control Variable - A type of independent variable included in a regression. We are
+not interested in what eﬀect these variables have on the dependent variable, but
+think that they might eﬀect the outcome. Therefore, we add control variables to
+make sure these factors are accounted for.
+• Dependent Variable - An outcome variable that we hypothesize depends on the
+values of the independent variables.
+17
+
+
+• Diﬀerence in Diﬀerences Estimator - The diﬀerence in diﬀerences estimator is the
+diﬀerence in trend for the treatment group over the course of treatment minus the
+trend in the control group over the course of treatment.
+• Dummy Variable - A variable that equals 1 or 0 depending on whether a person can
+be deﬁned by the designated descriptor or not. For example, the variable equals 1
+if the person is in the treatment group and 0 if the person is not.
+• Independent Variable - A characteristic that we choose to input into the equation.
+The dependent variable depends on our independent variables.
+• Interaction Variable - An interaction variable is a type of independent variable that
+is created by simply multiplying two variables together. It allows you to look at
+how an independent variable aﬀects the dependent variable diﬀerently according to
+sub-populations.
+• Regression Analysis - A statistical method of using data to predict an average
+outcome for a person, group, or thing based on pre-existing characteristics.
+• Regression Coeﬃcient - Often written as β, it tells us the relationship between the
+variable that it multiplies and the output. The numerical value of β tells us how
+much the output variable changes with a one unit increase in the variable that it
+multiplies.
+• Regression Equation - An equation that takes in the characteristics of a person,
+group, or thing and produces a prediction of the average result for a person, group,
+or thing with those characteristics.
+7
+Recommended Resources
+• A crash course in econometrics and regressions - Mastering ’Metrics: The Path
+from Cause to Eﬀect by Jorn-Steﬀen Pischke and Joshua Angrist.
+• Introduction to regression
+• Introduction to regression with math review
+• Interactions
+• Diﬀerence in Diﬀerences
+References
+[1] Duﬂo.
+Grandmothers and granddaughters: Old age pension and intra-household
+allocation in south africa. American Economic Review, 90(2):393–398, 2000.
+[2] Kremer Duﬂo, Dupas.
+Peer eﬀects and the impact of tracking: Evidence from a
+randomized evaluation in kenya. American Economic Review, 101(5):1739–1774, 2011.
+18
+
+
+[3] Krueger Card.
+Minimum wages and employment: A case study of the fast food
+industry in new jersey and pennsylvania. American Economic Review, 84(4):772–793,
+1994.
+[4] Heller.
+Summer jobs reduce violence among disadvantaged youth.
+Science,
+346(6214):1219–1223, 2014.
+[5] Ben Jann. estout.
+[6] Jake. Example: Regression line, 2014.
+19

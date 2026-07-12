@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Umbuzo - African AI Assistant</title>
+    <meta name="description" content="Umbuzo - Africa-focused AI chat interface for knowledge, culture, and development">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌍</text></svg>">
+
+    <!-- Axios for HTTP requests -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- Main Stylesheet -->
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- ===== Sidebar ===== -->
+        <aside class="sidebar" id="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-logo">
+                    <img src="/static/images/Mbuzo.png" alt="Umbuzo"
+                         onerror="this.style.display='none'">
+                    <h1>Umbuzo</h1>
+                </div>
+                <button class="new-chat-btn" onclick="UmbuzoApp.createNewChat()">
+                    <span class="icon">+</span>
+                    New Chat
+                </button>
+            </div>
+
+            <nav class="sidebar-nav">
+                <div class="nav-section">
+                    <div class="nav-section-title">Navigation</div>
+                    <a href="/" class="nav-item">
+                        <span class="nav-icon">💬</span>
+                        <span class="nav-text">Chat</span>
+                    </a>
+                    <a href="/gpts" class="nav-item">
+                        <span class="nav-icon">🧩</span>
+                        <span class="nav-text">GPTs / Tools</span>
+                    </a>
+                    <a href="/history" class="nav-item">
+                        <span class="nav-icon">📋</span>
+                        <span class="nav-text">History</span>
+                    </a>
+                </div>
+
+                <div class="nav-section">
+                    <div class="nav-section-title">Recent Chats</div>
+                    <div class="chat-list">
+                        <!-- Chat list populated by JavaScript -->
+                        <div class="nav-item" style="cursor: default; color: var(--text-tertiary);">
+                            Start chatting to see your conversations
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="sidebar-footer">
+                <div class="user-info">
+                    <div class="user-avatar">?</div>
+                    <span class="user-name">Guest</span>
+                    <span class="user-menu">⚙️</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- ===== Main Content ===== -->
+        <main class="main-content">
+            <!-- Top Navigation Bar -->
+            <header class="top-nav">
+                <div class="top-nav-left">
+                    <button class="menu-toggle" aria-label="Toggle sidebar">☰</button>
+                    <span class="top-nav-title">Chat</span>
+                </div>
+
+                <div class="top-nav-center">
+                    <a href="/" class="nav-page-btn active" data-href="/">Chat</a>
+                    <a href="/gpts" class="nav-page-btn" data-href="/gpts">GPTs</a>
+                    <a href="/history" class="nav-page-btn" data-href="/history">History</a>
+                </div>
+
+                <div class="top-nav-right">
+                    <a href="/login" class="nav-auth-btn btn-signin">Sign In</a>
+                    <a href="/signup" class="nav-auth-btn btn-signup">Sign Up</a>
+                </div>
+            </header>
+
+            <!-- Chat Area -->
+            <div class="chat-area">
+                <!-- Messages Container -->
+                <div class="messages-container">
+                    <!-- Messages populated by JavaScript -->
+                </div>
+
+                <!-- Prompt Bar -->
+                <div class="prompt-bar-container">
+                    <div class="prompt-bar-wrapper">
+                        <div class="prompt-bar">
+                            <div class="prompt-input-wrapper">
+                                <textarea
+                                    class="prompt-input"
+                                    placeholder="Ask Umbuzo anything about Africa..."
+                                    rows="1"
+                                ></textarea>
+                                <div class="prompt-model-selector">
+                                    <span>Auto</span>
+                                    <span class="chevron">▼</span>
+                                </div>
+                            </div>
+                            <div class="prompt-tools">
+                                <button class="prompt-tool-btn" data-tool="attach" title="Attach files">
+                                    📎
+                                </button>
+                                <button class="prompt-tool-btn" data-tool="voice" title="Voice input">
+                                    🎤
+                                </button>
+                                <button class="send-btn" onclick="UmbuzoApp.handleSendMessage()" title="Send message">
+                                    ➤
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="/static/js/api.js"></script>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat History - Umbuzo</title>
+    <meta name="description" content="View your Umbuzo chat history">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌍</text></svg>">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="/static/css/style.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <div class="sidebar-logo">
+                    <img src="/static/images/Mbuzo.png" alt="Umbuzo" onerror="this.style.display='none'">
+                    <h1>Umbuzo</h1>
+                </div>
+                <button class="new-chat-btn" onclick="window.location.href='/'">
+                    <span class="icon">+</span> New Chat
+                </button>
+            </div>
+            <nav class="sidebar-nav">
+                <div class="nav-section">
+                    <div class="nav-section-title">Navigation</div>
+                    <a href="/" class="nav-item"><span class="nav-icon">💬</span><span class="nav-text">Chat</span></a>
+                    <a href="/gpts" class="nav-item"><span class="nav-icon">🧩</span><span class="nav-text">GPTs / Tools</span></a>
+                    <a href="/history" class="nav-item active"><span class="nav-icon">📋</span><span class="nav-text">History</span></a>
+                </div>
+            </nav>
+            <div class="sidebar-footer">
+                <div class="user-info">
+                    <div class="user-avatar">?</div>
+                    <span class="user-name">Guest</span>
+                    <span class="user-menu">⚙️</span>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <header class="top-nav">
+                <div class="top-nav-left">
+                    <button class="menu-toggle" aria-label="Toggle sidebar">☰</button>
+                    <span class="top-nav-title">Chat History</span>
+                </div>
+                <div class="top-nav-center">
+                    <a href="/" class="nav-page-btn" data-href="/">Chat</a>
+                    <a href="/gpts" class="nav-page-btn" data-href="/gpts">GPTs</a>
+                    <a href="/history" class="nav-page-btn active" data-href="/history">History</a>
+                </div>
+                <div class="top-nav-right">
+                    <a href="/login" class="nav-auth-btn btn-signin">Sign In</a>
+                    <a href="/signup" class="nav-auth-btn btn-signup">Sign Up</a>
+                </div>
+            </header>
+
+            <div class="history-page">
+                <div class="history-header">
+                    <h1>Chat History</h1>
+                    <input type="text" class="history-search" placeholder="Search conversations..." id="historySearch">
+                </div>
+                <div class="history-list" id="historyList">
+                    <div style="text-align: center; color: var(--text-tertiary); padding: 60px 20px;">
+                        <div class="spinner" style="margin: 0 auto 16px;"></div>
+                        Loading history...
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    <script src="/static/js/api.js"></script>
+    <script src="/static/js/app.js"></script>
+</body>
+</html>

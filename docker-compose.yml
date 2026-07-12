@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  umbuzo-app:
+    build: .
+    container_name: umbuzo-container
+    ports:
+      - "8000:8000"
+    volumes:
+      # Data persistency for database and cached HF models
+      - ./data:/app/data
+      - ./models:/app/models
+      - ./static:/app/static
+    environment:
+      - PORT=8000
+      - HF_TOKEN=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
+      - OPENWEBUI_URL=http://localhost:3000/api
+      - OPENWEBUI_API_KEY=sk-ELHAZ_qxBnT7-DlO9fhgYKzxizC_rfJUb0Wpu_JaSVuHQXagYyoz9UUT2oB5Sw8X
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
+      interval: 1m # Increased for download time
+      timeout: 10s
+      retries: 5

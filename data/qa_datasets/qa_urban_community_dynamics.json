@@ -1,0 +1,282 @@
+[
+  {
+    "question": "What are the key trends in urbanization in Africa?",
+    "answer": "Analysis of urbanization in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "urban_community_dynamics",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "What are the key trends in crime in Africa?",
+    "answer": "Analysis of crime in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "urban_community_dynamics",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "What are the key trends in community services in Africa?",
+    "answer": "Analysis of community services in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "urban_community_dynamics",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "How does transport interact with community to shape urban and community dynamics outcomes in Madagascar?",
+    "answer": "The interaction between transport and community in Madagascar is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Madagascar's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Madagascar",
+    "source": "generated"
+  },
+  {
+    "question": "How does housing interact with public service to shape urban and community dynamics outcomes in Sierra Leone?",
+    "answer": "The interaction between housing and public service in Sierra Leone is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Sierra Leone's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Sierra Leone",
+    "source": "generated"
+  },
+  {
+    "question": "How does urban interact with public service to shape urban and community dynamics outcomes in Djibouti?",
+    "answer": "The interaction between urban and public service in Djibouti is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Djibouti's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Djibouti",
+    "source": "generated"
+  },
+  {
+    "question": "How does community interact with city to shape urban and community dynamics outcomes in Kenya?",
+    "answer": "The interaction between community and city in Kenya is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Kenya's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Kenya",
+    "source": "generated"
+  },
+  {
+    "question": "How does metropolitan interact with housing to shape urban and community dynamics outcomes in Namibia?",
+    "answer": "The interaction between metropolitan and housing in Namibia is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Namibia's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Namibia",
+    "source": "generated"
+  },
+  {
+    "question": "How does infrastructure interact with transport to shape urban and community dynamics outcomes in Senegal?",
+    "answer": "The interaction between infrastructure and transport in Senegal is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Senegal's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Senegal",
+    "source": "generated"
+  },
+  {
+    "question": "How does community interact with population density to shape urban and community dynamics outcomes in Chad?",
+    "answer": "The interaction between community and population density in Chad is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Chad's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Chad",
+    "source": "generated"
+  },
+  {
+    "question": "How does sanitation interact with sanitation to shape urban and community dynamics outcomes in Sudan?",
+    "answer": "The interaction between sanitation and sanitation in Sudan is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Sudan's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Sudan",
+    "source": "generated"
+  },
+  {
+    "question": "How does migration interact with transport to shape urban and community dynamics outcomes in Sudan?",
+    "answer": "The interaction between migration and transport in Sudan is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Sudan's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Sudan",
+    "source": "generated"
+  },
+  {
+    "question": "How does crime interact with population density to shape urban and community dynamics outcomes in Guinea?",
+    "answer": "The interaction between crime and population density in Guinea is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Guinea's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Guinea",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key urban community dynamics challenges and opportunities in Democratic Republic of the Congo?",
+    "answer": "Democratic Republic of the Congo faces both significant challenges and opportunities in the area of urban community dynamics. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "urban_community_dynamics",
+    "country": "Democratic Republic of the Congo",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key urban community dynamics challenges and opportunities in C\u00f4te d'Ivoire?",
+    "answer": "C\u00f4te d'Ivoire faces both significant challenges and opportunities in the area of urban community dynamics. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "urban_community_dynamics",
+    "country": "C\u00f4te d'Ivoire",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key urban community dynamics challenges and opportunities in Ethiopia?",
+    "answer": "Ethiopia faces both significant challenges and opportunities in the area of urban community dynamics. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "urban_community_dynamics",
+    "country": "Ethiopia",
+    "source": "generated"
+  },
+  {
+    "question": "Compare and contrast crime with refugee in the context of Congo. What are the key differences and similarities?",
+    "answer": "This comparative analysis question requires examining multiple dimensions of the relationship between crime and refugee in Congo. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "comparative_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Congo",
+    "source": "generated"
+  },
+  {
+    "question": "Evaluate the effectiveness of community in addressing entrepreneurship within Seychelles. What were the measurable outcomes and unintended consequences?",
+    "answer": "This policy evaluation question requires examining multiple dimensions of the relationship between community and entrepreneurship in Seychelles. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "policy_evaluation",
+    "topic": "urban_community_dynamics",
+    "country": "Seychelles",
+    "source": "generated"
+  },
+  {
+    "question": "Evaluate the effectiveness of housing in addressing diaspora within Central African Republic. What were the measurable outcomes and unintended consequences?",
+    "answer": "This policy evaluation question requires examining multiple dimensions of the relationship between housing and diaspora in Central African Republic. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "policy_evaluation",
+    "topic": "urban_community_dynamics",
+    "country": "Central African Republic",
+    "source": "generated"
+  },
+  {
+    "question": "Evaluate the effectiveness of housing in addressing poverty within Mauritania. What were the measurable outcomes and unintended consequences?",
+    "answer": "This policy evaluation question requires examining multiple dimensions of the relationship between housing and poverty in Mauritania. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "policy_evaluation",
+    "topic": "urban_community_dynamics",
+    "country": "Mauritania",
+    "source": "generated"
+  },
+  {
+    "question": "How do population density, hospital, and technology interact to shape development in Egypt? Provide evidence from multiple sources.",
+    "answer": "This multi factor analysis question requires examining multiple dimensions of the relationship between population density and hospital in Egypt. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Egypt",
+    "source": "generated"
+  },
+  {
+    "question": "How do population density, governance, and technology interact to shape development in Mozambique? Provide evidence from multiple sources.",
+    "answer": "This multi factor analysis question requires examining multiple dimensions of the relationship between population density and governance in Mozambique. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Mozambique",
+    "source": "generated"
+  },
+  {
+    "question": "Describe the interconnected system of community, diaspora, and governance in Sao Tome and Principe. How do changes in one element cascade through the entire system?",
+    "answer": "This systems thinking question requires examining multiple dimensions of the relationship between community and diaspora in Sao Tome and Principe. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "systems_thinking",
+    "topic": "urban_community_dynamics",
+    "country": "Sao Tome and Principe",
+    "source": "generated"
+  },
+  {
+    "question": "Describe the interconnected system of metropolitan, tax, and governance in Sao Tome and Principe. How do changes in one element cascade through the entire system?",
+    "answer": "This systems thinking question requires examining multiple dimensions of the relationship between metropolitan and tax in Sao Tome and Principe. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "systems_thinking",
+    "topic": "urban_community_dynamics",
+    "country": "Sao Tome and Principe",
+    "source": "generated"
+  },
+  {
+    "question": "Synthesize evidence from academic research and policy documents regarding Urban And Community Dynamics in Ethiopia. Where do they converge and diverge in their findings?",
+    "answer": "This evidence synthesis question requires examining multiple dimensions of the relationship between housing and political party in Ethiopia. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "evidence_synthesis",
+    "topic": "urban_community_dynamics",
+    "country": "Ethiopia",
+    "source": "generated"
+  },
+  {
+    "question": "If independence had not occurred, how might Sudan's development trajectory in economic have been different?",
+    "answer": "This counterfactual reasoning question requires examining multiple dimensions of the relationship between public service and religion in Sudan. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "counterfactual_reasoning",
+    "topic": "urban_community_dynamics",
+    "country": "Sudan",
+    "source": "generated"
+  },
+  {
+    "question": "Trace the evolution of Urban And Community Dynamics in Togo from 2000 to 2025. Identify key inflection points and driving forces.",
+    "answer": "This longitudinal trend question requires examining multiple dimensions of the relationship between suburban and social mobility in Togo. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "longitudinal_trend",
+    "topic": "urban_community_dynamics",
+    "country": "Togo",
+    "source": "generated"
+  },
+  {
+    "question": "Analyze the ethical implications of constitution in C\u00f4te d'Ivoire, weighing the competing values of economic efficiency and social equity in this context.",
+    "answer": "This ethical dilemma question requires examining multiple dimensions of the relationship between metropolitan and constitution in C\u00f4te d'Ivoire. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "ethical_dilemma",
+    "topic": "urban_community_dynamics",
+    "country": "C\u00f4te d'Ivoire",
+    "source": "generated"
+  }
+]

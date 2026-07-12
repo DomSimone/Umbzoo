@@ -1,0 +1,332 @@
+[
+  {
+    "question": "What are the key trends in income poverty in Africa?",
+    "answer": "Analysis of income poverty in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "economic_labor_trends",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "What are the key trends in employment work in Africa?",
+    "answer": "Analysis of employment work in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "economic_labor_trends",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "What are the key trends in agriculture in Africa?",
+    "answer": "Analysis of agriculture in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "economic_labor_trends",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "How does poverty interact with entrepreneurship to shape economic and labor trends outcomes in Cabo Verde?",
+    "answer": "The interaction between poverty and entrepreneurship in Cabo Verde is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Cabo Verde's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "economic_labor_trends",
+    "country": "Cabo Verde",
+    "source": "generated"
+  },
+  {
+    "question": "How does wage interact with inflation to shape economic and labor trends outcomes in Ghana?",
+    "answer": "The interaction between wage and inflation in Ghana is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Ghana's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "economic_labor_trends",
+    "country": "Ghana",
+    "source": "generated"
+  },
+  {
+    "question": "How does tax interact with income to shape economic and labor trends outcomes in South Sudan?",
+    "answer": "The interaction between tax and income in South Sudan is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to South Sudan's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "economic_labor_trends",
+    "country": "South Sudan",
+    "source": "generated"
+  },
+  {
+    "question": "How does investment interact with wage to shape economic and labor trends outcomes in Burundi?",
+    "answer": "The interaction between investment and wage in Burundi is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Burundi's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "economic_labor_trends",
+    "country": "Burundi",
+    "source": "generated"
+  },
+  {
+    "question": "How does poverty interact with economy to shape economic and labor trends outcomes in South Africa?",
+    "answer": "The interaction between poverty and economy in South Africa is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to South Africa's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "economic_labor_trends",
+    "country": "South Africa",
+    "source": "generated"
+  },
+  {
+    "question": "How does investment interact with poverty to shape economic and labor trends outcomes in Togo?",
+    "answer": "The interaction between investment and poverty in Togo is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Togo's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "economic_labor_trends",
+    "country": "Togo",
+    "source": "generated"
+  },
+  {
+    "question": "How does entrepreneurship interact with inflation to shape economic and labor trends outcomes in Cabo Verde?",
+    "answer": "The interaction between entrepreneurship and inflation in Cabo Verde is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Cabo Verde's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "economic_labor_trends",
+    "country": "Cabo Verde",
+    "source": "generated"
+  },
+  {
+    "question": "How does wage interact with unemployment to shape economic and labor trends outcomes in Sao Tome and Principe?",
+    "answer": "The interaction between wage and unemployment in Sao Tome and Principe is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Sao Tome and Principe's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "economic_labor_trends",
+    "country": "Sao Tome and Principe",
+    "source": "generated"
+  },
+  {
+    "question": "How does agriculture interact with inflation to shape economic and labor trends outcomes in Ghana?",
+    "answer": "The interaction between agriculture and inflation in Ghana is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Ghana's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "economic_labor_trends",
+    "country": "Ghana",
+    "source": "generated"
+  },
+  {
+    "question": "How does unemployment interact with trade to shape economic and labor trends outcomes in Nigeria?",
+    "answer": "The interaction between unemployment and trade in Nigeria is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Nigeria's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "economic_labor_trends",
+    "country": "Nigeria",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key economic labor trends challenges and opportunities in Morocco?",
+    "answer": "Morocco faces both significant challenges and opportunities in the area of economic labor trends. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "economic_labor_trends",
+    "country": "Morocco",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key economic labor trends challenges and opportunities in Tanzania?",
+    "answer": "Tanzania faces both significant challenges and opportunities in the area of economic labor trends. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "economic_labor_trends",
+    "country": "Tanzania",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key economic labor trends challenges and opportunities in South Sudan?",
+    "answer": "South Sudan faces both significant challenges and opportunities in the area of economic labor trends. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "economic_labor_trends",
+    "country": "South Sudan",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key economic labor trends challenges and opportunities in Somalia?",
+    "answer": "Somalia faces both significant challenges and opportunities in the area of economic labor trends. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "economic_labor_trends",
+    "country": "Somalia",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key economic labor trends challenges and opportunities in C\u00f4te d'Ivoire?",
+    "answer": "C\u00f4te d'Ivoire faces both significant challenges and opportunities in the area of economic labor trends. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "economic_labor_trends",
+    "country": "C\u00f4te d'Ivoire",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key economic labor trends challenges and opportunities in Ethiopia?",
+    "answer": "Ethiopia faces both significant challenges and opportunities in the area of economic labor trends. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "economic_labor_trends",
+    "country": "Ethiopia",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key economic labor trends challenges and opportunities in Kenya?",
+    "answer": "Kenya faces both significant challenges and opportunities in the area of economic labor trends. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "economic_labor_trends",
+    "country": "Kenya",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key economic labor trends challenges and opportunities in Seychelles?",
+    "answer": "Seychelles faces both significant challenges and opportunities in the area of economic labor trends. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "economic_labor_trends",
+    "country": "Seychelles",
+    "source": "generated"
+  },
+  {
+    "question": "Compare and contrast budget with census in the context of Egypt. What are the key differences and similarities?",
+    "answer": "This comparative analysis question requires examining multiple dimensions of the relationship between budget and census in Egypt. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "comparative_analysis",
+    "topic": "economic_labor_trends",
+    "country": "Egypt",
+    "source": "generated"
+  },
+  {
+    "question": "What are the root causes of economy in Eswatini, and how have economy and human rights contributed to the current situation?",
+    "answer": "This causal analysis question requires examining multiple dimensions of the relationship between economy and human rights in Eswatini. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "causal_analysis",
+    "topic": "economic_labor_trends",
+    "country": "Eswatini",
+    "source": "generated"
+  },
+  {
+    "question": "Based on historical trends in Economic And Labor Trends, what is the projected trajectory for Burundi over the next decade, and what key factors will influence this outcome?",
+    "answer": "This predictive modeling question requires examining multiple dimensions of the relationship between poverty and activism in Burundi. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "predictive_modeling",
+    "topic": "economic_labor_trends",
+    "country": "Burundi",
+    "source": "generated"
+  },
+  {
+    "question": "Describe the interconnected system of agriculture, suburban, and governance in Nigeria. How do changes in one element cascade through the entire system?",
+    "answer": "This systems thinking question requires examining multiple dimensions of the relationship between agriculture and suburban in Nigeria. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "systems_thinking",
+    "topic": "economic_labor_trends",
+    "country": "Nigeria",
+    "source": "generated"
+  },
+  {
+    "question": "Synthesize evidence from academic research and policy documents regarding Economic And Labor Trends in Somalia. Where do they converge and diverge in their findings?",
+    "answer": "This evidence synthesis question requires examining multiple dimensions of the relationship between wage and policy in Somalia. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "evidence_synthesis",
+    "topic": "economic_labor_trends",
+    "country": "Somalia",
+    "source": "generated"
+  },
+  {
+    "question": "Synthesize evidence from academic research and policy documents regarding Economic And Labor Trends in Mozambique. Where do they converge and diverge in their findings?",
+    "answer": "This evidence synthesis question requires examining multiple dimensions of the relationship between employment and demographic in Mozambique. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "evidence_synthesis",
+    "topic": "economic_labor_trends",
+    "country": "Mozambique",
+    "source": "generated"
+  },
+  {
+    "question": "Synthesize evidence from academic research and policy documents regarding Economic And Labor Trends in Sierra Leone. Where do they converge and diverge in their findings?",
+    "answer": "This evidence synthesis question requires examining multiple dimensions of the relationship between wage and corruption in Sierra Leone. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "evidence_synthesis",
+    "topic": "economic_labor_trends",
+    "country": "Sierra Leone",
+    "source": "generated"
+  },
+  {
+    "question": "If independence had not occurred, how might Comoros's development trajectory in economic have been different?",
+    "answer": "This counterfactual reasoning question requires examining multiple dimensions of the relationship between GDP and migration in Comoros. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "counterfactual_reasoning",
+    "topic": "economic_labor_trends",
+    "country": "Comoros",
+    "source": "generated"
+  },
+  {
+    "question": "If independence had not occurred, how might Sudan's development trajectory in economic have been different?",
+    "answer": "This counterfactual reasoning question requires examining multiple dimensions of the relationship between unemployment and public service in Sudan. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "counterfactual_reasoning",
+    "topic": "economic_labor_trends",
+    "country": "Sudan",
+    "source": "generated"
+  },
+  {
+    "question": "Trace the evolution of Economic And Labor Trends in Malawi from 2000 to 2025. Identify key inflection points and driving forces.",
+    "answer": "This longitudinal trend question requires examining multiple dimensions of the relationship between tax and university in Malawi. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "longitudinal_trend",
+    "topic": "economic_labor_trends",
+    "country": "Malawi",
+    "source": "generated"
+  },
+  {
+    "question": "Trace the evolution of Economic And Labor Trends in Ethiopia from 2000 to 2025. Identify key inflection points and driving forces.",
+    "answer": "This longitudinal trend question requires examining multiple dimensions of the relationship between GDP and gender in Ethiopia. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "longitudinal_trend",
+    "topic": "economic_labor_trends",
+    "country": "Ethiopia",
+    "source": "generated"
+  },
+  {
+    "question": "Analyze the ethical implications of city in Equatorial Guinea, weighing the competing values of economic efficiency and social equity in this context.",
+    "answer": "This ethical dilemma question requires examining multiple dimensions of the relationship between economy and city in Equatorial Guinea. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "ethical_dilemma",
+    "topic": "economic_labor_trends",
+    "country": "Equatorial Guinea",
+    "source": "generated"
+  }
+]

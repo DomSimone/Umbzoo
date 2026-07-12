@@ -1,0 +1,2949 @@
+ 
+5
+ 
+Abstract
+The tragedy of foreign aid is not that it didn’t work; it was never really tried. A group of well-
+meaning national and international bureaucracies dispensed foreign aid under conditions in 
+which bureaucracy does not work well. The hostile environment under which such aid agencies 
+functioned induced them to organize a cartel that increased inefficiency and reduced effective 
+supply of development services, frustrating the good intentions and dedication of development 
+professionals. The cartel of good intentions allows rich country politicians to feel that they are 
+doing all in their power to help the world’s poor, supports rich nations’ foreign policy goals, 
+preserves a panoply of large national and international institutions, and provides resources to 
+poor country politicians with which to buy political support.  In short, foreign aid works for 
+everyone except for those whom it was intended to help, with results such as the aid agencies’ 
+calculation that it takes $3521 in aid to raise a poor person’s income by $3.65 a year. The 
+environment that created aid bureaucracies led those organizations to (a) define their output as 
+money disbursed rather than service delivered, (b) produce many low-return observable outputs 
+like glossy reports and “frameworks” and few high-return less observable activities like ex-post 
+evaluation, (c) engage in obfuscation, spin control, and amnesia (like always describing aid 
+efforts as “new and improved”) so that there is little learning from the past,  (d) put enormous 
+demands on scarce administrative skills in poor countries.    Now rich countries have used their 
+past lack of effort at assuring effective aid as an excuse to keep aid at paltry levels. Instead, to 
+change this unhappy equilibrium, policymakers in rich and poor countries should experiment with 
+decentralized markets to match those who want to help the poor with the poor themselves freely 
+expressing their needs and aspirations. 
+W O R K I N G P A P E R N U M B E R 4
+M A R C H 2 0 0 2
+( R E V I S E D M A Y 2 0 0 2 )
+The Cartel of Good Intentions:
+Bureaucracy versus 
+markets in foreign
+aid 
+By William Easterly
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ The Cartel of Good Intentions: 
+ 
+Bureaucracy Versus Markets in Foreign Aid 
+ 
+ 
+May 2002 
+ 
+ 
+William Easterly 
+ 
+Center for Global Development 
+Institute for Internatonal Economics 
+ 
+Abstract:  The tragedy of foreign aid is not that it didn’t work; it was never really tried. A group 
+of well-meaning national and international bureaucracies dispensed foreign aid under conditions in which 
+bureaucracy does not work well. The hostile environment under which such aid agencies functioned 
+induced them to organize a cartel that increased inefficiency and reduced effective supply of development 
+services, frustrating the good intentions and dedication of development professionals. The cartel of good 
+intentions allows rich country politicians to feel that they are doing all in their power to help the world’s 
+poor, supports rich nations’ foreign policy goals, preserves a panoply of large national and international 
+institutions, and provides resources to poor country politicians with which to buy political support.  In 
+short, foreign aid works for everyone except for those whom it was intended to help, with results such as 
+the aid agencies’ calculation that it takes $3521 in aid to raise a poor person’s income by $3.65 a year. The 
+environment that created aid bureaucracies led those organizations to (a) define their output as money 
+disbursed rather than service delivered, (b) produce many low-return observable outputs like glossy reports 
+and “frameworks” and few high-return less observable activities like ex-post evaluation, (c) engage in 
+obfuscation, spin control, and amnesia (like always describing aid efforts as “new and improved”) so that 
+there is little learning from the past,  (d) put enormous demands on scarce administrative skills in poor 
+countries.    Now rich countries have used their past lack of effort at assuring effective aid as an excuse to 
+keep aid at paltry levels. Instead, to change this unhappy equilibrium, policymakers in rich and poor 
+countries should experiment with decentralized markets to match those who want to help the poor with the 
+poor themselves freely expressing their needs and aspirations. 
+ 
+ 
+Weasterly@iie.com 
+www.cgdev.org 
+ 
+ 
+I am grateful to Robert Ayres, Nancy Birdsall, Rebecca Blank, Erik Bloom, William Cline, Susan 
+Collins, Simon Evenett, Roberta Gatti, Amar Hamoudi, Ravi Kanbur, Devesh Kapur, Charles 
+Kenny, Michael Kremer, Craig Neal, John Nellis, William Niskanen, Guy Pfeffermann, Lant 
+Pritchett, S. Ramachandran, Martin Ravallion, David Roodman, Judith Tendler, Nic Van de 
+Walle, and Dennis Whittle for helpful comments, exchanges of ideas, or references, some of 
+which influenced me quite a bit, although none should be held responsible.  
+ 
+ 
+
+
+ 
+2
+Introduction 
+Though the term “cartel” normally evokes images of greedy oil producers and 
+murderous drug lords, another more benevolent set of institutions also meet the definition of 
+cartel. The members of this cartel are the world’s leading foreign aid organizations, which 
+constitute a near-monopoly relative to the powerless global poor.  
+This state of affairs helps explain why the global foreign aid bureaucracy has run amok in 
+recent years. Consider a poor person in the countryside of Ethiopia who wants to get a pothole (a 
+hole more the size of a car than a pot actually) repaired in front of his house. The Ethiopian 
+government looks to foreign aid for financing of public services. This poor person somehow 
+communicates his desires to “civil society representatives” and/or non-governmental 
+organizations (NGOs), who allegedly articulate his needs through the government of Ethiopia 
+(itself dominated by one minority ethnic group) to the international donors.  The national 
+government solicits a “poverty reduction support credit” (PRSC) from the World Bank (also 
+known as the International Bank for Reconstuction and Development, or IBRD) and a Poverty 
+Reduction and Growth Facility (PRGF) from the International Monetary Fund (IMF). These 
+agencies have many competent staff that can make a difference, but they are often swamped by 
+bureaucracy from above (see organization chart below). To get loans from the IMF and World 
+Bank, the government completes a  satisfactory poverty reduction strategy paper (PRSP), in 
+consultation with civil society, NGOs, and other donors and creditors. The government prepares 
+the PRSP in light of the fourteen-point Comprehensive Development Framework (CDF) of the 
+World Bank.  The World Bank follows a series of internal steps to approve a PRSC, including the 
+preparation of a Country Assistance Strategy (CAS), a pre-appraisal mission, an appraisal 
+mission, negotiations, and Board approval, all in accordance with OD 8.60, OP 4.01, and Interim 
+PRSC Guidelines. The government also seeks qualification for the Enhanced Heavily Indebted 
+Poor Countries (Enhanced HIPC) Initiative so that the new loan doesn’t simply go to service old 
+loans. The creditors and the government conduct a debt sustainability analysis (DSA). HIPC, 
+
+
+ 
+3
+PRSC, and  PRGF require numerous reform conditions such as participation of the poor, poverty-
+reducing government expenditure monitored through annual Public Expenditure Reviews (PERs), 
+fiscal deficit targets, revenue mobilization targets, and structural reforms such as the Civil Service 
+Reform Program (CRSP), implementation of a Financial Information Management System 
+(FIMS) in government, financial sector reform in line with the Basel standards and the eleven 
+areas of International Standards and Codes recommended by the IMF and World Bank, control of 
+money laundering, and privatization, lowering trade barriers in ways governed by the World 
+Trade Organization (WTO), perhaps by applying the “Integrated Framework for Trade-Related 
+Technical Assistance to Least Developed Countries”. The PRSP may or may not include money 
+that could finance road repair for this poor person, depending on the national development 
+program (NDP) that forms part of the government’s Agricultural Development Led 
+Industrialization (ADLI) strategy. The amount of money for road maintenance will depend on a 
+prioritization of various needs for expenditure in a multi-year medium-term expenditure 
+framework (MTEF). The thousand-page Poverty Reduction Strategy Paper Sourcebook of the 
+World Bank provides guidance like the following for determining spending on road maintenance: 
+The sector ministries prepare medium-term strategic plans that set out the sector’s key objectives, together 
+with their associated outcomes, outputs, and expenditure forecasts (within the limits agreed upon by the 
+Cabinet). These plans should consider the costs of both ongoing and new programs. Ideally, spending 
+should be presented by program and spending category with financing needs for salaries, operations and 
+maintenance, and investment clearly distinguished.1 
+ 
+Meanwhile, if beleaguered Ethiopian government officials have any time left, the PRSP 
+Sourcebook also suggests that they cost out all the various ways the government is making 
+progress towards the International Development Goals (IDGs, also known as Millennium 
+Development Goals or MDGs), which include targets for poverty, hunger, infant and maternal 
+mortality, primary education, clean water, contraceptive use, AIDS, gender equality, and the 
+environment. These were all on the agenda of world leaders who assembled for the UN 
+                                                                 
+1 Poverty Reduction Strategy Paper Sourcebook 
+
+
+ 
+4
+International Conference on Financing for Development in March 2002. Meanwhile, other 
+international bodies will review the Ethiopian PRSP, such as the United Nations Development 
+Program (UNDP), the African Development Bank (ADB), the Consultative Group to Help the 
+Poorest, the United Nations Conference on Trade and Development (UNCTAD), the Food and 
+Agriculture Organization (FAO), the World Trade Organization (WTO), the World Health 
+Organization (WHO), the International Labor Organization (ILO), the European Union  (EU), the 
+United Nations Children’s Education Fund (UNICEF), the United Nations High Commissioner 
+for Refugees (UNHCR), as well as NGOs and the Development Assistance Group (DAG), which 
+includes representatives of national aid agencies such as those from Austria, Belgium, Canada, 
+Finland, France, Germany, Ireland, Italy, Japan, Netherlands, Norway, Spain, Sweden, 
+Switzerland, United Kingdom (DFID), and the United States (USAID).  If the international 
+lenders and donors approve the PRSP and release new funds to the national government, then 
+government will allocate the money in accordance with the NDP, ADLI, CRSP, MTEF, CDF, 
+PRGF, PRSC, and PRSP, after which the money will pass through the provincial governments 
+and the district governments, and the district government may or may not repair the pothole in 
+front of the poor person’s house. Within the World Bank, the transport economist must try to 
+convince the desk economist that a Road Maintenance Loan that would repair this particular 
+pothole merits higher priority than some other project, like say an Education Reform Loan pushed 
+by the education economist (see diagram for a rendering of the World Bank organization chart 
+applicable to a typical African country).2  If the poor person is dissatisfied and wants to complain, 
+he faces so many different organizations and such a complex hierarchy within each organization 
+he is understandably at a loss. 
+                                                                 
+2 I had to arbitrarily shift some VPs from one Managing Director to another so they would fit in the chart, 
+and to omit altogether such relevant managers as the Senior Vice President and Chief Economist (no 
+offense intended). 
+
+
+ 
+5
+World Bank Organization Chart for a Typical African Country Client
+Director General
+Operations Evaluation
+Auditor General
+Director Institutional Integrity
+Peace Professional
+Conflict Resolution Unit
+Sector Director
+VP for Sustainable Development
+Field Staff
+Headquarters Anchor
+Country Director
+Citizens of African Country
+African Country Government
+Desk Economist
+Poverty Reduction Unit #2
+Sector Director, Poverty Reduction
+VP for Africa
+Managing Director
+VP Poverty Reduction
+Education Professional
+Human Development#4
+Riverblindness Professional
+Riverblindness
+Africa Sector Manager, HD
+VP Human Development
+Managing Director
+Transport Professional
+Transport Manager
+Africa Manager, Private Secto
+VP Private Sector
+Managing Director
+President
+Board of Directors
+Rich Nations' Governments
+Citizens of Rich Countries
+ 
+Why does the business of delivering foreign aid services to poor people in poor countries 
+involve so much unproductive bureaucracy? It’s not that aid bureaucrats are bad; in fact many 
+smart, hard-working, dedicated professionals toil away in the world's top aid agencies. But the 
+perverse incentives they face explain the organizations’ obtuse behavior.  Bureaucracy works best 
+where there is high feedback from beneficiaries, high incentives for the bureaucracy to respond to 
+such feedback, easily observable outcomes, high probability that bureaucratic effort will translate 
+into favorable outcomes, and competitive pressure from other bureaucracies and agencies.3 In 
+short, bureaucracy works best when it functions something like a free market. 
+                                                                 
+3 There is a large literature that makes these common sense points. See especially Wilson 1989. The World 
+Bank’s 2001 World Development Report on Institutions presented evidence that direct election of 
+individual politicians, more political competition, and a free and independent media reduced bureaucratic 
+corruption and improved public service delivery. Djankov et al. 2001 similarly finds that government 
+domination of the media worsens social service delivery. La Porta et al. 1998 found that more democratic 
+governments were more efficient and delivered more public goods, as were governments bound by 
+common law rather than civil or socialist law (arguing that commo n law gives more voice to citizens).  
+Kaufmann et al 2001 and Kaufmann et al 2002 show how bureaucracies in Bolivia with more citizen voice 
+and more transparency deliver a higher quality and quantity of public services. Isham, Kaufmann, and 
+Pritchett 1995 found that countries with civil liberties had higher returns on aid projects. Pritchett and 
+Woolcock 2002 describe the failure of the bureaucratic model in public service delivery under unfavorable 
+conditions in poor countries. 
+
+
+ 
+6
+All of these conditions are unfavorable in foreign aid. Foreign aid is approved by voters 
+of rich country A, whose national government gives the money through its own aid bureaucracy 
+and international aid bureaucracies to the government of poor country B, who in turn is supposed 
+to make some effort to give the money to poor people in country B. The poor people in country B 
+have little voice in their own government, much less a voice in the distant national aid 
+bureaucracy, international aid bureaucracy, and political campaign in rich country A. The rich 
+country aid bureaucracy and international aid bureaucracy, although well intentioned, have little 
+incentive to hear poor people from country B who do not vote or form pressure groups in country 
+A. The heartbreaking reality of aid isn’t so much that it didn’t work as that we in rich countries 
+didn’t really care whether it did. 
+Although a poor person in Ethiopia can easily observe a pothole outside his house, it is 
+hard for a foreign aid agency to continuously observe how country B’s pothole prevalence. 
+Moreover, it is very hard for aid bureaucracies to get constructive feedback from past mistakes, 
+like financing a road full of potholes, because any admission of past failure is a threat to getting 
+new aid resources to dispense in the future.  Additional bureaucratic aid agency effort at fixing 
+potholes in country B will likely miscarry, given the absence of feedback and the dependence of 
+the outcome on government officials and other agents in country B outside of the agency’s 
+control. If poor countries are poor because of bad government and other collective action 
+problems, then bureaucratic effort in those countries is less likely to succeed than in rich 
+countries.  Finally competitive pressure on aid agencies is very limited, because for self-
+preservation foreign aid agencies agree to coordinate their actions rather than compete, forming a 
+“cartel of good intentions”. 
+Cartels thrive when customers have little opportunity to complain or find alternative 
+suppliers. For example, the Organization of Petroleum Exporting Countries (OPEC) in it’s 
+heyday in the 1970s could dictate terms to the customers; it was only when more non-OPEC oil 
+exporters emerged that its power weakened. In the foreign aid business, customers (i.e., the poor 
+
+
+ 
+7
+citizens in developing countries) have few chances to express their needs yet cannot exit the 
+system. Nongovernmental organizations (NGOs) can only hold the aid institutions to task on a 
+few high-visibility issues, like conspicuous environmental destruction or taking away the homes 
+of indigenous people (thus the World Bank eventually cancelled its support for the Narmada dam 
+project in India under pressure on both issues). Under these circumstances, even while the foreign 
+aid agencies make good faith efforts to consult the clients, they remain accountable mainly to 
+themselves. 
+Bureaucracy in foreign aid evolved to face a hostile environment.  The resulting edifice 
+of national and international bureaucracies has not provided services effectively to the world’s 
+poor. Despite numerous attempts at reform, bureaucratic characteristics of foreign aid stayed 
+remarkably persistent throughout its fifty year history. The tragedy is that bureaucracy captured 
+foreign aid under conditions in which it didn’t work well. Rich country donors allowed this 
+bureaucratic capture and then used it as an excuse to decrease aid, rather than enforcing service 
+delivery to the world’s poor. This paper suggests that foreign aid move away from monopolistic 
+bureaucracies to decentralized markets. One possibility is giving “aid vouchers” directly to poor 
+people to increase competition, feedback, and accountability.  
+A story of bureaucracy in foreign aid 
+ 
+I will sketch out a story of bureaucratic behavior and then describe the actual history of 
+foreign aid as a case study of this story.  There is a large economics literature on the theory of 
+bureaucracy, principally started by Niskanen (1968, 1971), with good recent surveys by Niskanen 
+(2001),  Moe (1997) and Wintrobe (1997).  There is also a rich literature on bureaucracy from 
+other social scientists, of which the outstanding example is Wilson (1989). 
+Niskanen’s model, which I give reflecting later amendments to which he agreed, 
+postulated that a bureaucracy behaved like a monopoly firm facing a downward sloping demand 
+curve for the quantity of bureaucratic services as a function of the “price”. The bureaucracy 
+maximized the equivalent to firm profits, usually called the discretionary budget (total budget 
+
+
+ 
+8
+minus costs of producing the service). A larger net budget was associated with perks for the 
+bureaucrats (or bureaucrats may genuinely care about their field and so maximize the budget it 
+gets.) The bureaucratic monopolist equated marginal revenue to marginal cost, which tended to 
+raise the price and restrict the quantity of services relative to the non-bureaucratic competitive 
+outcome.  Hence, Niskanen’s model gave a simple explanation for bureaucratic inefficiency (high 
+price relative to marginal cost) and under-provision of services. 
+ 
+Subsequent literature challenged the Niskanen model on several grounds. First, the 
+literature argued the political authorities had the power to design incentives that would give an 
+optimal outcome, using a principal-agent framework.  Second, the literature pointed out that 
+bureaucracies don’t usually have a monopoly in their area of responsibility – there are usually 
+other competing agencies in the same area.  
+Moe 1997 is right that the principal agent models are really more about the Congress, 
+Parliament, or President than they are about bureaucracy.4 They seem less relevant for 
+bureaucracies with less direct political oversight. For a multinational aid agency, there is a 
+collective action problem among the multiple principals that inhibits designing an optimal 
+principal-agent contract. Principal-agent theory says having multiple principals dramatically 
+weakens the incentives for the agent (the international agency). Each principal will try to get the 
+agent to pursue their objectives and neglect the other principals’ objectives; in the aggregate this 
+weakens incentives on all objectives for the agent.5 Even for a national aid agency, the 
+unobservable effort and outcomes and virtually nonexistent feedback from the intended 
+beneficiaries makes designing the optimal principal-agent contract a formidable undertaking. 
+                                                                 
+4 “Too often, bureaucratic theories are really not pursued for what they can tell us about bureaucracy, but 
+rather for what they can tell us about how much power Congress and other authorities have and what 
+mechanisms they employ to get their way. Bureaucracy is treated as little more than a means to these more 
+important ends and not as an institution worthy of intensive explanation in its own right.” 
+ 
+5 For a review, see Dixit 2000 
+
+
+ 
+9
+On the competitiveness of bureaucracies, that likely varies across different types of 
+bureaucracy and the environments in which they operate. Suppliers always like to collude, but 
+competitive markets prevent it. Many American municipal bureaucracies face a competitive 
+market because residents can vote with their feet.   However, other kinds of bureaucracies may 
+collude if entry is difficult, punishing deviators from collective agreements is easy, and no legal 
+obstacles prohibit collusion. Entry is more difficult in most bureaucracy than in private business, 
+lessening one threat to stability of the collusion agreement. The ethic of bureaucratic behavior 
+stigmatizes excessively competitive deviants (“rogue bureaucracies”), who are singled out for 
+blame if anything goes wrong. Far from outlawing collusion among bureaucracies, governments 
+often encourage it (“coordination” comes up in about every bureaucratic discussion).    
+Bureaucracies may then form a cartel, and behave collectively like the net budget-maximizing 
+monopolistic bureaucracy.  
+Conditions in foreign aid make it likely that aid bureaucracies will collude even more 
+than other bureaucracies. Aid agencies will operate as a “cartel of good intentions” Why? First,  
+aid agencies maximize gross foreign aid net of operating costs. Maybe aid agency employees 
+want the maximum perks possible, or maybe aid workers genuinely want more resources for the 
+poor countries. Aid agencies garner more aid revenues by acting collectively, because they realize 
+economies of scale in campaigning for aid revenues. 
+Second, foreign assistance to poor states is a very difficult and risky business, as argued 
+earlier – the causes of national poverty are many and the proven successes are few (not zero, 
+though). The knowledge about how to achieve economic development is itself underdeveloped. 
+The aid agency will have to work with local elites and problematic local government institutions 
+who themselves may not have an incentive to see their society achieve poverty reduction. The 
+feedback from the intended beneficiaries –the poor and voiceless –is not there to give guidance 
+on what is working. The more severe these problems in a society, the more likely that it is a client 
+of a foreign aid agency. Even worse, the aid agency will often be called upon for help just when 
+
+
+ 
+10
+an already difficult situation gets even worse – in a social and economic crisis. Probability of 
+failure is high. The aid agency is in the unenviable position of being blamed for a likely bad 
+outcome. Although rational evaluators could control for the difficulty of the environment, 
+conditional evaluation requires inside knowledge that only the aid agencies themselves are likely 
+to have – and of course they are not credible when they protest how hard their job is. 
+Another element in the market power of aid agencies is that the typical agency forces 
+governments seeking its money to work exclusively with that agency's own bureaucracy--its 
+project appraisal and selection apparatus, its economic and social analysts, its procurement 
+procedures, and its own interests and objectives. Each aid agency constitutes a mini-monopoly, 
+and the collection of all such monopolies forms a cartel. 
+Agencies handle the high risks in foreign aid by the time-honored bureaucratic strategy of 
+sharing blame. The bureaucracies form a united front so evaluators don’t know who to blame for 
+bad outcomes.  Monitors don’t know whether to blame the international aid community or the 
+national recipient government for bad policies. They don’t know whether to blame bad economic 
+design of aid programs, or bad politics that undermines their implementation. The monitors don’t 
+know whether to blame the International Monetary Fund for excessive fiscal austerity that 
+restricts funds for worthy programs, or the World Bank for failure to preserve high return areas 
+from public expenditure cuts. Evaluators don’t know whether the IMF and World Bank are too 
+tough or too lax in enforcing conditions, or if it is really the regional development banks are being 
+too hard or easy in their conditions for aid. Monitors don’t know whether to blame the bilateral 
+aid agencies for being influenced by foreign policy priorities, or the multilaterals for applying a 
+“one size fits all” ideological program to all countries. This sharing of blame is a convenient 
+equilibrium for all aid agencies together. The multiplicity of actors in the aid outcome reduces the 
+probability of blame for any one actor. Hence, there is safety in numbers in the foreign aid 
+business.   
+
+
+ 
+11
+Driving competitive foreign aid bureaucracies out of business doesn’t make sense since it 
+increases the probability of blame for the remaining bureaucracies. Once a collusive agreement is 
+in place, bureaucracies will not cheat on the agreement by supplying a larger quantity of foreign 
+aid services at a lower price.  Such “rogue” bureaucracies are dangerously exposed to bearing 
+solitary blame for their extra activities if they turn out to fail.  The higher is the risk of failure, the 
+lower is the incentive to cheat and the higher the incentive to remain in the blame-sharing 
+coalition.  
+A similar blame-sharing story could explain why foreign aid bureaucracies collude to 
+form a united front relative to a foreign aid recipient, rather than competing to satisfy the 
+recipients’ needs. Any agency that “wins the contract” to service recipient X to the exclusion of 
+its rivals becomes dangerously exposed to blame if anything goes wrong in X.  
+The cartel of good intentions unites donor organizations with different objectives and 
+agendas. This is nonetheless in their mutual interest, because advocates of one objective agree to 
+support other objectives in return for support for their own cause (“log-rolling” in political 
+economy terminology). Conversely, one aid agency will not criticize another agency’s 
+interventions; the second will reciprocate such critical restraint.6 This collusion destroys 
+information, since one aid agency knows more about bad performance of another agency than 
+outside evaluators.  Overall critical evaluation of past aid efforts is suppressed by all agencies 
+because it threatens the overall aid budget. Controlled group experiments, like those that made 
+critical progress possible in medicine, are dangerous because they may generate negative 
+publicity for the whole aid effort. Evaluation of individual interventions (like a particular method 
+of agricultural extension) is forsworn in favor of unconditional support for a myriad of 
+development efforts. The feedback from experimentation and learning by doing that is essential to 
+success in any activity is therefore mostly absent. This robs the aid community of its historical 
+memory. 
+
+
+ 
+12
+Thus, donors form a cartel out of the best of intentions.  They wind up raising the price 
+and restricting the quantity of foreign aid services. Donors are thus immune from competitive 
+pressure and can implement “supply-driven” aid programs. This may explain the inefficiency of 
+foreign aid and for its disappointing output. 
+Foreign aid bureaucracies also respond to this problematic environment by skewing the 
+composition of their output in favor of items that are more observable to those outside the aid 
+agencies. If outcomes were perfectly observable at zero monitoring cost, the median voter in a 
+rich country would equate the relative marginal benefit of an aid service to its relative price. With 
+costly monitoring to verify output, the relative marginal benefit of aid is equated to the relative 
+price of aid services plus the marginal cost of monitoring. If monitoring has a higher marginal 
+cost the lower is the ease of observation, then demand is lower for less observable aid services. 
+So aid bureaucracies will define their outputs as much as possible in observable units.7 This 
+includes observable outputs that the agencies produce for each other; collusion will suppress any 
+complaints about the quality of such intermediate outputs. The cartel can threaten with public 
+embarrassment any agency tempted to shift from producing visible low return outputs to invisible 
+high return outputs, since the rogue agency will have little to show the public. Thus, even 
+agencies that would like to produce more invisible effective services are kept in the fold. The 
+collective equilibrium is still an emphasis on observable output. 
+Another response to the difficult environment is obfuscation. Aid agencies are more 
+likely to use bureaucratese, acronyms, and misleading euphemisms than other less risky 
+bureaucracies. However, there is a tradeoff to the bureaucracy -- more obfuscation lowers not 
+only the probability of blame but also the observability of output, which lowers demand for the 
+output as I have just argued. So the obfuscation will hide bad outcomes, while advertising good 
+                                                                                                                                                                                                 
+6 This argument is inspired by Pritchett’s (2001) model of why “it pays to be ignorant.” 
+7 Tirole 1994 has a principal-agent model that also delivers the prediction that government agencies 
+producing multiple outputs will focus their efforts on the observable ones. Dixit also makes this point in a 
+principal-agent framework. 
+
+
+ 
+13
+outputs. The aid community over-promises ex ante, then exaggerates the success ex post.  The 
+marriage of obfuscation and advertising is “spin control.” Collusion enforces the use of “spin 
+control.” A deviant agency that allocates too many resources to producing development services 
+and too little to spin control will be vulnerable to public relations attacks by the other agencies. 
+The aid process begins in an aura of emergency. Do something! Do anything! Do it right away! 
+(Pressman and Wildavsky 1984) 
+ 
+A history of foreign aid 
+A convenient starting place for the history of foreign aid is with the Point Four program of Harry 
+S. Truman, which he announced in his inaugural address on January 20, 1949: “We must embark 
+on a bold new program for … the improvement and growth of underdeveloped areas. More than 
+half the people of the world are living in conditions approaching misery… For the first time in 
+history, humanity possesses the knowledge and the skill to relieve the suffering of these people.” 
+I believe this was the first call for peacetime aid from one state to another in history. At the 
+moment of birth, we have some characteristics of foreign aid that will last through the years – the 
+call for a new program, the rationale in terms of poverty, and the optimism that foreign aid 
+programs can make a big difference.  
+A statement two years later by a group of UN experts was more precise: “a 2 percent 
+increase in the per capita national incomes cannot be brought about without … a sum of money 
+…of about $3 billion a year” (UN Expert Group 1951). This started a fashion of setting precise 
+targets, calculating aid “requirements” to achieve this target, and then calling for an aid increase. 
+So Walt Rostow in his famous Stages of Growth declared that “an increase of $4 billion in 
+external aid would be required to lift all of Asia, the Middle East, Africa, and Latin America into 
+regular growth, at an increase of per capita income of say, 1.5% per annum.” (Rostow 1960) This 
+recommendation would have approximately doubled current aid spending. Rostow, like others at 
+the time and for many years afterward, also aid was temporary, that only 10-15 years was needed 
+before poor countries attained “self-sustaining” growth in which aid was no longer necessary. The 
+
+
+ 
+14
+model for these early efforts to calculate the aid requirement was the Harrod-Domar growth 
+model: growth was proportional to investment, which was in turn financed by aid. Solow’s 1957 
+article on growth had already discredited the Harrod-Domar model in the mainstream profession 
+(as Domar himself acknowledged immediately, saying he had meant to model the business cycle 
+rather than growth ), but the model lived on in the development literature (see Easterly 1997).  
+The statements advocating increased aid continued: “existing foreign aid programs and 
+concepts are largely unsatisfactory …we intend during this coming decade of development to 
+achieve a decisive turnaround in the fate of the less-developed world, looking toward the ultimate 
+day …when foreign aid will no longer be needed.” (John F. Kennedy 1961) “we recommend a 
+substantial increase in official aid flows” (Pearson Commission 1969), “the current flow of ODA 
+… is only half the modest target prescribed by the internationally accepted United Nations 
+Strategy for the Second Development Decade” (World Bank President Robert McNamara, 1973), 
+“additional concessionary resources would be required to achieve both higher rates of growth in 
+the poorest countries” (World Bank, IDA-6, 1980), “A cut of just 10 percent in military spending 
+by the countries of the North Atlantic Treaty Organization would pay for a doubling of aid…real 
+growth in aid of only 2 percent a year is an unacceptably weak response to the challenge of global 
+poverty” (World Bank WDR 1990).  
+The idea of doubling current aid is still a popular rhetorical device in 2001: “If we are 
+serious about ensuring a beneficial globalization and meeting multilateral development goals we 
+have all signed on to, we must double ODA from its current level of about $50 billion a year.” 
+(World Bank President James Wolfensohn, 2001) A World Bank technical study on the cost of 
+meeting the international goals concurred on doubling: “An increase in foreign aid of an amount 
+equal to current foreign aid … is about the right order of magnitude for achieving the 
+development goals.” (World Bank 2002) 8  It’s all a little circular, however, as the World Bank’s 
+                                                                 
+8 To make this calculation, the World Bank technical study in 2002 was still using the Harrod-
+Domar growth model 44 years after its demolition by Solow. 
+
+
+ 
+15
+Poverty Reduction Strategies Sourcebook said “Mobilizing resources is without doubt a primary 
+function of targets set by the international donor community such as the International 
+Development Goals.” 
+The United Nations adopted the Millennium Development Goals (MDGs, also known as 
+the International Development Goals) in a resolution on the turning of the new millennium. They 
+were embraced by all the aid agencies, and set targets for reducing poverty, hunger, infant and 
+maternal mortality, gender inequality, illiteracy, AIDS prevalence, and environmental 
+degradation by the year 2015. The opening sentences of the UN Resolution said “We will spare 
+no effort to make the United Nations a more effective instrument for pursuing all of these 
+priorities. We resolve therefore:  To ensure that the Organization is provided …with the resources 
+it needs to carry out its mandates.”9  
+In the new year, the UN Conference on Financing for Development (the name says it all) 
+in Monterrey, Mexico in March 2002 continues the tradition of focusing on volume rather than 
+effectiveness of aid. UK Chancellor Gordon Brown currently calls for a new “Marshall Plan,” a 
+common precedent invoked for needs from post-Soviet Bloc countries to Bosnia to Africa to 
+Afghanistan. 
+Aid mounted throughout the period when advocates called for an increase (Figure 1). It 
+did indeed double several times from the early days to the present. If all foreign aid given since 
+1950 had been invested in US Treasury Bills, the cumulative assets of poor countries by 2001 
+would have amounted to $2.3 trillion. The World Bank’s administrative expenses went from $81 
+million in 1959-60 to $1.5 billion in 1993-94 (in constant fy1993 dollars), while its staff went 
+from 657 to 7,106 (Kapur et al. 1997) Meanwhile, the typical poor country has stagnated over the 
+last two decades, and in many aid-intensive African countries for even longer. There have been 
+individual success stories and progress on other indicators like infant mortality and  
+ 
+
+
+ 
+16
+ 
+Figure 1: Overseas Development Assistance  in 1999 billions of US$
+0
+10
+20
+30
+40
+50
+60
+70
+80
+1950
+1952
+1954
+1956
+1958
+1960
+1962
+1964
+1966
+1968
+1970
+1972
+1974
+1976
+1978
+1980
+1982
+1984
+1986
+1988
+1990
+1992
+1994
+1996
+1998
+school enrollment. But the goal of increased living standards and reduced poverty in the typical 
+poor country was not attained. The decline in the 1990s reflects some aid weariness amidst the 
+feeling that foreign aid created something much less than $2.3 trillion in productive assets.10  
+Meanwhile, rich country politicians consoled themselves they had done all in their power 
+for the world’s poor, instead of trying to change the bureaucratic edifice that led to poor results. 
+Rich countries and aid agencies found it convenient to blame the governments of poor countries 
+entirely for aid failures, as opposed to rich country politicking and malfunctioning donor 
+bureaucracies. 
+Coordination 
+ 
+From the earliest days of aid, the emphasis of all participants has been on coordination 
+rather than competition.  After reading the literature one can hardly say “aid” without adding 
+“coordination”. President Truman signaled in 1949 that “this should be a cooperative enterprise in 
+which all nations work together through the United Nations and its specialized agencies wherever 
+                                                                                                                                                                                                 
+9 55/2. United Nations Millennium Declaration 
+10 The report of the Meltzer Commission in March 2000 summarized many of the complaints about aid 
+ineffectiveness. 
+
+
+ 
+17
+practicable.”  Two decades later, an aid commission repeated “A serious effort is necessary to 
+coordinate the efforts of multilateral and bilateral aid-givers and those of aid-receivers.” (Pearson 
+Commission 1969) The World Bank’s 1981 Berg report on Africa agreed that “Aid coordination, 
+both within recipient countries and among major financing agencies, has been recognized as 
+increasingly important…” (World Bank, 1981) Despite repeated calls for coordination, there was 
+never enough: “donors must act more in concert – with each other and with recipients. This report 
+suggests six ways to improve coordination.” (World Bank Africa report, 1986) “Better 
+coordination among international financial institutions is needed.” (World Bank, IDA-12, 1998) 
+“Deputies encouraged Management … to maintain close collaboration with other multilateral 
+development banks (MDBs), the OECD-DAC Task Force on Donor Practices, the Strategic 
+Partnership with Africa (SPA), the United Nations and its specialized agencies, and bilateral 
+development assistance agencies. They also noted progress in strengthening partnerships between 
+IDA and other development institutions…and welcomed the recently negotiated Memoranda of 
+Understanding with the African, Asian and Inter-American Development Banks.” (World Bank, 
+IDA-13, 2001) 
+ 
+These continued calls for coordination illustrate first, that cooperation is desired over 
+competition in foreign aid, and second, that cooperation is always a little out of reach. These are 
+consistent with the natural tensions inherent in a cartel – that agencies formally forswear 
+competition but at the same time always feel temptation to encroach on others’ turf.  
+To give an example from another activity, we have statements like the following 
+“representatives … meet … to co-ordinate and unify their … policies in order to promote stability 
+and harmony”, progress was made through “the increased level of cohesion between Members,” 
+the activity stands to benefit ”from the advances that have been made in the area of co-operation 
+in recent years”, “to realize our increasingly reciprocal ambitions, a lot of hard work, 
+compromises and true goodwill must come into play. Co-operation, not confrontation, is the best 
+
+
+ 
+18
+strategy for the betterment of our generations and posterity.” These are all statements from 
+meetings over the last few years of the OPEC oil cartel.  
+ 
+The “coordination” in foreign aid protects the smallest players in the business, even when 
+dealing with them drives the poor countries’ governments to distraction.  One wonders if the 
+transactions costs were worth the effort for the Senegalese government to receive 3,344 Euros 
+from the Finnish Ministry for Foreign Affairs Department for International Development 
+Cooperation in 2001,11 or how well Yasser Arafat is monitoring tenders in November 2001 for 
+Consultancy Services for the Palestinian–Finnish Education Programme, Phase I.  As the World 
+Bank (1998) said, “It is hard to explain this behavior, except that different donors like to “plant 
+their flags”.”  
+ 
+The multiplicity of donors impelled the aid community to call for centralization of aid  
+and all other revenues by the recipient government:  
+Negotiating an external assistance strategy in the context of the PRSP process that explicitly identifies 
+the priority sectors and programs for donor financing… More detailed external assistance strategies can 
+then be developed for key areas through sectoral working groups in which representatives of major donors 
+and line agencies participate...Agreeing on financing priorities for individual donors within the 
+framework of a global external assistance strategy, rather than through bilateral agreements… (World 
+Bank Poverty Reduction Strategy Sourcebook, 2001) 
+ 
+ 
+This asks recipient governments to do central planning, which even rich countries with far more 
+administrative capacity than poor countries have a hard time doing (even without worrying about 
+small grants from the Finnish Ministry for Foreign Affairs Department for International 
+Development Cooperation). This asks the undermanned government of Ethiopia to decide where 
+and whether a given pothole merits repairing, and then “coordinate” which amongst a sea of 
+donors and programs will do the job.  
+All of the classic criticisms of central planning – the vast information requirements, the 
+oversimplification to quantifiable targets as opposed to the real subjective wants, the meeting of 
+targets without regard to relative costs and benefits, the lack of feedback from local practical 
+                                                                 
+11 http://global.finland.fi/english/publications/annual/2001/annual_02appendices.pdf 
+
+
+ 
+19
+knowledge – apply with even more force in a poor country with poor institutions and under-
+skilled civil service than in a rich country. 
+ 
+Having the government bureaucracy even attempt to “coordinate” donors puts the aid 
+community in a half-way house where they substitute monopoly for competition. First, the 
+“cartel” enables donors to escape pressure for reduction of high costs. Second, the donors present 
+a united front to the well-intentioned people in the rich countries who want to give money to 
+people in poor countries, making it difficult for them to discriminate which among the donors is 
+the most effective channel. Third, the donors impose an unequal relationship on the recipient 
+government, who can only take or leave what the United Donors offer. Finally, the “cartel of 
+good intentions” extends to include the local government bureaucracy, confronting the 
+beneficiaries with a monopoly that is not always customer-friendly.  There are many reports like 
+the one in Ukraine of “humiliation that one endures from government bureaucrats, infamous for 
+their ferocious and insulting tone.” In Esmeraldas, Ecuador a group of villagers reported “The 
+mayor even slapped a woman who asked for help.…” (Voices of the Poor 2000) Likewise, Filmer 
+and Pritchett 2001 report “a client survey of women who had a birth in the past 2 years at rural 
+health centers in the Mutasa district of Tanzania revealed the most frequently cited disadvantages 
+of giving birth in an institution were: ridiculed by nurses for not having baby clothes (22 
+percent)…and nurses hit mothers during delivery (13 percent).” We don’t have enough 
+information on how representative such examples are.  Still, you could probably improve a 
+system where the bureaucrats beat the beneficiaries.12 
+ 
+Coordination also undermines the potential gains from specialization and division of 
+labor among aid agencies. Competition forces firms to find a niche in which their firm has an 
+advantage over others. Firms realize these gains by motivating their own employees to specialize 
+                                                                 
+12 Bureaucracies in rich countries where clients don’t have much voice could be equally oppressive, like 
+Customs or Immigration in the US. The US government during the Clinton Administration tried to make 
+various agencies more client-friendly. According to an anecdote by John Nellis, the response of Customs 
+officials to this initiative was “we don’t have clients; we have suspects.” 
+
+
+ 
+20
+in narrow tasks. Countries, regions, and even city districts specialize in particular products, like 
+Swiss watches, the carpet industry around Dalton, Georgia and the Manhatttan diamond district.13  
+In contrast, aid organizations are notorious for trying to do it all. Even small bilateral aid 
+agencies cover the whole spectrum of development topics, rather than focusing on a few. The 
+IMF, World Bank, and regional banks all get involved in short-run financial crises, just as the 
+IMF, World Bank, and regional banks all get involved in reducing long-run poverty. The aid 
+agencies discourage staff from specialization – they prevent them becoming country experts by 
+rotating them frequently among countries and regions.  Knowledge of local history, politics, and 
+languages (outside of French, Portuguese, and Spanish, and not even always that) is rare on 
+country desks in aid agencies.  
+Ferguson 1994 has a devastating critique of a World Bank report on Lesotho. He lays 
+bare the document as a generic product that got wrong the most elementary facts about Lesotho’s 
+economy and history (for example, the report portrayed Lesotho as an exotic land untouched by 
+the modern market economy, when in fact it had been integrated into the South African mining 
+industry for more than a century). 
+The result of all the donors doing everything is an incredible multiplicity of demands on 
+the scarce administrative staff of the poor countries (more on this below).  Tanzania had to 
+produce more than 2,400 reports a year for the donors, who sent the poor country 1000 missions a 
+year.  (World Bank Africa Development Indicators 2002). 
+ 
+Such an extreme outcome of duplicated services is sometimes taken as a sign that there 
+IS market competition among donors. Multiplicity should not be confused with competition. A 
+competitive market would not lead to such an outcome. Many fast-food joints compete to serve 
+me lunch; I choose one. The joint next door doesn’t try to compel me to eat a second lunch. In a 
+competitive market for foreign aid, one agency would “win the contract” to deliver a particular 
+                                                                 
+13 I once was looking for a restaurant in downtown Manhattan for several city blocks and saw numerous 
+“restaurant” signs but went away hungry; I had blundered into a district that produced only restaurant 
+
+
+ 
+21
+service in a particular country, reducing rather than increasing the multiplicity of donors and 
+projects. What is going on in aid is not competition among donors but many little monopolies 
+operating simultaneously that tie disbursement of their money to the use of their bureaucracy. 
+The monopolies have control of their own sources of funding (e.g. CIDA has money from the 
+Canadian government, who are not going to give the money to the British DFID) and so don’t 
+really compete for funding. Hence CIDA, DFID and other aid agencies have every incentive to 
+coexist, hence the cartel of good intentions. 
+A donor organization’s sense of mission, then, relates not necessarily to economic development but to the 
+commitment of resources, the moving of money. … The estimates of total capital needs for development 
+assistance in relation to supply seem to have been the implicit standard by which donor organizations have 
+guided their behavior and judged their performance… the quantitative measure has gained its supremacy by 
+default. Other definitions of success and failure of development assistance efforts have been hard to come 
+by  (Judith Tendler 1975). 
+ 
+ Redefining output 
+The prediction of the story above is that aid bureaucracies respond to their high risk 
+environment by producing observable outputs. Agencies redefine inputs to development as 
+outputs. The primary output that foreign aid agencies advertise is the volume of money they 
+disburse. This fits in with the campaign to estimate aid requirements of achieving certain goals.  
+World Bank President McNamara bragged about loan volume: “we proposed to double 
+the Bank’s operations in the fiscal period  1969-73 compared to the previous 5-year period 1964-
+68. That objective has been met…In the five years we achieved a level of operations that 
+exceeded the total of all the operations that the Bank has undertaken in the developing world in 
+the 23 years from 1946 through 1968.” (McNamara 1973) Periodic IDA reports continued the 
+stress on volume: “IDA lending to Sub-Saharan Africa rose from a level of $950 million in 
+..FY80.. to over $1.2 billion in FY83, while the share of IDA going to Sub-Saharan Africa rose 
+from 27 percent to 37 percent.” (World Bank 1983) As of the World Bank’s report on aid in 
+1998, the stress on volume was said to have continued “Disbursements (of loans and grants) were 
+                                                                                                                                                                                                 
+equipment. 
+
+
+ 
+22
+easily calculated and tended to become a critical output measure for development institutions. 
+Agencies saw themselves as being primarily in the business of dishing out money.” The World 
+Bank’s IDA continued to define itself in terms of volume in 2001: “IDA, as the largest source of 
+concessional assistance to the world’s poorest countries, plays a critical role in their efforts to 
+achieve growth and poverty reduction.” A World Bank publication in 2001 advertised ten 
+accomplishments of the organization – all ten involved volumes of assistance for different 
+purposes.14 Although voices have been raised throughout the years against “pushing loans” and 
+“moving money,” and change may actually have occurred, the continuity of stressing aid volume 
+is more noticeable than the changes. 
+ 
+This emphasis on moving money had a number of consequences for the aid business.  
+Since the weak institutions of the recipient were often the critical bottleneck in disbursing funds 
+(more on this below), donors often substituted their own institutions for those of the recipient so 
+as the keep the money flowing. As Tendler’s timeless 1975 study puts it: “much of the initiative 
+and work involved in generating public projects in developing countries has been transferred 
+gradually from its usual location – a country’s public sector institutions – to the lending 
+institution.”  Twenty-two years later the World Bank’s 1998 aid report echoed this claim: “Faced 
+with low implementation capacity and pressure to ‘move the money,’ aid agencies have a long 
+history of attempting to ‘cocoon’ their projects using free-standing technical assistance, 
+independent project implementation units, and foreign experts—rather than trying to improve the 
+institutional environment for service provision.” A World Bank 2000 report on Africa made an 
+even more dramatic claim, after discussing different groups excluded from the development 
+process, “Africa’s governments are one of the excluded groups: with high aid dependence, in 
+many countries development policy is seen as being the prerogative of donors rather than 
+governments.” In Tanzania in the early 1990s, donors were implementing 15 separate stand-alone 
+projects in the health sector alone (Van de Walle 2001). An aid worker reported to me that 
+                                                                 
+14 World Bank, Ten Things You Never Knew About the World Bank, 2001 
+
+
+ 
+23
+Honduras has 57 different projects in the education sector as of this writing, and that the 
+impoverished country was “floating in aid money.” This is an example of what Tendler 1975 
+called the paradoxical phenomenon of “aid abundance,” where donors want to give money faster 
+than recipients can absorb it.  
+ 
+The emphasis on moving money led to IFIs allocating too little effort to two important 
+activities: (1) insuring that loan conditions were actually observed, and (2) ex-post evaluation of 
+loan effectiveness. Loan conditions were not effectively enforced because the IFIs kept coming 
+back to the same countries with “adjustment loans” with little regard for the performance on 
+previous loans. There was no progress on economic reform indicators from one adjustment loan 
+to the next in the same country (Easterly 2002). The World Bank and IMF gave Argentina 33 
+adjustment loans over 1980-2001 during repeated macroeconomic crises, yet at the end Argentina 
+went into an even more severe macroeconomic crisis than the previous ones (complicated by the 
+huge debt now owed to multilateral institutions). 
+Ex-post evaluation receives very low priority in World Bank activities; the Bank reviews 
+only 5 percent of its loans after 3 to 10 years following the last disbursement for development 
+impact (Meltzer Commission 2000). The World Bank has done client surveys since the mid-
+1990s, but the results have not been made public and there seems to be little mechanism for 
+having managers learn from them (Wade 2001).   Aid agencies rarely engage in controlled 
+experiments of particular interventions, despite the small amounts required relative to loan 
+volume. They also show little interest in improving the atrocious statistical systems of the poor 
+countries so that the aid agencies or recipient governments would even be able to know what is 
+happening to growth, poverty, or social indicators. Aid agencies rarely engage in primary data 
+collection and do not even store for future use the (secondary) data contained in their own country 
+reports.  
+The Bush-Bono summit just before Mr Bush's announcement of more money for 
+development exemplifies the photo-opportunity approach to development aid taken by most US 
+presidents and politicians.(Moises Naim, Financial Times, April 1, 2002) 
+
+
+ 
+24
+Observable output 
+ 
+The emphasis on safe observables leads to stress on other kinds of output as well, like 
+international meetings of statesmen, glossy reports for the public, and the proliferation of 
+framework and strategy papers. The standard response to any Third World tragedy is to hold a 
+meeting about it. The World Bank evaluation of IDA activities in 1997 cited “the Interagency 
+Task Force on an Enabling Environment for Social and Economic Development” that  “followed 
+up on two key conferences held during IDA10: the Copenhagen Social Summit (March 1994) and 
+the Fourth World Conference on Women (September 1995). During FY94-96 IDA chaired ninety 
+formal meetings and provided substantial input to thirty-eight formal meetings chaired by other 
+donors.” Likewise UNDP in a recent report discussed its success at arranging meetings: 
+Trust Fund resources have been used to support the preparation and dissemination of social sector 
+expenditure reviews in seven African countries…Five of these reports have already been finalized and a 
+workshop has been or will be held to discuss their findings and recommendations. Preliminary findings of 
+these studies were shared in three regional meetings, co-sponsored by UNDP and UNICEF, which served 
+to sensitize policy-makers about the 20/20 initiative and prepare them for the international meeting which 
+took place in Hanoi in October 1998.15 
+ 
+IDA’s 2001 draft document discussed the interlocking strategies and frameworks 
+produced by different aid organizations, with an output by one organization often serving as an 
+input to another: “the UN Common Country Assessment, the Bank’s Economic and Sector Work 
+(ESW), and the IMF’s analytical and technical assistance work would contribute to governments’ 
+analytical base for PRSPs {Poverty Reduction Strategy Papers}. {IDA Deputies} also welcomed 
+the European Union’s decision to base its Africa, Caribbean and Pacific (ACP) assistance 
+programs on the PRSPs.” In 2002 alone, the All-World Summit Tour includes the Monterrey 
+Conference on Financing for Development, The Kananaskis16 G-8 Summit on Africa and the 
+Millennium Development Goals, and the Johannesburg Summit on Sustainable Development. The 
+Johannesburg Summit commemorates ten years of failure to follow through on the previous 
+Sustainable Development Summit, which was held in Rio de Janeiro in 1992. Trying to make up 
+                                                                 
+15 UNDP 
+16 rumored to be somewhere in Canada  
+
+
+ 
+25
+for lost time, the UN in its preparatory documents for Johannesburg recommends 185 actions by 
+rich and poor nations. 
+ 
+It is a lot easier for aid agencies to produce observable frameworks rather than actually 
+implement risky programs like “empowering the poor” (risky because local elites would resist, as 
+they do even in industrial countries). The aid agencies thus do not have to face hard choices 
+between a number of competing claims on their scarce implementation resources, potentially 
+alienating single issue lobbies that might influence aid revenues. This allows the frameworks to 
+include a Christmas tree of aims like “an increased focus on issues like good governance at 
+national and international levels and the fight against corruption, respect for all internationally 
+recognized human rights, gender issues, capacity and institutional building, social services supply 
+and environmental concerns” (UN Conference on the Least Developed Countries 2001) Likewise 
+World Bank President James Wolfensohn set out his “Comprehensive Development Framework” 
+in 1999 with a checklist of 14 items, each with multiple sub-items: 17 
+1. Good and Clean Government 
+“capacity building, an open legislative and transparent regulatory system, properly trained and remunerated 
+officials … corruption which is the single most corrosive aspect of development” 
+2. An Effective Legal and Justice System: 
+“the protection of human and property rights… an effective system of property, contract, labor, bankruptcy, 
+commercial codes, personal rights laws … that is effectively, impartially and cleanly administered by a 
+well-functioning, impartial and honest judicial and legal system.” 
+3. A Well-Organized and Supervised Financial System  
+“Information and transparency, adequately trained practitioners and supervisors, and internationally 
+acceptable accounting and auditing standards ... Regulation and supervision must include banking, savings 
+institutions, insurance and pension plans, leasing and investment companies. Capital markets should als o be 
+developed and strengthened as resources allow.” 
+ 4. A Social Safety Net and Social Programs  
+“provision must be made for the elderly, the disadvantaged and disabled, for children, for the those men 
+and women unable to find work, and those affected by natural disasters and the aftermath of war. In some 
+transition economies, the social safety net is needed for those put out of work as a result of large-scale 
+privatizations. … special programs for indigenous people … Violence and social unrest” 
+5. Education and Knowledge Institutions 
+“universal primary education for girls and boys equally, as well as an open and competitive system of 
+secondary and tertiary education. ... Adult education, literacy and lifelong learning … education of women 
+and girls …learn lessons of practice and history from indigenous peoples and communities… preschool 
+education … science, technology, and knowledge transfer.”  
+6. Health and Population Issues 
+“mothers are supported and that children get adequate health care before and during school years …health 
+                                                                 
+17 http://www.worldbank.org/cdf/cdf-text.htm 
+
+
+ 
+26
+services for adults and elderly … services for family health care and family planning. ... growth in 
+population … tuberculosis and malaria to AIDS” 
+7. Water and Sewerage  
+“an effective method of distribution, delivery, finding, and saving … a strategy for sewerage” 
+8. Energy 
+“the use of wood and fossil fuels, resulting in health and breathing problems. Availability of power is not 
+only an issue of convenience but saves the time of women searching for alternative fuels. The 
+environmental impact is also great, it having been evident for centuries with forest destruction altering 
+weather patterns and affecting the quality of air we breath.” 
+9. Roads, Transportation and Telecommunications 
+Rural and urban roads …. Trunk roads … to link rural, urban and regional areas. Rail and air transportation 
+systems … telecommunications … telephone or e-mail, computers or wind-up radios without batteries” 
+10. Sustainable Development, Environmental and Cultural Issues 
+“protection of our planetary environment … biodiversity… the quality of our air and water.. degradation of 
+important natural resources, like forestry, aquifers …Cultural preservation is also crucial not only historic 
+sites, artifacts and books, but also the spoken word and the arts” 
+11. Rural Strategy  
+“ new crops and agricultural extension programs … {programs} for trading, for microcredit, for storage, for 
+transportation, and for non-monopolistic outlets. … technical assistance to farmers and converters of 
+agricultural produce. Governments need to think of integrated solutions to rural development.” 
+12. Urban Strategy  
+“With 66 megacities of more than ten million people expected to be established in developing countries by 
+the year 2025… governments must have an urban strategy” 
+13. Private Sector Strategy 
+“trade policy, tax policies, competition and regulatory policy, and corporate governance. .. a climate of 
+investor confidence — with appropriate laws, transparent regulations, and predictable taxes. … protection 
+of property rights or fair and equitable labor practices, governments must give certainty to the investor 
+about the "rules of the game". Provision of credit, guarantees, sources of funding for projects …” 
+14. Special National Considerations 
+“ My purpose in suggesting an extra heading (or more, if necessary) … is to give flexibility for specific 
+country considerations.” 
+ 
+The CDF says these are additional items; governments should also worry about macroeconomic 
+variables like GDP growth, price stability, sustainable government and external debt, a 
+competitive real exchange rate, and adequate level of international reserves. The Comprehensive 
+Development Framework calls simultaneously for “having all the basic prerequisites, say over a 
+20-year timeframe.”   
+Similarly the Millennium Development Goals calls for the simultaneous achievement of 
+multiple targets by 2015, without asking if these arbitrary benchmarks are the most effective use 
+of scarce resources to help poor people in every country, i.e. whether the cost-benefit ratios of 
+attaining the various goals are approximately equal. Economics principles dictate that greater 
+effort should go to goals with low costs and high benefits, and less effort to goals where the costs 
+are prohibitive relative to the benefits. But the “do everything” approach of the MDGs suggests 
+
+
+ 
+27
+that the aid bureaucracy is above such tradeoffs. Nor do the agencies spell out whether there are 
+enough separate policy instruments to meet all of these separate policy targets simultaneously, or 
+whether an overstrapped bureaucracy can manipulate these instruments in just the right 
+combination to attain the targets.. Aid bureaucracies produce frameworks and goals to satisfy the 
+imperative of visible output, as opposed to rational cost-benefit analysis or target-instrument 
+analysis of what is effective assistance to the poor.  Meanwhile, recipient government officials 
+and the aid agency’s own frontline workers are gradually driven insane by the proliferating 
+conditions and objectives, each of which is Priority #1.18 
+ 
+There are more specific consequences of the emphasis on observable outputs. Aid reports 
+for many decades have bewailed the tendency of donors to finance new capital investment 
+projects (easily observable at a point in time) and the neglect of operating supplies and 
+maintenance after the project is completed (which requires more costly ongoing site by site 
+monitoring). Donors consistently refuse to finance maintenance, with the idea that this is the 
+responsibility of recipient governments. The result is a recurrent theme of the World Bank’s 
+periodic reports on Africa: “Vehicles and equipment frequently lie idle for lack of spare parts, 
+repairs, gasoline, or other necessities. Schools lack operating funds for salaries and teaching 
+materials, and agricultural research stations have difficulty keeping up field trials. Roads, public 
+buildings, and processing facilities suffer from lack of maintenance.” (World Bank 1981) “in 
+country after country, highways are falling into disrepair, if not disuse, from … inadequate 
+funding of maintenance.” (World Bank 1983) “inadequate funds have been allocated to 
+operations and maintenance… there are shortages of schoolbooks, medicines, transport fuel, 
+small tools, and spare parts” (World Bank 1984) “road maintenance crews lack fuel and bitumen 
+… teachers lack books, chalk …health workers have no medicines to distribute” (World Bank 
+1986) “schools are now short of books, clinics lack medicines, and infrastructure maintenance is 
+                                                                 
+18 Several years ago, I read a World Bank report on Nigeria that listed 300 “main” recommendations at the 
+beginning of the document. 
+
+
+ 
+28
+avoided.” (World Bank 1989) “typically, 50 percent of the rural road network requires 
+rehabilitation.” (World Bank 1995) “many countries suffer chronic shortages of current funding, 
+especially for operations, maintenance, and nonwage inputs.” (World Bank 2000) As these quotes 
+show, donors are very aware of the anti-maintenance bias but are seemingly unable to fix the 
+problem. Filmer and Pritchett (1997) estimate that the return on spending on instructional 
+materials in education is up to 14 times higher than the return to spending on physical facilities in 
+a wide-ranging sample of poor countries, but donors continue to favor more observable buildings 
+over less observable textbooks. In another field, Morton 1994 points out how donors were willing 
+to finance hugely expensive but observable satellite early-warning systems for drought in Africa, 
+allowing the inexpensive but unobservable system based on widely scattered rain gauges to fall 
+apart. Aid agencies, themselves an example of top-down bureaucracy, tend to favor highly visible 
+top-down bureaucracies to deliver services in poor countries, even though the conditions for 
+effective bureaucracies are absent (Pritchett and Woolcock 2002). 
+ 
+Since the outputs that really matter are what is observable to the electorate in rich 
+countries, aid agencies often strive to produce side effects for rich countries. Thus, rich country 
+donors often restrict aid to purchases from their own country’s exporters (the infamous “tied 
+aid”). Aid agencies are attentive to the need to reward political allies of the rich countries with 
+aid. Such indicators as the frequency with which a recipient country votes with the donor in the 
+UN and whether the recipient is an ex-colony of the donor can explain aid flows (Alesina and 
+Dollar 2000, World Bank 1998).  After September 11, 2001 there was anecdotal evidence of new 
+aid resources for allies in the war against terrorism, like Pakistan and Turkey. The rich countries 
+also contribute to proliferation of conditions by themselves imposing conditions on the 
+multilaterals – Kapur 2002 notes that “IDA-13’s recommendations/actions total no less than 53 
+(one of which is ‘increasing selectivity’).” Of course, the loading down of aid with all kinds of 
+extraneous rich country objectives makes it less likely to benefit the poor. 
+
+
+ 
+29
+ 
+The inverse of donors’ desire to produce observable positive outputs is their fear of 
+producing observable negative outputs. Donors feel this more than ever in recent years with the 
+increased success of non-governmental organizations (NGOs) in popularizing particular causes in 
+the rich country media. For example, NGOs will blame donors for an aid project that produces 
+visible environmental damage or does politically sensitive resettlement. Thus, for example, the 
+World Bank got tremendous grief for supporting a Chinese project that would resettle poor Han 
+farmers in an area considered to be a Tibetan culture area, eventually causing the Chinese 
+government to withdraw the project (Wade 2001). The blame function is not necessarily related 
+to actual economic costs of negative outputs, since poorly informed monitors will view all of an 
+agency’s activities as tarnished after even a small fiasco in one specific area.  Prendergast 2001 
+points out that monitoring by poorly informed outsiders can have the perverse effect of diverting 
+resources away from the objective of the organization towards avoiding visible mistakes (in his 
+example, crime went up in Los Angeles after the department came under external pressure to curb 
+police officers being too obvious about beating up suspects).  
+ Something like this seems to have happened in the aid industry. The aid agencies are 
+choosing increasingly elaborate control procedures to minimize the risk of visible negative 
+outputs.  The unfortunate officer on a World Bank country desk is required to produce or 
+commission five separate reports on each client country: a Country Economic Memorandum 
+(CEM)/Development Policy Review (DPR), Country Financial Accountability Assessment 
+(CFAA), Country Procurement Assessment Review (CPAR), Poverty Assessment (PA), and 
+Public Expenditure Review (PER). Four other reports are identified as “important in advancing 
+the Bank's corporate priorities”: Country Environmental Analysis, Investment Climate 
+Assessment, Country Gender Assessment, and Financial Sector Assessment Program Report. 
+Twelve other sector reports are mentioned in management guidelines as part of the “menu” but 
+are mercifully optional. 
+
+
+ 
+30
+Wade’s (2001) insightful study of the World Bank describes the proliferation of NGO 
+and US government pressures that has led the World Bank to adopt “safeguard policies” in the 
+following areas: environmental assessment, natural habitats, forestry, pest management, 
+resettlement, indigenous peoples, dam safety, projects on international waterways, and projects in 
+disputed areas. That is, the beleaguered World Bank project manager has to certify that they are 
+not doing anything wrong in any of these areas. This grab-bag of issues has no particular claim on 
+being the most salient for welfare of the poor, they just happen to be politically visible concerns 
+monitored by NGOs and American political lobbies. 
+Agencies’ urge for increasingly baroque controls is restrained only by their adverse effect 
+on the cost of producing positive output. Bureaucracies will trade off one against the other and 
+wind up at higher cost for producing output than they would if they were just equating additional 
+economic cost to additional revenue. 
+We constantly underestimate difficulties, overpromise results, and avoid any appearance of 
+incompatibility and conflict, thus repeatedly creating the conditions of failure out of a desperate 
+desire for success. (Daniel Patrick Moynihan, 1969) 
+ 
+Spin control 
+ 
+ 
+The story of foreign aid bureaucracies suggested they will engage in a mixture of 
+obfuscation and advertising. Carefully hedged diplomatic language is an art form in aid agencies: 
+A war is a “conflict-related reallocation of resources” (World Bank Ethiopia report, 2001) Rich 
+country aid efforts to anarchic warlords like in Liberia are “difficult partnerships”  (OECD 2001) 
+Countries with homicidal rulers are also known as “low income countries under stress” (World 
+Bank 2002). Countries whose presidents loot the treasury experience “governance issues.” Bad 
+performance is “progress {that} has not been as fast and comprehensive as envisioned in the 
+PRSP” (World Bank PRSP Sourcebook 2001).  When government officials don’t want what the 
+aid agency insists upon, there are “differences in priorities and approaches {that}… need to be 
+reconciled.” Soliciting donations is “resource mobilization.” Slums are “inadequate human 
+settlements.” Being clueless on the destination of debt relief means “continued progress on the 
+
+
+ 
+31
+Expenditure Management and Control Program will be needed to maximize the benefits from the 
+HIPC Initiative.” 19 Other aid community jargon (like “good investment climate”) simply lacks 
+any meaning that economic science can discover. You might as well say “the investment climate 
+will be stormy in the morning, gradually clearing by afternoon with scattered expropriations.”20 
+Aid documents often wander into content-free zones: “We encourage all international 
+organizations to seek to continually improve their operations and interactions” (UN Monterrey 
+Consensus 2002). As Tendler 1975 said, the aid professional has “a tremendous fear of his own 
+writing.” 
+ 
+Another prominent technique of spin control is to assert that while things may have been 
+bad in the past, things have now changed for the better. This technique is particularly prominent 
+in Africa, the continent where foreign aid has had its most difficult hours.  Foreign aid became 
+increasingly important over the decades while growth deteriorated (Figure 2).   
+Figure 2: Aid and growth in Africa (10-year moving averages)
+5.00%
+7.00%
+9.00%
+11.00%
+13.00%
+15.00%
+17.00%
+1970
+1971
+1972
+1973
+1974
+1975
+1976
+1977
+1978
+1979
+1980
+1981
+1982
+1983
+1984
+1985
+1986
+1987
+1988
+1989
+1990
+1991
+1992
+1993
+1994
+1995
+1996
+1997
+1998
+1999
+Aid as percent of GDP
+-0.50%
+0.00%
+0.50%
+1.00%
+1.50%
+2.00%
+Growth per capita
+aid as percent of GDP
+per capita growth 
+ 
+The World Bank did a steady stream of progress reports on Africa over the last two 
+decades. They first described the poor state of African policy reform: “domestic policy 
+                                                                 
+19 Interim Poverty Reduction Strategy Paper 
+Joint Staff Assessment, Ethiopia 
+
+
+ 
+32
+inadequacies…trade and exchange rate policies have overprotected industry, held back 
+agriculture… “ (World Bank 1981) “unless major changes in African programs and policies are 
+introduced, no amount of external assistance can generate rising levels of income” (World Bank 
+1984) “Weak public sector management has resulted in loss-making public enterprises, poor 
+investment choices, costly and unreliable infrastructure, price distortions (especially overvalued 
+exchange rates, administered prices, and subsidized credit)” (World Bank 1989) “most African 
+countries still lack policies that are sound … few besides Ghana come close to having adequate 
+monetary, fiscal, and exchange rate policies…governments continue to intervene heavily in the 
+marketing of export crops… the scarce evidence on public enterprise reform suggests that there 
+has been no significant reduction in financial flows to public enterprises or in the volume of 
+assets held by government…financial reform lags behind as well…nor is there much evidence 
+that public spending within those sectors {health and education} is being reallocated away from 
+costly tertiary programs and toward the basic services most likely to reach the poor.” (World 
+Bank 1994) “While the former Zaire’s Mobuto Sese Seko was reportedly amassing one of the 
+world’s largest personal fortunes (invested, naturally, outside his own country), decades of large-
+scale foreign assistance left not a trace of progress… Consider Tanzania, where donors poured a 
+colossal $2 billion into building roads over 20 years. Did the road network improve? No. For lack 
+of maintenance, roads often deteriorated faster than they could be built… Zambia, for example, 
+received 18 adjustment loans between 1966–69 and 1990–93 while its policies got worse” (World 
+Bank, Assessing Aid, 1998) “the adjustment decades also saw a substantial deterioration in the 
+quality of public institutions, a demoralization of public servants, and a decline in the 
+effectiveness of service delivery in many countries.” (World Bank 2000)  Africa in 2002 is still 
+suffering from “the cruel effects of the HIV/AIDS pandemic, civil wars, and persistent low 
+growth rates” (World Bank African Development Indicators Press Release April 11, 2002). 21 
+                                                                                                                                                                                                 
+20 The President of the World Bank, April 2002. 
+21 See the discussion of aid’s failure in Africa in Kanbur 2000 and Van de Walle 2001. 
+
+
+ 
+33
+ 
+The international community failed to hold aid agencies responsible for this failure. 
+Instead, rich countries were influenced by aid agencies’ perpetual promises of a change for the 
+better in Africa: “Policy action and foreign assistance … will surely work together to build a 
+continent that shows real gains in both development and income in the near future.” (World Bank 
+1981) “There is now evidence that many African governments are more clearly aware of the need 
+to take major steps to improve the efficiency of productive sectors of their economies” (World 
+Bank 1983) “This optimism can be justified by recent experience in Africa …African leaders 
+increasingly recognize the need to revise their development strategies…some countries are 
+introducing policy and institutional reforms”(World Bank 1984) “progress is clearly under way. 
+Especially in the past two years, more countries have started to act, and the changes they are 
+making go deeper than before” (World Bank 1986) “since the mid-1980s Africa has seen 
+important changes in policies and in economic performance” (World Bank 1989) “African 
+countries have made great strides in improving policies and restoring growth” (World Bank 1994) 
+“Since the mid-1990s, there have been signs that better economic management has started to pay 
+off” (World Bank 2000) “Africa's leaders … have recognized the need to improve their policies, 
+spelled out in the New Partnership for African Development (NEPAD) …{they} have pledged to 
+pursue a compact of good governance with their people. “ (World Bank African Development 
+Indicators Press Release April 2002). 22 
+Such optimism (much of which staff knew was misguided according to interviews later 
+conducted by Kapur et al. 1997) facilitated the continuing flow of resources to Africa. 
+ 
+                                                                 
+22 The contradiction between “great strides in improving policies” and the continued description of 
+bad policies calls to mind the story about the Japanese homefront during World War II. The long-suffering 
+Japanese people could get their war news only from their government’s propaganda. Nevertheless they 
+could follow the war’s course by tracking the location of the glorious victories of The Emperor’s forces, 
+which seemed to be moving ever closer and closer back to Japan.  
+ 
+
+
+ 
+34
+Presidents have taken to reorganizations like overweight people take to fad diets -- and with 
+about the same results. (James Q. Wilson 1989) 
+New and improved 
+ 
+Like laundry detergent, aid is always “new and improved.” One instrument for conveying 
+this spin is the “reorganization” of the aid agency. The World Bank, founded in 1946, had its first 
+reorganization in 1952. Further reorganizations came in 1972, 1981, 1987, 1991, and 1993 
+(Kapur et al 1997). World Bank President James Wolfensohn has carried out further large-scale 
+reorganization since he took office in 1995. The US foreign aid effort was reorganized in 1948, 
+1951, 1953, 1955, and 1960, before USAID was finally created in 1961. Further changes in 
+organization of US aid occurred in 1973, 1979, 1985, 1989, 1992, and 1999 (when USAID was 
+moved back into the State Department). President George Bush in 2002 proposed an important 
+new reorganization of the US aid effort with his Millennium Challenge Account.23 
+A related spin is increased emphasis on a desirable “new” goal. Following the experience 
+described above with adjustment lending in Africa, a hallmark of donor policy in the new 
+millennium (enshrined in 2002’s so-called “Monterrey Consensus”) has been the new emphasis 
+on “selectivity” of foreign aid, because “aid has a big effect on growth and poverty reduction” 
+only in countries with good policies (World Bank, Assessing Aid, 1998). The World Bank in a 
+recent report on aid effectiveness (World Bank 2002) stated that indeed, “during the 1990s, 
+overall aid allocation shifted in favor of countries with good policies.” One’s enthusiasm at the 
+sinner’s religious conversion is tempered only by knowledge of many previous conversions. The 
+table shows that each of the latest donor fads has been around for some time. 
+ 
+                                                                 
+23 http://www.usaid.gov/about/chronology.html 
+
+
+ 
+35
+Table 1: Plus ça change, plus c’est la même chose 
+ 
+Aid Epoch 
+Aid idea 
+Stone Age 
+Iron Age 
+Silicon Age 
+Donor 
+coordination 
+“a cooperative enterprise in which 
+all nations work together through 
+the United Nations and its 
+specialized agencies" (Truman 
+1949) 
+“Aid coordination... has been 
+recognized as increasingly 
+important…” (World Bank, 1981) 
+"{The donors need} to ensure 
+better coordination and stronger 
+partnership in ...development 
+cooperation." (World Bank, 2001) 
+Increasing aid 
+volume 
+"an increase in the per capita 
+national incomes cannot be 
+brought about without … a sum of 
+money …of about $3 billion a 
+year” (UN Expert Group 1951).  
+“the current flow of ODA … is 
+only half the modest target 
+prescribed by the internationally 
+accepted United Nations Strategy " 
+(World Bank President McNamara, 
+1973) 
+“If we are serious about...meeting 
+multilateral development goals we 
+have all signed on to, we must 
+double ODA from its current level 
+of about $50 billion a year.” 
+(World Bank President 
+Wolfensohn, 2001) 
+Aid works in a 
+good policy 
+environment 
+“objective No. 1: To apply stricter 
+standards of selectivity … in aiding
+developing countries” (President 
+John F. Kennedy 1963) 
+“ the relief of poverty depends both
+on aid and on the policies of the 
+recipient countries”  (Development 
+Committee Task Force  1985) 
+"IDA should increase its selectivity 
+… by directing more assistance to 
+borrowers with sound policy 
+environments.” (World Bank, 
+2001) 
+Increase 
+poverty 
+emphasis 
+ "far greater emphasis on policies 
+and projects which will begin to 
+attack the problems of absolute 
+poverty” (McNamara 1973) 
+“an even stronger emphasis on 
+poverty reduction in IDA’s 
+programs” (World Bank 1990) 
+ “increasing the focus ... on the 
+overarching objective of poverty 
+reduction” (World Bank, 2001) 
+Country 
+ownership 
+Development policy is “the 
+responsibility of the recipient 
+alone” (“Partners in 
+Development”, 1969) 
+ “novel approaches to community 
+involvement in service provision” 
+(World Bank 1981).  
+"greater national ownership of 
+development programs ...”  (World 
+Bank 2001) 
+Debt relief 
+“the debt-servicing problem, 
+already severe in the early 1960’s, 
+has {become} increasingly 
+difficult" (World Bank 1970) 
+“more concessional reschedulings 
+for the poorest debtor countries.” 
+(G-7 Summit, 1990) 
+“further national and international 
+measures ... including, as 
+appropriate, debt cancellation.” 
+(Monterrey Consensus, UN, 2002)
+Africa 
+desperately 
+needs reform 
+“domestic policy 
+inadequacies…trade and exchange 
+rate policies have overprotected 
+industry, held back agriculture… “ 
+(World Bank 1981) 
+“most African countries still lack 
+... adequate monetary, fiscal, and 
+exchange rate policies…nor is 
+there much evidence that public 
+spending... is being reallocated ... 
+toward .. basic services .” (World 
+Bank 1994)  
+ “{There was} a substantial 
+deterioration in the quality of 
+public institutions...  a decline in 
+the effectiveness of service 
+delivery … persistent low growth 
+rates” (World Bank 2000, 2002) 
+Africa is 
+already 
+reforming 
+“many African governments are 
+more clearly aware of the need to 
+take major steps to improve the 
+efficiency...of their economies” 
+(World Bank 1983) 
+“African countries have made great 
+strides in improving policies and 
+restoring growth” (World Bank 
+1994)  
+“Africa's leaders … have 
+recognized the need to improve 
+their policies, spelled out in the 
+New Partnership for African 
+Development (NEPAD)" (World 
+Bank 2002)  
+ 
+
+
+ 
+36
+Indeed, every successive aid document over the decades has called for increased 
+“selectivity.” So the very latest document to solicit funds for the 13th replenishment of the World 
+Bank’s concessional loan facility states “to improve development effectiveness, IDA should 
+increase its selectivity … by directing more assistance to borrowers with sound policy 
+environments.” (World Bank, 2001)   Thirty eight years earlier we have: “objective No. 1: To 
+apply stricter standards of selectivity … in aiding developing countries” (President John F. 
+Kennedy 1963) “Above all, it is realized that … that no foreign help will suffice where there is no 
+national will to make the fundamental changes which are needed. It has become very clear that 
+the impact made by contribution of resources from outside depends on … his overall economic 
+and social policy” (Pearson Commission 1969) “This report stresses that the relief of poverty 
+depends both on aid and on the policies of the recipient countries” (Cassen Development 
+Committee Task Force on Foreign Aid, 1985) “Donors…agreed to place greater emphasis on 
+economic performance.” (Fleming and Smith 1987, IDA-8) “The Deputies underlined the 
+importance of sound macroeconomic and sectoral policies as a basis for effective use of IDA 
+funds in all recipient countries.” (Stern 1990, IDA-9) “"Even very well designed projects cannot 
+succeed in a poor policy…environment." (Wapenhans Report 1992, quoted in Meltzer 
+Commission Report).  
+Well after the new emphasis on selectivity, in the summer of 2000, the World Bank and 
+IMF announced new adjustment loans to President Daniel Arap Moi’s government in Kenya, 
+despite 22 years of economic mismanagement during 19 previous adjustment loans to this same 
+government. In a couple of weeks in the fall of 1999, donors made Cameroon among the first 
+eligible for debt relief, and Transparency International declared Cameroon the most corrupt 
+country in the world for the second year in a row (Van de Walle 2001). Indeed, since Van de 
+Walle wrote, Cameroon reached the “decision point” on HIPC debt relief in October 2000 
+(meaning the World Bank and IMF thought it had a three year track record of good performance). 
+Despite IFI enthusiasm, in 2001 Cameroon was still rated among the most corrupt countries in the 
+
+
+ 
+37
+world by TI and was classified as one of the most undemocratic countries in the world (“not 
+free”) by Freedom House. This unsavory combination would qualify the current government of 
+Cameroon for the appellation of “odious” according to Birdsall, Williamson, and Deese 2002 
+(such an appellation implying no donor funds should go to it). To give a third example, the Bank 
+made a second tranche disbursement of a financial sector adjustment loan to Peru in September 
+2000,  despite well-documented reports of widespread corruption and the failure to keep the IMF 
+agreement in place at the time.  
+ More systematically, there is no relationship between the developing countries’ score on 
+quality of governance (democracy, service delivery, regulation, corruption, etc.) in 2001 and 
+those who received World Bank adjustment loans in fiscal year 2001.  Moreover, I am unable to 
+reproduce the World Bank report’s finding of greater selectivity in the 1990s, using the World 
+Bank’s own numbers. There is no evidence of a significant positive association between good 
+policies (using the World Bank’s own subjective rating, which was what was used to make the 
+claims in the 2002 aid effectiveness study) and aid flows in the 1990s or at any other time: 
+
+
+ 
+38
+ 
+Correlations of foreign aid (ODA) with World Bank country 
+policy and institutional assessments (CPIAs) 
+Correlation of 
+variable with 
+CPIAs: 
+ODA/ 
+GDP
+ 
+Log of 
+ODA  per 
+capita
+ 
+obser- 
+vations 
+1977 
+0.172
+ 
+0.131
+ 
+35
+1978 
+0.167
+ 
+0.086
+ 
+37
+1979 
+0.104
+ 
+0.124
+ 
+37
+1980 
+0.006
+ 
+0.111
+ 
+41
+1981 
+-0.162
+ 
+-0.011
+ 
+42
+1982 
+-0.349
+** 
+-0.247
+* 
+42
+1983 
+-0.420
+***
+-0.357
+** 
+42
+1984 
+-0.241
+ 
+-0.269
+* 
+43
+1985 
+-0.159
+ 
+-0.182
+ 
+47
+1986 
+-0.060
+ 
+-0.234
+ 
+48
+1987 
+-0.110
+ 
+-0.141
+ 
+48
+1988 
+0.010
+ 
+-0.076
+ 
+49
+1989 
+-0.002
+ 
+-0.032
+ 
+50
+1990 
+-0.024
+ 
+0.012
+ 
+50
+1991 
+0.026
+ 
+0.024
+ 
+49
+1992 
+0.153
+ 
+0.091
+ 
+49
+1993 
+0.173
+ 
+0.113
+ 
+51
+1994 
+-0.084
+ 
+0.091
+ 
+51
+1995 
+-0.040
+ 
+0.081
+ 
+55
+1996 
+0.049
+ 
+0.123
+ 
+57
+1997 
+0.063
+ 
+0.141
+ 
+57
+1998 
+-0.028
+ 
+0.072
+ 
+57
+1999 
+-0.079
+ 
+0.136
+ 
+50
+***Significant at 1% level 
+ 
+ 
+ 
+**Significant at 5% level 
+ 
+ 
+ 
+ 
+*Significant at 10% level 
+ 
+ 
+ 
+ 
+Correlation performed on sample of low income countries 
+  
+World Bank (2002) makes strong claims for selectivity of the of the World Bank’s own 
+foreign aid (IDA loans). These loans show somewhat more association with policy ratings (again 
+the same CPIA ratings that the World Bank report uses) than does overall ODA, but this 
+association is not robust across years or across definitions of the IDA flow (as percent of the 
+receiving countries GDP or as amount per capita):24 
+                                                                 
+24 On the failure of the World Bank and other donors to enforce “selectivity” and “conditionality”, see 
+Kanbur 2000, Van de Walle 2001, Kapur et al 1997 and Lancaster 1999. 
+
+
+ 
+39
+Correlations of IDA lending with World Bank country policy and 
+institutional assessments 
+Correlation 
+of variable 
+with CPIAs: 
+IDA net 
+disbursements/ 
+GDP 
+ 
+Log of IDA net 
+disbursements 
+per capita
+ 
+obser- 
+vations 
+1980
+-0.028 
+ 
+0.086
+ 
+54
+1981
+-0.143 
+ 
+-0.080
+ 
+53
+1982
+-0.217 
+ 
+-0.359
+***
+53
+1983
+-0.070 
+ 
+-0.112
+ 
+50
+1984
+0.147 
+ 
+0.037
+ 
+50
+1985
+-0.024 
+ 
+-0.046
+ 
+55
+1986
+0.153 
+ 
+-0.151
+ 
+59
+1987
+0.027 
+ 
+-0.025
+ 
+59
+1988
+0.103 
+ 
+0.207
+ 
+57
+1989
+0.103 
+ 
+0.214
+ 
+54
+1990
+0.079 
+ 
+0.119
+ 
+54
+1991
+0.116 
+ 
+0.354
+***
+57
+1992
+0.166 
+ 
+0.304
+** 
+59
+1993
+0.089 
+ 
+0.154
+ 
+61
+1994
+0.063 
+ 
+0.345
+***
+67
+1995
+-0.054 
+ 
+0.138
+ 
+66
+1996
+-0.023 
+ 
+0.141
+ 
+68
+1997
+0.119 
+ 
+0.208
+* 
+71
+1998
+-0.031 
+ 
+0.043
+ 
+70
+1999
+0.185 
+ 
+0.253
+** 
+71
+***Significant at 1% level 
+ 
+ 
+ 
+ 
+**Significant at 5% level 
+ 
+ 
+ 
+ 
+*Significant at 10% level 
+ 
+ 
+ 
+ 
+Correlation performed on sample of positive IDA net disbursements 
+ 
+Of course, the “improved” behavior could have happened more recently than is captured 
+by the available data. The aid agencies’ always presenting themselves as “new and improved” 
+makes spin control easier, in that it is impossible to test how “improved” they are at any given 
+moment. One can do research on the past but not on the present. 
+{The program} failed… to wage an effective war on poverty. Many battles were fought, but few 
+were against poverty. (Congressman James Hanley,1967, quoted in Moynihan 1969) 
+ 
+Why it takes $3521 in aid to get $3.65 to a poor person 
+The “new” emphasis on poverty is also continually reinvented. The creation of the 
+International Development Association (IDA) for the poorest countries in 1960 reflected an early 
+
+
+ 
+40
+concern with poverty.  World Bank President McNamara came along in 1973 to “to place far 
+greater emphasis on policies and projects which will begin to attack the problems of absolute 
+poverty” (McNamara 1973, IDA-4). Despite his best efforts, each new round of replenishment of 
+the IDA called for more: “…a growing proportion of lending is directed to combating poverty.” 
+(1980, IDA-6) “…The Deputies encouraged an even stronger emphasis on poverty reduction in 
+IDA’s programs” (Stern 1990, IDA-9) “the poverty focus of CASs {Country Assistance 
+Strategies} should be enhanced.” (IDA-12, 1998) “increasing the focus of IDA and IMF 
+concessional assistance on the overarching objective of poverty reduction” (IDA-13, 2001) 
+The World Bank’s latest aid report (World Bank 2002) combining the new poverty focus 
+and the newly selective aid claims that “an extra $1 billion in ODA would lift more than 284,000 
+people out of poverty.” This claim has been prominently featured in the press coverage of the 
+report and has been repeated in other aid agencies reports on “aid effectiveness” (for example, 
+Her Majesty’s Treasury 2002). Parsing out the logic of this statement makes clear that such 
+claims are more about spin than substance.  The additional aid spending per person lifted out of 
+poverty is $3521. Poverty is defined as less than $365 a year. According to the way the statement 
+says the aid would be distributed, it would increase aid receipts in recipient countries by at best 
+no more than 2 percent of GDP (in most cases, much less). The World Bank’s Assessing Aid 
+report says that 2 percent of GDP in aid raises growth by 1 percent in good policy countries 
+(again an overestimate in this case because the World Bank’s old and new aid reports say not all 
+aid is going to good policy countries). The World Bank’s Globalization policy research report 
+says that 1 percent of overall GDP per capita growth raises the growth of the poor’s income by an 
+equivalent 1 percent. So following the logic of the various World Bank public statements, the 
+effect of the $3521 in additional aid per person lifted out of poverty is at best to raise the poor’s 
+annual income by $3.65.  Spending $3521 per poor person to increase their income by $3.65 does 
+not seem like the world’s biggest bargain. Apparently, the World Bank report authors did not 
+
+
+ 
+41
+follow through the logic of their various claims to this absurd conclusion. 25 Obviously, aid has 
+other objectives than helping a destitute person stagger across the $365 finish line out of the 
+poverty headcount.  The emphasis on public relations numbers weaves tangled webs for the aid 
+agencies. 
+ 
+Still it is convenient to spin the activities of aid agencies so they are seen to contribute to 
+some socially beneficial goal. Aid agencies can mobilize the current enthusiasm for debt relief to 
+highlight their “new” benevolence towards heavily indebted poor countries (HIPCs): “Deputies 
+reiterated their strong support for the HIPC Debt Relief Initiative and the enhanced framework 
+which is providing broader, deeper and faster debt relief to the world's poorest and most indebted 
+countries.” (World Bank, IDA-13 replenishment, 2001) This is a much better spin than admitting 
+that previous aid loans are uncollectible because of poor results, even in such success stories as 
+Ghana and Uganda (nevertheless the World Bank 2002, with impressive chutzpah, gives IDA’s 
+recollection rate on loans as evidence for aid effectiveness).  
+There is also little mention that 
+debt relief has been needed on many previous occasions. In the 60s and 70s, “the debt-servicing 
+problem, already severe in the early 1960’s, has made it increasingly difficult for such countries 
+to prudently finance their development with loans on conventional or near-conventional terms. To 
+raise or even maintain their rate of economic growth, these poorer countries must obtain an 
+increasing proportion of the external financial assistance they need on concessionary terms.” 
+(International Development Association 1970) Debt problems for poor countries and creeping 
+debt relief continued throughout the70s, 80s and 90s (Easterly 2001).  
+The 1996 HIPC debt relief initiative was to provide “exit, once and for all, from the 
+rescheduling process” and to enable the countries to resume “normal relations with the 
+international financial community, characterized by spontaneous financial flows and the full 
+                                                                 
+25 While these reports had some differences in authorship, all of them were supervised by the same 
+managers. 
+
+
+ 
+42
+honoring of commitments.” 26 Only three years after this “once and for all exit” the IMF and 
+World Bank found it necessary to introduce “Enhanced” HIPC Debt Relief, providing yet further 
+relief. As of this writing in April 2002, the IMF and World Bank have a new report saying that 8 
+to 10 countries (including such success stories as Bolivia and Uganda) will need additional debt 
+relief even after graduating from “Enhanced” HIPC.27 Calling debt relief “new” at each moment 
+avoids embarrassing questions on what happened to make previous assistance in need of yet 
+further debt relief.  
+The socially concerned intellectuals…seemed repeatedly to assume that those who had power 
+would let it be taken away a lot easier than could be possibly be the case if what was involved 
+was power. (Daniel Patrick Moynihan 1969) 
+Power to the poor 
+ 
+ A similar story applies to another “new direction” in foreign aid policy, which is home-
+grown development, known as “country ownership”, “partnership,” “beneficiary participation”, 
+“community-driven development (CDD),” “empowering the poor,” “consultation of 
+stakeholders,” and “bottom up development.” The process of the country preparing a Poverty 
+Reduction Strategy Paper (PRSP) is described as a means to this goal by the World Bank and 
+IMF in 2001: “the PRSP … was a crucial step towards greater national ownership of development 
+programs which is essential for increased effectiveness of external assistance.” (World Bank 
+2001, IDA-13) “The broadest and most fundamental changes to the work of the IMF arise from 
+the fact that the targets and policies embodied in {IMF}-supported programs will emerge directly 
+from the country's own poverty reduction strategy.”(IMF 2001) Actually, every foreign aid 
+program since Truman has stressed poor countries’ developing “through their own efforts” 
+(Truman 1949), emphasizing “self-help” (Kennedy 1961), that development policy is “the 
+responsibility of the recipient alone” (“Partners in Development” report—whose title speaks for 
+                                                                 
+26 P. 126, 129 Boote et al. 1997. 
+27 Nor is the story over even then, as independent analysts like Birdsall, Williamson, and Deese 
+2002 point out that there remain heavily indebted poor countries outside the program like 
+Indonesia, Nigeria, and Pakistan. Birdsall et al. also project that more of the existing HIPC 
+countries will need relief beyond the 8-10 cited in the new IMF/World Bank report. 
+
+
+ 
+43
+itself, 1969), and that agencies should choose “novel approaches to community involvement in 
+service provision” (World Bank 1981). Indeed, the rhetoric of involvement of the recipient is 
+familiar at least since the 1960s War on Poverty in the United States, which called for the 
+“maximum feasible participation” of the communities being helped (immortally satirized by 
+Moynihan 1969 as “maximum feasible misunderstanding.”) 
+A report from thirteen years ago “sets out a range of proposals aimed at empowering 
+ordinary people, and especially women, to greater responsibility for improving their lives—
+measures that foster grassroots organization, that … promote nongovernmental and intermediary 
+organizations. The growing conviction is that development must be more bottom-up less top-
+down” (World Bank Africa report, 1989). A report eight years ago asked “how can the 
+effectiveness of aid be increased? …provision of technical assistance designed to so as to 
+enhance, rather than undermine, local capacity …increased systematic client consultation, and 
+incorporation of the beneficiary viewpoint into program design and implementation.” (World 
+Bank 1995) 28  
+Despite all this rhetoric, we saw earlier that donors often violate national sovereignty 
+with their own rapidly proliferating agendas.29 Moreover, pressures to “move the money” often 
+caused donors to substitute their own institutions for those of the recipient country, despite good 
+intentions on fostering self-reliance. There are some signs that the same is happening with the 
+“new” PRSP process. Since the international financial institutions (IFIs) decided the preparation 
+of a PRSP was necessary to receive debt relief under the HIPC program, pressure on the country 
+to rapidly produce a PRSP was intense – leaving little time for “consultation with civil society” 
+(actually in the event, IFIs agreed to accept an “interim PRSP”).  Surveys of the “civil society” 
+that the government was supposed to consult turned up reports of PRSPs being prepared in 
+                                                                 
+28 See Kanbur and Sandler 1999 on the sorry record of “country ownership” 
+29 To put this in perspective, think of whether the United States would have been willing to have 
+international agencies or foreign governments dictate its policies or institutions at any point in American 
+
+
+ 
+44
+English in non-English-speaking countries, and even “in some cases, the rush was such that the 
+IFIs simply took over the task of writing the PRSPs  in a way that it would meet the approval of 
+the Boards in Washington.” (Jubilee South 2001). In Honduras, the government presented its 
+PRSP draft to the IFIs before showing it to its own national legislature. (Catholic Relief Services 
+2001) In Bolivia, the first draft of the PRSP was written in part by an American consultant in 
+Paris.30  Subsequent redrafting was done by a small team of Bolivian officials who bypassed the 
+government’s own pre-existing National Dialogue on poverty relief. In Cambodia, the PRSP 
+paper is being prepared by 10 foreign consultants with guidance from the World Bank; the 
+government has little involvement.31 In Tanzania, the government had already devised a National 
+Poverty Eradication Strategy in consultation with Parliament, but the IFIs insisted upon a new 
+process for the PRSP. Because of “the urgency with which they wanted to secure HIPC relief; the 
+Tanzanians initially acquiesced in the World Bank writing the I-PRSP for them.” (Grusky et al. 
+2001) Even in the cases where governments did prepare the PRSP themselves, the Ministry of 
+Finance took the lead with little participation by line ministries or local governments – possibly 
+motivated by simply fulfilling a requirement to get donor funds (World Bank Social Development 
+Department 2002). Moreover, other aid organizations like the Asian Development Bank and the 
+largest bilateral aid agencies (US and Japan) have not adopted the PRSP, despite it being a 
+“crucial step” for “increased effectiveness of foreign assistance.” 
+Some of the sources cited have their own biases against the IFIs and it is impossible to 
+say how much such anecdotes are representative of the new PRSP process. There have also been 
+some positive reports of increased participation by civic organizations in determining government 
+policy and donor programs.  
+                                                                                                                                                                                                 
+history. The most famous case of “foreign aid” to the US happened early in American history with French 
+military support to the American revolution – but remember George Washington was in command. 
+30 Personal communication between the author and that consultant. 
+31 WIDER 2001 and private correspondence with donor official on Cambodia. 
+
+
+ 
+45
+However, even if civil society prepared the document with participation by everyone and 
+their cousin, how a bureaucratic document can redistribute power from those who have it to those 
+who do not is left unexplained. They might as well say “may the force be with you.” For 
+example, the World Bank and IMF awarded a second round of debt relief to Burkina Faso in 
+April 2002 based upon the satisfactory completion of a participatory PRSP.32 It would be 
+interesting to know more about how much the poor were newly empowered in a one-party state 
+that has been in power since 1987, which was in the worst fifth of the world in corruption in 
+2001, and which supported rebel warlords that perpetrated tragic atrocities in Sierra Leone, 
+Liberia, and Angola.  
+Similarly, the poor in Tajikstan must have wondered about how President Emomali 
+Rakhmonov managed to satisfy the World Bank and IMF that he had completed an Interim PRSP 
+in the fall of 2000 that laid the groundwork for a “participatory” PRSP. President Rakhmonov, in 
+power since 1992, has presided over an authoritarian government whose rule has featured years 
+of civil war, ethnic conflict and favoritism, political repression, continuing violence, extrajudicial 
+killings, disappearances, torture, arbitrary arrests by the security forces, and trafficking in women 
+and children. 33 The World Bank and IMF praised Tajikstan’s government in 2002 for a “more 
+open dialogue” (IDA and IMF 2002). 
+In Bureaucracy World, there is no politics. Participation is an apolitical technical process 
+of consulting the poor. The IFIs assume away the political combat between polarized classes, 
+regions, or ethnic groups that is the stuff of everyday life in both rich and poor nations. The IFIs 
+assume that political strongmen like President Rakhmonov will cheerfully give some of their 
+power away to the poor, doing what the poor want instead of what President Rakhmonov wants, 
+all through the magic of writing a Poverty Reduction Strategy Paper.   
+                                                                 
+32 
+http://lnweb18.worldbank.org/news/pressrelease.nsf/673fa 6c5a2d50a67852565e200692a79/6b834179b3fd
+616b85256b990077a8a7?OpenDocument 
+
+
+ 
+46
+The participation chapter of the World Bank’s PRSP Sourcebook provides a useful 
+benchmark. Nowhere does it mention the possibility that the poor might have different interests 
+than the political elite, nor that different groups among the poor might have conflicting interests. 
+The chapter presents the poor “stakeholders” as an abstraction, much like Marxists used to cite 
+“the masses” as the justification for their revolutionary activities.  When the chapter mentions 
+diversity among the poor at all, it is merely a complicating factor in gathering information on the 
+poor’s circumstances and in the dissemination of the “consensus” somehow achieved. For 
+example, the chapter cites the example of Uganda, whose autocratic government helpfully 
+translated its Poverty Eradication Action Plan into 5 languages.    The chapter does not mention 
+the possibility that, as Ferguson’s (1994) brilliant case study of an aid project in Lesotho shows, 
+organs for “participation” can often be captured by an authoritarian state. The participation 
+mantra does not address what to do when society and politics are badly polarized along regional 
+or ethnic lines, where it is very difficult for foreign aid to maintain neutrality. For example, 
+Herring’s (2001) study of the Mahaweli irrigation project in Sri Lanka shows that aid in this case 
+exacerbated the Tamil-Sinhalese tensions that fueled the ongoing civil war. 
+Aid success stories 
+When the aid agencies do report on the past, they report on whoever was successful and 
+claim some credit for the success.  For example, the World Bank (2002) offers six aid success 
+stories: China, India, Mozambique, Poland, Uganda, and Vietnam.  This is a somewhat surprising 
+list, since China and India receive little aid relative to their GDP (0.4 % and 0.7% of GDP 
+respectively in the 80s and 90s, which is the period the World Bank study mentions). Poland and 
+Vietnam are also below average recipients of foreign aid, even if we ignore the periods before 
+recent reforms when they got no aid. And there is a little irony in highlighting two of the world’s 
+few remaining Communist party dictatorships (China and Vietnam) as a triumph of aid from 
+                                                                                                                                                                                                 
+33 Freedom House rated Tajikstan as “not free” from 1992 to 2000. The US State Department Human 
+Rights Report 2001 mentions the human rights violations cited here. 
+
+
+ 
+47
+Western capitalists!34 Of course, the reason for selecting these countries is not such a mystery: 
+China, India, Mozambique, Uganda, and Vietnam are the fastest growing low income countries in 
+the 1990s (which is the period the World Bank focuses on for all but China and India), except for 
+#3 Sudan that the World Bank apparently didn’t want to celebrate. Poland is the fastest growing 
+transition country. It’s not convenient to point out that as many aid-receiving low income 
+countries had negative per capita growth as positive, or that most aid-receiving transition 
+countries were a disaster in the 1990s. Among all low income countries, there is not a clear 
+relationship between aid and growth (Figure 3). 
+Figure 3: Aid and growth in low income 
+countries in the 1990s
+-0.15
+-0.1
+-0.05
+0
+0.05
+0.1
+0
+0.2
+0.4
+0.6
+0.8
+1
+Aid as a ratio to GDP
+Per capita growth
+ 
+Longer term success stories are not that easy to come by. The aid agencies had often 
+mentioned Ghana as an African success story since reforms started in 1983, but recent struggles 
+have apparently dropped it from the list.  World Bank 2002 mentions South Korea and Botswana 
+as long term success stories (again apparently selected by virtue of their near world-record growth 
+rates over the past four decades). Although many other African countries received more, 
+                                                                 
+34 Milanovic points this out. 
+
+
+ 
+48
+Botswana did receive significant amounts of aid during its period of rapid growth. Unfortunately, 
+a study for the World Bank’s Operations Evaluation Department found that Korea’s growth 
+accelerated only after the decline in US aid, and did so following policies contrary to the advice 
+of US aid officials; hence, the consensus of most studies of Korea is that aid contributed little to 
+Korea’s takeoff (Fox 2000).  
+Spin control can also gloss over the contradictions in the different efforts of the aid 
+agencies. So the contradiction between “country ownership” and greater “selectivity” (as the IFIs  
+decide which “country-owned” policies to select) goes unremarked. The contradiction between 
+“participation” and the imposition of the PRSP process by the IFIs (who determine when the 
+recipient has “participated” enough to satisfy them) goes unremarked. The tradeoffs between 
+targets set out in the Comprehensive Development Framework and the Millennium Development 
+Goals – say between faster poverty reduction and greater environmental protection -- also escape 
+mention. The answer is “do everything.” In aid agencies, there are no second priorities and there 
+are no conflicts between competing goals, much to the chagrin of the unfortunate frontline 
+workers who have to implement “everything.” 
+You can’t learn how to do it from a slogan that tells you the way to get you want is to 
+already have it. (Pressman and Wildavsky 1984) 
+The New Amnesia 
+ 
+The examples above of a “new” initiative that repeats many previous initiatives reflects 
+the lack of historical memory in the aid community. As described above, the aid community does 
+not want to critically examine the past because doing so might lead to negative publicity of past 
+failures, threatening the ability to raise new aid revenue. Ironically, the unwillingness to shine 
+light on past failures makes new failures more likely. The reluctance to report on the past short-
+circuits the process of cumulative learning by doing that is essential to the success of any activity.  
+As Isaac Newton said, “if I have been able to see so far, it is because I have stood on the 
+shoulders of giants.”  The aid bureaucracy does not want to stand on their predecessors’ shoulders 
+and so does not see far. The eminent authors of a well-received two-volume history of the World 
+
+
+ 
+49
+Bank in 1997 (commissioned by the World Bank at considerable expense for its 50th anniversary, 
+Kapur et al 1997) were never invited to give a lecture on their findings within the World Bank. 
+ 
+A comparison with the academic community is apt. Academic papers are only published 
+if they generate new findings. Papers subject to this competitive process cite previous studies and 
+make clear their incremental contribution. In contrast, studies produced in the cartel of good 
+intentions often duplicate one another and repeat the themes of previous studies without citation 
+(sometimes because they are unaware of the previous studies). Klitgaard 1990 gives the example 
+of a World Bank agriculturalist recommending a cut in cocoa taxes, despite not having had the 
+time to read four previous World Bank reports on cocoa production in Equatorial Guinea. A 
+USAID consultant recently gave me the example of a large mission that had produced a report on 
+corruption in Uganda in 2001, unaware that a British team had produced a report on the same 
+topic six months earlier. World Bank reports often repeat the same recommendation for many 
+years, without analyzing what had gone wrong with previous recommendations. For example, an 
+independent consultant had pointed out financial problems in Kenya Railways as long ago as 
+1972. World Bank reports repeated the recommendation to restructure or privatize Kenya 
+Railways numerous times, such as in 1983, 1989, 1995, 1996, and 2000, each time failing to point 
+out the previous history of failed recommendations. Similarly, World Bank reports on Kenya 
+repeated a recommendation for increased funding for road maintenance in 1979, 1983, 1989, 
+1994, 1996, and 2000. The World Bank 1998 noted that in Kenya “the World Bank provided aid 
+to support identical agricultural policy reforms five separate times.” The sheer repetition of 
+adjustment loans to countries with poor track records, like Kenya’s 21 World Bank and IMF 
+adjustment loans as of the year 2000, reflects the same historical amnesia. 
+ 
+There is little effort in aid agencies to collect case studies of adjustment programs, 
+projects, and sectoral programs, and to use these case studies to inform current management and 
+staff what mistakes to avoid and what more successful methods to repeat. For example, the 
+chapter on macroeconomic adjustment in the World Bank’s PRSP Sourcebook does not mention 
+
+
+ 
+50
+the conclusions of many observers that structural adjustment lending was a failure.35 Similarly, 
+the chapter on rural poverty does not mention the record of general failure of integrated rural 
+development projects, or even the lessons of their occasional successes (as set out in for example 
+in Tendler 1993). The World Bank had an expensive program of sending managers for six-week 
+intensive training at the Harvard Business School. They would have done better just to send the 
+managers to the World Bank’s own library and document archives, where they could read case 
+studies of projects failing and (sometimes) succeeding.   
+They might have benefited from reading a case study like Ferguson 1994, which 
+describes a CIDA project to help farmers in the mountains of Lesotho to gain access to markets 
+and develop modern methods of livestock management and cash crop production. The only 
+problem was that the beneficiaries did not consider themselves “farmers” since they mainly 
+depended on migration to jobs in South Africa, and they already had access to markets, where 
+they had long since learnt that cash crop production was not competitive given the region’s poor 
+agricultural conditions. Ferguson 1994 describes how the main long run effect of the project 
+seemed to be the creation of a new administrative center and army garrison that strengthened 
+government control over what had been an opposition stronghold.   
+Similarly, the Bank might have learnt from the failure of its $25.6 million Institutional 
+Development II project in Malawi, which ended in June 2001. Despite training 1584 officials and 
+providing computers and manuals, an internal review concluded that the project did not improve 
+the efficiency or effectiveness of civil servants. It also failed to prevent to prevent such incidents 
+as the disappearance of the government’s grain reserve, apparently sold for the benefit of 
+government parties unknown, which according to latest reports is threatening some Malawians 
+with famine in 2002. Similar insights might be gained from the study of the Bank’s $28 million 
+health project in Haiti, which ended in March 2001. An internal review concluded the project 
+                                                                 
+35 see Kanbur 2000, Van de Walle 2001, Kapur et al 1997 and Lancaster 1999. For a poignant description 
+of the structural adjustment fiasco in Zambia, see Ferguson 1999. 
+
+
+ 
+51
+failed to attain most of its objectives, including control of AIDS and TB. Health conditions did 
+not improve in Haiti over the life of the project, perhaps compromised by political instability and 
+the lack of interest in the Ministries of Finance and Health in the project. Even in a more 
+politically stable states like India and Mexico, a Bank shrimp-farming project that ended in 2000 
+failed to improve the well-being of its intended 14,000 very poor Indian beneficiaries, while a 
+1994-2000 Bank project on solid waste management in Mexican municipalities failed to make 
+any progress on expanding modern sanitary landfills..  
+Perhaps the Bank managers could also learn from even more surrealistic projects as the 
+$45 million Roads Rehabilitation and Maintenance Project in Sierra Leone, disbursed in the 
+middle of brutal civil war during 1998-2001. About 33 percent of the credit went to compensate 
+contractors for lost time and destruction of their civil works. The rationality of financing 
+infrastructure that is simultaneously being destroyed by rampaging armies is not immediately 
+apparent.  
+Of course, there are more successful projects in the Bank’s portfolio, like the $70 million 
+loan to Ceara state government in the Brazilian Northeast concluded in June 2001, where high 
+commitment by the government led to innovative initiatives in land reform, rural electrification, 
+and water supply. In fact, most projects in the Bank’s portfolio are rated as “satisfactory” by the 
+(somewhat-less-than-independent) Operations Evaluation Department. What is sad is that there 
+seems to be little effort to draw lessons from successes and failures to inform future efforts, either 
+in the World Bank or in other aid agencies. 
+It is far easier for would-be reformers to change the formal structure of an institution than to 
+change its practices. Redesigning the lines and boxes in an organizational chart is simpler than 
+changing how that organization in fact operates. Changing the rules and regulations is simpler 
+than eliciting behavior that conforms to them. (James Scott, 1998, p. 255) 
+The funnel 
+ 
+It is a paradox of foreign aid that it demands the most from bureaucracy under the 
+conditions in which bureaucracy functions worst. Aid bureaucracy has to operate with little 
+                                                                                                                                                                                                 
+ 
+
+
+ 
+52
+effective feedback, as mentioned earlier, and must contend with severe skill shortages in the 
+recipient countries. Yet aid bureaucracy tries to manage aid through a hierarchical top-down 
+process.36 Even though top managers are overwhelmed, individual agents in aid agencies continue 
+to refer back to the same center of power for authorization of their actions.37 The center is 
+sometimes within the larger assistance agencies like the World Bank or IMF, where the recipient 
+government is weak and other donors are small (as in most African countries).  Sometimes a 
+bilateral aid agency will take the lead when it has an especially large program in a country, like 
+USAID in Egypt. In large countries with strong governments, like India, the recipient government 
+becomes the center. Even where the center of power is de facto in aid agencies, agencies try hard 
+to get formal approval from the recipient government of all programs and projects.  
+ 
+Given the multiple goals and procedures described earlier, consistent with the urge to 
+produce visible outputs and avoid visible fiascos, the center is the chokepoint for aid. Frontline 
+staff in aid agencies can barely keep up with the flood of mandates, political pressures, procedural 
+requirements, and authorizations required to keep the aid money flowing. In the recipient 
+government, the relative burden on the management is even greater, given the scarcity of skills, 
+the extreme political pressures in factionalized societies, and the prevalence of red tape and 
+corruption. 38  Aid agencies fluctuate between taking over administration themselves and trying to 
+nurture “country ownership,” as discussed above. In any case, the implementation of aid projects 
+through the frontline bureaucracy becomes the choke point of the whole process. The mighty 
+river of aid must pass through a very small administrative funnel.  
+It is not surprising that in a country like Ethiopia one major donor noted  a “slow pace of 
+disbursement,” which is due to “capacity constraints” at both the government and donor level. 
+                                                                 
+36 See the excellent description by Morton 1994. 
+37 There is of course a huge literature on the shortcomings of central planning. F.A. Hayek was an early 
+critic, although long dismissed as an ideologue. James Scott’s important book (1998) is wonderfully 
+insightful about many real-world planning fiascos (interestingly, Scott appears to come from almost the 
+opposite ideology of Hayek). 
+38 Tendler 1975 has a very good description of this process, which remains timely today. 
+
+
+ 
+53
+This in turn led this donor to emphasize “capacity building” as the “major cross-cutting theme” of 
+its development assistance (European Union 2001). Capacity building has been a theme of donor 
+recommendations since forever, although it continues to exert its fascination in the latest reports 
+(it is point #5 in the World Bank President’s 2002 seven point Agenda for Action After 
+Monterrey). There is a certain irony in donors increasing the pressure on the government’s 
+managerial capacity through donor red tape and then turning around and trying to satisfy their 
+own demands through “capacity building.”  No amount of “capacity-building” seems likely to 
+relieve the severe managerial bottlenecks to the foreign aid process.   
+ 
+It does not really address the problem to call for increased “results-based” evaluation of 
+aid agencies. Centralized monitoring and evaluation (M&E) just becomes one more activity 
+imposed on the frontline staff, adding to the pressure on the funnel. M&E is central planning with 
+output targets. M&E has already been a part of many World Bank projects, without much effect. 
+Morton 1994 pointed out that “vast sums of money and unbelievable levels of technical 
+complexity have been expended to make Monitoring and Evaluation … into a functional tool… 
+World Bank representatives did not quite admit that they had spent $40 million, of money lent to 
+the Nigerian government for Monitoring and Evaluation, to very little effect.”39 Moreover, 
+bureaucracies can manipulate quantitative indicators of performance to achieve “success” without 
+real quality improvements.40 (This is different from evaluation for the sake of learning lessons for 
+future practice, like control group methodology for particular interventions.) 
+                                                                 
+39 A more recent example is the World Bank-supported Social Action Program in the 1990s in Pakistan, 
+where numerous “results-based” targets were set for the health, education, and rural water supply sectors. 
+Performance was so unsatisfactory that the program had to be redesigned halfway through (SAP II replaced 
+SAP I), and then performance of the redesigned program was in turn unsatisfactory.  
+40 The World Bank’s Poverty Reduction Strategy Sourcebook (2001) gave the example of the target to 
+reduce the backlog of cases waiting to be treated in Britain’s nationalized health service. Administrators put 
+pressure on doctors to treat less serious cases first, because those could be treated more rapidly and thus 
+bring down the backlog more quickly. Another famous anecdote is the condition that the Australian 
+government gave for disbursing aid to parks in aboriginal communities, that the communities keep the 
+lavatories clean. The communities easily met the condition by cleaning the lavatories once, and then 
+padlocking them. 
+
+
+ 
+54
+ 
+Aid agencies do not face incentives to economize on the very scarce administrative 
+resources in the recipient governments or even in their own front line staff. They instead have the 
+incentive to keep producing the visible frameworks and strategies and procedures (all above the 
+funnel).  The river of aid keeps flowing, but effective benefits dribble slowly out of the bottom of 
+the funnel.  
+Is it too strong to suggest that the way to show true respect for … the people of developing countries as a 
+whole is not to involve them in some condescending and patronizing “partnership” but merely to leave 
+them alone, in the confidence that they do have the necessary strengths and abilities to make their own 
+choices? Would the more appropriate outsider role not be to spread the wares of outsider knowledge and 
+allow rural people to choose for themselves what they think would be useful? (Morton 1994) 
+ 
+Brainstorming about markets instead of bureaucracy 
+ 
+Given all the perverse incentives faced by bureaucracy in delivering foreign aid, is there a 
+better way?  It is time for some brainstorming about market mechanisms for foreign aid. Consider 
+how a goods market succeeds in matching those who need something with those who want to 
+supply it. There is no center coordinating such matches, there is no monopoly power of suppliers 
+to restrict supply and to raise the price, there is no administrative funnel through which all 
+matches must pass, there is no pressure for the supplier to produce visible results, there is no 
+pretense about simultaneously satisfying contradictory goals, there is no obscurity about what the 
+demander really wants – no matter how unobservable those wants. The market has no central 
+administration or planning; it achieves its results by the decentralized actions of a myriad of 
+participants. The market clears by adjusting the price of the goods to match the quantity of goods 
+offered with the quantity of goods demanded. The demander of the goods trades off her various 
+needs against each other at the relative market price, which reflects the opportunity cost to the 
+supplier of producing the good.  
+ 
+Some markets work through intermediaries. Retailers and wholesalers match producers 
+of consumer goods with demanders of those goods. Financial markets have banks matching 
+suppliers of savings with loan demanders who want to invest those savings, or brokers matching 
+
+
+ 
+55
+suppliers and demanders of bonds and equities. Insurance companies match those who want to 
+hedge against risk with those who want to take risks for a profit. Intermediaries lower search 
+costs for suppliers and demanders. The risk that an intermediary will take the money and run is 
+controlled by the need for intermediaries to maintain their reputation for repeated transactions and 
+by supporting institutions that collect information on the historical behavior of each intermediary 
+and punish intermediaries who misbehave.41 
+ 
+How would markets work in foreign aid? We can imagine intermediaries that arrange 
+decentralized matches between those who want to help the poor and the poor who want help to 
+improve their future. But how would a “price” clear the market? Think of stock certificates, 
+which facilitate impersonal matches between investors and firms, with the price reflecting the 
+confidence of the investor in the firm. An analogy is an “aid voucher” given to the poorest parts 
+of the population in poor countries. The vouchers could be given either to individuals, 
+households, or communities, depending on social structure in the recipient society. Part of new or 
+existing aid money would back the vouchers with an amount of funds equal to their face value. 
+The poor could turn in the vouchers at any national, international, nongovernmental, or even 
+private development agency to receive development services. The agency could then turn in the 
+vouchers at the central voucher fund, who would give the agency a corresponding increase in its 
+budget.  The poor would then choose how much of their vouchers to spend on any given 
+development service, and each development agency would decide whether they can supply the 
+service at that “price.” The intermediaries would scout out opportunities to assemble blocks of 
+vouchers for a given development service, like roads, health clinic, drugs, school, textbooks, 
+water supply, sanitation, irrigation, and fixing potholes. The intermediaries would then shop 
+around development agencies to find one willing to supply the service in return for the blocks of 
+vouchers. The vouchers would have to have some term structure appropriate to the capital and 
+recurrent costs of development services.  
+                                                                 
+41 See the World Bank’s 2002 WDR, Institutions for Markets. 
+
+
+ 
+56
+The vouchers would inevitably develop a secondary market, where the price of the 
+voucher reflects the success of the aid effort in that area.  Alternatively, aid agencies could issue 
+their own vouchers that could be redeemed only at that agency. The secondary market price then 
+would give information on the effectiveness of that agency.  
+The intermediaries could be anyone – from private individuals or firms to NGOs to 
+international financial institutions. Intermediaries could also verify that the customers receive the 
+development service requested and are satisfied, which is enforced by the desire of all 
+participants to maintain their reputation for future transactions.  For communities that are 
+fortunate enough to have electric power, phones, and web access, participants could use the 
+Internet to facilitate communication and posting of information on projects searching for funding, 
+donors searching for projects, and intermediaries’ reputation. (This last is an idea being pioneered 
+by a private company in Washington called Development Space.42 Even if some of the recipient 
+communities lack even elementary electric power or phone lines to connect to the Internet, some 
+of the other players could communicate via the web.) 
+ 
+Aid vouchers would address some of the bureaucratic hindrances in foreign aid. They 
+would induce competition between aid agencies, creating incentives for them to cut costs and 
+reward production, shift away from observable trophies to meeting the needs of the ultimate 
+beneficiaries. Competition, as compared to the cartel of good intentions, would expand the 
+quantity and lower the price of aid services. Competitive pressure would induce aid agencies to 
+specialize in their various comparative advantages and reduce the proliferation of donors and 
+projects in small, poor countries.   
+Vouchers would give valuable feedback from the previously voiceless poor on what the 
+poor really want and what and who is effective at meeting those wants. The flow of vouchers to 
+different aid agencies would indicate their relative efficiency, with even a small amount of such 
+                                                                 
+42 http://www.developmentspace.com. I do not have any personal financial stake in Development Space, I 
+just think it is a promising idea! 
+
+
+ 
+57
+transactions at the margin sufficient to give feedback on agency performance (or the vouchers 
+could be agency-specific and then the price would reflect agency efficiency, as suggested above). 
+Likewise, the flow of vouchers through different intermediaries would indicate their relative 
+efficiency and probity.    
+The decentralized matching of donors and recipients bypasses the centralized 
+administrative funnel that chokes the current delivery of aid. The vouchers create competitive 
+pressure on government agencies in poor countries to really deliver services or see their budgets 
+stagnate.  If aid agencies are really serious about participation by the poor, then they should like a 
+mechanism that allows the poor to make choices. Vouchers are a way to make international 
+bureaucracies behave more like firms in private markets. 
+ 
+Are vouchers superior to just giving cash grants to poor individuals? Given the incentives 
+facing individuals and the closeness to subsistence of the poor, cash grants would likely be used 
+for consumption rather than productivity-enhancing investment. Foreign aid is too small to make 
+much of a difference in consumption of the world’s poor. A voucher for development services is 
+a subsidy to those productivity-enhancing services for the poor, which conceptually would seem 
+to improve well-being of the poor more than a cash subsidy for consumption.  
+Still the minimum standard with ANY foreign aid program (including all those discussed 
+above) should be that it do no worse than simply giving aid money as a financial asset to the poor. 
+A control group of the extreme poor could have aid funds deposited in an account that purchases 
+OECD treasury bills and pays out the interest as an income supplement to the poor every year. 
+We should be open to the possibility that this alternative would out-compete both existing aid 
+delivery mechanisms and other fancier schemes for reinventing aid. 
+Even with the voucher recipients, one could imagine a savings alternative. To strengthen 
+bargaining power of the voucher recipients, for example, the vouchers could be saved for future 
+years if individuals are not satisfied with the services being offered. And the hypothesis that 
+                                                                                                                                                                                                 
+ 
+
+
+ 
+58
+vouchers are superior to cash grants could be tested by doing both experiments and comparing the 
+behavior of the two groups of recipients to each other and to a control group that did not receive 
+either. 
+ 
+Of course, one can think of tons of logistical difficulties with implementing such a 
+scheme.  It is a largely untried idea, and should be subjected to all the skepticism appropriate to 
+untried ideas. It should be tried only experimentally and gradually (and humbly given the history 
+of failure of bright ideas in foreign aid), with a lot of learning and modification along the way.  
+And another “of course”, there are some services for which a voucher scheme might work, and 
+others for which it clearly would not. Vouchers might work for some local environmental issues 
+but not for more global ones.  It’s hard to see how vouchers could solve problems of law and 
+order, national defense, enforcing property rights, social conflict, or defending human rights.43 
+Some societies may have a predatory government or elite that would steal any vouchers given to 
+the poor. The voucher proposal does not directly address the international financial institutions 
+and aid community’s difficult problem of fomenting social change from bad governments to good 
+governments in poor societies. By increasing voice of beneficiaries, market competition, and 
+feedback on government performance, vouchers might increase pressure on governments to 
+deliver effective services. However, there are difficult questions about how provision of 
+development services by international aid agencies, if they turn out to be the winners in the 
+competition for vouchers, would increase or lessen the pressure on national governments to work 
+better.  
+There are also potential problems of judging aid intermediaries on absolute performance 
+because there would likely be sorting of the best aid projects into the best aid intermediaries, who 
+engage in “cream-skimming”.  Hsieh and Urquiola 2002 point out this problem with the 
+                                                                 
+43 Pritchett and Woolcock 2002 point out that “demand-driven” approaches cannot solve the problem in 
+sectors where the agency’s “customer” is someone who would prefer the agency NOT to provide the 
+service (e.g. the criminal, external or domestic aggressor, or human rights violator and enforcement or 
+defence agencies). 
+
+
+ 
+59
+implementation of school vouchers in Chile, where the increased incentives for school 
+performance were offset by stratification between students.  The best private schools attracted the 
+best students from the public schools, leaving the remaining students in the public schools worse 
+off since there are strong peer effects in schooling. Analogously, one would be concerned that 
+rewarding aid intermediaries for absolute performance would cause them to select projects that 
+from better off areas that have greater likelihood of success, neglecting poorer areas that need the 
+help more. One can think of ways to compensate for these perverse effects, perhaps by giving 
+more vouchers to poorer areas or by designing the reward scheme for intermediaries so that they 
+are judged by net performance rather than absolute performance. 
+There are also worries about the multiple objectives that aid agencies face. Competitive 
+pressure might lead aid agencies to compete on some dimensions that satisfy the customers, but 
+neglect other goals that serve some larger public purpose (Dixit 2000). They might figure out 
+ways to game the system to attract vouchers in ways that don’t improve public welfare. 
+Also there are difficult information problems in making sure that poor people with low 
+human capital have enough knowledge to make good choices.  Well-informed insiders might buy 
+up vouchers at a steep discount from poorly informed peasants.  Nevertheless, it is better to 
+address information problems directly rather than not have a market at all. Letting poor people 
+make their own choices seems like a powerful force to try harnessing for economic development.  
+Other market mechanisms can also be envisioned. 44 Direct subsidies to income creation, 
+savings, or human capital accumulation would have some of the same advantages of minimizing 
+bureaucracy and getting resources directly to the beneficiaries. Each would use money to create 
+                                                                 
+44 George Soros has recently made a proposal to use a marketplace to allocate aid (Soros 2002), with 
+financing coming from a new issue of Special Drawing Rights by the IMF. Soros recommends a jury of 
+eminent persons to vet the decentralized submission of project proposals, which would then be presented 
+for financing to donors.  The World Bank’s Private Sector Development Strategy (2001) has some 
+interesting ideas about contracting out aid initiatives to private providers with performance-based contracts. 
+The Meltzer Commission (2000) suggested the World Bank should with grants solicit competitive bids for 
+delivering social services, including from NGOs and private companies, with ex-post performance checked 
+by independent auditors. Social Funds are a mechanism that has been tried in some countries to bypass 
+
+
+ 
+60
+incentives for individuals to invest in future income creation. One reason that the returns to such 
+investment are low without a subsidy might be collective action failures. For example, human 
+capital investment might only pay off only if you have skilled people to work with. Your human 
+capital investment payoff depends on everyone else investing in human capital. If everyone starts 
+off with low human capital, people remain trapped in poverty because each individual faces low 
+return to human capital accumulation. Subsidies to poor communities cause all individuals to 
+increase their investment together, theoretically solving a collective action problem, if any. 45  
+Low returns to investment by the poor may also stem from poor institutions and poor 
+infrastructure. The top down approach to development tries to bureaucratically improve the 
+institutions and infrastructure. It may be just as effective to create increased demand for 
+infrastructure and institutions by increasing the productive capacity of individuals, who will then 
+have more voice to petition for reforms and can demonstrate high payoffs to reforms. Market-
+based subsidies may turn vicious circles of low human capital, poor institutions, and poor 
+infrastructure into virtuous ones through bottom-up change.  
+One could also foment change from the bottom up by giving some vouchers directly to 
+municipal or regional governments that establish a track record of good service delivery. There 
+are some examples of “good governments in the tropics,” to use the phrase of Tendler’s (1997) 
+study of Ceará state, Brazil.   
+One can still try on a separate track to make money available to good national 
+governments, still using market forces of competition. One could adopt some variant of Kanbur, 
+Sandler, and Morrison’s (1999) “common pool” approach, in which donors would put their 
+money into a fund that would finance unrestricted block grants to “good governments.” Of 
+course, the critical issue is to decide what is a good government. To resolve the problems of poor 
+                                                                                                                                                                                                 
+bureaucratic obstacles, but these do not really use market mechanisms and are typically centralized at the 
+national level (see Tendler 2001, Ellerman 2001). 
+
+
+ 
+61
+selectivity in the past, the managers of the fund (whoever they are) could announce that only the 
+best X governments will receive funding. Governments could then of their own free will decide to 
+apply to this fund, submitting a proposal documenting their own program and their previous track 
+record at fostering economic development and poverty alleviation. This would be a welcome 
+change from the micro-management and the insulting instrusiveness of donors in poor country 
+affairs. The fund itself does not violate sovereignty anymore than a venture capital fund violates 
+the autonomy of a firm soliciting financing by deciding yes or no on the firm’s application. 
+Results of the aid fund would be monitored over time and the management of the fund held 
+accountable for bad decisions or poor results.46 
+Another advantage of a central aid fund is that it breaks the link between aid money and 
+the obligatory use of a particular agency’s bureaucracy. Foreign-assistance agencies would devote 
+part of their resources to the common pool. The recipient countries could take the funds and work 
+with any agency they choose. This scenario would increase the bargaining power of the poor 
+recipients, minimize duplication, and foster competition among aid agencies. 
+Maybe we can change existing aid bureaucracies to function more like firms accountable 
+to consumers and less like unaccountable central planners. Decentralized autonomous units 
+within aid agencies could be encouraged to specialize in delivering particular services in 
+particular regions, with control group evaluation of all interventions, systematic accumulation of 
+data and previous historical and country experience, and intensive interaction with beneficiaries.  
+Beneficiaries and their representatives should “know who to call” to get something done. Such 
+units could compete with each other and with units from other aid agencies for the “aid contract” 
+to supply a particular service in a particular area, with winners determined by previous track 
+                                                                                                                                                                                                 
+45 This is one possible raison d’etre for aid. The aid community has shown surprisingly little interest in 
+what exactly is the conceptual rationale for aid to the poor. Showing that the poor are needy is not enough 
+unless you have some concept about how aid would meet those needs. 
+46 The “Millenium Challenge Account” proposed of President Bush is a step in this direction, although it 
+did not foresee unrestricted block grants. Svensson 2002 discusses the virtues of competition among aid 
+recipients to receive funds in an “aid tournament.” 
+
+
+ 
+62
+record and reputation for efficiency and specialized expertise. These units could eventually be 
+split off from the parent agency altogether.  Just as dissatisfied consumers can penalize the firm 
+by taking away their business, donors, beneficiaries, and their representatives could exit to 
+another supplier if the first one proves unsatisfactory.  To give another analogy, a private firm 
+chooses a particular input supplier based on the reputation of the supplier for specialized 
+knowledge of the business and the previous experience with that supplier. If a firm is unhappy 
+with a supplier, it changes to another supplier. To break up the cartel of good intentions, the 
+donors and beneficiaries should be free to choose suppliers who deliver satisfaction. 
+And what of donor “coordination”? The problem with aid has not been too much 
+competition among donors, as conventional wisdom has it, but too little. The decentralized 
+market that matches donors and beneficiaries should be the mechanism that coordinates donors. 
+The market does not have two different suppliers producing the same output for the same 
+customer, unlike the frequent duplication in foreign aid, because once that customer’s demand is 
+satisfied there is no incentive for another supplier to satisfy it again. 
+Experience with vouchers and other market mechanisms 
+ 
+There has been some experience with market mechanisms to aid the poor, both in rich 
+and poor countries. The most famous are school vouchers. These are issued to parents, who can 
+turn them in at any school of their choice who is willing to take them. Although intensely 
+controversial, the consensus of the literature seems to be that school vouchers have improved 
+schooling opportunities and outcomes for the poor. The studies range from those in US cities like 
+Milwaukee (Rouse 1998) to those that find improved earnings of poor workers in Colombia 
+(Angrist et al. 2000). Hoxby 2001 found positive effects of school choice on school productivity 
+in Milwaukee, Michigan, and Arizona, arguing that regular public schools boosted their 
+productivity in response to competition. Peterson et al. 2001 found positive effects of school 
+voucher programs on test scores of African-Americans in New York, Dayton, and Washington 
+D.C. Hanushek and Rivkin 2001 found that competition increased teacher quality in metropolitan 
+
+
+ 
+63
+areas across Texas. . As mentioned earlier, however, Hsieh and Urquiola 2002 challenge these 
+positive findings with a study of Chile that fails to find overall positive nationwide effects of 
+vouchers, arguing that negative general equilibrium effects of increased segregation by skill 
+offset positive effects on individual students or schools. 
+Another voucher experiment in the US was with vouchers for housing for the poor, 
+giving the poor choices on where to live, which some studies find improved well-being (Blank 
+1997 ).  Contracting out of public services, performance-based reviews, or outright privatization 
+in the US, UK, and New Zealand have garnered mixed reviews (see survey in Dixit 2000). 
+ 
+There are alternative market mechanisms to vouchers that have also been tried. There are 
+many programs in poor countries to provide cash or food to families in return for keeping their 
+kids in school (PROGRESA in Mexico, Bono Escolar in Argentina, Bolsa Escola in Brazil,  the 
+SUF or Subsidio Unitario Familiar in Chile, PRAF in Honduras, a subsidy to female students in 
+China, and Food for Education in Bangladesh; see Morley and Coady 2002). Studies of the 
+Bangladesh and Mexico programs have found a positive effect on schooling and income (Morley 
+and Coady 2002, Ravallion and Wodon 1999, Skoufias et al 2000, IFPRI 2000). Subsidies to 
+income creation by the poor, such as the Earned Income Tax Credit in the US, seem to have 
+increased work effort and income (Blank 1997, Blank and Ellwood 2001, Neumark and Wascher 
+2000, Hotz and Scholz 2001)  The welfare state seems to succeed at ameliorating poverty in rich 
+societies where there is a strong consensus about helping the poor; racial antagonisms seem to be 
+the main reason why the government does not try harder to reduce poverty in the US (Alesina et 
+al. 2001). 
+
+
+ 
+64
+The reasonable man adapts himself to the world. 
+The unreasonable one persists in trying to adapt the world to himself. 
+Therefore, all progress depends on the unreasonable man. 
+George Bernard Shaw (quoted in Power 2002) 
+ 
+Conclusions 
+ 
+Aid foundered in a sea of bureaucracy, despite the good intentions, altruism, and genuine 
+professional dedication of the individuals involved. The aid community responded to its difficult 
+environment by organizing itself as a cartel of good intentions, suppressing critical feedback and 
+learning from the past, suppressing competitive pressure to deliver results, and suppressing 
+identification of the best channel of resources for different objectives. The bureaucracy controlled 
+foreign aid, with the result that foreign aid lost support in the rich countries and liberal political 
+and economic ideals lost support in the poor countries. 
+Foreign aid should try harder to harness the decentralized genius of the market in order 
+for aid to really reach its intended beneficiaries. Rather than trying to fix a pothole for one poor 
+person in Ethiopia through an arsenal of international goals, frameworks, and bureaucracies, let 
+aid marketplaces and aid vouchers work to match a donor with that recipient. Rather than 
+imposing processes, strategies, and wish-lists on the poor, let the poor make their own choices. If 
+aid vouchers and other market mechanisms were more effective at getting donor funds to the 
+poor, support in rich countries for foreign aid would likely increase (maybe even double!) 
+
+
+ 
+65
+Bibliography 
+ 
+Alesina Alberto, Edward Glaeser, Bruce Sacerdote, 2001, “WHY DOESN’T THE US HAVE A 
+EUROPEAN-STYLE WELFARE SYSTEM?” NBER Working Paper 8524 
+ 
+Arndt, H.W. Economic Development: The History of an Idea, University of Chicago Press, 1987 
+ 
+Birdsall, Nancy and John Williamson, with Brian Deese. 2002. Delivering on Debt: From IMF 
+Gold to a New Aid Architecture, Center for Global Development and Institute for 
+International Economics. 
+ 
+Blank, Rebecca. 1997. It takes a nation: a new agenda for fighting poverty. Princeton: Russell 
+Sage Foundation. 
+ 
+Blank, Rebecca and David Ellwood, 2001, The Clinton Legacy for America’s Poor. NBER 
+Working Paper 8437, August. 
+ 
+Boote, Anthony, Fred Kilby, Kamau Thugge, and Axel Van Trotsenburg. 1997. “Debt Relief for 
+Low-Income Countries and the HIPC Debt Initiative,” in Z. Iqbal and R. Kanbur, eds. 
+External Finance for Low-Income Countries, International Monetary Fund. 
+ 
+Cassen, Robert. Does Aid Work? Oxford University Press. 1985 
+ 
+Catholic Relief Services REVIEW OF THE POVERTY REDUCTION STRATEGY PAPER 
+INITIATIVE, Based upon the Experiences and Comments of CRS Partners in Bolivia, 
+Honduras, Zambia and Cameroon December 2001 
+ 
+Dixit, Avinash. 2000. Incentives and Organizations in the Public Sector: An Interpretive Review. 
+Mimeo, Princeton University.  
+ 
+Djankov, Simeon, Caralee McLiesh, Tatiana Nenova, and Andrei Shleifer, 2001, Who Owns the 
+Media? NBER Working Paper No.w8288, May 2001  
+ 
+Easterly, William. 2001. The Elusive Quest for Growth: Economists’ Adventures and 
+Misadventures in the Tropics. (Cambridge MA: MIT Press). 
+ 
+Easterly, William. 2002. “What did structural adjustment adjust? The association of policies and 
+growth with repeated IMF and World Bank adjustment loans,” mimeo, Center for Global 
+Development. 
+ 
+Ellerman, David, Generic Problems with Social Funds, DECVP, World Bank mimeo, October 
+2001 
+ 
+European Union. 2001. Ethiopia – European Union Country Strategy Paper and Indicative 
+Program 2002-2007, December,  
+http://europa.eu.int/comm/development/strat_papers/docs/et_csp.pdf 
+ 
+Ferguson, James. 1994. The Anti-Politics Machine: “Development,” Depoliticization and 
+Bureaucratic Power in Lesotho. University of Minnesota Press: Minneapolis. 
+
+
+ 
+66
+ 
+Ferguson, James. 1999. Expectations of modernity: myths and meanings of urban life on the 
+Zambian copperbelt. University of California Press: Berkeley. 
+ 
+Filmer, Deon and Lant Pritchett, What Education Production Functions Really Show: A Positive 
+Theory of Education Expenditures, World Bank Working Paper, 1997. 
+ 
+Filmer, Deon, Jeffrey Hammer, Lant Pritchett, Health Policy in Poor Countries: Weak Links in 
+the Chain, World Bank Working Paper, 1997 
+ 
+Fleming, Alexander and Mary Oakes Smith, Raising Resources for IDA: the Eighth 
+Replenishment, Finance and Development, September 1987, 23-16 
+ 
+Fox, James. 2000. Applying the Comprehensive Development Framework to USAID 
+Experiences, OED Working Paper Series No. 15, World Bank. 
+ 
+Goldwin, Robert A. editor, Why Foreign Aid? Rand McNally Public Affairs Series, 1963 
+ 
+Grusky et al 2000, Globalization Challenge Initiative 
+ 
+Hanushek Eric A. and Steven G. Rivkin. 2001. “Does Public School Competition Affect Teacher 
+Quality?” Paper prepared for NBER Economics of School Choice Conference 
+Islamorada, Florida February 22-24, 2001, revised May 2001 
+ 
+Her Majesty’s Treasury and Department for International Development, 2002, The Case for Aid 
+to the Poorest Countries, United Kingdom. 
+ 
+Hotz, Joseph and John Karl Scholz. 2001. “The Earned Income Tax Credit.” NBER Working 
+Paper 8078, January 2001. 
+ 
+Hoxby, Caroline M. 2001. School Choice and School Productivity (or Could School Choice be a 
+Tide that Lifts All Boats?) Prepared for NBER Conference on The Economics of School 
+Choice, Cheeca Lodge, February 23-24, 2001. 
+ 
+Hsieh Chang-Tai and Miguel Urquiola, When schools compete, how do they compete? An 
+assessment of Chile's nationwide school voucher program, Princeton University and 
+Cornell University mimeo, 2002. 
+ 
+International Development Association, IDA: 50 Questions and Answers, May 1970. 
+ 
+International Development Association, Sixth Replenishment of IDA Resources, Report of the 
+Executive Directors to the Board of Governors dated 15 January 1980. 
+ 
+International Development Association, Additions to IDA Resources: Twelfth Replenishment A 
+Partnership for Poverty Reduction, December 23, 1998 
+ 
+International Development Association, Additions to IDA Resources: Thirteenth Replenishment 
+Supporting Poverty Reduction Strategies, 2001 
+ 
+
+
+ 
+67
+International Food Policy Research Institute (IFPRI), (2000), “Is PROGRESA Working:  
+Summary of the Results of an Evaluation by IFPRI,” (Washington: IFPRI, mimeo). 
+ 
+International Monetary Fund, Description of the Poverty Reduction and Growth Facility, 
+http://www.imf.org/external/np/exr/facts/prgf.htm 
+ 
+INTERNATIONAL MONETARY FUND AND THE INTERNATIONAL DEVELOPMENT 
+ASSOCIATION,  FEDERAL DEMOCRATIC REPUBLIC OF ETHIOPIA, Interim 
+Poverty Reduction Strategy Paper, Joint Staff Assessment, 2001 
+ 
+International Development Association and International Monetary Fund, 2002, “Review of the 
+Poverty Reduction Strategy Paper (PRSP) Approach: Early Experience with 
+Interim PRSPs and Full PRSPs,” March 26. 
+ 
+. 
+ 
+Isham, Jonathan, Daniel Kaufmann, and Lant Pritchett, Governance and Returns on Investment: 
+An Empirical Investigation, World Bank Policy Research Working Paper 1550. 
+(November 1995) 
+ 
+Jubilee South, Focus on the Global South, AWEPON, and the Centro de Estudios Internacionales 
+with the support of the World Council of Churches, THE WORLD BANK AND THE 
+PRSP: FLAWED THINKING AND FAILING EXPERIENCES, 2001 
+ 
+Kanbur, Ravi. Aid, Conditionality and Debt in Africa in Finn Tarp (ed), Foreign Aid and 
+Development: Lessons Learnt and Directions for the Future, Routledge, 2000. 
+ 
+Kanbur, Ravi and Todd Sandler, with Kevin Morrison. 1999. The Future of Development 
+Assistance: Common Pools and International Public Goods. ODC Working Paper No. 25. 
+ 
+Kapur, Devesh, John P. Lewis, and Richard Webb. The World Bank: Its First Half Century, 
+Volume 1: History, Brookings Institution Press, 1997 
+ 
+Kapur, Devesh. 2002. “DO AS I SAY NOT AS I DO: A CRITIQUE OF G-7 PROPOSALS ON 
+REFORMING THE MDBs.” Mimeo, Harvard University Department of Government. 
+ 
+Kaufmann, Daniel, Massimo Mastruzzi and Diego Zavaleta 2001.“Sustained Macroeconomic 
+Reforms, Tepid Growth: A Governance Puzzle in Bolivia?”, The World Bank 
+,September, 2001  
+ 
+Kaufmann, Daniel, Gil Mehrez and Tugrul Gurgur, 2002, “Voice or Public Sector Management?: 
+Determinants of Public Sector Performance based on a Survey of Public Officials in 
+Bolivia – Theory and Evidence,” World Bank and IMF mimeo. 
+ 
+Klitgaard, Robert. Tropical Gangsters. Basic Books. 1990 
+ 
+Lancaster, Carol. 1999. Aid to Africa: So Much to Do, So Little Done. University of Chicago 
+Press: Chicago. 
+ 
+
+
+ 
+68
+La Porta, Rafael, Florencio Lopez-de-Silane, Andrei Shleifer, Robert Vishny, 1998, The Quality 
+of Government, Journal of Law Economics and Organization, Vol. 15 (April 1998): 
+222-279. 
+ 
+McNamara, Robert S. Address to the Board of Governors, Nairobi Kenya, September 24, 1973. 
+speech made during 4th replenishment of IDA negotiations. 
+ 
+Meltzer Commission Report, March 2000, http://www.house.gov/jec/imf/meltzer.pdf 
+ 
+Millikan Max F. and W.W. Rostow, A Proposal: Key to an Effective Aid Policy, With the 
+collaboration of P.N. Rosenstein-Rodan and others at the Center for International 
+Studies, MIT, Harper and Brothers, 1957. 
+ 
+Moe, Terry. “The positive theory of public bureaucracy.” In Dennis Mueller, Perspectives on 
+public choice: a handbook. Cambridge University Press 1997, 455-480. 
+ 
+Morley Samuel and David Coady. 2002. “Reducing poverty through subsidized human capital 
+accumulation”, mimeo, Center for Global Development, Washington DC 
+ 
+Morton, James. The Poverty of Nations: The Aid Dilemma at the Heart of Africa, I.B. Tauris 
+Publishers, London, 1994. 
+ 
+Moynihan, Daniel Patrick. Maximum Feasible Misunderstanding: Community Action in the War 
+on Poverty, The Free Press: New York, 1969. 
+ 
+Neumark, David and William Wascher. 2000. “Using the EITC to Help Poor Families: New 
+Evidence and a Comparison with the Minimum Wage.” NBER Working Paper No. 7599 
+March 2000 
+ 
+Niskanen, William. “Bureaucracy” in William F. Shughart II and Laura Razzolini, The Elgar 
+Companion to Public Choice, Edward Elgar: Cheltenham UK, 2001 
+ 
+Niskanen, William (1971) Bureaucracy and representative government. Chicago: Aldine-
+Atherton. 
+ 
+Niskanen, William. 1968. “The Peculiar Economics of Bureaucracy.” American Economic 
+Review Papers and Proceedings 58: 293-305. 
+ 
+OECD Development Assistance Committee, “Poor Performers: Basic Approaches for Supporting 
+Development in Difficult Partnerships,” November 2001. 
+ 
+Pearson, Lester B. Partners in Development: Report of the Commission on International 
+Development, New York: Praeger, 1969 
+ 
+Peterson, Paul E. with William G. Howell Patrick J. Wolf and David E. Campbell. 2001. School 
+Vouchers: Results from Randomized Experiments, Paper prepared for the Conference on 
+School Choice, sponsored by the National Bureau of Economic Research, Florida Keys, 
+Florida, February 2001. 
+ 
+
+
+ 
+69
+Prendergast, Canice. 2001. SELECTION AND OVERSIGHT IN THE PUBLIC SECTOR, 
+WITH THE LOS ANGELES POLICE DEPARTMENT AS AN EXAMPLE. NBER 
+Working Paper 8664 
+ 
+Preparatory Committee for the International Conference on Financing for Development 
+Resumed Third Session, 15 – 19 October 2001, Statement by Mr. Lennart Båge, 
+President of the International Fund for Agricultural Development, Delivered on behalf of 
+of the three Rome-based UN Agencies, FAO, IFAD, and WFP, United Nations, New 
+York, 17 October 2001 
+ 
+Pressman, Jeffrey and Aaron Wildavsky, 1984, Implementation, 3rd Edition, University of 
+California Press: Berkeley. 
+ 
+Pritchett, Lant. “Why it pays to be ignorant,” mimeo Harvard Kennedy School, 2001. 
+ 
+Pritchet,t Lant and  Michael Woolcock, Solutions when the Solution is the Problem:Arraying the 
+Disarray in Development (Harvard Universit,y Center for Global Development and 
+World Bank mimeo), March 19, 2002 
+ 
+Ravallion, Martín and Quentin Wodon (1999), “Does Child Labor Displace Schooling?  Evidence 
+on Behavioral Responses to an Enrollment Subsidy,”  (World Bank working paper 2116). 
+ 
+Rostow, W.W. The Stages of Growth, 1960. 
+ 
+Scott, James C.  1998. Seeing Like a State: How Certain Schemes to Improve the Human 
+Condition Have Failed. Yale University Press.  
+ 
+Skoufias, Emmanuel, Benjamin Davis and Sergio de la Vega, (2001), “Targeting the Poor in 
+Mexico: An Evaluation of the Selection of Households for Progresa,” (Washington-
+FCND # 103). 
+ 
+Soros, George. 2002. George Soros on Globalization. New York: Public Affairs 
+ 
+Stern, Ernest. Mobilizing Resources for IDA: The Ninth Replenishment, Finance and 
+Development, June 1990, p. 20-23 
+ 
+Svensson, Jakob. 2002"Why Conditional Aid Doesn’t Work and What Can Be Done About It?", 
+Journal of Development Economics,  forthcoming. 
+ 
+Tendler, Judith. Inside Foreign Aid, The Johns Hopkins University Press, 1975 
+ 
+Tendler, Judith. 2000, “Why Are Social Funds So Popular?” in Shahid Yusuf and S. Evenett 
+(eds)., Local Dynamics in an Era of Globalization, World Bank, Oxford: Oxford 
+University Press: 114-29.. 
+ 
+Tendler, Judith. 1997. Good Government in the Tropics. Johns Hopkins. 
+ 
+Tirole, Jean. 1994. “The internal organization of government.” Oxford Economic Papers. 46, 1-
+29. 
+ 
+Truman, Harry S. Inaugural Address January 20, 1949 
+
+
+ 
+70
+ 
+UN Expert Group, Measures for the Economic Development of Under-developed Countries, 
+United Nations, Department of Economic Affairs, New York, May 1951. 
+ 
+UNDP Review of the Poverty Reduction Strategy Paper (PRSP) New York, December 2001 
+ 
+ 
+ 
+Progress Report, 2001 
+ 
+Van de Walle, Nicolas. African Economies and the Politics of Permanent Crisis, 1979-99, 
+Cambridge University Press, 2001 
+ 
+Wade. Robert 2001. “The U.S. Role in the Malaise at the World Bank: Get up Gulliver,” G-24. 
+September. 
+ 
+Wapenhans Report, “Effective Implementation: Key to Development Impact,” World Bank, 
+1992. 
+ 
+Wilson, James Q. 1989. Bureaucracy, Basic Books: New York. 
+ 
+Wintrobe, Ronald. “Modern bureaucratic theory.” In Dennis Mueller, Perspectives on public 
+choice: a handbook. Cambridge University Press 1997, 429-454. 
+ 
+Wolfensohn, James D. A PROPOSAL FOR A COMPREHENSIVE DEVELOPMENT 
+FRAMEWORK, World Bank, January 21, 1999 
+ 
+World Bank, Accelerated Development in Sub-Saharan Africa: An Agenda for Action, 1981 
+ 
+World Bank, Sub-saharan Africa: Progress Report on Development Prospects and Programs, 
+1983 
+ 
+World Bank, Toward Sustained Development in Sub-Saharan African: A Joint Program of 
+Action, 1984 
+ 
+World Bank, World Development Report, 1985 
+ 
+World Bank, Financing Adjustment with Growth in Sub-Saharan Africa, 1986-90, Washington 
+DC 1986. 
+ 
+World Bank, World Development Report, 1987 
+ 
+World Bank, World Development Report, 1988 
+ 
+World Bank, World Development Report, 1989 
+ 
+World Bank, Sub-Saharan Africa: From Crisis to Sustainable Growth – A Long Term 
+Perspective Study, 1989 
+
+
+ 
+71
+ 
+World Bank, World Development Report, 1990 
+ 
+World Bank, The African Capacity Building Initiative (ACBI), Washington DC, 1991. 
+ 
+World Bank, Adjustment in Africa: Reforms, Results, and the Road Ahead, 1994 
+ 
+World Bank, A Continent in Transition: Sub-Saharan Africa in the Mid-1990s, Africa Region, 
+World Bank, Washington DC November 1995. 
+ 
+World Bank, IDA in Action 1993-1996:The Pursuit of Sustained Poverty Reduction,  Washington 
+DC, 1997. 
+ 
+World Bank, Assessing Aid: What Works, What Doesn’t, and Why, 1998 
+ 
+World Bank, Can Africa claim the 21st Century? World Bank, 2000 
+ 
+World Bank, Private Sector Development Strategy: Directions for the World Bank Group, 
+December 3, 2001. 
+ 
+World Bank. 2001. World Development Report 2002: Building Institutions for Markets. 
+ 
+World Bank. 2001. Ten Things You Never Knew About the World Bank. 
+ 
+World Bank. 2001. Poverty Reduction Strategy Paper Sourcebook 
+ 
+World Bank, 2001. Goals for Development: History, Prospects, and Costs, preliminary draft, 
+12/21/01 
+ 
+World Bank 2002. The Role and Effectiveness of Development Assistance: Lessons from World 
+Bank Experience, World Bank: Washington DC. 
+ 
+World Bank 2002. African Development Indicators. Press Release April 11, 2002. 
+ 
+World Bank Social Development Department, 2002, Participation in Poverty Reduction Strategy 
+Papers: A Retrospective Study, January. 
+ 
+World Development Movement, Policies to Roll-back the State and Privatise? Poverty Reduction 
+Strategy Papers investigated, WIDER 2001. 

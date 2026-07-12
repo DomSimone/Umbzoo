@@ -1,0 +1,1452 @@
+[
+  {
+    "question": "What are the key trends in voting patterns in Africa?",
+    "answer": "Analysis of voting patterns in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "political_civic_engagement",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "What are the key trends in cultural dynamics in Africa?",
+    "answer": "Analysis of cultural dynamics in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "political_civic_engagement",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "What are the key trends in political participation in Africa?",
+    "answer": "Analysis of political participation in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "political_civic_engagement",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "How does election interact with vote to shape political and civic engagement outcomes in Sao Tome and Principe?",
+    "answer": "The interaction between election and vote in Sao Tome and Principe is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Sao Tome and Principe's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Sao Tome and Principe",
+    "source": "generated"
+  },
+  {
+    "question": "How does political party interact with democracy to shape political and civic engagement outcomes in Egypt?",
+    "answer": "The interaction between political party and democracy in Egypt is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Egypt's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Egypt",
+    "source": "generated"
+  },
+  {
+    "question": "How does human rights interact with legislative to shape political and civic engagement outcomes in Sierra Leone?",
+    "answer": "The interaction between human rights and legislative in Sierra Leone is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Sierra Leone's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Sierra Leone",
+    "source": "generated"
+  },
+  {
+    "question": "How does constitution interact with vote to shape political and civic engagement outcomes in Niger?",
+    "answer": "The interaction between constitution and vote in Niger is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Niger's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Niger",
+    "source": "generated"
+  },
+  {
+    "question": "How does political party interact with political party to shape political and civic engagement outcomes in Burundi?",
+    "answer": "The interaction between political party and political party in Burundi is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Burundi's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Burundi",
+    "source": "generated"
+  },
+  {
+    "question": "How does political party interact with human rights to shape political and civic engagement outcomes in Mozambique?",
+    "answer": "The interaction between political party and human rights in Mozambique is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Mozambique's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Mozambique",
+    "source": "generated"
+  },
+  {
+    "question": "How does parliament interact with policy to shape political and civic engagement outcomes in Djibouti?",
+    "answer": "The interaction between parliament and policy in Djibouti is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Djibouti's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Djibouti",
+    "source": "generated"
+  },
+  {
+    "question": "How does transparency interact with vote to shape political and civic engagement outcomes in Uganda?",
+    "answer": "The interaction between transparency and vote in Uganda is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Uganda's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Uganda",
+    "source": "generated"
+  },
+  {
+    "question": "How does constitution interact with civic to shape political and civic engagement outcomes in Somalia?",
+    "answer": "The interaction between constitution and civic in Somalia is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Somalia's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Somalia",
+    "source": "generated"
+  },
+  {
+    "question": "How does political party interact with corruption to shape political and civic engagement outcomes in Chad?",
+    "answer": "The interaction between political party and corruption in Chad is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Chad's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Chad",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key trends in income poverty in Africa?",
+    "answer": "Analysis of income poverty in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "economic_labor_trends",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "What are the key trends in employment work in Africa?",
+    "answer": "Analysis of employment work in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "economic_labor_trends",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "What are the key trends in agriculture in Africa?",
+    "answer": "Analysis of agriculture in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "economic_labor_trends",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "How does poverty interact with entrepreneurship to shape economic and labor trends outcomes in Cabo Verde?",
+    "answer": "The interaction between poverty and entrepreneurship in Cabo Verde is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Cabo Verde's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "economic_labor_trends",
+    "country": "Cabo Verde",
+    "source": "generated"
+  },
+  {
+    "question": "How does wage interact with inflation to shape economic and labor trends outcomes in Ghana?",
+    "answer": "The interaction between wage and inflation in Ghana is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Ghana's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "economic_labor_trends",
+    "country": "Ghana",
+    "source": "generated"
+  },
+  {
+    "question": "How does tax interact with income to shape economic and labor trends outcomes in South Sudan?",
+    "answer": "The interaction between tax and income in South Sudan is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to South Sudan's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "economic_labor_trends",
+    "country": "South Sudan",
+    "source": "generated"
+  },
+  {
+    "question": "How does investment interact with wage to shape economic and labor trends outcomes in Burundi?",
+    "answer": "The interaction between investment and wage in Burundi is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Burundi's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "economic_labor_trends",
+    "country": "Burundi",
+    "source": "generated"
+  },
+  {
+    "question": "How does poverty interact with economy to shape economic and labor trends outcomes in South Africa?",
+    "answer": "The interaction between poverty and economy in South Africa is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to South Africa's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "economic_labor_trends",
+    "country": "South Africa",
+    "source": "generated"
+  },
+  {
+    "question": "How does investment interact with poverty to shape economic and labor trends outcomes in Togo?",
+    "answer": "The interaction between investment and poverty in Togo is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Togo's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "economic_labor_trends",
+    "country": "Togo",
+    "source": "generated"
+  },
+  {
+    "question": "How does entrepreneurship interact with inflation to shape economic and labor trends outcomes in Cabo Verde?",
+    "answer": "The interaction between entrepreneurship and inflation in Cabo Verde is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Cabo Verde's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "economic_labor_trends",
+    "country": "Cabo Verde",
+    "source": "generated"
+  },
+  {
+    "question": "How does wage interact with unemployment to shape economic and labor trends outcomes in Sao Tome and Principe?",
+    "answer": "The interaction between wage and unemployment in Sao Tome and Principe is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Sao Tome and Principe's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "economic_labor_trends",
+    "country": "Sao Tome and Principe",
+    "source": "generated"
+  },
+  {
+    "question": "How does agriculture interact with inflation to shape economic and labor trends outcomes in Ghana?",
+    "answer": "The interaction between agriculture and inflation in Ghana is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Ghana's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "economic_labor_trends",
+    "country": "Ghana",
+    "source": "generated"
+  },
+  {
+    "question": "How does unemployment interact with trade to shape economic and labor trends outcomes in Nigeria?",
+    "answer": "The interaction between unemployment and trade in Nigeria is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Nigeria's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "economic_labor_trends",
+    "country": "Nigeria",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key trends in urbanization in Africa?",
+    "answer": "Analysis of urbanization in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "urban_community_dynamics",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "What are the key trends in crime in Africa?",
+    "answer": "Analysis of crime in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "urban_community_dynamics",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "What are the key trends in community services in Africa?",
+    "answer": "Analysis of community services in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "urban_community_dynamics",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "How does transport interact with community to shape urban and community dynamics outcomes in Madagascar?",
+    "answer": "The interaction between transport and community in Madagascar is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Madagascar's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Madagascar",
+    "source": "generated"
+  },
+  {
+    "question": "How does housing interact with public service to shape urban and community dynamics outcomes in Sierra Leone?",
+    "answer": "The interaction between housing and public service in Sierra Leone is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Sierra Leone's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Sierra Leone",
+    "source": "generated"
+  },
+  {
+    "question": "How does urban interact with public service to shape urban and community dynamics outcomes in Djibouti?",
+    "answer": "The interaction between urban and public service in Djibouti is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Djibouti's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Djibouti",
+    "source": "generated"
+  },
+  {
+    "question": "How does community interact with city to shape urban and community dynamics outcomes in Kenya?",
+    "answer": "The interaction between community and city in Kenya is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Kenya's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Kenya",
+    "source": "generated"
+  },
+  {
+    "question": "How does metropolitan interact with housing to shape urban and community dynamics outcomes in Namibia?",
+    "answer": "The interaction between metropolitan and housing in Namibia is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Namibia's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Namibia",
+    "source": "generated"
+  },
+  {
+    "question": "How does infrastructure interact with transport to shape urban and community dynamics outcomes in Senegal?",
+    "answer": "The interaction between infrastructure and transport in Senegal is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Senegal's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Senegal",
+    "source": "generated"
+  },
+  {
+    "question": "How does community interact with population density to shape urban and community dynamics outcomes in Chad?",
+    "answer": "The interaction between community and population density in Chad is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Chad's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Chad",
+    "source": "generated"
+  },
+  {
+    "question": "How does sanitation interact with sanitation to shape urban and community dynamics outcomes in Sudan?",
+    "answer": "The interaction between sanitation and sanitation in Sudan is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Sudan's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Sudan",
+    "source": "generated"
+  },
+  {
+    "question": "How does migration interact with transport to shape urban and community dynamics outcomes in Sudan?",
+    "answer": "The interaction between migration and transport in Sudan is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Sudan's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Sudan",
+    "source": "generated"
+  },
+  {
+    "question": "How does crime interact with population density to shape urban and community dynamics outcomes in Guinea?",
+    "answer": "The interaction between crime and population density in Guinea is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Guinea's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Guinea",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key trends in migration immigration in Africa?",
+    "answer": "Analysis of migration immigration in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "demographic_trends",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "What are the key trends in age life stages in Africa?",
+    "answer": "Analysis of age life stages in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "demographic_trends",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "What are the key trends in diversity in Africa?",
+    "answer": "Analysis of diversity in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "demographic_trends",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "How does youth interact with demographic to shape demographic trends outcomes in Burundi?",
+    "answer": "The interaction between youth and demographic in Burundi is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Burundi's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "demographic_trends",
+    "country": "Burundi",
+    "source": "generated"
+  },
+  {
+    "question": "How does religion interact with migration to shape demographic trends outcomes in Chad?",
+    "answer": "The interaction between religion and migration in Chad is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Chad's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "demographic_trends",
+    "country": "Chad",
+    "source": "generated"
+  },
+  {
+    "question": "How does population interact with life expectancy to shape demographic trends outcomes in Nigeria?",
+    "answer": "The interaction between population and life expectancy in Nigeria is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Nigeria's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "demographic_trends",
+    "country": "Nigeria",
+    "source": "generated"
+  },
+  {
+    "question": "How does census interact with ethnicity to shape demographic trends outcomes in Nigeria?",
+    "answer": "The interaction between census and ethnicity in Nigeria is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Nigeria's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "demographic_trends",
+    "country": "Nigeria",
+    "source": "generated"
+  },
+  {
+    "question": "How does refugee interact with demographic to shape demographic trends outcomes in Mozambique?",
+    "answer": "The interaction between refugee and demographic in Mozambique is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Mozambique's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "demographic_trends",
+    "country": "Mozambique",
+    "source": "generated"
+  },
+  {
+    "question": "How does diaspora interact with ethnicity to shape demographic trends outcomes in Sierra Leone?",
+    "answer": "The interaction between diaspora and ethnicity in Sierra Leone is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Sierra Leone's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "demographic_trends",
+    "country": "Sierra Leone",
+    "source": "generated"
+  },
+  {
+    "question": "How does religion interact with death rate to shape demographic trends outcomes in Togo?",
+    "answer": "The interaction between religion and death rate in Togo is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Togo's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "demographic_trends",
+    "country": "Togo",
+    "source": "generated"
+  },
+  {
+    "question": "How does life expectancy interact with migration to shape demographic trends outcomes in Eswatini?",
+    "answer": "The interaction between life expectancy and migration in Eswatini is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Eswatini's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "demographic_trends",
+    "country": "Eswatini",
+    "source": "generated"
+  },
+  {
+    "question": "How does aging interact with diaspora to shape demographic trends outcomes in Algeria?",
+    "answer": "The interaction between aging and diaspora in Algeria is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Algeria's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "demographic_trends",
+    "country": "Algeria",
+    "source": "generated"
+  },
+  {
+    "question": "How does youth interact with migration to shape demographic trends outcomes in Mauritania?",
+    "answer": "The interaction between youth and migration in Mauritania is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Mauritania's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "demographic_trends",
+    "country": "Mauritania",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key trends in families households in Africa?",
+    "answer": "Analysis of families households in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "social_structures_lifestyles",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "What are the key trends in housing shelter in Africa?",
+    "answer": "Analysis of housing shelter in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "social_structures_lifestyles",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "What are the key trends in education mobility in Africa?",
+    "answer": "Analysis of education mobility in Africa reveals significant variation across regions and countries. Key factors include economic conditions, policy frameworks, demographic changes, and social dynamics. Data from multiple sources indicates evolving patterns that require context-specific analysis and response strategies.",
+    "question_type": "factual",
+    "difficulty": "medium",
+    "reasoning_type": null,
+    "topic": "social_structures_lifestyles",
+    "country": null,
+    "source": "generated"
+  },
+  {
+    "question": "How does school interact with disability to shape social structures and lifestyles outcomes in Sao Tome and Principe?",
+    "answer": "The interaction between school and disability in Sao Tome and Principe is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Sao Tome and Principe's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "social_structures_lifestyles",
+    "country": "Sao Tome and Principe",
+    "source": "generated"
+  },
+  {
+    "question": "How does university interact with child welfare to shape social structures and lifestyles outcomes in Chad?",
+    "answer": "The interaction between university and child welfare in Chad is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Chad's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "social_structures_lifestyles",
+    "country": "Chad",
+    "source": "generated"
+  },
+  {
+    "question": "How does child welfare interact with social mobility to shape social structures and lifestyles outcomes in Morocco?",
+    "answer": "The interaction between child welfare and social mobility in Morocco is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Morocco's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "social_structures_lifestyles",
+    "country": "Morocco",
+    "source": "generated"
+  },
+  {
+    "question": "How does university interact with hospital to shape social structures and lifestyles outcomes in Nigeria?",
+    "answer": "The interaction between university and hospital in Nigeria is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Nigeria's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "social_structures_lifestyles",
+    "country": "Nigeria",
+    "source": "generated"
+  },
+  {
+    "question": "How does university interact with disability to shape social structures and lifestyles outcomes in Cameroon?",
+    "answer": "The interaction between university and disability in Cameroon is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Cameroon's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "social_structures_lifestyles",
+    "country": "Cameroon",
+    "source": "generated"
+  },
+  {
+    "question": "How does education interact with household to shape social structures and lifestyles outcomes in Egypt?",
+    "answer": "The interaction between education and household in Egypt is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Egypt's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "social_structures_lifestyles",
+    "country": "Egypt",
+    "source": "generated"
+  },
+  {
+    "question": "How does marriage interact with hospital to shape social structures and lifestyles outcomes in Burundi?",
+    "answer": "The interaction between marriage and hospital in Burundi is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Burundi's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "social_structures_lifestyles",
+    "country": "Burundi",
+    "source": "generated"
+  },
+  {
+    "question": "How does social mobility interact with child welfare to shape social structures and lifestyles outcomes in Tanzania?",
+    "answer": "The interaction between social mobility and child welfare in Tanzania is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Tanzania's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "social_structures_lifestyles",
+    "country": "Tanzania",
+    "source": "generated"
+  },
+  {
+    "question": "How does gender interact with hospital to shape social structures and lifestyles outcomes in Central African Republic?",
+    "answer": "The interaction between gender and hospital in Central African Republic is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Central African Republic's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "social_structures_lifestyles",
+    "country": "Central African Republic",
+    "source": "generated"
+  },
+  {
+    "question": "How does social mobility interact with disability to shape social structures and lifestyles outcomes in Equatorial Guinea?",
+    "answer": "The interaction between social mobility and disability in Equatorial Guinea is complex and multi-dimensional. Evidence suggests that these factors mutually influence each other through various mechanisms including policy feedback loops, institutional dynamics, and socio-economic conditions. A comprehensive analysis requires examining both quantitative indicators and qualitative contextual factors specific to Equatorial Guinea's unique historical and political landscape.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "social_structures_lifestyles",
+    "country": "Equatorial Guinea",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key urban community dynamics challenges and opportunities in Democratic Republic of the Congo?",
+    "answer": "Democratic Republic of the Congo faces both significant challenges and opportunities in the area of urban community dynamics. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "urban_community_dynamics",
+    "country": "Democratic Republic of the Congo",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key demographic trends challenges and opportunities in Democratic Republic of the Congo?",
+    "answer": "Democratic Republic of the Congo faces both significant challenges and opportunities in the area of demographic trends. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "demographic_trends",
+    "country": "Democratic Republic of the Congo",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key social structures lifestyles challenges and opportunities in Democratic Republic of the Congo?",
+    "answer": "Democratic Republic of the Congo faces both significant challenges and opportunities in the area of social structures lifestyles. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "social_structures_lifestyles",
+    "country": "Democratic Republic of the Congo",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key economic labor trends challenges and opportunities in Morocco?",
+    "answer": "Morocco faces both significant challenges and opportunities in the area of economic labor trends. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "economic_labor_trends",
+    "country": "Morocco",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key political civic engagement challenges and opportunities in Morocco?",
+    "answer": "Morocco faces both significant challenges and opportunities in the area of political civic engagement. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "political_civic_engagement",
+    "country": "Morocco",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key social structures lifestyles challenges and opportunities in Morocco?",
+    "answer": "Morocco faces both significant challenges and opportunities in the area of social structures lifestyles. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "social_structures_lifestyles",
+    "country": "Morocco",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key economic labor trends challenges and opportunities in Tanzania?",
+    "answer": "Tanzania faces both significant challenges and opportunities in the area of economic labor trends. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "economic_labor_trends",
+    "country": "Tanzania",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key social structures lifestyles challenges and opportunities in Tanzania?",
+    "answer": "Tanzania faces both significant challenges and opportunities in the area of social structures lifestyles. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "social_structures_lifestyles",
+    "country": "Tanzania",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key political civic engagement challenges and opportunities in Tanzania?",
+    "answer": "Tanzania faces both significant challenges and opportunities in the area of political civic engagement. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "political_civic_engagement",
+    "country": "Tanzania",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key political civic engagement challenges and opportunities in South Sudan?",
+    "answer": "South Sudan faces both significant challenges and opportunities in the area of political civic engagement. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "political_civic_engagement",
+    "country": "South Sudan",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key economic labor trends challenges and opportunities in South Sudan?",
+    "answer": "South Sudan faces both significant challenges and opportunities in the area of economic labor trends. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "economic_labor_trends",
+    "country": "South Sudan",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key social structures lifestyles challenges and opportunities in South Sudan?",
+    "answer": "South Sudan faces both significant challenges and opportunities in the area of social structures lifestyles. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "social_structures_lifestyles",
+    "country": "South Sudan",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key social structures lifestyles challenges and opportunities in Somalia?",
+    "answer": "Somalia faces both significant challenges and opportunities in the area of social structures lifestyles. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "social_structures_lifestyles",
+    "country": "Somalia",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key economic labor trends challenges and opportunities in Somalia?",
+    "answer": "Somalia faces both significant challenges and opportunities in the area of economic labor trends. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "economic_labor_trends",
+    "country": "Somalia",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key demographic trends challenges and opportunities in Somalia?",
+    "answer": "Somalia faces both significant challenges and opportunities in the area of demographic trends. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "demographic_trends",
+    "country": "Somalia",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key social structures lifestyles challenges and opportunities in C\u00f4te d'Ivoire?",
+    "answer": "C\u00f4te d'Ivoire faces both significant challenges and opportunities in the area of social structures lifestyles. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "social_structures_lifestyles",
+    "country": "C\u00f4te d'Ivoire",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key economic labor trends challenges and opportunities in C\u00f4te d'Ivoire?",
+    "answer": "C\u00f4te d'Ivoire faces both significant challenges and opportunities in the area of economic labor trends. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "economic_labor_trends",
+    "country": "C\u00f4te d'Ivoire",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key urban community dynamics challenges and opportunities in C\u00f4te d'Ivoire?",
+    "answer": "C\u00f4te d'Ivoire faces both significant challenges and opportunities in the area of urban community dynamics. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "urban_community_dynamics",
+    "country": "C\u00f4te d'Ivoire",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key demographic trends challenges and opportunities in South Africa?",
+    "answer": "South Africa faces both significant challenges and opportunities in the area of demographic trends. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "demographic_trends",
+    "country": "South Africa",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key social structures lifestyles challenges and opportunities in South Africa?",
+    "answer": "South Africa faces both significant challenges and opportunities in the area of social structures lifestyles. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "social_structures_lifestyles",
+    "country": "South Africa",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key political civic engagement challenges and opportunities in South Africa?",
+    "answer": "South Africa faces both significant challenges and opportunities in the area of political civic engagement. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "political_civic_engagement",
+    "country": "South Africa",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key demographic trends challenges and opportunities in Ethiopia?",
+    "answer": "Ethiopia faces both significant challenges and opportunities in the area of demographic trends. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "demographic_trends",
+    "country": "Ethiopia",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key urban community dynamics challenges and opportunities in Ethiopia?",
+    "answer": "Ethiopia faces both significant challenges and opportunities in the area of urban community dynamics. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "urban_community_dynamics",
+    "country": "Ethiopia",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key economic labor trends challenges and opportunities in Ethiopia?",
+    "answer": "Ethiopia faces both significant challenges and opportunities in the area of economic labor trends. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "economic_labor_trends",
+    "country": "Ethiopia",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key political civic engagement challenges and opportunities in Kenya?",
+    "answer": "Kenya faces both significant challenges and opportunities in the area of political civic engagement. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "political_civic_engagement",
+    "country": "Kenya",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key social structures lifestyles challenges and opportunities in Kenya?",
+    "answer": "Kenya faces both significant challenges and opportunities in the area of social structures lifestyles. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "social_structures_lifestyles",
+    "country": "Kenya",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key economic labor trends challenges and opportunities in Kenya?",
+    "answer": "Kenya faces both significant challenges and opportunities in the area of economic labor trends. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "economic_labor_trends",
+    "country": "Kenya",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key economic labor trends challenges and opportunities in Seychelles?",
+    "answer": "Seychelles faces both significant challenges and opportunities in the area of economic labor trends. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "economic_labor_trends",
+    "country": "Seychelles",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key social structures lifestyles challenges and opportunities in Seychelles?",
+    "answer": "Seychelles faces both significant challenges and opportunities in the area of social structures lifestyles. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "social_structures_lifestyles",
+    "country": "Seychelles",
+    "source": "generated"
+  },
+  {
+    "question": "What are the key political civic engagement challenges and opportunities in Seychelles?",
+    "answer": "Seychelles faces both significant challenges and opportunities in the area of political civic engagement. Key challenges include infrastructure gaps, resource constraints, and institutional capacity limitations. However, opportunities exist through policy reforms, international partnerships, technological innovation, and demographic dividends. A strategic approach that leverages local strengths while addressing systemic weaknesses is essential for sustainable progress.",
+    "question_type": "complex_reasoning",
+    "difficulty": "medium",
+    "reasoning_type": "policy_evaluation",
+    "topic": "political_civic_engagement",
+    "country": "Seychelles",
+    "source": "generated"
+  },
+  {
+    "question": "Compare and contrast crime with refugee in the context of Congo. What are the key differences and similarities?",
+    "answer": "This comparative analysis question requires examining multiple dimensions of the relationship between crime and refugee in Congo. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "comparative_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Congo",
+    "source": "generated"
+  },
+  {
+    "question": "Compare and contrast demographic with activism in the context of Burkina Faso. What are the key differences and similarities?",
+    "answer": "This comparative analysis question requires examining multiple dimensions of the relationship between demographic and activism in Burkina Faso. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "comparative_analysis",
+    "topic": "demographic_trends",
+    "country": "Burkina Faso",
+    "source": "generated"
+  },
+  {
+    "question": "Compare and contrast corruption with disability in the context of Morocco. What are the key differences and similarities?",
+    "answer": "This comparative analysis question requires examining multiple dimensions of the relationship between corruption and disability in Morocco. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "comparative_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Morocco",
+    "source": "generated"
+  },
+  {
+    "question": "Compare and contrast budget with census in the context of Egypt. What are the key differences and similarities?",
+    "answer": "This comparative analysis question requires examining multiple dimensions of the relationship between budget and census in Egypt. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "comparative_analysis",
+    "topic": "economic_labor_trends",
+    "country": "Egypt",
+    "source": "generated"
+  },
+  {
+    "question": "Compare and contrast migration with constitution in the context of Democratic Republic of the Congo. What are the key differences and similarities?",
+    "answer": "This comparative analysis question requires examining multiple dimensions of the relationship between migration and constitution in Democratic Republic of the Congo. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "comparative_analysis",
+    "topic": "demographic_trends",
+    "country": "Democratic Republic of the Congo",
+    "source": "generated"
+  },
+  {
+    "question": "What are the root causes of diaspora in Algeria, and how have diaspora and public service contributed to the current situation?",
+    "answer": "This causal analysis question requires examining multiple dimensions of the relationship between diaspora and public service in Algeria. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "causal_analysis",
+    "topic": "demographic_trends",
+    "country": "Algeria",
+    "source": "generated"
+  },
+  {
+    "question": "What are the root causes of life expectancy in Tunisia, and how have life expectancy and metropolitan contributed to the current situation?",
+    "answer": "This causal analysis question requires examining multiple dimensions of the relationship between life expectancy and metropolitan in Tunisia. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "causal_analysis",
+    "topic": "demographic_trends",
+    "country": "Tunisia",
+    "source": "generated"
+  },
+  {
+    "question": "What are the root causes of family in South Sudan, and how have family and immigration contributed to the current situation?",
+    "answer": "This causal analysis question requires examining multiple dimensions of the relationship between family and immigration in South Sudan. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "causal_analysis",
+    "topic": "social_structures_lifestyles",
+    "country": "South Sudan",
+    "source": "generated"
+  },
+  {
+    "question": "What are the root causes of economy in Eswatini, and how have economy and human rights contributed to the current situation?",
+    "answer": "This causal analysis question requires examining multiple dimensions of the relationship between economy and human rights in Eswatini. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "causal_analysis",
+    "topic": "economic_labor_trends",
+    "country": "Eswatini",
+    "source": "generated"
+  },
+  {
+    "question": "What are the root causes of policy in Gabon, and how have policy and hospital contributed to the current situation?",
+    "answer": "This causal analysis question requires examining multiple dimensions of the relationship between policy and hospital in Gabon. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "causal_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Gabon",
+    "source": "generated"
+  },
+  {
+    "question": "Based on historical trends in Social Structures And Lifestyles, what is the projected trajectory for Mauritania over the next decade, and what key factors will influence this outcome?",
+    "answer": "This predictive modeling question requires examining multiple dimensions of the relationship between education and finance in Mauritania. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "predictive_modeling",
+    "topic": "social_structures_lifestyles",
+    "country": "Mauritania",
+    "source": "generated"
+  },
+  {
+    "question": "Based on historical trends in Economic And Labor Trends, what is the projected trajectory for Burundi over the next decade, and what key factors will influence this outcome?",
+    "answer": "This predictive modeling question requires examining multiple dimensions of the relationship between poverty and activism in Burundi. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "predictive_modeling",
+    "topic": "economic_labor_trends",
+    "country": "Burundi",
+    "source": "generated"
+  },
+  {
+    "question": "Based on historical trends in Demographic Trends, what is the projected trajectory for Egypt over the next decade, and what key factors will influence this outcome?",
+    "answer": "This predictive modeling question requires examining multiple dimensions of the relationship between diaspora and policy in Egypt. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "predictive_modeling",
+    "topic": "demographic_trends",
+    "country": "Egypt",
+    "source": "generated"
+  },
+  {
+    "question": "Based on historical trends in Social Structures And Lifestyles, what is the projected trajectory for Egypt over the next decade, and what key factors will influence this outcome?",
+    "answer": "This predictive modeling question requires examining multiple dimensions of the relationship between inequality and election in Egypt. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "predictive_modeling",
+    "topic": "social_structures_lifestyles",
+    "country": "Egypt",
+    "source": "generated"
+  },
+  {
+    "question": "Based on historical trends in Social Structures And Lifestyles, what is the projected trajectory for Lesotho over the next decade, and what key factors will influence this outcome?",
+    "answer": "This predictive modeling question requires examining multiple dimensions of the relationship between school and crime in Lesotho. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "predictive_modeling",
+    "topic": "social_structures_lifestyles",
+    "country": "Lesotho",
+    "source": "generated"
+  },
+  {
+    "question": "Evaluate the effectiveness of community in addressing entrepreneurship within Seychelles. What were the measurable outcomes and unintended consequences?",
+    "answer": "This policy evaluation question requires examining multiple dimensions of the relationship between community and entrepreneurship in Seychelles. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "policy_evaluation",
+    "topic": "urban_community_dynamics",
+    "country": "Seychelles",
+    "source": "generated"
+  },
+  {
+    "question": "Evaluate the effectiveness of housing in addressing diaspora within Central African Republic. What were the measurable outcomes and unintended consequences?",
+    "answer": "This policy evaluation question requires examining multiple dimensions of the relationship between housing and diaspora in Central African Republic. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "policy_evaluation",
+    "topic": "urban_community_dynamics",
+    "country": "Central African Republic",
+    "source": "generated"
+  },
+  {
+    "question": "Evaluate the effectiveness of parliament in addressing inequality within Tanzania. What were the measurable outcomes and unintended consequences?",
+    "answer": "This policy evaluation question requires examining multiple dimensions of the relationship between parliament and inequality in Tanzania. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "policy_evaluation",
+    "topic": "political_civic_engagement",
+    "country": "Tanzania",
+    "source": "generated"
+  },
+  {
+    "question": "Evaluate the effectiveness of legislative in addressing household within Namibia. What were the measurable outcomes and unintended consequences?",
+    "answer": "This policy evaluation question requires examining multiple dimensions of the relationship between legislative and household in Namibia. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "policy_evaluation",
+    "topic": "political_civic_engagement",
+    "country": "Namibia",
+    "source": "generated"
+  },
+  {
+    "question": "Evaluate the effectiveness of housing in addressing poverty within Mauritania. What were the measurable outcomes and unintended consequences?",
+    "answer": "This policy evaluation question requires examining multiple dimensions of the relationship between housing and poverty in Mauritania. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "policy_evaluation",
+    "topic": "urban_community_dynamics",
+    "country": "Mauritania",
+    "source": "generated"
+  },
+  {
+    "question": "How do population density, hospital, and technology interact to shape development in Egypt? Provide evidence from multiple sources.",
+    "answer": "This multi factor analysis question requires examining multiple dimensions of the relationship between population density and hospital in Egypt. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Egypt",
+    "source": "generated"
+  },
+  {
+    "question": "How do inequality, public service, and technology interact to shape development in Zimbabwe? Provide evidence from multiple sources.",
+    "answer": "This multi factor analysis question requires examining multiple dimensions of the relationship between inequality and public service in Zimbabwe. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "social_structures_lifestyles",
+    "country": "Zimbabwe",
+    "source": "generated"
+  },
+  {
+    "question": "How do gender, transparency, and technology interact to shape development in Senegal? Provide evidence from multiple sources.",
+    "answer": "This multi factor analysis question requires examining multiple dimensions of the relationship between gender and transparency in Senegal. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "social_structures_lifestyles",
+    "country": "Senegal",
+    "source": "generated"
+  },
+  {
+    "question": "How do population density, governance, and technology interact to shape development in Mozambique? Provide evidence from multiple sources.",
+    "answer": "This multi factor analysis question requires examining multiple dimensions of the relationship between population density and governance in Mozambique. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "urban_community_dynamics",
+    "country": "Mozambique",
+    "source": "generated"
+  },
+  {
+    "question": "How do governance, investment, and technology interact to shape development in Cameroon? Provide evidence from multiple sources.",
+    "answer": "This multi factor analysis question requires examining multiple dimensions of the relationship between governance and investment in Cameroon. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "multi_factor_analysis",
+    "topic": "political_civic_engagement",
+    "country": "Cameroon",
+    "source": "generated"
+  },
+  {
+    "question": "Describe the interconnected system of agriculture, suburban, and governance in Nigeria. How do changes in one element cascade through the entire system?",
+    "answer": "This systems thinking question requires examining multiple dimensions of the relationship between agriculture and suburban in Nigeria. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "systems_thinking",
+    "topic": "economic_labor_trends",
+    "country": "Nigeria",
+    "source": "generated"
+  },
+  {
+    "question": "Describe the interconnected system of community, diaspora, and governance in Sao Tome and Principe. How do changes in one element cascade through the entire system?",
+    "answer": "This systems thinking question requires examining multiple dimensions of the relationship between community and diaspora in Sao Tome and Principe. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "systems_thinking",
+    "topic": "urban_community_dynamics",
+    "country": "Sao Tome and Principe",
+    "source": "generated"
+  },
+  {
+    "question": "Describe the interconnected system of transparency, birth rate, and governance in Botswana. How do changes in one element cascade through the entire system?",
+    "answer": "This systems thinking question requires examining multiple dimensions of the relationship between transparency and birth rate in Botswana. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "systems_thinking",
+    "topic": "political_civic_engagement",
+    "country": "Botswana",
+    "source": "generated"
+  },
+  {
+    "question": "Describe the interconnected system of corruption, population density, and governance in Benin. How do changes in one element cascade through the entire system?",
+    "answer": "This systems thinking question requires examining multiple dimensions of the relationship between corruption and population density in Benin. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "systems_thinking",
+    "topic": "political_civic_engagement",
+    "country": "Benin",
+    "source": "generated"
+  },
+  {
+    "question": "Describe the interconnected system of metropolitan, tax, and governance in Sao Tome and Principe. How do changes in one element cascade through the entire system?",
+    "answer": "This systems thinking question requires examining multiple dimensions of the relationship between metropolitan and tax in Sao Tome and Principe. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "systems_thinking",
+    "topic": "urban_community_dynamics",
+    "country": "Sao Tome and Principe",
+    "source": "generated"
+  },
+  {
+    "question": "Synthesize evidence from academic research and policy documents regarding Demographic Trends in Mozambique. Where do they converge and diverge in their findings?",
+    "answer": "This evidence synthesis question requires examining multiple dimensions of the relationship between population and election in Mozambique. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "evidence_synthesis",
+    "topic": "demographic_trends",
+    "country": "Mozambique",
+    "source": "generated"
+  },
+  {
+    "question": "Synthesize evidence from academic research and policy documents regarding Economic And Labor Trends in Somalia. Where do they converge and diverge in their findings?",
+    "answer": "This evidence synthesis question requires examining multiple dimensions of the relationship between wage and policy in Somalia. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "evidence_synthesis",
+    "topic": "economic_labor_trends",
+    "country": "Somalia",
+    "source": "generated"
+  },
+  {
+    "question": "Synthesize evidence from academic research and policy documents regarding Economic And Labor Trends in Mozambique. Where do they converge and diverge in their findings?",
+    "answer": "This evidence synthesis question requires examining multiple dimensions of the relationship between employment and demographic in Mozambique. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "evidence_synthesis",
+    "topic": "economic_labor_trends",
+    "country": "Mozambique",
+    "source": "generated"
+  },
+  {
+    "question": "Synthesize evidence from academic research and policy documents regarding Urban And Community Dynamics in Ethiopia. Where do they converge and diverge in their findings?",
+    "answer": "This evidence synthesis question requires examining multiple dimensions of the relationship between housing and political party in Ethiopia. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "evidence_synthesis",
+    "topic": "urban_community_dynamics",
+    "country": "Ethiopia",
+    "source": "generated"
+  },
+  {
+    "question": "Synthesize evidence from academic research and policy documents regarding Economic And Labor Trends in Sierra Leone. Where do they converge and diverge in their findings?",
+    "answer": "This evidence synthesis question requires examining multiple dimensions of the relationship between wage and corruption in Sierra Leone. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "evidence_synthesis",
+    "topic": "economic_labor_trends",
+    "country": "Sierra Leone",
+    "source": "generated"
+  },
+  {
+    "question": "If independence had not occurred, how might Mozambique's development trajectory in economic have been different?",
+    "answer": "This counterfactual reasoning question requires examining multiple dimensions of the relationship between diaspora and trade in Mozambique. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "counterfactual_reasoning",
+    "topic": "demographic_trends",
+    "country": "Mozambique",
+    "source": "generated"
+  },
+  {
+    "question": "If independence had not occurred, how might Comoros's development trajectory in economic have been different?",
+    "answer": "This counterfactual reasoning question requires examining multiple dimensions of the relationship between GDP and migration in Comoros. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "counterfactual_reasoning",
+    "topic": "economic_labor_trends",
+    "country": "Comoros",
+    "source": "generated"
+  },
+  {
+    "question": "If independence had not occurred, how might Sudan's development trajectory in economic have been different?",
+    "answer": "This counterfactual reasoning question requires examining multiple dimensions of the relationship between public service and religion in Sudan. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "counterfactual_reasoning",
+    "topic": "urban_community_dynamics",
+    "country": "Sudan",
+    "source": "generated"
+  },
+  {
+    "question": "If independence had not occurred, how might Sudan's development trajectory in economic have been different?",
+    "answer": "This counterfactual reasoning question requires examining multiple dimensions of the relationship between unemployment and public service in Sudan. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "counterfactual_reasoning",
+    "topic": "economic_labor_trends",
+    "country": "Sudan",
+    "source": "generated"
+  },
+  {
+    "question": "If independence had not occurred, how might Somalia's development trajectory in economic have been different?",
+    "answer": "This counterfactual reasoning question requires examining multiple dimensions of the relationship between transparency and demographic in Somalia. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "counterfactual_reasoning",
+    "topic": "political_civic_engagement",
+    "country": "Somalia",
+    "source": "generated"
+  },
+  {
+    "question": "Trace the evolution of Economic And Labor Trends in Malawi from 2000 to 2025. Identify key inflection points and driving forces.",
+    "answer": "This longitudinal trend question requires examining multiple dimensions of the relationship between tax and university in Malawi. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "longitudinal_trend",
+    "topic": "economic_labor_trends",
+    "country": "Malawi",
+    "source": "generated"
+  },
+  {
+    "question": "Trace the evolution of Economic And Labor Trends in Ethiopia from 2000 to 2025. Identify key inflection points and driving forces.",
+    "answer": "This longitudinal trend question requires examining multiple dimensions of the relationship between GDP and gender in Ethiopia. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "longitudinal_trend",
+    "topic": "economic_labor_trends",
+    "country": "Ethiopia",
+    "source": "generated"
+  },
+  {
+    "question": "Trace the evolution of Demographic Trends in C\u00f4te d'Ivoire from 2000 to 2025. Identify key inflection points and driving forces.",
+    "answer": "This longitudinal trend question requires examining multiple dimensions of the relationship between birth rate and city in C\u00f4te d'Ivoire. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "longitudinal_trend",
+    "topic": "demographic_trends",
+    "country": "C\u00f4te d'Ivoire",
+    "source": "generated"
+  },
+  {
+    "question": "Trace the evolution of Urban And Community Dynamics in Togo from 2000 to 2025. Identify key inflection points and driving forces.",
+    "answer": "This longitudinal trend question requires examining multiple dimensions of the relationship between suburban and social mobility in Togo. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "longitudinal_trend",
+    "topic": "urban_community_dynamics",
+    "country": "Togo",
+    "source": "generated"
+  },
+  {
+    "question": "Trace the evolution of Social Structures And Lifestyles in Kenya from 2000 to 2025. Identify key inflection points and driving forces.",
+    "answer": "This longitudinal trend question requires examining multiple dimensions of the relationship between education and city in Kenya. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "longitudinal_trend",
+    "topic": "social_structures_lifestyles",
+    "country": "Kenya",
+    "source": "generated"
+  },
+  {
+    "question": "Analyze the ethical implications of city in Equatorial Guinea, weighing the competing values of economic efficiency and social equity in this context.",
+    "answer": "This ethical dilemma question requires examining multiple dimensions of the relationship between economy and city in Equatorial Guinea. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "ethical_dilemma",
+    "topic": "economic_labor_trends",
+    "country": "Equatorial Guinea",
+    "source": "generated"
+  },
+  {
+    "question": "Analyze the ethical implications of public service in Nigeria, weighing the competing values of economic efficiency and social equity in this context.",
+    "answer": "This ethical dilemma question requires examining multiple dimensions of the relationship between aging and public service in Nigeria. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "ethical_dilemma",
+    "topic": "demographic_trends",
+    "country": "Nigeria",
+    "source": "generated"
+  },
+  {
+    "question": "Analyze the ethical implications of policy in Gabon, weighing the competing values of economic efficiency and social equity in this context.",
+    "answer": "This ethical dilemma question requires examining multiple dimensions of the relationship between life expectancy and policy in Gabon. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "ethical_dilemma",
+    "topic": "demographic_trends",
+    "country": "Gabon",
+    "source": "generated"
+  },
+  {
+    "question": "Analyze the ethical implications of constitution in C\u00f4te d'Ivoire, weighing the competing values of economic efficiency and social equity in this context.",
+    "answer": "This ethical dilemma question requires examining multiple dimensions of the relationship between metropolitan and constitution in C\u00f4te d'Ivoire. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "ethical_dilemma",
+    "topic": "urban_community_dynamics",
+    "country": "C\u00f4te d'Ivoire",
+    "source": "generated"
+  },
+  {
+    "question": "Analyze the ethical implications of market in Algeria, weighing the competing values of economic efficiency and social equity in this context.",
+    "answer": "This ethical dilemma question requires examining multiple dimensions of the relationship between university and market in Algeria. Evidence from various sources suggests that the dynamics are shaped by historical context, institutional frameworks, and contemporary socio-economic conditions. A thorough analysis would need to consider both quantitative data and qualitative insights to provide a comprehensive understanding of this complex relationship.",
+    "question_type": "complex_reasoning",
+    "difficulty": "hard",
+    "reasoning_type": "ethical_dilemma",
+    "topic": "social_structures_lifestyles",
+    "country": "Algeria",
+    "source": "generated"
+  }
+]
